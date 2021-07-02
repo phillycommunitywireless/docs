@@ -2,5 +2,6 @@
 
 Technical documentation and onboarding materials for Philly Community Wireless.
 
-* [Onboarding](onboarding.md)
+* [Tean Onboarding](onboarding.md)
+* [Hardware Inventory](hardware.md)
 * [Mesh Kit Setup](mesh-kit.md)
