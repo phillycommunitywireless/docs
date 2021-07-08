@@ -63,7 +63,7 @@ If there is already an access point (with an ERX and wired rooftop antenna), the
    6. You should now be connected to the AP Mesh Unit.
    ![SSH Connection](./images/SSH.png)
 5. Adopt AP Mesh Unit
-   1. From your `ssh` shell, run the command `set-inform url hostify.pwcp.org`.
+   1. From your `ssh` shell, run the command `set-inform http://unifi.phillycommunitywireless.org:8080/inform`:.
       - This will alert the HostiFi controller that the AP Mesh Unit wants to be adopted.
    2. Open the HostiFi portal in the Chrome browser.
    3. The AP Mesh Unit should appear in the list of devices awaiting adoption.
