@@ -1,5 +1,3 @@
-# Onboarding
-
 ## Tools Access
 
 New members should be given access to the tools we use:
