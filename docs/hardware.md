@@ -1,5 +1,3 @@
-# Hardware Items for Mesh Networks
-
 # Rooftop Antennas
 
 * [airMAX LiteBeam AC 5 GHz Bridge](https://store.ui.com/collections/wireless/products/litebeam-5ac-gen2)

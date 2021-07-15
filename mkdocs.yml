@@ -1,0 +1,8 @@
+site_name: Philly Community Wireless
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Hardware: 'hardware.md'
+  - Onboarding: 'onboarding.md'
+  - Main site: 'https://phillycommunitywireless.org'
