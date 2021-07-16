@@ -1,3 +1,1 @@
-# Philly Community Wireless
-
-_This documentation site is under development._
+# This documentation site is under development.

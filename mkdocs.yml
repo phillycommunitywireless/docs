@@ -1,4 +1,4 @@
-site_name: Philly Community Wireless
+site_name: Philly Community Wireless Docs
 site_url: https://docs.phillycommunitywireless.org
 
 theme:
@@ -35,5 +35,5 @@ nav:
 
 extra: 
   homepage: https://phillycommunitywireless.org
-extra_css: 
-  - styles/overrides.css
+# extra_css: 
+#   - styles/overrides.css
