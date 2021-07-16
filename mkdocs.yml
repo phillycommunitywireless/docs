@@ -38,3 +38,7 @@ extra:
   homepage: https://phillycommunitywireless.org
 # extra_css: 
 #   - styles/overrides.css
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
