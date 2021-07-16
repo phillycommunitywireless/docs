@@ -45,7 +45,7 @@ git push --set-upstream origin main
 
 ### Adding new files
 
-If you simply add a new `.md` doc to the `docs` folder, you won't see it immediately reflected on the live site. To add it, you'll need to add it to the **site nav configuration**, which is set in the `mkdocs.yml` file at the root of the project.
+If you just add a new `.md` doc to the `docs` folder, you won't see it immediately reflected on the live site. To add it, you'll need to add it to the **site nav configuration**, which is set in the `mkdocs.yml` file at the root of the project.
 
 ``` yaml
 # /mkdocs.yml
