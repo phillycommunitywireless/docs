@@ -2,21 +2,21 @@
 
 ## Installing AP Mesh Unit
 
-If there is already an access point (with an ERX and wired rooftop antenna), then just the mesh antenna can be configured. For rooftop installations, see next section.
+If there is already an access point (with an ERX and wired rooftop antenna), then just the mesh antenna can be configured. For rooftop installations, see next section on configuring an ERX and mesh kit.
 
-### Required Materials
-- AP Mesh Unit (white Ubiquiti antenna with bunny ears)
+### Required Hardware
+- AP Mesh Unit - [Ubiquiti Mesh Dual-Band Access Point](https://store.ui.com/products/unifi-ac-mesh-ap) (white Ubiquiti antenna with bunny ears)
 - PoE injector
 - Ethernet cable
 - Computer
-- Ethernet port on computer, or USB Ethernet adapter
+- USB Ethernet adapter (if computer doesn't have ethernet port)
+- Power strip/extension cord
 - Paperclip
+
+### Required Software
 - Ubiquiti Chrome extension
 
 ![Materials](./images/Materials.jpeg)
-
-### Helpful to Have
-- Power strip/extension cord
 
 ### Setup Steps
 
@@ -74,7 +74,3 @@ If there is already an access point (with an ERX and wired rooftop antenna), the
     - The AP Mesh Unit can take a few minutes to boot after being plugged in, so wait until the status light is solid white and try again.
 2. What does this status light pattern mean?
     - [LED Color Patterns for UniFi Devices](https://help.ui.com/hc/en-us/articles/204910134-UniFi-LED-Color-Patterns-for-UniFi-Devices)
-
-## Rooftop Installation
-
-TBA
