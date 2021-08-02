@@ -78,7 +78,7 @@ This is only necessary if you need to see how the docs are specifically rendered
 
 1. Download [Docker](https://www.docker.com/get-started), which should include Docker Compose on most machines.
 2. Run `docker-compose up` inside the project directory.
-3. The mkdocs server will start up, and can be accessed at `localhost:8000'. Any changes made to the docs will automatically update the page. 
+3. The mkdocs server will start up, and can be accessed at `localhost:8000`. Any changes made to the docs will automatically update the page. 
 
 ### Option 2: Setup Python Environment  
 #### Set up a python virtual environment
