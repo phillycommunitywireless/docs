@@ -9,6 +9,7 @@ theme:
     # Enable this if searching ever becomes slow
     # - navigation.instant
     - navigation.tracking
+    - navigation.sections
   palette: 
     # Light mode
     - scheme: default
@@ -27,12 +28,12 @@ theme:
         icon: material/weather-night
         name: Switch to light mode
 
-nav:
-  - Home: index.md
-  - Mesh Kit Setup Guide: mesh-kit/mesh-kit.md
-  - Required Hardware: hardware.md
-  - Software Onboarding: onboarding.md
-  - Editing these docs: edit-docs.md
+# nav:
+#   - Home: index.md
+#   - Mesh Kit Setup Guide: mesh-kit/mesh-kit.md
+#   - Required Hardware: hardware.md
+#   - Software Onboarding: onboarding.md
+#   - Editing these docs: edit-docs.md
 
 extra: 
   homepage: https://phillycommunitywireless.org
@@ -42,3 +43,4 @@ extra:
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
+  - meta

@@ -1,4 +1,4 @@
-# Mesh Kit Setup Guide
+# Mesh Kit Setup
 
 ## Installing AP Mesh Unit
 
@@ -16,7 +16,7 @@ If there is already an access point (with an ERX and wired rooftop antenna), the
 ### Required Software
 - Ubiquiti Chrome extension
 
-![Materials](./images/Materials.jpeg)
+![Materials](/assets/images/Materials.jpeg)
 
 ### Setup Steps
 
@@ -25,14 +25,14 @@ If there is already an access point (with an ERX and wired rooftop antenna), the
 1. Plug the PoE injector into an outlet, or power strip.
 2. Connect the `POE` port of the injector to the AP Mesh Unit with an ethernet cable.
 3. Connect the `LAN` port of the injector to your computer, using the USB Ethernet adapter if you don't have an Ethernet port.
-![Ports](./images/Ports.jpeg)
-![Wiring](./images/Wiring.jpeg)
+![Ports](/assets/images/Ports.jpeg)
+![Wiring](/assets/images/Wiring.jpeg)
 
 #### Factory reset AP Mesh Unit.
    
 The AP Mesh Units have had unexpected behavior even out of the box, so it is recommended to factory reset it before continuing.
 
-1. With the paperclip, press the reset button at the bottom of the AP Mesh Unit in until it clicks. ![Reset Button](./images/Reset.jpeg)
+1. With the paperclip, press the reset button at the bottom of the AP Mesh Unit in until it clicks. ![Reset Button](/assets/images/Reset.jpeg)
 2. Hold it pressed in for 15 seconds. 
 3. Once the status light on the AP Mesh Unit has flashed and then gone out, the device has been reset.
 
@@ -42,12 +42,12 @@ Mac instructions (Other OSs TBD)
 
 1. Open up `System Preferences` > `Network`.
 2. Select the Ethernet connection you have with the AP Mesh Unit.
-![Mac Network Settings #1](./images/Network_1.png)
+![Mac Network Settings #1](/assets/images/Network_1.png)
 3. Change the value of `Configure IPv4` to `Manually`.
-![Mac Network Settings #2](./images/Network_2.png)
+![Mac Network Settings #2](/assets/images/Network_2.png)
 4. Set the IP Address to `192.168.1.29` (although most values should work here).
 5. Set the Subnet Mask to `255.255.255.0`
-![Mac Network Settings #3](./images/Network_3.png)
+![Mac Network Settings #3](/assets/images/Network_3.png)
 6. Click `Apply`
 
 #### Connect to the AP Mesh Unit.
@@ -68,7 +68,7 @@ Mac instructions (Other OSs TBD)
 
 5. When prompted for the password, enter `ubnt`.
 6. You should now be connected to the AP Mesh Unit.
-![SSH Connection](./images/SSH.png)
+![SSH Connection](/assets/images/SSH.png)
 
 #### Adopt AP Mesh Unit
 
