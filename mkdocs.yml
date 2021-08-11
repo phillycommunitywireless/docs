@@ -9,6 +9,7 @@ theme:
     # Enable this if searching ever becomes slow
     # - navigation.instant
     - navigation.tracking
+    - navigation.sections
   palette: 
     # Light mode
     - scheme: default
@@ -33,3 +34,4 @@ extra:
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
+  - meta

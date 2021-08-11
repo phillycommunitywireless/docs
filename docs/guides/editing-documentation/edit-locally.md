@@ -1,16 +1,9 @@
----
-title: Editing Docs
----
+# Editing locally
 
-# Editing these docs
+To make edits to docs locally, you'll need to have a GitHub account and be listed as a contributor to the `phillycommunitywireless/docs` repository. You'll also need `git` and a markdown editor of your choice. 
 
-## Editing files on GitHub
 
-Edits can be made to the site's code directly from the [GitHub repository](https://github.com/phillycommunitywireless/docs/edit/main/docs/edit-docs.md), if you are listed as a contributor for the repo. Just find the file you'd like to edit (the filename will be the same as the page's slug -- "[edit-docs](https://github.com/phillycommunitywireless/docs)" for this page) and click the pencil icon in the corner. Once you've completed your changes, scroll to the bottom, add a commit message, and click "Commit changes". The public docs will update to reflect this.
-
-## Editing files locally
-
-To make edits to docs locally, all you need is `git` and a markdown editor of your choice. 
+## Making edits
 
 ### Clone the repo
 
@@ -70,40 +63,26 @@ To add a new page, just add a new key-value pair to this list:
 
 This is only necessary if you need to see how the docs are specifically rendered on our live site. Any markdown editor should be able to preview the docs as they will appear on the site, without much deviation. If you want to make styling / structural changes to the site and/or its [theme](https://squidfunk.github.io/mkdocs-material/), this is also the way to do that. 
 
-### Clone the repo
+First, [clone the repo](#clone-the-repo).
 
-[See above](#clone-the-repo)
-
-### Option 1: Docker
+### Run a local server with Docker
 
 1. Download [Docker](https://www.docker.com/get-started), which should include Docker Compose on most machines.
 2. Run `docker-compose up` inside the project directory.
 3. The mkdocs server will start up, and can be accessed at `localhost:8000`. Any changes made to the docs will automatically update the page. 
 
-### Option 2: Setup Python Environment  
-#### Set up a python virtual environment
+### Optional: Setup Python Environment  
 
-_This step is optional but recommended._
+If you need your development environment to integrate with other programs on your machine, e.g. for linting in a text editor, you'll need to set up a Python virtual environment with the necessary dependencies installed. 
 
-It's best practice to use a python virtual environment to install and run mkdocs. To do so, first make sure you have python 3 installed, and run the following commands:
+First, make sure you have [Python 3](https://www.python.org/downloads/) and `pip` installed, and run the following commands:
 
 ``` bash
-# create a virtual environment in the .venv folder
-python3 -m venv .venv
-# activate the virtual environment
-source .venv/bin/activate
+# install the pipenv package
+pip install pipenv
+# create a virtual environment and install dependencies in it
+pipenv install -r requirements.txt
 ```
 
-You are now "in" a python virtual environment. You will leave the environment whenever you exit your terminal session, or when you run `deactivate`. Now, running `which python` should return a path in your `.venv/lib` folder, rather than a global install location like `/usr/bin`. 
+Your dependencies are now installed in a virtual environment (usually located somewhere in your $HOME/.local/ folder). To active the environment on the command line, type `pipenv shell`. If you're using [Visual Studio Code](https://vscode.com/) for editing, change the Python Interpreter setting to point to the path returned by `pipenv which python`.
 
-#### Install dependencies
-``` bash
-pip install -r requirements.txt
-```
-
-#### Run the development server
-``` bash
-mkdocs serve
-```
-
-Congrats, should now have access to a live-updating version of your local docs site at https://localhost:8000. Pressing `ctrl-c` in the terminal will close the server. Make changes to the docs and see them reflected in real time!
