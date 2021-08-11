@@ -1,4 +1,4 @@
-# Mesh Kit
+# Hardware
 
 * [Ubiquiti Mesh Dual-Band Access Point](https://store.ui.com/products/unifi-ac-mesh-ap)
 * [Ethernet Cables 3'](https://www.newegg.com/Product/ComboDealDetails?ItemList=Combo.4307102&quicklink=true) 

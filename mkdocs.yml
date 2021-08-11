@@ -27,17 +27,8 @@ theme:
         icon: material/weather-night
         name: Switch to light mode
 
-nav:
-  - Home: index.md
-  - Mesh Kit Setup Guide: mesh-kit/mesh-kit.md
-  - Required Hardware: hardware.md
-  - Software Onboarding: onboarding.md
-  - Editing these docs: edit-docs.md
-
 extra: 
   homepage: https://phillycommunitywireless.org
-# extra_css: 
-#   - styles/overrides.css
 
 markdown_extensions:
   - pymdownx.highlight

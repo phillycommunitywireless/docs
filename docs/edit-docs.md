@@ -1,5 +1,5 @@
 ---
-title: Editing these docs
+title: Editing Docs
 ---
 
 # Editing these docs

@@ -1,4 +1,4 @@
-# Philly Community Wireless Team Onboading
+# Collaboration Tools
 
 Philly Community Wireless strives to use open-source software when possible. 
 
@@ -7,11 +7,10 @@ New members joining the team, depending on role, will be given access to the col
 ## Communication Platforms
 
 1. [Shared Google Drive](https://drive.google.com)
-2. [Element Space](https://element.io/get-started)
-3. [Github Organization](https://github.com/phillycommunitywireless)
-4. [Signal](https://www.signal.org/)
-5. Zoom
-6. Trello
+2. [Element Space](https://matrix.to/#/!GheBCBVgQRtMQLRuNp:matrix.org?via=matrix.org)
+3. [GitHub Organization](https://github.com/phillycommunitywireless)
+4. [Jitsi](https://jitsi.org/jitsi-meet/)
+5. [Trello](https://trello.com/b/Ot9aOKcG)
 
 ## Listservs
 
