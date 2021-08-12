@@ -11,7 +11,7 @@ This guide will walk you through configuring a Ubiquiti Access Point Mesh so it 
 - Power strip/extension cord
 - Paperclip
 
-![Materials](/assets/images/mesh/Materials.jpeg)
+![Materials](../../assets/images/mesh/Materials.jpeg)
 
 ## Setup Steps
 
@@ -24,14 +24,14 @@ See [./static-ip](./static-ip.md)
 1. Plug the PoE injector into an outlet, or power strip.
 2. Connect the `POE` port of the injector to the AP Mesh Unit with an ethernet cable.
 3. Connect the `LAN` port of the injector to your computer, using the USB Ethernet adapter if you don't have an Ethernet port.
-![Ports](/assets/images/mesh/Ports.jpeg)
-![Wiring](/assets/images/mesh/Wiring.jpeg)
+![Ports](../../assets/images/mesh/Ports.jpeg)
+![Wiring](../../assets/images/mesh/Wiring.jpeg)
 
 ### Factory reset AP Mesh Unit.
    
 The AP Mesh Units have had unexpected behavior even out of the box, so it is recommended to factory reset it before continuing.
 
-1. With the paperclip, press the reset button at the bottom of the AP Mesh Unit in until it clicks. ![Reset Button](/assets/images/mesh/Reset.jpeg)
+1. With the paperclip, press the reset button at the bottom of the AP Mesh Unit in until it clicks. ![Reset Button](../../assets/images/mesh/Reset.jpeg)
 2. Hold it pressed in for 15 seconds. 
 3. Once the status light on the AP Mesh Unit has flashed and then gone out, the device has been reset.
 
@@ -53,7 +53,7 @@ The AP Mesh Units have had unexpected behavior even out of the box, so it is rec
 
 5. When prompted for the password, enter `ubnt`.
 6. You should now be connected to the AP Mesh Unit.
-![SSH Connection](/assets/images/mesh/SSH.png)
+![SSH Connection](../../assets/images/mesh/SSH.png)
 
 ### Adopt AP Mesh Unit
 
