@@ -10,7 +10,8 @@ New members joining the team, depending on role, will be given access to the col
 2. [Element Space](https://matrix.to/#/!GheBCBVgQRtMQLRuNp:matrix.org?via=matrix.org)
 3. [GitHub Organization](https://github.com/phillycommunitywireless)
 4. [Jitsi](https://jitsi.org/jitsi-meet/)
-5. [Trello](https://trello.com/b/Ot9aOKcG)
+5. [Grasshopper](https://grasshopper.com/)
+6. [Trello](https://trello.com/b/Ot9aOKcG)
 
 ## Listservs
 
