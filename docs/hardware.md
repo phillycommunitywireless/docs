@@ -1,10 +1,12 @@
-# Hardware
+# Necesary Hardware
 
 ## Mesh Kit
 * [Ubiquiti Mesh Dual-Band Access Point](https://store.ui.com/products/unifi-ac-mesh-ap)
-## Rooftop antennas
+
+## Rooftop antenna Installation
 * [airMAX LiteBeam AC 5 GHz Bridge](https://store.ui.com/collections/wireless/products/litebeam-5ac-gen2)
 * [Ubiquiti EdgeRouter ERX](https://dl.ui.com/qsg/ER-X/ER-X_EN.html)
+* [Ubiquiti Mesh Dual-Band Access Point](https://store.ui.com/products/unifi-ac-mesh-ap)
 
 ## Additional antennas
 * [Ubiquiti Directional Dual-Band Antenna](https://store.ui.com/collections/operator-airmax-and-ltu-antennas/products/directional-dual-band-antenna-for-uap-ac-m)
