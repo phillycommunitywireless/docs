@@ -1,4 +1,4 @@
-# Necesary Hardware
+# Hardware
 
 ## Mesh Kit
 * [Ubiquiti Mesh Dual-Band Access Point](https://store.ui.com/products/unifi-ac-mesh-ap)
