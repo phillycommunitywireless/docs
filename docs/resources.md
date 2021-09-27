@@ -2,24 +2,6 @@
 layout: single
 title: Resources
 ---
-
-***********
-
-<div class="tc f3">
-
-[Context](#history)
-
-[Curricula](#curricula) ・ [Co-op Models](#organizing)
-
-[Bibliography](#biblio) ・ [Press](#press)
-
-</div>
-
-***********
-
-<br/>
-<br/>
-
 # History of Community Technology in Philadelphia {#history}
 
 Breitbart, Joshua, Naveen Lakshmipathy, and Sascha D. Meinrath. “[The Philadelphia Story: Learning from a Municipal Wireless Pioneer](https://technical.ly/wp-content/uploads/2017/03/wireless-philadelphia-report-breitbart-et-al.pdf).” Washington DC: New America Foundation, December 2007.
