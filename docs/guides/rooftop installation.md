@@ -1,8 +1,8 @@
-# Rooftop Installation Overview
+# Antenna Installation
 
 Philly Community Wireless has partnered with PhillyWisper to install antennas for the free wifi network on rooftops in the Norris Square Park neighborhood. PhillyWisper is a wireless internet service provider (WISP) which means our project delivers the internet the "last mile" to our customers using radio technology.
 
-## Installation Process
+## Rooftop Installation Process
 
 Most installations proceed in the following order:
 
@@ -11,11 +11,11 @@ Most installations proceed in the following order:
 3. Configure wifi router and mesh kits (For more info, see our [Configure AP-Mesh Guide](./configure-ap-mesh.md) and our [Configure ERX Router Guide](./configure-erx.md))
 4. Potentially install wall-mounted antenna to propagate signal down the street
 
-## Installation Duration
+## Length of Time for Antenna Installations
 
 Typically, installs take between two and four hours to complete, but in certain cases they can take longer. The full installation process, from a rooftop antenna to a wall-mounted mesh kit, can involve 2-3 visits, each involving an hour or two of work. .
 
-# Installation Hardware
+# Hardware for Installation
 
 Rooftop installs consist of a rooftop antenna, a power-over-Ethernet injector, a router, and a mesh access point. Philly Community Wireless and Philly Wisper primarily deploy Ubiquiti radios and networking equipment. As each roof is different, the installation is customized for each location to ensure the most secure placement according to industry standards.
 
@@ -27,7 +27,7 @@ If preexisting structures aren't an option, they will use a non-penetrating roof
 
 Both PhillyWisper and Philly Community Wireless make sure the wire run is as inconspicuous as possible and ensure there is plenty of tension on the wire so that it doesn't flap in the wind.  If there are any preexisting penetrations entering the building from previous ISPs, they will use that if possible and caulk when finished.
 
-##Installation Examples
+## Installation Examples
 
 ### Non-Penetrating Roof Mounts
 
