@@ -1,6 +1,6 @@
 # Collaboration Tools
 
-Philly Community Wireless strives to use open-source software when possible. 
+Philly Community Wireless strives to use open-source software when possible.
 
 New members joining the team, depending on role, will be given access to the collaboration tools we use.
 

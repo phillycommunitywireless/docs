@@ -28,11 +28,11 @@ See [./static-ip](./static-ip.md)
 ![Wiring](../../assets/images/mesh/Wiring.jpeg)
 
 ### Factory reset AP Mesh Unit.
-   
+
 The AP Mesh Units have had unexpected behavior even out of the box, so it is recommended to factory reset it before continuing.
 
 1. With the paperclip, press the reset button at the bottom of the AP Mesh Unit in until it clicks. ![Reset Button](../../assets/images/mesh/Reset.jpeg)
-2. Hold it pressed in for 15 seconds. 
+2. Hold it pressed in for 15 seconds.
 3. Once the status light on the AP Mesh Unit has flashed and then gone out, the device has been reset.
 
 ### Connect to the AP Mesh Unit.
@@ -57,7 +57,7 @@ The AP Mesh Units have had unexpected behavior even out of the box, so it is rec
 
 ### Adopt AP Mesh Unit
 
-You will need access to the Philly Community Wireless HostiFi portal to complete this step. 
+You will need access to the Philly Community Wireless HostiFi portal to complete this step.
 
 1. From your `ssh` shell, run the command `set-inform http://unifi.phillycommunitywireless.org:8080/inform`.
     - This will alert the HostiFi controller that the AP Mesh Unit wants to be adopted.

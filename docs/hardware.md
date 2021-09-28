@@ -1,4 +1,4 @@
-# Hardware
+# Required Hardware
 
 ## Mesh Kit
 * [Ubiquiti Mesh Dual-Band Access Point](https://store.ui.com/products/unifi-ac-mesh-ap)
@@ -15,7 +15,7 @@
 * [MikroTik hEX PoE](https://www.doubleradius.com/mikrotik-hex-poe-rb960pgs)
 
 ## Accessories
-* [Ethernet Cables 3'](https://www.newegg.com/Product/ComboDealDetails?ItemList=Combo.4307102&quicklink=true) 
+* [Ethernet Cables 3'](https://www.newegg.com/Product/ComboDealDetails?ItemList=Combo.4307102&quicklink=true)
 * [6-outlet power strip](https://www.newegg.com/apc-pe63-nema-5-15r/p/1B4-0052-000C2?Description=power%20strip&cm_re=power_strip-_-1B4-0052-000C2-_-Product&quicklink=true)
 * [Extension cords](https://www.newegg.com/black-monoprice-6-00-ft-others/p/0N6-01B8-002D6)
 * [PoE Injector/Splitter](https://www.newegg.com/p/2WG-00DK-00004)
