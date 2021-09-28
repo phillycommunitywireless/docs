@@ -2,16 +2,24 @@
 
 Philly Community Wireless has partnered with PhillyWisper to install antennas for the free wifi network on rooftops in the Norris Square Park neighborhood. PhillyWisper is a wireless internet service provider (WISP) which means our project delivers the internet the "last mile" to our customers using radio technology.
 
+## Installation Process
+
 Most installations proceed in the following order:
-1. Survey the building and rooftop to assess Line of Sight (LOS)
+
+1. Survey the building and rooftop to assess Line of Sight (LOS) to the highsite source tower for broadband signal
 2. Install antenna on rooftop and run cable into building
-3. Configure wifi router and mesh kits
+3. Configure wifi router and mesh kits (For more info, see our [Configure AP-Mesh Guide](./configure-ap-mesh.md) and our [Configure ERX Router Guide](./configure-erx.md))
+4. Potentially install wall-mounted antenna to propagate signal down the street
 
-Typically, installs take between two and four hours to complete, but in certain cases they can take longer.  Rooftop installs consist of a rooftop antenna, a power-over-Ethernet injector, a router, and a mesh access point.
+## Installation Duration
 
-Philly Community Wireless and Philly Wisper primarily deploy Ubiquiti radios and networking equipment. As each roof is different, the installation is customized for each location to ensure the most secure placement according to industry standards.
+Typically, installs take between two and four hours to complete, but in certain cases they can take longer. The full installation process, from a rooftop antenna to a wall-mounted mesh kit, can involve 2-3 visits, each involving an hour or two of work. .
 
-In general, we will install a Ubiquiti LiteBeam antenna on the roof of these homes, which receives signal from a PhillyWisper tower. The antenna is wired into the home via an Ethernet cable. Currently, this part of the install must be completed by a PhillyWisper technician. For installation purposes, this means PhillyWisper technicians will need to mount a small radio antenna (approx 14" x 11" x 11") at roof height and precision aim it at the closest tower.
+# Installation Hardware
+
+Rooftop installs consist of a rooftop antenna, a power-over-Ethernet injector, a router, and a mesh access point. Philly Community Wireless and Philly Wisper primarily deploy Ubiquiti radios and networking equipment. As each roof is different, the installation is customized for each location to ensure the most secure placement according to industry standards.
+
+In general, we will install a Ubiquiti LiteBeam antenna on the roof of the home, which receives signal from a PhillyWisper tower. The antenna is wired into the home via an Ethernet cable. Currently, this part of the install must be completed by a PhillyWisper technician. For installation purposes, this means PhillyWisper technicians will need to mount a small radio antenna (approx 14" x 11" x 11") at roof height and precision aim it at the closest tower.
 
 PhillyWisper takes every effort to minimally impact buildings during installation.  They use non-invasive techniques when mounting the radio (see attached images of various mounting techniques below). They never penetrate the roofing system itself and they try and utilize preexisting structures (chimneys, vent pipes, etc) when possible.  
 
@@ -45,9 +53,11 @@ The square-ish white device between and below the masts is a Ubiquiti EP-S16, an
 
 # Mesh-kit Install for Rooftop Antenna Hosts
 
-Hosts of rooftop installations will also need to host a router in the house near the window to the front of the house.
+Hosts of rooftop installations will also host a router in the house near the window to the front of the house. In some cases we may install a wall-mounted antenna on the outside of the house to propagate the broadband signal throughout the neighborhood.
 
-We provide a kit with a PoE injector and a bunny-ears mesh AP. The user can install the bunny ears in any location within their home, as long as other mesh APs are within radio range (we’re planning on suggesting the entrance of the house or the porch -- the APs are weatherproof).
+We provide a kit with a PoE injector and a bunny-ears mesh AP. Philly Community Wireless can install the kit, or the resident can install the bunny ears in any location within their home, as long as other mesh APs are within radio range (we’re planning on suggesting the entrance of the house or the porch -- the APs are weatherproof).
+
+## Mesh Kit Overview
 
 The Ethernet cable is passed through a Power-over-Ethernet (PoE) injector, which adds power to the signal the Ethernet cable is carrying and allows downstream devices to be powered solely through Ethernet.
 
@@ -60,3 +70,5 @@ The powered Ethernet cable is wired to a Ubiquiti EdgeRouter-X (or possibly anot
 Finally, a Ubiquiti Mesh AP (“bunny ears” because look at them!) is connected to the router and allows devices in its radio signal range to connect to the network. The bunny ears should be installed in a location that is radio-visible to the mesh APs at the home installs in range.
 
 ![Ubiquiti Mesh AP](../../assets/images/install/image3.jpg)
+
+For more information on the mesh kit, see our [Configure AP-Mesh Guide](./configure-ap-mesh.md)
