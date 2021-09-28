@@ -8,4 +8,4 @@ Mesh networks allow a single Internet connection to be shared among a broader gr
 ## This Website
 This docs page provides in-development technical information and guides for replicating the project's configuration and distribution of routers and antennas for building a mesh network.
 
-If you are looking for a **non-technical overview** of the project, or are interested in signing up for PCW coverage, please visit our [homepage](https://phillycommunitywireless.org/project).
+If you are looking for a **non-technical overview** of the project, or are interested in signing up for PCW coverage, please visit our [homepage](https://phillycommunitywireless.org).
