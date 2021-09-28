@@ -1,11 +1,11 @@
-## Rooftop Installation Overview
+# Rooftop Installation Overview
 
-Philly Community Wireless has partnered with PhillyWisper to install antennas for the free wifi network on rooftops in Norris Square. PhillyWisper is a wireless ISP which means we deliver the internet the "last mile" to our customers using radio technology.
+Philly Community Wireless has partnered with PhillyWisper to install antennas for the free wifi network on rooftops in the Norris Square Park neighborhood. PhillyWisper is a wireless internet service provider (WISP) which means our project delivers the internet the "last mile" to our customers using radio technology.
 
 Most installations proceed in the following order:
-   1) survey the building and rooftop to sssess Line of Sight (LOS)
-   2) install antenna on rooftop and run cable into building
-   3) configure wifi router and mesh kits
+1. Survey the building and rooftop to assess Line of Sight (LOS)
+2. Install antenna on rooftop and run cable into building
+3. Configure wifi router and mesh kits
 
 Typically, installs take between two and four hours to complete, but in certain cases they can take longer.  Rooftop installs consist of a rooftop antenna, a power-over-Ethernet injector, a router, and a mesh access point.
 
@@ -43,7 +43,7 @@ The mast on the right has PTMP radios with symmetrical horn antennas. The radios
 
 The square-ish white device between and below the masts is a Ubiquiti EP-S16, an outdoor rated network switch. 54 VDC power is supplied to the EP-S16 which in turns provides power to the radios using POE (power of Ethernet).
 
-## Rooftop Installations - Router in the Home
+# Mesh-kit Install for Rooftop Antenna Hosts
 
 Hosts of rooftop installations will also need to host a router in the house near the window to the front of the house.
 
