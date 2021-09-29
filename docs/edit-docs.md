@@ -1,13 +1,15 @@
-# Editing on GitHub
+# Editing the Docs
+
+## Editing on GitHub
 
 After receiving access to the repository, edits can be made to the site's code directly from the GitHub repository, if you are listed as a contributor for the repo. Just find the file you'd like to edit (the filename will be the same as the page's slug -- "edit-docs" for this page) and click the pencil icon in the corner. Once you've completed your changes, scroll to the bottom, add a commit message, and click "Commit changes". The public docs will update to reflect this.
 
-# Editing locally
+## Editing locally
 
 To make edits to docs locally, you'll need to have a GitHub account and be listed as a contributor to the `phillycommunitywireless/docs` repository. You'll also need `git` and a markdown editor of your choice. 
 
 
-## Making edits
+## Making edits to site data
 
 ### Clone the repo
 
