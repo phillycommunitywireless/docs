@@ -10,30 +10,34 @@ This docs page provides in-development technical information and guides for repl
 
 If you are looking for a **non-technical overview** of the project, or are interested in signing up for PCW coverage, please visit our [homepage](https://phillycommunitywireless.org).
 
-### Scholarly Resources
+### [Scholarly Resources](https://docs.phillycommunitywireless.org/en/latest/resources/)
 
 This page overviews secondary resources on the problems of broadband access and digital inequity in urban cities like Philadelphia.
 
-### Collaboration Tools
+### [Collaboration Tools](https://docs.phillycommunitywireless.org/en/latest/tools/)
 
 The Collaboration Tools page overviews the software used by the PCW team.
 
-### Required Hardware
+### [Required Hardware](https://docs.phillycommunitywireless.org/en/latest/hardware/)
 
 Overviews the hardware necessary for the PCW project's infrastructure.
 
-### Antenna Installations
+### [Antenna Installations](https://docs.phillycommunitywireless.org/en/latest/rooftop%20installation/)
 
 This guide overviews the process for installing rooftop antennas as the foundation for the wireless mesh network and free public wifi.
 
-### Configure ERX routers
+### [Configure ERX routers](https://docs.phillycommunitywireless.org/en/latest/configure-erx/)
 
 The Configure ERX Routers page explains the stage of setting up the router hosts of rooftop installations.
 
-### Static IP
+### [Static IP](https://docs.phillycommunitywireless.org/en/latest/static-ip/)
 
 This guide overviews how to set up your computer with a static IP, so you can configure the router and mesh-kit.
 
 ### [Configure AP-Mesh](https://docs.phillycommunitywireless.org/en/latest/configure-ap-mesh/)
 
 This guide overviews the set-up of a mesh kit that can be installed in any home in close proximity (half a neighborhood block) to a rooftop antenna host.
+
+### Editing the Docs
+
+If you'd like to contribute to PCW's docs, please see our guidelines. 
