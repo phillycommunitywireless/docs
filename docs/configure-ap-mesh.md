@@ -11,7 +11,7 @@ This guide will walk you through configuring a Ubiquiti Access Point Mesh so it 
 - Power strip/extension cord
 - Paperclip
 
-![Materials](../../assets/images/mesh/Materials.jpeg)
+![Materials](../assets/images/mesh/Materials.jpeg)
 
 ## Setup Steps
 
@@ -24,8 +24,8 @@ See [./static-ip](./static-ip.md)
 1. Plug the PoE injector into an outlet, or power strip.
 2. Connect the `POE` port of the injector to the AP Mesh Unit with an ethernet cable.
 3. Connect the `LAN` port of the injector to your computer, using the USB Ethernet adapter if you don't have an Ethernet port.
-![Ports](../../assets/images/mesh/Ports.jpeg)
-![Wiring](../../assets/images/mesh/Wiring.jpeg)
+![Ports](../assets/images/mesh/Ports.jpeg)
+![Wiring](../assets/images/mesh/Wiring.jpeg)
 
 ### Factory reset AP Mesh Unit.
 
