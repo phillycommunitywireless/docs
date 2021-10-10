@@ -3,6 +3,7 @@ site_url: https://docs.phillycommunitywireless.org
 
 theme:
   name: material
+  language: en
   logo: assets/icons/logo.svg
   favicon: assets/icons/favicon/favicon.ico
   features:
@@ -10,14 +11,14 @@ theme:
     # - navigation.instant
     - navigation.tracking
     - navigation.sections
-  palette: 
+  palette:
     # Light mode
     - scheme: default
       media: "(prefers-color-scheme: light)"
       primary: blue grey
       accent: deep orange
       toggle:
-        icon: material/weather-sunny
+        icon: material/weather-night
         name: Switch to dark mode
     # Dark mode
     - scheme: slate
@@ -25,11 +26,18 @@ theme:
       primary: black
       accent: amber
       toggle:
-        icon: material/weather-night
+        icon: material/weather-sunny
         name: Switch to light mode
 
-extra: 
+extra:
   homepage: https://phillycommunitywireless.org
+  alternate:
+    - name: English
+      link: /en/latest
+      lang: en
+    - name: Español
+      link: /es/latest
+      lang: es
 
 markdown_extensions:
   - pymdownx.highlight
