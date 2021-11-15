@@ -61,7 +61,7 @@ The AP Mesh Units have had unexpected behavior even out of the box, so it is rec
 
 You will need access to the Philly Community Wireless HostiFi portal to complete this step.
 
-1. From your `ssh` shell, run the command `set-inform http://hostifi.phillycommunitywireless.org:8080/inform`.
+1. From your `ssh` shell, run the command `set-inform http://unifi.phillycommunitywireless.org:8080/inform`.
    * This will alert the HostiFi controller that the AP Mesh Unit wants to be adopted.
 2. Open the HostiFi portal in your browser, and navigate to the device list.
 3. The AP Mesh Unit should appear in the list of devices awaiting adoption.
