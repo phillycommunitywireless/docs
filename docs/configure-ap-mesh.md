@@ -1,16 +1,19 @@
+---
+
+---
 # Configure AP Mesh
 
 This guide will walk you through configuring a Ubiquiti Access Point Mesh so it can be adopted by the PCW network.
 
 ## Required Hardware
 
-- AP Mesh Unit - [Ubiquiti Mesh Dual-Band Access Point](https://store.ui.com/products/unifi-ac-mesh-ap) (white Ubiquiti antenna with bunny ears)
-- PoE injector
-- Ethernet cable
-- Computer
-- USB Ethernet adapter (if computer doesn't have ethernet port)
-- Power strip/extension cord
-- Paperclip
+* AP Mesh Unit - [Ubiquiti Mesh Dual-Band Access Point](https://store.ui.com/products/unifi-ac-mesh-ap) (white Ubiquiti antenna with bunny ears)
+* PoE injector
+* Ethernet cable
+* Computer
+* USB Ethernet adapter (if computer doesn't have ethernet port)
+* Power strip/extension cord
+* Paperclip
 
 ![Materials](assets/images/mesh/Materials.jpeg)
 
@@ -45,14 +48,11 @@ The AP Mesh Units have had unexpected behavior even out of the box, so it is rec
 3. Run the command `ssh ubnt@192.168.1.20`
 4. You may see the alert:
 
-   ```
-   The authenticity of host '192.168.1.20 (192.168.1.20)' can't be established.
-   RSA key fingerprint is SHA256:oUG6ABM3uor6lfBpJFcnHWyhhPnCrIx2Jf0U1+UAg4g.
-   Are you sure you want to continue connecting (yes/no/[fingerprint])?
-   ```
+       The authenticity of host '192.168.1.20 (192.168.1.20)' can't be established.
+       RSA key fingerprint is SHA256:oUG6ABM3uor6lfBpJFcnHWyhhPnCrIx2Jf0U1+UAg4g.
+       Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
    Press yes to continue.
-
 5. When prompted for the password, enter `ubnt`.
 6. You should now be connected to the AP Mesh Unit.
    ![SSH Connection](../../assets/images/mesh/SSH.png)
@@ -61,8 +61,8 @@ The AP Mesh Units have had unexpected behavior even out of the box, so it is rec
 
 You will need access to the Philly Community Wireless HostiFi portal to complete this step.
 
-1. From your `ssh` shell, run the command `set-inform http://unifi.phillycommunitywireless.org:8080/inform`.
-   - This will alert the HostiFi controller that the AP Mesh Unit wants to be adopted.
+1. From your `ssh` shell, run the command `set-inform http://hostifi.phillycommunitywireless.org:8080/inform`.
+   * This will alert the HostiFi controller that the AP Mesh Unit wants to be adopted.
 2. Open the HostiFi portal in your browser, and navigate to the device list.
 3. The AP Mesh Unit should appear in the list of devices awaiting adoption.
 4. Press `Adopt` to adopt the AP Mesh Unit.
@@ -70,6 +70,6 @@ You will need access to the Philly Community Wireless HostiFi portal to complete
 ## Troubleshooting
 
 1. Computer doesn't recognize AP Mesh Unit in Network settings, or `ssh` command fails.
-   - The AP Mesh Unit can take a few minutes to boot after being plugged in, so wait until the status light is solid white and try again.
+   * The AP Mesh Unit can take a few minutes to boot after being plugged in, so wait until the status light is solid white and try again.
 2. What does this status light pattern mean?
-   - [LED Color Patterns for UniFi Devices](https://help.ui.com/hc/en-us/articles/204910134-UniFi-LED-Color-Patterns-for-UniFi-Devices)
+   * [LED Color Patterns for UniFi Devices](https://help.ui.com/hc/en-us/articles/204910134-UniFi-LED-Color-Patterns-for-UniFi-Devices)
