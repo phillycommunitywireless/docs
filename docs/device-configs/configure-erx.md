@@ -8,10 +8,10 @@ This guide will walk you through configuring a Ubiquiti EdgeRouter X.
 
 ## Required Hardware
 
-- [ERX Router](https://store.ui.com/collections/operator-edgemax-routers/products/edgerouter-x) and power cable
-- Ethernet cable
-- Computer
-- USB Ethernet adapter (if computer doesn't have ethernet port)
+* [ERX Router](https://store.ui.com/collections/operator-edgemax-routers/products/edgerouter-x) and power cable
+* Ethernet cable
+* Computer
+* USB Ethernet adapter (if computer doesn't have ethernet port)
 
 ![Hardware](../assets/images/erx/hardware.jpg)
 
@@ -25,7 +25,7 @@ This guide will walk you through configuring a Ubiquiti EdgeRouter X.
 ![Ports](../assets/images/erx/wiring.jpeg)
 ![Ports](../assets/images/erx/eth0.jpeg)
 
-### Set static IP on your computer
+### Configure your network settings
 
 Follow the instructions here: [Setting a static IP for your computer](./static-ip.md)
 
