@@ -25,14 +25,17 @@ Windows - TBD
 
 ## Ubuntu
 
-These instructions have only been tested on Ubuntu 20.04.
+_These instructions have only been tested on Ubuntu 20.04._
 
-2. Open your Network settings.
+1. Open your Network settings.
 2. Under the "wired" section, click the plus sign to create a new settings profile. Name the profile "Static IP" or whatever you want.
+   ![](/en/latest/assets/images/ubuntustatic2.png)
 3. In the **IPv4** tab, choose "Manual".
 4. Use these settings:
    Address: 192.168.1.2
    Netmask: 255.255.255.0
    Gateway: empty
-   Leave DNS and Routes on "Automatic"
+   (Leave DNS and Routes on "Automatic")
+
+   ![](/en/latest/assets/images/ubuntustatic2.png)
 5. Click "add"; you should see the profile appear in your settings. Select it when connected to activate the static IP.
