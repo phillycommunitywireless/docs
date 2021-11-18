@@ -1,4 +1,5 @@
 ---
+title: Hardware
 
 ---
 # Hardware
