@@ -1,3 +1,7 @@
+---
+title: Configure EdgeRouter X
+
+---
 # Configure EdgeRouter X
 
 This guide will walk you through configuring a Ubiquiti EdgeRouter X.
