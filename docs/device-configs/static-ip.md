@@ -3,7 +3,7 @@
 ---
 # Setting a static IP
 
-This article contains instructions for setting your computer's Ethernet adapter to use a static IP address on the 192.168.1.\* subnet. This is a necessary step for completing the connection steps outlined in our config instructions for the [EdgeRouter X](../configure-erx) and the [Mesh AP](../configure-ap-mesh).
+This article contains instructions for setting your computer's Ethernet adapter to use a static IP address on the 192.168.1.* subnet. This is a necessary step for connecting to certain network devices via Ethernet, and is used in our config instructions for the [EdgeRouter X](../configure-erx) and the [Mesh AP](../configure-ap-mesh).
 
 Choose your computer's OS:
 
@@ -33,9 +33,9 @@ _These instructions have only been tested on Ubuntu 20.04._
 3. In the **IPv4** tab, choose "Manual".
 4. Set the Address field to `192.168.1.2` <br>
 5. Set the Netmask to: `255.255.255.0` <br>
-   (Leave Gateway empty, and DNS/Routes on `Automatic)
+   (Leave Gateway empty, and DNS/Routes on \`Automatic)
    ![ Ubuntu Network Settings 2](../assets/images/static-ip/ubuntu2.png)
-5. Click "add"; you should see the profile appear in your settings. Select it when connected to activate the static IP configuration.
+6. Click "add"; you should see the profile appear in your settings. Select it when connected to activate the static IP configuration.
 
 ## Details
 
