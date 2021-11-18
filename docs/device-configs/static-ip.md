@@ -1,4 +1,5 @@
 ---
+title: Setting a static IP
 
 ---
 # Setting a static IP
