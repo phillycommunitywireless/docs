@@ -1,4 +1,8 @@
-# Editing this site
+---
+title: Editing these docs
+
+---
+# Editing these docs
 
 ## Editing on GitHub
 
