@@ -1,4 +1,11 @@
 ---
 label: Default
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: The title of the page. Displayed in the HTML page title and in the
+    navigation.
