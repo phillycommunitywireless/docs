@@ -1,3 +1,7 @@
+---
+title: Scholarly resources
+
+---
 # Scholarly resources
 
 ## History of Community Technology in Philadelphia
