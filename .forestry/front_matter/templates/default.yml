@@ -9,3 +9,5 @@ fields:
   label: Title
   description: The title of the page. Displayed in the HTML page title and in the
     navigation.
+pages:
+- docs/device-configs/configure-ap-mesh.md
