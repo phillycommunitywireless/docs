@@ -20,13 +20,9 @@ This guide will walk you through configuring a Ubiquiti Access Point Mesh so it 
 
 ## Setup Steps
 
-### Set static IP on computer
-
-Follow the instructions here: [Setting a static IP for your computer](./static-ip.md)
-
 ### Wire up your AP Mesh Unit.
 
-1. Plug the PoE injector into an outlet, or power strip.
+1. Plug the Power-over-Ethernet injector into an outlet, or power strip.
 2. Connect the `POE` port of the injector to the AP Mesh Unit with an ethernet cable.
 3. Connect the `LAN` port of the injector to your computer, using the USB Ethernet adapter if you don't have an Ethernet port.
    ![Ports](../assets/images/mesh/Ports.jpeg)
@@ -36,9 +32,15 @@ Follow the instructions here: [Setting a static IP for your computer](./static-i
 
 The AP Mesh Units have had unexpected behavior even out of the box, so it is recommended to factory reset it before continuing.
 
-1. With the paperclip, press the reset button at the bottom of the AP Mesh Unit in until it clicks. ![Reset Button](../../assets/images/mesh/Reset.jpeg)
-2. Hold it pressed in for 15 seconds.
-3. Once the status light on the AP Mesh Unit has flashed and then gone out, the device has been reset.
+1. With the paperclip, press the reset button at the bottom of the AP Mesh Unit in until it clicks.
+2. Hold it pressed in for 5 seconds.
+3. The status light on the AP should flash, then go out as the device reboots. When it comes back on it should be solid white, indicating the reset was successful.
+
+![Reset Button](../../assets/images/mesh/Reset.jpeg)
+
+### Configure your network settings
+
+Follow the instructions here: [Setting a static IP for your computer](./static-ip.md)
 
 ### Connect to the AP Mesh Unit.
 
