@@ -1,16 +1,13 @@
----
-
----
-# Configure ERX Router
+# Configure EdgeRouter X
 
 This guide will walk you through configuring a Ubiquiti EdgeRouter X.
 
 ## Required Hardware
 
-* [ERX Router](https://store.ui.com/collections/operator-edgemax-routers/products/edgerouter-x) and power cable
-* Ethernet cable
-* Computer
-* USB Ethernet adapter (if computer doesn't have ethernet port)
+- [ERX Router](https://store.ui.com/collections/operator-edgemax-routers/products/edgerouter-x) and power cable
+- Ethernet cable
+- Computer
+- USB Ethernet adapter (if computer doesn't have ethernet port)
 
 ![Hardware](../assets/images/erx/hardware.jpg)
 

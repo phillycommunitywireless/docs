@@ -1,4 +1,4 @@
-# Collaboration Tools
+# Software we use
 
 Philly Community Wireless strives to use open-source software when possible.
 

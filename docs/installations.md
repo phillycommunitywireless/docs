@@ -1,4 +1,4 @@
-# Antenna Installation
+# Installations
 
 Philly Community Wireless has partnered with PhillyWisper to install antennas for the free wifi network on rooftops in the Norris Square Park neighborhood. PhillyWisper is a wireless internet service provider (WISP) which means our project delivers the internet the "last mile" to our customers using radio technology.
 
@@ -21,17 +21,17 @@ Rooftop installs consist of a rooftop antenna, a power-over-Ethernet injector, a
 
 In general, we will install a Ubiquiti LiteBeam antenna on the roof of the home, which receives signal from a PhillyWisper tower. The antenna is wired into the home via an Ethernet cable. Currently, this part of the install must be completed by a PhillyWisper technician. For installation purposes, this means PhillyWisper technicians will need to mount a small radio antenna (approx 14" x 11" x 11") at roof height and precision aim it at the closest tower.
 
-PhillyWisper takes every effort to minimally impact buildings during installation.  They use non-invasive techniques when mounting the radio (see attached images of various mounting techniques below). They never penetrate the roofing system itself and they try and utilize preexisting structures (chimneys, vent pipes, etc) when possible.  
+PhillyWisper takes every effort to minimally impact buildings during installation. They use non-invasive techniques when mounting the radio (see attached images of various mounting techniques below). They never penetrate the roofing system itself and they try and utilize preexisting structures (chimneys, vent pipes, etc) when possible.
 
-If preexisting structures aren't an option, they will use a non-penetrating roof mount, which is properly weighed down and rests on a rubber mat on top of your roof. They then secure an outdoor-rated, UV stabilized network cable from the radio on the roof, down along the building exterior, and inside where your WiFi router will be located.  
+If preexisting structures aren't an option, they will use a non-penetrating roof mount, which is properly weighed down and rests on a rubber mat on top of your roof. They then secure an outdoor-rated, UV stabilized network cable from the radio on the roof, down along the building exterior, and inside where your WiFi router will be located.
 
-Both PhillyWisper and Philly Community Wireless make sure the wire run is as inconspicuous as possible and ensure there is plenty of tension on the wire so that it doesn't flap in the wind.  If there are any preexisting penetrations entering the building from previous ISPs, they will use that if possible and caulk when finished.
+Both PhillyWisper and Philly Community Wireless make sure the wire run is as inconspicuous as possible and ensure there is plenty of tension on the wire so that it doesn't flap in the wind. If there are any preexisting penetrations entering the building from previous ISPs, they will use that if possible and caulk when finished.
 
 ## Installation Examples
 
 ### Non-Penetrating Roof Mounts
 
-We utilize non-penetrating roof mounts (NPRM). A thick rubber mat is placed below the NPRM to protect the roof. Cinder blocks are used as ballast to secure the NPRM:  
+We utilize non-penetrating roof mounts (NPRM). A thick rubber mat is placed below the NPRM to protect the roof. Cinder blocks are used as ballast to secure the NPRM:
 
 ![Non-penetrating roof mount 1](../assets/images/install/image1.jpg)
 ![Non-penetrating roof mount 2](../assets/images/install/image2.jpg)
