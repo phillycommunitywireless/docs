@@ -18,8 +18,6 @@ Occasionally equipped with:
 
 * [airMAX LiteBeam AC 5 GHz Bridge](https://store.ui.com/collections/wireless/products/litebeam-5ac-gen2)
 
-
-
 ## Accessories
 
 * [Ethernet Cables 3'](https://www.newegg.com/Product/ComboDealDetails?ItemList=Combo.4307102&quicklink=true)
