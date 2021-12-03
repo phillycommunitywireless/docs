@@ -21,4 +21,4 @@ build:
   preview_docker_image: python:3
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command: echo "This is the build command"
+  instant_preview_command: echo "yes" && /usr/local/bin/mkdocs serve -v -a localhost:8080
