@@ -18,7 +18,7 @@ file_template: ":filename:"
 build:
   preview_output_directory: site
   install_dependencies_command: pip install -r docs/requirements.txt
-  preview_docker_image: forestryio/node:12
-  mount_path: "/srv"
-  working_dir: "/srv"
+  preview_docker_image: squidfunk/mkdocs-material
+  mount_path: docs
+  working_dir: docs
   instant_preview_command: mkdocs build
