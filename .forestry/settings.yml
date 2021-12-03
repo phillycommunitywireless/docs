@@ -19,6 +19,6 @@ build:
   preview_output_directory: site
   install_dependencies_command: python3 -m pip install -r requirements.txt
   preview_docker_image: python:3
-  mount_path: "/docs"
+  mount_path: "/srv"
   working_dir: "/srv"
   instant_preview_command: mkdocs serve -v -a localhost:8080
