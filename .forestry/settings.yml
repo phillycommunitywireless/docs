@@ -21,4 +21,4 @@ build:
   preview_docker_image: python:3.9
   mount_path: "/docs"
   working_dir: "/docs"
-  instant_preview_command: mkdocs build
+  instant_preview_command: mkdocs serve
