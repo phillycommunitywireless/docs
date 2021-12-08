@@ -2,25 +2,27 @@
 title: Configure Mesh AP
 
 ---
-# Configure Mesh AP
+# Configure Unifi Mesh AP
 
-This guide will walk you through configuring a Ubiquiti Access Point Mesh so it can be adopted by the PCW network.
+This guide will walk you throught _how_ to configure and adopt a Ubiquiti Mesh AP (UAP-AC-M).  More details on the _what_ and _why_ of the process, beyond step-by-step instructions, can be found in the [details section](#details).
 
-## Required Hardware
+## You will need
 
-* AP Mesh Unit - [Ubiquiti Mesh Dual-Band Access Point](https://store.ui.com/products/unifi-ac-mesh-ap) (white Ubiquiti antenna with bunny ears)
-* PoE injector
-* Ethernet cable
-* Computer
-* USB Ethernet adapter (if computer doesn't have ethernet port)
-* Power strip/extension cord
-* Paperclip
+| Item | Purpose |
+| --- | --- |
+| Unifi Access Point AC Mesh (white Ubiquiti antenna with bunny ears) | Unit to be configured |
+| PoE injector (comes with AP) | Supplies power to the AP |
+| 2 Ethernet cables | One powers AP, one provides data link to computer |
+| USB Ethernet adapter | If your computer doesn't have an Ethernet port |
+| Computer running MacOS or Linux | Perform remote configuration |
+| Wall outlet |  |
+| Paperclip (or other thin item) | Performing a factory reset |
 
 ![Materials](assets/images/mesh/Materials.jpeg)
 
 ## Setup Steps
 
-### Wire up your AP Mesh Unit.
+### Wire it up
 
 1. Plug the Power-over-Ethernet injector into an outlet, or power strip.
 2. Connect the `POE` port of the injector to the AP Mesh Unit with an ethernet cable.
@@ -28,7 +30,7 @@ This guide will walk you through configuring a Ubiquiti Access Point Mesh so it 
    ![Ports](../assets/images/mesh/Ports.jpeg)
    ![Wiring](../assets/images/mesh/Wiring.jpeg)
 
-### Factory reset AP Mesh Unit.
+### Factory reset AP
 
 The AP Mesh Units have had unexpected behavior even out of the box, so it is recommended to factory reset it before continuing.
 
@@ -38,11 +40,11 @@ The AP Mesh Units have had unexpected behavior even out of the box, so it is rec
 
 ![Reset Button](../../assets/images/mesh/Reset.jpeg)
 
-### Configure your network settings
+### Configure your computer's Ethernet settings
 
 Follow the instructions here: [Setting a static IP for your computer](./static-ip.md)
 
-### Connect to the AP Mesh Unit.
+### Connect to the AP using SSH
 
 1. Open a command line prompt.
 2. If you have previously connected to an AP Mesh Unit, you will need to edit your `known_hosts` file, or you will get an `Host key verification failed` error.
@@ -59,6 +61,14 @@ Follow the instructions here: [Setting a static IP for your computer](./static-i
 5. When prompted for the password, enter `ubnt`.
 6. You should now be connected to the AP Mesh Unit.
    ![SSH Connection](../../assets/images/mesh/SSH.png)
+
+### Set the device firmware version
+
+We use device firmware version 4.3.20, [on the advice of the good people at NYCMesh](https://docs.nycmesh.net/hardware/unifi-ap/).
+
+1. The device firmware is available under "UniFi firmware 4.3.20" on [this page](https://www.ui.com/download/unifi/unifi-mesh/uap-ac-m/unifi-firmware-4320-uap-ac-litelrproedumm-proiwiw-pro). Click "Download", "I accept", and then "Copy URL". Alternatively, just copy the URL here: `https://dl.ui.com/unifi/firmware/U7PG2/4.3.20.11298/BZ.qca956x.v4.3.20.11298.200704.1347.bin`
+2. While connected to the device via SSH, type `upgrade https://dl.ui.com/unifi/firmware/U7PG2/4.3.20.11298/BZ.qca956x.v4.3.20.11298.200704.1347.bin`
+3. You will be disconnected from the device. Wait until it reboots (you can `ping` the IP address to test if it's up, or just try SSHing), then SSH back in.
 
 ### Adopt AP Mesh Unit
 
