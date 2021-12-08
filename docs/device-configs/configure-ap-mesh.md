@@ -18,7 +18,7 @@ This guide will walk you throught _how_ to configure and adopt a Ubiquiti Mesh A
 | Wall outlet |  |
 | Paperclip (or other thin item) | Performing a factory reset |
 
-![Materials](assets/images/mesh/Materials.jpeg)
+![Materials](../assets/images/mesh/Materials.jpeg)
 
 ## Setup Steps
 
