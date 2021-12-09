@@ -21,4 +21,5 @@ build:
   preview_docker_image: python:3
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command: watchmedo shell-command -c "mkdocs build" -p *.md -R docs
+  instant_preview_command: watchmedo shell-command -R -c "mkdocs build" -p "*.md"
+    docs

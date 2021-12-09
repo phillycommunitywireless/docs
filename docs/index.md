@@ -24,7 +24,7 @@ Overviews the hardware necessary for the PCW project's infrastructure.
 
 This guide overviews the process for installing rooftop antennas as the foundation for the wireless mesh network and free public wifi.
 
-### [Configure Mesh AP](./device-configs/configure-mesh-ap/)
+### [Configure Mesh AP](./device-configs/configure-ap-mesh/)
 
 This guide overviews the set-up of a mesh kit that can be installed in any home in close proximity (half a neighborhood block) to a rooftop antenna host.
 
