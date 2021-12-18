@@ -64,8 +64,8 @@ Follow the instructions here: [Setting a static IP for your computer](./static-i
 5. You should now be connected to the AP Mesh Unit.
    ![SSH Connection](../../assets/images/mesh/SSH.png)
 
-!!! todo
-    If you have previously connected to an AP Mesh Unit, you will need to edit your `known_hosts` file, or you will get an `Host key verification failed` error.
+!!! info
+    If you you get a `Host key verification failed` error, you'll need to edit your `known_hosts` file.
 
     1. Open `~/.ssh/known_hosts` with `vim`, `nano`, or the text editor of your choice.
     2. Remove the line beginning with `192.168.1.20` (It will look something like `192.168.1.20 ssh-rsa AAAAB3NzaC1yc2E...`), and save the file.
