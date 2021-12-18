@@ -60,27 +60,26 @@ We need to connect the device to our computer and determine its IP address, whil
 2. Make sure you're connected to WiFi
 3. Follow these instructions to configure your Ethernet adapter and obtain an IP for the device: [Sharing a WiFi connection over Ethernet](./shared-connection)
 
-### SSH into the device
+### Connect to the AP using SSH
 
-1.  Open a command line prompt.
+1. Open a command line prompt.
+2. Run the command `ssh ubnt@192.168.1.20`
+3. You may see the alert:
 
-2.  _If you used the router method:_ <br>
-    Run the command `ssh ubnt@192.168.1.20`
+       The authenticity of host '192.168.1.20 (192.168.1.20)' can't be established.
+       RSA key fingerprint is SHA256:oUG6ABM3uor6lfBpJFcnHWyhhPnCrIx2Jf0U1+UAg4g.
+       Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
-    _If you used the direct method:_ <br>
-    Run the command `ssh ubnt@10.42.0.x`, where `x` is the remaining part of the IP you obtained from the `nmap` command.
+   Press yes to continue.
+4. When prompted for the password, enter `ubnt`.
+5. You should now be connected to the AP Mesh Unit.
+   ![SSH Connection](../../assets/images/mesh/SSH.png)
 
-3.  You may see the alert:
+!!! info
+    If you you get a `Host key verification failed` error, you'll need to edit your `known_hosts` file.
 
-        The authenticity of host '192.168.1.20 (192.168.1.20)' can't be established.
-        RSA key fingerprint is SHA256:oUG6ABM3uor6lfBpJFcnHWyhhPnCrIx2Jf0U1+UAg4g.
-        Are you sure you want to continue connecting (yes/no/[fingerprint])?
-
-    Type `yes` and press `Enter` to continue.
-
-4.  When prompted for the password, enter `ubnt`.
-5.  You should now be connected to the AP Mesh Unit.
-    ![SSH Connection](../../assets/images/mesh/SSH.png)
+    1. Open `~/.ssh/known_hosts` with `vim`, `nano`, or the text editor of your choice.
+    2. Remove the line beginning with `192.168.1.20` (It will look something like `192.168.1.20 ssh-rsa AAAAB3NzaC1yc2E...`), and save the file.
 
 ### Set the device firmware version
 
