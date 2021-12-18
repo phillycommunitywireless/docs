@@ -32,7 +32,9 @@ This guide will walk you through configuring a Ubiquiti Access Point AC Mesh ("b
 1. Plug the PoE injector into an outlet, or power strip.
 2. Connect the `POE` port of the injector to the AP Mesh Unit with an ethernet cable. You should see a white light turn on.
 
-_The light will be blue if the device is already adopted. Don't worry, we'll factory reset the device next._
+!!! info ""
+
+    The light will be blue if the device has an existing configuration. Don't worry, we'll factory reset the device next.
 
 ### Factory reset
 
@@ -42,7 +44,7 @@ The AP Mesh Units have had unexpected behavior even out of the box, so it is rec
 2. Hold it pressed in for 5 seconds.
 3. The status light on the AP should flash, then go out as the device reboots. When it comes back on it should be solid white, indicating the reset was successful.
 
-![Reset Button](../../assets/images/mesh/Reset.jpeg)
+![Reset Button](../assets/images/mesh/Reset.jpeg)
 ![Ports](../assets/images/mesh/Ports.jpeg)
 ![Wiring](../assets/images/mesh/Wiring.jpeg)
 
@@ -52,32 +54,28 @@ We need to connect the device to our computer and determine its IP address, whil
 
 #### If you have physical access to your WiFi router
 
-1. Plug the `LAN` port of the PoE injector directly into an Ethernet port on your router. 2. The AP will get the IP address `192.168.1.20` from your router. Skip to the [SSH step](#ssh-into-the-device).
+1. Plug the `LAN` port of the PoE injector directly into an Ethernet port on your router. 
+2. The AP will get the IP address `192.168.1.20` from your router. [Skip to the SSH step](#connect-to-the-ap-using-ssh).
 
 #### If you don't have access to your router
 
 1. Connect the `LAN` port of the injector to your computer, using the USB Ethernet adapter if you don't have an Ethernet port.
-2. Make sure you're connected to WiFi
-3. Follow these instructions to configure your Ethernet adapter and obtain an IP for the device: [Sharing a WiFi connection over Ethernet](./shared-connection)
+2. Make sure your computer is connected to WiFi.
+3. Follow these instructions to configure your Ethernet adapter and obtain an IP for the device: [Sharing a WiFi connection over Ethernet](./shared-connection.md)
 
 ### Connect to the AP using SSH
 
 1. Open a command line prompt.
 2. Run the command `ssh ubnt@192.168.1.20`
-3. You may see the alert:
-
-       The authenticity of host '192.168.1.20 (192.168.1.20)' can't be established.
-       RSA key fingerprint is SHA256:oUG6ABM3uor6lfBpJFcnHWyhhPnCrIx2Jf0U1+UAg4g.
-       Are you sure you want to continue connecting (yes/no/[fingerprint])?
-
-   Press yes to continue.
+3. You may see "`The authenticity of host [...] can't be established`". Type "yes" and press Enter.
 4. When prompted for the password, enter `ubnt`.
 5. You should now be connected to the AP Mesh Unit.
-   ![SSH Connection](../../assets/images/mesh/SSH.png)
 
-!!! info
+   ![SSH Connection](../assets/images/mesh/SSH.png)
+
+!!! warning ""
+
     If you you get a `Host key verification failed` error, you'll need to edit your `known_hosts` file.
-
     1. Open `~/.ssh/known_hosts` with `vim`, `nano`, or the text editor of your choice.
     2. Remove the line beginning with `192.168.1.20` (It will look something like `192.168.1.20 ssh-rsa AAAAB3NzaC1yc2E...`), and save the file.
 
@@ -90,12 +88,17 @@ We use device firmware version 4.3.20, [on the advice of the good people at NYCM
 
 ### Adopt AP Mesh Unit
 
-_You will need access to the PCW Unifi controller interface to complete this step._
+!!! info "" 
 
-1. From your `ssh` shell, run the command `set-inform http://unifi.phillycommunitywireless.org:8080/inform`.
-   - This will alert the controller that the AP Mesh Unit wants to be adopted.
-2. Open the Unifi portal in your browser, and navigate to the device list.
-3. The AP Mesh Unit should appear in the list of devices awaiting adoption.
+    You will need access to the PCW Unifi controller interface to complete this step.
+
+1. From your `ssh` shell, run the command `set-inform http://unifi.phillycommunitywireless.org:8080/inform`. This will send a message over the internet to our controller, letting it know the device wants to be adopted.
+
+!!! warning ""
+
+    If your prompt hangs here, your AP probably doesn't have a route to the internet. [Return to the connection step](#connect-the-ap-to-your-computer) and make sure your setup follows those instructions.
+
+2. Open the Unifi portal in your browser, and navigate to the device list. The AP should appear in the list of devices awaiting adoption.
 4. Press `Adopt` to adopt the AP Mesh Unit.
 
 ## Troubleshooting
@@ -106,4 +109,4 @@ The AP Mesh Unit can take a few minutes to boot after being plugged in, so wait 
 
 ### What does this status light pattern mean?
 
-[LED Color Patterns for UniFi Devices](https://help.ui.com/hc/en-us/articles/204910134-UniFi-LED-Color-Patterns-for-UniFi-Devices)
+Refer to this article: [LED Color Patterns for UniFi Devices](https://help.ui.com/hc/en-us/articles/204910134-UniFi-LED-Color-Patterns-for-UniFi-Devices)

@@ -12,14 +12,6 @@ theme:
     - navigation.tracking
     - navigation.sections
   palette:
-    # Light mode
-    - scheme: default
-      media: "(prefers-color-scheme: light)"
-      primary: blue grey
-      accent: deep orange
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
     # Dark mode
     - scheme: slate
       media: "(prefers-color-scheme: dark)"
@@ -28,6 +20,14 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+    # Light mode
+    - scheme: default
+      media: "(prefers-color-scheme: light)"
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
 
 extra:
   homepage: https://phillycommunitywireless.org

@@ -6,13 +6,13 @@ title: Hardware
 
 ## Access Points
 
-* [Ubiquiti Mesh Dual-Band Access Point](https://store.ui.com/products/unifi-ac-mesh-ap)
-Occasionally equipped with:
+* [Ubiquiti Mesh Dual-Band Access Point](https://store.ui.com/products/unifi-ac-mesh-ap) sometimes equipped with:  
 * [Ubiquiti Directional Dual-Band Antenna](https://store.ui.com/collections/operator-airmax-and-ltu-antennas/products/directional-dual-band-antenna-for-uap-ac-m)
 
 ## Routers
 
-* [Ubiquiti EdgeRouter ERX](https://dl.ui.com/qsg/ER-X/ER-X_EN.html)
+* [Ubiquiti EdgeRouter X](https://store.ui.com/collections/operator-edgemax-routers/products/edgerouter-x)
+* [Ubiquiti EdgePoint R6](https://store.ui.com/collections/operator-edgemax-control-points/products/edgepoint-r6)
 * [MikroTik hEX PoE](https://www.doubleradius.com/mikrotik-hex-poe-rb960pgs)
 
 ## PtP and PtMP radios

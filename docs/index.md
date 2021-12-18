@@ -1,7 +1,8 @@
 ---
-title: Introduction
+title: Documentation
 
 ---
+
 # Introduction
 
 ## The PCW Project
