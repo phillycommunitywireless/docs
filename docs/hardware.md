@@ -23,7 +23,7 @@ title: Hardware
 
 * [Universal J-Arm Mount](https://store.ui.com/collections/operator-airmax-and-ltu-accessories/products/universal-antenna-mount)
 * [Window/Wall Mount](https://store.ui.com/collections/operator-airmax-and-ltu-accessories/products/nanostation-window-mount)
-* 
+
 ## Accessories
 
 * [Cat5e Ethernet 1000 ft](https://www.homedepot.com/p/Southwire-500-ft-Tan-24-4-CAT5e-CMR-CMX-Indoor-Outdoor-Data-Cable-56917645/202316246?MERCH=REC-_-searchViewed-_-NA-_-202316246-_-N)
@@ -38,5 +38,14 @@ title: Hardware
 
 * Wire Stripper
 * Ethernet Crimper
-* 
+* Ethernet Cable Tester
+* Drill
+* Mortar and Wood drill bits
+* Hammer
+* Wrenches
+* Screwdrivers
+* Screws
+* Nails
+* Zipties
+* Electric Tape
 
