@@ -22,7 +22,8 @@ title: Hardware
 # Mounts
 
 * [Universal J-Arm Mount](https://store.ui.com/collections/operator-airmax-and-ltu-accessories/products/universal-antenna-mount)
-* [Window/Wall Mount](https://store.ui.com/collections/operator-airmax-and-ltu-accessories/products/nanostation-window-mount)
+* [Window Mount](https://store.ui.com/collections/operator-airmax-and-ltu-accessories/products/nanostation-window-mount)
+
 
 ## Accessories
 
@@ -33,6 +34,8 @@ title: Hardware
 * [PoE Injector/Splitter](https://www.newegg.com/p/2WG-00DK-00004)
 * [Ethernet to Ethernet adapter](https://www.newegg.com/p/0Y3-02J6-00001)
 * [USB Type C to Ethernet adapter](https://www.ebay.com/itm/132225990432?epid=910384900&hash=item1ec9487f20:g:FhgAAOSwqiVdyN)
+* Mounting Tape
+
 
 # Tools
 
