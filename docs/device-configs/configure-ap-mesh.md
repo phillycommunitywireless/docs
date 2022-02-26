@@ -48,25 +48,26 @@ The AP Mesh Units have had unexpected behavior even out of the box, so it is rec
 ![Ports](../assets/images/mesh/Ports.jpeg)
 ![Wiring](../assets/images/mesh/Wiring.jpeg)
 
-### Connect the AP to your computer
+### 1. Connect the AP to your computer
 
-We need to connect the device to our computer and determine its IP address, while also making sure it also has a route to the Internet. There are two ways to do this:
+We need to connect the device to our computer and determine its IP address, while also making sure it also has a route to the Internet. There are two ways to do this: a) connect to local router b) connect to your computer. We usually do option b) connect the AP directly to our computer.
 
-#### If you have physical access to your WiFi router
+#### a) If you have physical access to your WiFi router
 
 1. Plug the `LAN` port of the PoE injector directly into an Ethernet port on your router. 
 2. The AP will get the IP address `192.168.1.20` from your router. [Skip to the SSH step](#connect-to-the-ap-using-ssh).
 
-#### If you don't have access to your router
+#### b) If you don't have access to your router
 
 1. Connect the `LAN` port of the injector to your computer, using the USB Ethernet adapter if you don't have an Ethernet port.
 2. Make sure your computer is connected to WiFi.
-3. Follow these instructions to configure your Ethernet adapter and obtain an IP for the device: [Sharing a WiFi connection over Ethernet](./shared-connection.md)
+3. Open a command line prompt and type `nmap -sn 10.42.0.0/24 | grep report`
+4. You should see two lines beginning with "nmap scan report". Find the line with an IP address that does not end with ".1", and copy that IP address.
+5. For more information on configuring your Ethernet adapter and obtain an IP for the device, visit our separate doc page, [Sharing a WiFi connection over Ethernet](https://github.com/phillycommunitywireless/docs/blob/main/docs/device-configs/shared-connection.md)
 
-### Connect to the AP using SSH
+### 2. Connect to the AP using SSH
 
-1. Open a command line prompt.
-2. Run the command `ssh ubnt@192.168.1.20`
+1. At the terminal, run the command `ssh ubnt@192.168.1.20` or replace the default IP address with the one you copied.
 3. You may see "`The authenticity of host [...] can't be established`". Type "yes" and press Enter.
 4. When prompted for the password, enter `ubnt`.
 5. You should now be connected to the AP Mesh Unit.
@@ -85,6 +86,8 @@ We use device firmware version 4.3.20, [on the advice of the good people at NYCM
 
 1. While connected to the device via SSH, type `upgrade https://dl.ui.com/unifi/firmware/U7PG2/4.3.20.11298/BZ.qca956x.v4.3.20.11298.200704.1347.bin`
 2. You will be disconnected from the device. Wait until it reboots and the light is solid white (you can `ping` the IP address to test if it's up, or just try SSHing), then SSH back in.
+3. If it hangs, try canceling out and re-running the command
+4. You can verify the firmware upgrade by looking at the header to your command line input, which provides the firmware version like "UBNT-BZ.v4.3.20#".
 
 ### Adopt AP Mesh Unit
 
@@ -98,14 +101,18 @@ We use device firmware version 4.3.20, [on the advice of the good people at NYCM
 
     If your prompt hangs here, your AP probably doesn't have a route to the internet. [Return to the connection step](#connect-the-ap-to-your-computer) and make sure your setup follows those instructions.
 
-2. Open the Unifi portal in your browser, and navigate to the device list. The AP should appear in the list of devices awaiting adoption.
+2. Open the Hostifi portal in your browser, and navigate to the device list. The AP should appear in the list of devices awaiting adoption.
 4. Press `Adopt` to adopt the AP Mesh Unit.
+5. Adoption can take a while. Try refreshing the Hostifi portal and/or browser. 
+6. If it doesn't work, try the set inform command again.
 
 ## Troubleshooting
 
 ### Computer doesn't recognize AP Mesh Unit in Network settings, or `ssh` command fails.
 
 The AP Mesh Unit can take a few minutes to boot after being plugged in, so wait until the status light is solid white and try again.
+
+See our separate doc for more info on related problems: [Sharing a WiFi connection over Ethernet](https://github.com/phillycommunitywireless/docs/blob/main/docs/device-configs/shared-connection.md)
 
 ### What does this status light pattern mean?
 
