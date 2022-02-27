@@ -4,6 +4,10 @@ title: Hardware
 ---
 # Hardware
 
+The following material are used for [Installations](https://docs.phillycommunitywireless.org/en/latest/installations/), and further information about configuring many of these devices can be found in the guides in these docs.
+
+See NYCMesh's [Networking Hardware](https://docs.nycmesh.net/hardware/) and [Installation Equipment](https://docs.nycmesh.net/installs/equipment/) docs for further details and information on the materials below.
+
 ## Access Points
 
 * [Ubiquiti Mesh Dual-Band Access Point](https://store.ui.com/products/unifi-ac-mesh-ap) 
@@ -12,7 +16,7 @@ title: Hardware
 ## Routers
 
 * [Ubiquiti EdgeRouter X](https://store.ui.com/collections/operator-edgemax-routers/products/edgerouter-x)
-* [Ubiquiti EdgePoint R6](https://store.ui.com/collections/operator-edgemax-control-points/products/edgepoint-r6)
+* [Ubiquiti EdgePoint R6](https://store.ui.com/collections/operator-edgemax-control-points/products/edgepoint-r6) - see [NYC Mesh's doc](https://docs.nycmesh.net/hardware/epr6/) on this alternative to ER-X's. 
 * [MikroTik hEX PoE](https://www.doubleradius.com/mikrotik-hex-poe-rb960pgs)
 
 ## PtP and PtMP radios
@@ -39,16 +43,31 @@ title: Hardware
 
 # Tools
 
-* Wire Stripper
-* Ethernet Crimper
-* Ethernet Cable Tester
+* Ethernet cable crimper
+* CAT5e cable stripper
+* Ethernet cable tester
 * Drill
+* Cordless hammer drill
 * Mortar and Wood drill bits
 * Hammer
-* Wrenches
+* Concrete nails
+* Concrete screws (3/16” hex head CSH316134)
+* Adjustable crescent wrench (6”)
+* Vise grips
+* Needlenose pliers
 * Screwdrivers
+* Phillips Precision Screwdriver (No. 1)
 * Screws
 * Nails
+* Cable staples
+* Cable fastener clips
+* Small diameter (28) hose clamp
 * Zipties
 * Electric Tape
+* Scissors
+* Hex socket drill bits (3/8” for hose clamps and ¼” for masonry screws)
+* Cobalt / titanium drill bit (¼”)
+* Carbide-tip masonry drill bit (5/32”)
+* Rubberized waterproof sealant
+* Safety Glasses
 
