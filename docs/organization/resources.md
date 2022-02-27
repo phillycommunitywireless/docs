@@ -50,7 +50,14 @@ Dunbar-Hester, Christina. _Low Power to the People: Pirates, Protest, and Politi
 
 ## Further Readings
 
+Belli, Luca. “The Community Network Manual - How to Build the Internet Yourself,” 2018. http://bibliotecadigital.fgv.br/dspace/handle/10438/25696.
+
+Belli, Luca, ed. “Community Networks: The Internet by the People, for the People. Official Outcome of the UN IGF Dynamic Coalition on Community Connectivity,” 2017. https://www.apc.org/en/pubs/community-networks-internet-people-people. (PDF)
 Byrum, Greta. “[Building the People’s Internet](https://urbanomnibus.net/2019/10/building-the-peoples-internet/).” _Urban Omnibus_, October 2, 2019.
+
+Butler, Jane, ed. Wireless Networking in the Developing World [a Practical Guide to Planning and Building Low-Cost Telecommunications Infrastructure. 3rd ed. S.l.: s.n., 2013. http://wndw.net/
+
+OTI, New America, The Work Department, and DCTP. “Neighborhood Network Construction Kit: Do-It-Ourselves Guide to Community Networks.” https://communitytechnology.github.io/docs/cck/index.html.
 
 Park, Claire. “[Community Broadband: The Fast, Affordable Internet Option That’s Flying Under the Radar](https://www.newamerica.org/oti/reports/community-broadband/).” Washington D.C.: New America Foundation, May 19, 2020.
 
@@ -63,3 +70,5 @@ Shaffer, Gwen. “[Common Sense: An Examination of Three Los Angeles Community W
 Solomon, Rory. [_Meshiness: Mesh Networks and the Politics of Connectivity_](http://search.proquest.com/pqdtglobal/docview/2408892960/abstract/479AB38D8B044610PQ/1)_._ Ph.D., New York University, 2020.
 
 Thakur, Dhanaraj, and Teddy Woodhouse. “[Meaningful Connectivity: A New Standard to Raise the Bar for Internet Access](https://a4ai.org/meaningful-connectivity/).” Alliance for Affordable Internet, 2020.
+
+
