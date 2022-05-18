@@ -43,20 +43,27 @@ See NYCMesh's [Networking Hardware](https://docs.nycmesh.net/hardware/) and [Ins
 
 # Tools
 
+## Ethernet Cabling
 * Ethernet cable crimper
 * CAT5e cable stripper
 * Ethernet cable tester
+* Needlenose pliers
+* Screwdrivers
+* Phillips Precision Screwdriver (No. 1)
+* 
+## Hardware tools
+
 * Drill
 * Cordless hammer drill
 * Mortar and Wood drill bits
 * Hammer
+* Scissors
+* 
+## Consumables
+
 * Concrete nails
-* Concrete screws (3/16” hex head CSH316134)
-* Adjustable crescent wrench (6”)
-* Vise grips
-* Needlenose pliers
-* Screwdrivers
-* Phillips Precision Screwdriver (No. 1)
+* Concrete screws (3/16" hex head CSH316134)
+* Adjustable crescent wrench (6")
 * Screws
 * Nails
 * Cable staples
@@ -64,10 +71,9 @@ See NYCMesh's [Networking Hardware](https://docs.nycmesh.net/hardware/) and [Ins
 * Small diameter (28) hose clamp
 * Zipties
 * Electric Tape
-* Scissors
-* Hex socket drill bits (3/8” for hose clamps and ¼” for masonry screws)
-* Cobalt / titanium drill bit (¼”)
-* Carbide-tip masonry drill bit (5/32”)
+* Hex socket drill bits (3/8" for hose clamps and ¼” for masonry screws)
+* Cobalt / titanium drill bit (¼")
+* Carbide-tip masonry drill bit (5/32")
 * Rubberized waterproof sealant
 * Safety Glasses
 
