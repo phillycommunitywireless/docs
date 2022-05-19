@@ -38,7 +38,6 @@ Both PhillyWisper and Philly Community Wireless make sure the wire run is as inc
 We utilize non-penetrating roof mounts (NPRM). A thick rubber mat is placed below the NPRM to protect the roof. Cinder blocks are used as ballast to secure the NPRM:
 
 ![Non-penetrating roof mount 1](./assets/images/install/image1.jpg)
-![Non-penetrating roof mount 2](./assets/images/install/image2.jpg)
 
 ### Wall-Mounted Antennas
 
@@ -46,7 +45,6 @@ The following image displays two wall-mounted masts with radios along with an ou
 
 The mast on the left has a Ubiquiti AF-24 radio that operates at 24 GHz and provides a 1.4 Gbps back-haul connection to the data center.
 
-![Wall mounted antenna 1](./assets/images/install/image6.jpg)
 ![Wall mounted antenna 2](./assets/images/install/image7.jpg)
 ![Wall mounted antenna 3](./assets/images/install/image8.jpg)
 ![Wall mounted antenna 4](./assets/images/install/image9.jpg)
