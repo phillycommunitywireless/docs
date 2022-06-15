@@ -112,7 +112,7 @@ We use device firmware version 4.3.20, [on the advice of the good people at NYCM
 
 The AP Mesh Unit can take a few minutes to boot after being plugged in, so wait until the status light is solid white and try again.
 
-See our separate doc for more info on related problems: [Sharing a WiFi connection over Ethernet](https://github.com/phillycommunitywireless/docs/blob/main/docs/device-configs/shared-connection.md)
+See our separate doc for more info on related problems: [Sharing a WiFi connection over Ethernet](https://docs.phillycommunitywireless.org/en/latest/device-configs/shared-connection)
 
 ### What does this status light pattern mean?
 
