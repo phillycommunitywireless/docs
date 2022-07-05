@@ -29,14 +29,21 @@ This guide will walk you through configuring a Ubiquiti EdgeRouter X.
 
 Follow the instructions here: [Setting a static IP for your computer](./static-ip.md)
 
-### Configure ERX
+### Configure ER-X using Wizard
+
+1. Navigate to the portal at [https://192.168.1.1](https://192.168.1.1) in your browser
+2. Log into the portal with username `ubnt`, password `ubnt`.
+   ![Login](../assets/images/erx/login.jpeg)
+4. On the `Use wizard?` prompt, press yes.
+   ![Login](../assets/images/erx/wizard.jpeg)
+5.
+   
+### Configure ER-X using Config File
 
 1. Download the [ERX config file](../assets/configs/erx-config.tar.gz)
 2. Navigate to the portal at [https://192.168.1.1](https://192.168.1.1) in your browser
-3. Log into the portal with username `ubnt`, password `ubnt`.
-   ![Login](../assets/images/erx/login.jpeg)
+3. Log into the portal with username `ubnt`, password `ubnt` as above.
 4. On the `Use wizard?` prompt, press no.
-   ![Login](../assets/images/erx/wizard.jpeg)
 5. Press the `System` tab on the bottom of the page.
 6. Under the `Restore Config` section, press `Upload a file` and select the ERX config file you downloaded.
    ![Login](../assets/images/erx/system.jpeg)
