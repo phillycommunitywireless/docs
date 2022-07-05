@@ -111,7 +111,7 @@ We use device firmware version 4.3.20, [on the advice of the good people at NYCM
 4. Press `Adopt` to adopt the AP Mesh Unit.
 5. Adoption can take a while. Try refreshing the Hostifi portal and/or browser. 
 6. If it doesn't work, try the set inform command again.
-7. To upgrade firmware from within Hostifi, go to the individual device settings, and under Manage, paste the link for the firmware version to upgrade it.
+7. To upgrade firmware from within Hostifi, go to the device and open the Settings. Under Manage, find the Location URL field, and paste the link for the firmware version (https://dl.ui.com/unifi/firmware/U7PG2/4.3.20.11298/BZ.qca956x.v4.3.20.11298.200704.1347.bin), then press Update.
 
 ## Troubleshooting
 
