@@ -50,7 +50,9 @@ The AP Mesh Units have had unexpected behavior even out of the box, so it is rec
 
 ### 1. Connect the AP to your computer
 
-We need to connect the device to our computer and determine its IP address, while also making sure it also has a route to the Internet. There are two ways to do this: a) connect to local router b) connect to your computer. We usually do option b) connect the AP directly to our computer.
+We need to connect the device to our computer and determine its IP address, while also making sure it also has a route to the Internet. The Unifi mesh aps should automatically reset to `192.168.1.20` so you can first try Step 2 and see if the ssh command works. 
+
+If the mesh AP's IP address isn't `192.168.1.20`, there are two ways to find the IP address: a) connect to local router b) connect to your computer. We usually do option b) connect the AP directly to our computer.
 
 #### a) If you have physical access to your WiFi router
 
@@ -88,6 +90,11 @@ We use device firmware version 4.3.20, [on the advice of the good people at NYCM
 3. If it hangs, try canceling out and re-running the command
 4. You can verify the firmware upgrade by looking at the header to your command line input, which provides the firmware version like "UBNT-BZ.v4.3.20#".
 
+!!! warning ""
+
+    If the firmware upgrade hangs forever, skip this step. The firmware can also be upgraded through Hostifi after the AP is adopted.
+    
+
 ### Adopt AP Mesh Unit
 
 !!! info "" 
@@ -104,6 +111,7 @@ We use device firmware version 4.3.20, [on the advice of the good people at NYCM
 4. Press `Adopt` to adopt the AP Mesh Unit.
 5. Adoption can take a while. Try refreshing the Hostifi portal and/or browser. 
 6. If it doesn't work, try the set inform command again.
+7. To upgrade firmware from within Hostifi, go to the individual device settings, and under Manage, paste the link for the firmware version to upgrade it.
 
 ## Troubleshooting
 
