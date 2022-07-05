@@ -11,7 +11,7 @@ This is useful when you need a device to be able to access the internet while ne
 Choose your computer's OS:
 
 **[Ubuntu](#ubuntu)**  
-MacOS (_TBD_)  
+**[MacOS](#macos)**  
 Windows (_TBD_)
 
 ## Ubuntu
@@ -19,26 +19,28 @@ Windows (_TBD_)
 _This is the preferred environment. PCW computers will be using Ubuntu 20.04._
 
 1.  Open your `Settings` > `Network`.
+
 2.  Under the `Wired` section, click the plus sign to create a new settings profile. Name the profile "Shared" or whatever you want.
-3.  In the **IPv4** tab, choose "Shared to other computers". Click Apply. Your computer should now be networked with the connected to device on the 10.42.0.0/24 subnet (10.42.0.\*)
+
+3.  In the **IPv4** tab, choose "Shared to other computers". Click Apply. Your computer should now be networked with the AP. 10.42.0.0/24 is the default subnet used by Ubuntu for this setup, but there's not necessarily a guarantee that your computer will use that subnet. If the next step returns no results, run `ip address` or `ifconfig` and look for the IP of your Ethernet interface (usually `eth0`) there.
+
 4.  Open a terminal. Type the following to scan the devices in that IP range:
 
         nmap -sn 10.42.0.0/24 | grep report
 
     You should see two lines beginning with "`nmap scan report`". Find the line with an IP address that does not end with "`.1`", and copy that IP address.
 
-5.  In the same terminal window, type the following:
 
-        ssh <username>@<IP you just copied>
+## MacOS
 
-    You'll be prompted for a password.
+_Begin these steps with the AP not connected to your computer via an ethernet port or adapter._
 
-Once you've connected to the device, you can type the following to test whether it has a route to the Internet:
+1.  Open `Sharing` from your `System Preferences` menu -> select `Internet Sharing` in the list on the left -> select the interfaces you want to enable sharing for -> click the box next to `Internet Sharing` to turn it on -> a warning dialog box will come up, so click `Start`.
 
-    ping 1.1.1.1
+2.  Run `arp -a | grep -v incomplete` to show a mapping of ip address to mac address for the devices on your network.
 
-If you see packets start to appear (`64 bytes from...`), you got it!
+3.  Connect the ap to your machine or adapter and run `arp -a | grep -v incomplete` again. The difference between this and the previous grep output should be the AP. Note the IP address and MAC address.
 
-## Details
+4.  To confirm that the AP has a route to the internet, you can run the same commands as specified in step 5 of the Ubuntu instructions above (ssh, ping, etc.).
 
-10.42.0.0/24 is the default subnet used by Ubuntu for this setup, but there's not necessarily a guarantee that your computer will use that subnet. If things don't seem to be working for you, run `ip address` or `ifconfig` and look for the IP of your Ethernet interface (usually `eth0`) there.
+Note: These instructions were developed on a MacBook running Catalina, version 10.15.7.
