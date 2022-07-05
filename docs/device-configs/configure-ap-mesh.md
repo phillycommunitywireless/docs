@@ -61,9 +61,8 @@ We need to connect the device to our computer and determine its IP address, whil
 
 1. Connect the `LAN` port of the injector to your computer, using the USB Ethernet adapter if you don't have an Ethernet port.
 2. Make sure your computer is connected to WiFi.
-3. Open a command line prompt and type `nmap -sn 10.42.0.0/24 | grep report`
-4. You should see two lines beginning with "nmap scan report". Find the line with an IP address that does not end with ".1", and copy that IP address.
-5. For more information on configuring your Ethernet adapter and obtain an IP for the device, visit our separate doc page, [Sharing a WiFi connection over Ethernet](shared-connection.md)
+3. Follow the directions on [Sharing a WiFi connection over Ethernet](shared-connection.md) to share your computer's wireless connection with the AP.
+4. Follow the instructions here: [Setting a static IP for your computer](./static-ip.md) to set your
 
 ### 2. Connect to the AP using SSH
 
