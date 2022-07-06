@@ -110,8 +110,12 @@ We use device firmware version 4.3.20, [on the advice of the good people at NYCM
 2. Open the Hostifi portal in your browser, and navigate to the device list. The AP should appear in the list of devices awaiting adoption.
 4. Press `Adopt` to adopt the AP Mesh Unit.
 5. Adoption can take a while. Try refreshing the Hostifi portal and/or browser. 
-6. If it doesn't work, try the set inform command again.
-7. To upgrade firmware from within Hostifi, go to the device and open the Settings. Under Manage, find the Location URL field, and paste the link for the firmware version (https://dl.ui.com/unifi/firmware/U7PG2/4.3.20.11298/BZ.qca956x.v4.3.20.11298.200704.1347.bin), then press Update.
+6. You will be prompted to choose a Group for the AP. Choose All AP's and press save.
+7. Go back to the main Dashboard to see if the device has been adopted.
+8. If it doesn't work, try the set inform command again.
+9. Put your name and a number for each device you configure. The admin team will relabel devices upon install.
+10. Further configurations of the device can be adjusted in the settings, but it is better to leave settings as default until installed on the network.
+11. To upgrade firmware from within Hostifi, go to the device and open the Settings. Under Manage, find the Location URL field, and paste the link for the firmware version (https://dl.ui.com/unifi/firmware/U7PG2/4.3.20.11298/BZ.qca956x.v4.3.20.11298.200704.1347.bin), then press Update.
 
 ## Troubleshooting
 
