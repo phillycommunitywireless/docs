@@ -57,7 +57,8 @@ To double check if a device is properly configured, check the settings under the
 6. Under the `Restore Config` section, press `Upload a file` and select the ERX config file you downloaded.
    ![Login](../assets/images/erx/system.jpeg)
 7. The ERX will reboot using the new configuration.
-8. That's it! If you need to do more configuration, you can log back into the portal using the PCW username and password.
+8. To do more configuration, you can log back into the portal using the PCW username and password.
+9. Make sure to follow instructions (steps 11 and 12) to update the host name and DNS address in the `System` tab.
 
 ## Installation Setup
 
