@@ -38,7 +38,7 @@ Follow the instructions here: [Setting a static IP for your computer](./static-i
    ![Login](../assets/images/erx/wizard.jpeg)
 5. If the prompt doesn't appear, navigate to the Wizard tab.
 7. Change the Port from eth0 to eth4. This configures the port to serve as the WAN for the Litebeam antenna. 
-8. Leave other settings unchaged. Only Use One LAN setting should be checked.
+8. Leave other settings unchaged. Only Use One LAN should be checked.
 9. Under User Setup create a new user and set the PCW username and password.
 10. Then press Apply and follow the instructions to Reboot the device.
 11. Now return to the portal and log in with the PCW username and password (contact project maintainers for this info).
