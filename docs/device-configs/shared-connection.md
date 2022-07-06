@@ -30,6 +30,7 @@ _This is the preferred environment. PCW computers will be using Ubuntu 20.04._
 
     You should see two lines beginning with "`nmap scan report`". Find the line with an IP address that does not end with "`.1`", and copy that IP address.
 
+If the nmap command hangs, you can also try the Mac OS directions on Ubuntu Linux and it should work fine.
 
 ## MacOS
 
