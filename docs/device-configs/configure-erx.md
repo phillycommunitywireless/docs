@@ -36,16 +36,16 @@ Follow the instructions here: [Setting a static IP for your computer](./static-i
    ![Login](../assets/images/erx/login.jpeg)
 4. On the `Use wizard?` prompt, press yes.
    ![Login](../assets/images/erx/wizard.jpeg)
-5. Change the Port from eth0 to eth4. This configures the port to serve as the WAN for the Litebeam antenna. 
-6. Under User Setup create a new user and set the PCW username and password.
-7. Press Apply and follow the instructions to Reboot the device.
+5. Change the `Port` from `eth0` to `eth4.` This configures the port to serve as the WAN for the Litebeam antenna. 
+6. Under `User Setup` create a new user and set the PCW username and password.
+7. Press `Apply` and follow the instructions to Reboot the device.
 8. Return to the portal and log in with the PCW username and password (contact project maintainers for this info).
-9. At the Dashboard, click on Actions for eth4 to turn on POE.
-10. Finally, Click on the System tab at the bottom left of the console.
+9. At the `Dashboard,` click on `Actions` for `eth4` to turn on POE.
+10. Finally, Click on the `System` tab at the bottom left of the console.
 11. Input the host name for the device.
 12. Set up the DNS address as 1.1.1.1.
 
-To double check if a device is properly configured, check the settings under the Dashboard and System tabs. To verify WAN is set to eth4, visit the Firewall/Nat section. Under the NAT tab, see if Masquerade is set to eth4 for the WAN masquerade.
+To double check if a device is properly configured, check the settings under the `Dashboard` and `System` tabs. To verify WAN is set to `eth4,` visit the `Firewall/Nat` section. Under the NAT tab, see if `Masquerade` is set to `eth4` for the WAN masquerade.
 
 ### Configure ER-X using Config File
 
@@ -61,9 +61,8 @@ To double check if a device is properly configured, check the settings under the
 
 ## Installation Setup
 
-When installing the devices at a house, remember the typical setup is:
+When installing the ER-X at a house with a rooftop Litebeam and a Mesh AP, remember the typical setup is:
 
-1. eth0 serves as the passthrough for POE from an adaptor plugged into an outlet
-2. eth1 serves for the LAN port of the adapter powering the first PCW AP
-3. eth2-3 can serve for wired connections to additional APs, each of which need to be powered through POE adaptors.
-4. eth4  serves as the WAN port with passthrough POE to communicate and provide power to the rooftop Litebeam. 
+1. Port `eth0` serves as the passthrough for POE from an adaptor plugged into an outlet.
+2. Port `eth1` serves for the LAN port of the adapter powering the first PCW Mesh AP. Ports `eth2` and `eth3` can function for wired connections to additional Mesh APs, each of which need to be powered through separate POE adaptors.
+4. Port `eth4`  serves as the WAN port with passthrough POE to communicate and provide power to the rooftop Litebeam. 
