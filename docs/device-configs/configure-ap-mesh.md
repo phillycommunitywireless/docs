@@ -44,9 +44,9 @@ The AP Mesh Units have had unexpected behavior even out of the box, so it is rec
 2. Hold it pressed in for 5 seconds.
 3. The status light on the AP should flash, then go out as the device reboots. When it comes back on it should be solid white, indicating the reset was successful.
 
-<img src="../assets/images/mesh/Reset.jpeg" alt="Reset Button" width="50%" style="display: block; margin: auto;"/>
-<img src="../assets/images/mesh/Ports.jpeg" alt="Ports" width="50%" style="display: block; margin: auto;"/>
-<img src="../assets/images/mesh/Wiring.jpeg" alt="Wiring" width="50%" style="display: block; margin: auto;"/>
+![Reset Button](../assets/images/mesh/Reset.jpeg)
+![Ports](../assets/images/mesh/Ports.jpeg)
+![Wiring](../assets/images/mesh/Wiring.jpeg)
 
 ### 1. Connect the AP to your computer
 
