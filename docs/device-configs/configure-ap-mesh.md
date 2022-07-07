@@ -112,9 +112,9 @@ We use device firmware version 4.3.20, [on the advice of the good people at NYCM
 5. Adoption can take a while. Try refreshing the Hostifi portal and/or browser. 
 6. You will be prompted to choose a Group for the AP. Choose All AP's and press save.
 7. Go back to the main Dashboard to see if the device has been adopted.
-8. If the device hangs during adopt, try Forgetting it. Try the set inform command again.
+8. If the device hangs during adopt, try to Forget it. Try the `set inform` command again.
 10. Change the settings to add your name and a number for each device you configure. The admin team will relabel devices upon install.
-11. To upgrade firmware from within the controller, go to the device and open the Settings. Under Manage, find the Location URL field, and paste the link for the firmware version (https://dl.ui.com/unifi/firmware/U7PG2/4.3.20.11298/BZ.qca956x.v4.3.20.11298.200704.1347.bin), then press Update.
+11. To upgrade firmware from within the controller, go to the device and open the Settings. Under Manage, find the Location URL field, and paste the link for the firmware version (`https://dl.ui.com/unifi/firmware/U7PG2/4.3.20.11298/BZ.qca956x.v4.3.20.11298.200704.1347.bin`), then press Update.
 12. Further configurations of the device can be adjusted in the settings, but it is better to leave radio settings as default until installed on the network.
 
 
