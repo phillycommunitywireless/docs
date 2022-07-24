@@ -4,12 +4,14 @@ title: Configure Unifi Mesh AP
 
 # Configuring Unifi APs (UAP-AC-M and UAP-AC-M-PRO)
 
-This guide will walk you through configuring a Ubiquiti Access Point AC Mesh ("bunny ears"), which consists of a few steps:
+This guide will walk you through configuring a Ubiquiti Access Point AC Mesh ("bunny ears"), which consists of the following steps:
 
+- Power and factory reset the Unifi AP AC Mesh
 - Connect the device to your computer, and make sure it has a route to the Internet
-- Update the device's firmware to the latest stable version, 4.3.20
+- Identify AP's IP address and SSH to connect to the device
 - Inform the device of the URL of our Unifi controller
 - Adopt the device via the controller interface
+- Configure the device and Update the device's firmware
 
 ## You will need
 
