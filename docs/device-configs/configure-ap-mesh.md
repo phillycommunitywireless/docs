@@ -63,8 +63,11 @@ If the mesh AP's IP address isn't `192.168.1.20`, there are two ways to find the
 
 1. Connect the `LAN` port of the injector to your computer, using the USB Ethernet adapter if you don't have an Ethernet port.
 2. Make sure your computer is connected to WiFi.
-3. Follow the directions on [Sharing a WiFi connection over Ethernet](shared-connection.md) to share your computer's wireless connection with the AP.
-4. Follow the instructions here: [Setting a static IP for your computer](./static-ip.md) to set your IP address.
+3. Your computer's IP address must be Static in order for you t see and SSH into the AP.
+5. Follow the instructions here: [Setting a static IP for your computer](./static-ip.md) to set your IP address.
+6. You can also follow the directions on [Sharing a WiFi connection over Ethernet](shared-connection.md) to share your computer's wireless connection with the AP.
+7. To find the AP's ip address, or if the SSH hangs, try running `arp -a` to find the AP.
+
 
 ### 2. Connect to the AP using SSH
 
