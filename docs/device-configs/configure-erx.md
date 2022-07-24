@@ -22,8 +22,8 @@ This guide will walk you through configuring a Ubiquiti EdgeRouter X.
 1. Plug the ERX into its power cable, and plug the power cable into an outlet.
 2. Connect the `eth0` port of the ERX to your computer with an Ethernet cable, using the USB Ethernet adapter if you don't have an Ethernet port.
 
-![Ports](../assets/images/erx/wiring.jpeg)
-![Ports](../assets/images/erx/eth0.jpeg)
+<img src="../assets/images/erx/wiring.jpeg" width="50%">
+<img src="../assets/images/erx/eth0.jpeg" width="50%">
 
 ### Configure your network settings
 
