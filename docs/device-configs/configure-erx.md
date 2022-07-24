@@ -13,7 +13,7 @@ This guide will walk you through configuring a Ubiquiti EdgeRouter X.
 - Computer
 - USB Ethernet adapter (if computer doesn't have ethernet port)
 
-![Hardware](../assets/images/erx/hardware.jpg)
+<img src="../../assets/images/erx/hardware.jpg" width="50%">
 
 ## Setup Steps
 
@@ -22,8 +22,8 @@ This guide will walk you through configuring a Ubiquiti EdgeRouter X.
 1. Plug the ERX into its power cable, and plug the power cable into an outlet.
 2. Connect the `eth0` port of the ERX to your computer with an Ethernet cable, using the USB Ethernet adapter if you don't have an Ethernet port.
 
-<img src="../assets/images/erx/wiring.jpeg" width="50%">
-<img src="../assets/images/erx/eth0.jpeg" width="50%">
+<img src="../../assets/images/erx/wiring.jpeg" width="50%">
+<img src="../../assets/images/erx/eth0.jpeg" width="50%">
 
 ### Configure your network settings
 
@@ -33,9 +33,9 @@ Follow the instructions here: [Setting a static IP for your computer](./static-i
 
 1. Navigate to the portal at [https://192.168.1.1](https://192.168.1.1) in your browser
 2. Log into the portal with username `ubnt`, password `ubnt`.
-   ![Login](../assets/images/erx/login.jpeg)
+   <img src="../../assets/images/erx/login.jpeg" width="50%">
 4. On the `Use wizard?` prompt, press yes.
-   ![Login](../assets/images/erx/wizard.jpeg)
+   <img src="../../assets/images/erx/wizard.jpeg" width="50%">
 5. Change the `Port` from `eth0` to `eth4.` This configures the port to serve as the WAN for the Litebeam antenna. 
 6. Under `User Setup` create a new user and set the PCW username and password.
 7. Press `Apply` and follow the instructions to Reboot the device.
@@ -55,7 +55,7 @@ To double check if a device is properly configured, check the settings under the
 4. On the `Use wizard?` prompt, press no.
 5. Press the `System` tab on the bottom of the page.
 6. Under the `Restore Config` section, press `Upload a file` and select the ERX config file you downloaded.
-   ![Login](../assets/images/erx/system.jpeg)
+   <img src="../../assets/images/erx/system.jpeg" width="50%">
 7. The ERX will reboot using the new configuration.
 8. To do more configuration, you can log back into the portal using the PCW username and password.
 9. Make sure to follow instructions (steps 11 and 12) to update the host name and DNS address in the `System` tab.
