@@ -85,7 +85,8 @@ If the mesh AP's IP address isn't `192.168.1.20`, there are two ways to find the
 !!! warning ""
 
     If you you get a `Host key verification failed` error, you'll need to edit your `known_hosts` file.
-    1. Open `~/.ssh/known_hosts` with `vim`, `nano`, or the text editor of your choice.
+    1. The easiest way is to run the following command (at least on Ubuntu this works): `sudo ssh-keygen -f "/root/.ssh/known_hosts" -R "192.168.1.20"`
+    1. Alternatively, ppen `~/.ssh/known_hosts` with `vim`, `nano`, or the text editor of your choice.
     2. Remove the line beginning with `192.168.1.20` (It will look something like `192.168.1.20 ssh-rsa AAAAB3NzaC1yc2E...`), and save the file.
 
 
