@@ -63,7 +63,7 @@ We provide a kit with a PoE injector and a bunny-ears mesh AP. Philly Community 
 
 The Ethernet cable is passed through a Power-over-Ethernet (PoE) injector, which adds power to the signal the Ethernet cable is carrying and allows downstream devices to be powered solely through Ethernet.
 
-**PoE Injector**
+**PoE Injector**  
 <img src="../../assets/images/install/image4.jpg" width="30%">
 
 The powered Ethernet cable is wired to a Ubiquiti EdgeRouter-X (or possibly another router in the future) configured to support mesh networking. The router handles traffic for each of the access points (APs) it is meshed with.
