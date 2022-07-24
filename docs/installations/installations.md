@@ -45,9 +45,9 @@ The following image displays two wall-mounted masts with radios along with an ou
 
 The mast on the left has a Ubiquiti AF-24 radio that operates at 24 GHz and provides a 1.4 Gbps back-haul connection to the data center.
 
-![Wall mounted antenna 2](./assets/images/install/image7.jpg)
-![Wall mounted antenna 3](./assets/images/install/image8.jpg)
-![Wall mounted antenna 4](./assets/images/install/image9.jpg)
+<img src="../../assets/images/install/image7.jpg" width="30%">
+<img src="../../assets/images/install/image8.jpg" width="30%">
+<img src="../../assets/images/install/image9.jpg" width="30%">
 
 The mast on the right has PTMP radios with symmetrical horn antennas. The radios provide service to individual customers.
 
