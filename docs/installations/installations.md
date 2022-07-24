@@ -45,7 +45,7 @@ The following image displays two wall-mounted masts with radios along with an ou
 
 The mast on the left has a Ubiquiti AF-24 radio that operates at 24 GHz and provides a 1.4 Gbps back-haul connection to the data center.
 
-<img src="../../assets/images/install/image7.jpg" width="30%">
+<img src="/assets/images/install/image7.jpg" width="30%">
 <img src="../../assets/images/install/image8.jpg" width="30%">
 <img src="../../assets/images/install/image9.jpg" width="30%">
 
