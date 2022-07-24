@@ -108,7 +108,7 @@ If the mesh AP's IP address isn't `192.168.1.20`, there are two ways to find the
 7. Go back to the main Dashboard to see if the device has been adopted.
 8. If the device hangs during adopt, try to Forget it. Try the `set inform` command again.
 
-### Set the device firmware version 
+### 5. Configure the AP and set the firmware version 
 
 We use device firmware version 4.3.20, [on the advice of the good people at NYCMesh](https://docs.nycmesh.net/hardware/unifi-ap/).
 
