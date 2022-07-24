@@ -37,7 +37,7 @@ Both PhillyWisper and Philly Community Wireless make sure the wire run is as inc
 
 We utilize non-penetrating roof mounts (NPRM). A thick rubber mat is placed below the NPRM to protect the roof. Cinder blocks are used as ballast to secure the NPRM:
 
-![Non-penetrating roof mount 1](./assets/images/install/image1.jpg)
+<img src="../../assets/images/install/image1.jpg" width="30%">
 
 ### Wall-Mounted Antennas
 
@@ -63,14 +63,17 @@ We provide a kit with a PoE injector and a bunny-ears mesh AP. Philly Community 
 
 The Ethernet cable is passed through a Power-over-Ethernet (PoE) injector, which adds power to the signal the Ethernet cable is carrying and allows downstream devices to be powered solely through Ethernet.
 
-![PoE Injector](./assets/images/install/image4.jpg)
+PoE Injector
+<img src="../../assets/images/install/image4.jpg" width="30%">
 
 The powered Ethernet cable is wired to a Ubiquiti EdgeRouter-X (or possibly another router in the future) configured to support mesh networking. The router handles traffic for each of the access points (APs) it is meshed with.
 
-![EdgeRouter-X](./assets/images/install/image5.jpg)
+EdgeRouter X
+<img src="../../assets/images/install/image5.jpg" width="30%">
 
 Finally, a Ubiquiti Mesh AP (“bunny ears” because look at them!) is connected to the router and allows devices in its radio signal range to connect to the network. The bunny ears should be installed in a location that is radio-visible to the mesh APs at the home installs in range.
 
-![Ubiquiti Mesh AP](./assets/images/install/image3.jpg)
+Mesh AP
+<img src="../../assets/images/install/image7.jpg" width="30%">6
 
 For more information on the mesh kit, see our [Configure AP-Mesh Guide](device-configs/configure-ap-mesh.md)
