@@ -1,5 +1,5 @@
 ---
-title: Configure Unifi AP
+title: Configure Unifi Mesh AP
 ---
 
 # Configuring Unifi APs (UAP-AC-M and UAP-AC-M-PRO)
