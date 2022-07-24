@@ -42,11 +42,15 @@ The AP Mesh Units have had unexpected behavior even out of the box, so it is rec
 
 1. With the paperclip, press the reset button at the bottom of the AP Mesh Unit in until it clicks.
 2. Hold it pressed in for 5 seconds.
-3. The status light on the AP should flash, then go out as the device reboots. When it comes back on it should be solid white, indicating the reset was successful.
+3. The status light on the AP should flash, then go out as the device reboots. When it comes back on it should be solid white, indicating the reset was successful. 
+4. For more info on the status lights, refer to this article: [LED Color Patterns for UniFi Devices](https://help.ui.com/hc/en-us/articles/204910134-UniFi-LED-Color-Patterns-for-UniFi-Devices)
+
 
 <img src="../../assets/images/mesh/Reset.jpeg" width="30%">
 <img src="../../assets/images/mesh/Ports.jpeg" width="30%">
 <img src="../../assets/images/mesh/Wiring.jpeg" width="30%">
+
+The AP Mesh Unit can take a few minutes to boot after being plugged in, so wait until the status light is solid white and try again.
 
 ### 1. Connect the AP to your computer
 
@@ -84,7 +88,31 @@ If the mesh AP's IP address isn't `192.168.1.20`, there are two ways to find the
     1. Open `~/.ssh/known_hosts` with `vim`, `nano`, or the text editor of your choice.
     2. Remove the line beginning with `192.168.1.20` (It will look something like `192.168.1.20 ssh-rsa AAAAB3NzaC1yc2E...`), and save the file.
 
-### Set the device firmware version
+
+### Adopt AP Mesh Unit
+
+!!! info "" 
+
+    You will need access to the PCW Unifi controller interface to complete this step.
+
+1. From your `ssh` shell, run the command `sudo set-inform http://unifi.phillycommunitywireless.org:8080/inform`. This will send a message over the internet to our controller, letting it know the device wants to be adopted.
+
+!!! warning ""
+
+    If your prompt hangs here, your AP probably doesn't have a route to the internet. [Return to the connection step](#connect-the-ap-to-your-computer) and make sure your setup follows those instructions.
+
+2. Open the Unifi controller Hostifi portal in your browser, and navigate to the device list. The AP should appear in the list of devices awaiting adoption.
+4. Press `Adopt` to adopt the AP Mesh Unit.
+5. Adoption can take a while. Try refreshing the Hostifi portal and/or browser. 
+6. You will be prompted to choose a Group for the AP. Choose All AP's and press save.
+7. Go back to the main Dashboard to see if the device has been adopted.
+8. If the device hangs during adopt, try to Forget it. Try the `set inform` command again.
+10. Change the settings to add your name and a number for each device you configure. The admin team will relabel devices upon install.
+11. To upgrade firmware from within the controller, go to the device and open the Settings. Under Manage, find the Location URL field, and paste the link for the firmware version (`https://dl.ui.com/unifi/firmware/U7PG2/4.3.20.11298/BZ.qca956x.v4.3.20.11298.200704.1347.bin`), then press Update. We use device firmware version 4.3.20, [on the advice of the good people at NYCMesh](https://docs.nycmesh.net/hardware/unifi-ap/).
+
+12. Further configurations of the device can be adjusted in the settings, but it is better to leave radio settings as default until installed on the network.
+
+### Set the device firmware version through SSH
 
 We use device firmware version 4.3.20, [on the advice of the good people at NYCMesh](https://docs.nycmesh.net/hardware/unifi-ap/).
 
@@ -95,40 +123,4 @@ We use device firmware version 4.3.20, [on the advice of the good people at NYCM
 
 !!! warning ""
 
-    If the firmware upgrade hangs forever, skip this step. The firmware can also be upgraded through Hostifi after the AP is adopted.
-    
-
-### Adopt AP Mesh Unit
-
-!!! info "" 
-
-    You will need access to the PCW Unifi controller interface to complete this step.
-
-1. From your `ssh` shell, run the command `set-inform http://unifi.phillycommunitywireless.org:8080/inform`. This will send a message over the internet to our controller, letting it know the device wants to be adopted.
-
-!!! warning ""
-
-    If your prompt hangs here, your AP probably doesn't have a route to the internet. [Return to the connection step](#connect-the-ap-to-your-computer) and make sure your setup follows those instructions.
-
-2. Open the Hostifi portal in your browser, and navigate to the device list. The AP should appear in the list of devices awaiting adoption.
-4. Press `Adopt` to adopt the AP Mesh Unit.
-5. Adoption can take a while. Try refreshing the Hostifi portal and/or browser. 
-6. You will be prompted to choose a Group for the AP. Choose All AP's and press save.
-7. Go back to the main Dashboard to see if the device has been adopted.
-8. If the device hangs during adopt, try to Forget it. Try the `set inform` command again.
-10. Change the settings to add your name and a number for each device you configure. The admin team will relabel devices upon install.
-11. To upgrade firmware from within the controller, go to the device and open the Settings. Under Manage, find the Location URL field, and paste the link for the firmware version (`https://dl.ui.com/unifi/firmware/U7PG2/4.3.20.11298/BZ.qca956x.v4.3.20.11298.200704.1347.bin`), then press Update.
-12. Further configurations of the device can be adjusted in the settings, but it is better to leave radio settings as default until installed on the network.
-
-
-## Troubleshooting
-
-### Computer doesn't recognize AP Mesh Unit in Network settings, or `ssh` command fails.
-
-The AP Mesh Unit can take a few minutes to boot after being plugged in, so wait until the status light is solid white and try again.
-
-See our separate doc for more info on related problems: [Sharing a WiFi connection over Ethernet](shared-connection.md)
-
-### What does this status light pattern mean?
-
-Refer to this article: [LED Color Patterns for UniFi Devices](https://help.ui.com/hc/en-us/articles/204910134-UniFi-LED-Color-Patterns-for-UniFi-Devices)
+    If the firmware upgrade hangs forever, upgrade firmware through the Unifi controller after the AP is adopted.
