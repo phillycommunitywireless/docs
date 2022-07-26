@@ -74,6 +74,6 @@ The powered Ethernet cable is wired to a Ubiquiti EdgeRouter-X (or possibly anot
 Finally, a Ubiquiti Mesh AP (“bunny ears” because look at them!) is connected to the router and allows devices in its radio signal range to connect to the network. The bunny ears should be installed in a location that is radio-visible to the mesh APs at the home installs in range.
 
 **Mesh AP**  
-<img src="../../assets/images/install/image7.jpg" width="30%">6
+<img src="../../assets/images/mesh/Materials.jpeg" width="30%">6
 
 For more information on the mesh kit, see our [Configure AP-Mesh Guide](device-configs/configure-ap-mesh.md)
