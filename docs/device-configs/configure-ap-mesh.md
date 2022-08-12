@@ -8,8 +8,8 @@ This guide will walk you through configuring a Ubiquiti Access Point AC Mesh ("b
 
 - Power and factory reset the Unifi AP AC Mesh
 - Connect the device to your computer, and make sure it has a route to the Internet
-- Identify AP's IP address and SSH to connect to the device
-- Inform the device of the URL of our Unifi controller
+- Identify AP's IP address and SSH to connect to the device: `ssh ubnt@192.168.1.20`
+- Inform the device of the URL of our Unifi controller: `sudo set-inform http://unifi.phillycommunitywireless.org:8080/inform`
 - Adopt the device via the controller interface
 - Configure the device and Update the device's firmware
 
