@@ -17,11 +17,11 @@ This docs page provides in-development technical information and guides for repl
 
 If you are looking for a **non-technical overview** of the project, or are interested in signing up for PCW coverage, please visit our [homepage](https://phillycommunitywireless.org).
 
-### [Hardware](./hardware/)
+### [Hardware](./installations/hardware/)
 
 Overviews the hardware necessary for the PCW project's infrastructure.
 
-### [Installations](./installations/)
+### [Installations](./installations/installations/)
 
 This guide overviews the process for installing rooftop antennas as the foundation for the wireless mesh network and free public wifi.
 
