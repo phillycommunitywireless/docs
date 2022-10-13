@@ -47,4 +47,4 @@ This page overviews secondary resources on the problems of broadband access and 
 
 ### [Software we use](./organization/tools)
 
-Iverviews the software used by the PCW team.
+Overviews the software used by the PCW team.
