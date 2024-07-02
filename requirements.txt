@@ -10,11 +10,13 @@ mkdocs==1.2.3
 mkdocs-material==7.1.10
 mkdocs-material-extensions==1.0.1
 packaging==21.0
-Pygments==2.9.0
+# Pygments==2.9.0
+Pygments==2.12
 pymdown-extensions==10.0
 pyparsing==2.4.7
 python-dateutil==2.8.2
-PyYAML==5.4.1
+# PyYAML==5.4.1
+PyYAML==6.0.1
 pyyaml-env-tag==0.1
 six==1.16.0
 typing-extensions==3.10.0.0
