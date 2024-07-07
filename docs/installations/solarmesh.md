@@ -49,8 +49,10 @@ For additional troubleshooting help, check out the 'Troubleshooting' section (pg
 
 Common issues include: 
 
-* Battery Discharge - the battery should read between 12.5V > 14.6V
+* Battery Discharge - the battery should read between 12.5V > 14.6V. 
+    * Anything less than 12.5v and the battery management system will shut off to save power. 
 * Connections between the enclosure and the charge controller, as well as the connections between the charge controller and AP.
+    * There should be a **red** light on the charge controller, and a **green** light on the PoE injector. 
 * Low temperature or bad weather conditions
  
 
