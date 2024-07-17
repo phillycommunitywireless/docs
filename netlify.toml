@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/*"
+  to = "https://docs.phillycommunitywireless.org"
+  status = 302
+  force = true
