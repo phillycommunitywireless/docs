@@ -10,7 +10,7 @@ Choose your computer's OS:
 
 **[MacOS](#macos) <br>**
 **[Ubuntu](#ubuntu) <br>**
-Windows (_TBD_)
+**[Windows](#windows) <br>**
 
 ## MacOS
 
@@ -37,6 +37,17 @@ _These instructions have only been tested on Ubuntu 20.04._
    (Leave Gateway empty, and DNS/Routes on \`Automatic)
    ![ Ubuntu Network Settings 2](../assets/images/static-ip/ubuntu2.png)
 6. Click "add"; you should see the profile appear in your settings. Select it when connected to activate the static IP configuration.
+
+## Windows 
+
+1. Open up `Network Connections` (type 'view network connections' into Windows Search)![Setting a static IP address on Windows - Step 1](../assets/images/static-ip/windows1.png)
+2. Right-click the desired network adapter to open the context menu, then click 'Properties'![Setting a static IP address on Windows - Step 2](../assets/images/static-ip/windows2.png)
+3. In the '(Adapter Name) Properties' menu, double-click on 'Internet Protocol Version 4 (TCP/IPv4)', or select it and then click 'Properties'. ![Setting a static IP address on Windows - Step 3](../assets/images/static-ip/windows3.png)
+4. In the 'Internet Protocol Version 4 (TCP/IPv4) Properties' menu, select 'Use the following IP address':
+5. Set the IP Address to `192.168.1.2`
+6. Set the Subnet mask to `255.255.255.0`
+![Setting a static IP address on Windows - Step 4](../assets/images/static-ip/windows4.png)
+7. Click `OK` 
 
 ## Details
 
