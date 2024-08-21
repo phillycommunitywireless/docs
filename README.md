@@ -14,6 +14,3 @@ Hosted on ReadTheDocs
 * [Mesh Kit Setup](docs/mesh-kit.md) 
 -->
 
-test edit
-test edit 2
-test edit 3
