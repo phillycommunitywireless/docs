@@ -2,7 +2,7 @@
 title: Solar Mesh Nodes
 ---
 
-# Overview
+# Solar Mesh Node Overview
 
 PCW has commissioned and deployed solar mesh nodes designed by [Holobiont Lab](https://holobiontlab.org/). See their [meshbox docs](https://holobiontlab.org/r&d/meshbox) for info on how they build these solar-powered wifi access points.
 
@@ -44,7 +44,7 @@ PCW installed a solar mesh node in Norris Square Neighborhood Projects Colobo Ga
     <figcaption>The meshbox's contents</figcaption>
 </figure>
 
-# Troubleshooting
+# Troubleshooting Solar Mesh Nodes
 For additional troubleshooting help, check out the 'Troubleshooting' section (pg. 12) of  the [Meshbox Documentation](https://holobiontlab.org/docs/meshBoxDocumentation.pdf).
 
 Common issues include: 
