@@ -47,6 +47,7 @@ See NYCMesh's [Networking Hardware](https://docs.nycmesh.net/hardware/) and [Ins
 
 - [Universal J-Arm Mount](https://store.ui.com/collections/operator-airmax-and-ltu-accessories/products/universal-antenna-mount)
 - [Window Mount](https://store.ui.com/collections/operator-airmax-and-ltu-accessories/products/nanostation-window-mount)
+- [Non-penetrating Roof Mount](https://www.data-alliance.net/non-penetrating-roof-mount-base-fits-pipe-mast-antenna-mounts-extendable-up-to-7ft-mast/)
 
 ### Accessories
 
