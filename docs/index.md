@@ -45,6 +45,6 @@ If you'd like to contribute to PCW's docs, please see our guidelines.
 
 This page overviews secondary resources on the problems of broadband access and digital inequity in urban cities like Philadelphia.
 
-### [Software we use](./organization/tools)
+### [Software we use](./organization/software)
 
 Overviews the software used by the PCW team.
