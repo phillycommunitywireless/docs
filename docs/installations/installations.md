@@ -37,7 +37,7 @@ Both PhillyWisper and Philly Community Wireless make sure the wire run is as inc
 
 We utilize non-penetrating roof mounts (NPRM). A thick rubber mat is placed below the NPRM to protect the roof. Cinder blocks are used as ballast to secure the NPRM:
 
-<img src="../../assets/images/install/image1.jpg" width="30%">
+<img src="../../assets/images/installations/install/image2.jpg" width="30%">
 
 ### Wall-Mounted Antennas
 
@@ -45,9 +45,9 @@ The following image displays two wall-mounted masts with radios along with an ou
 
 The mast on the left has a Ubiquiti AF-24 radio that operates at 24 GHz and provides a 1.4 Gbps back-haul connection to the data center.
 
-<img src="../../assets/images/install/image7.jpg" width="30%">
-<img src="../../assets/images/install/image8.jpg" width="30%">
-<img src="../../assets/images/install/image9.jpg" width="30%">
+<img src="../../assets/images/installations/install/image7.jpg" width="30%">
+<img src="../../assets/images/installations/install/image8.jpg" width="30%">
+<img src="../../assets/images/installations/install/image9.jpg" width="30%">
 
 The mast on the right has PTMP radios with symmetrical horn antennas. The radios provide service to individual customers.
 
@@ -64,16 +64,16 @@ We provide a kit with a PoE injector and a bunny-ears mesh AP. Philly Community 
 The Ethernet cable is passed through a Power-over-Ethernet (PoE) injector, which adds power to the signal the Ethernet cable is carrying and allows downstream devices to be powered solely through Ethernet.
 
 **PoE Injector**
-<img src="../../assets/images/install/image4.jpg" width="30%">
+<img src="../../assets/images/installations/install/image4.jpg" width="30%">
 
 The powered Ethernet cable is wired to a Ubiquiti EdgeRouter-X (or possibly another router in the future) configured to support mesh networking. The router handles traffic for each of the access points (APs) it is meshed with.
 
 **EdgeRouter X**
-<img src="../../assets/images/install/image5.jpg" width="30%">
+<img src="../../assets/images/installations/install/image5.jpg" width="30%">
 
 Finally, a Ubiquiti Mesh AP ("bunny ears" because look at them!) is connected to the router and allows devices in its radio signal range to connect to the network. The bunny ears should be installed in a location that is radio-visible to the mesh APs at the home installs in range.
 
 **Mesh AP**
-<img src="../../assets/images/mesh/Materials.jpeg" width="30%">
+<img src="../../assets/images/device-configs/mesh/Materials.jpeg" width="30%">
 
 For more information on the mesh kit, see our [Configure AP-Mesh Guide](/device-configs/configure-ap-mesh)

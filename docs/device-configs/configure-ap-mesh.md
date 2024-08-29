@@ -25,7 +25,7 @@ This guide will walk you through configuring a Ubiquiti Access Point AC Mesh ("b
 | Wall outlet                                  |                                                   |
 | Paperclip (or other thin item)               | Performing a factory reset                        |
 
-![Materials](../assets/images/mesh/Materials.jpeg)
+![Materials](../assets/images/device-configs/mesh/Materials.jpeg)
 
 ## Setup Steps
 

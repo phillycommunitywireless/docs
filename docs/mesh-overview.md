@@ -8,7 +8,7 @@ Philly Community Wireless's goal, with assistance from [**PhillyWisper**](https:
 In a typical home network, all 'access points' (APs) are hard-wired to your router via Ethernet cable. In a mesh network, access points can not only be hard-wired, but connect to each other wirelessly, allowing a single Internet connection to be shared with significantly less infrastructure and labor than hard-wiring every single AP. 
 
 <figure style="display: flex; align-items: center; flex-direction: column;">
-    <img src="/assets/images/mesh/hace_wall_mesh.jpg"
+    <img src="/assets/images/device-configs/mesh/hace_wall_mesh.jpg"
          alt="Colobo AP"
          style="width: 75%;">
     <figcaption>This AP conveniently plugs directly into an outlet, and then meshes with nearby APs - meaning we don't have to run another cable!</figcaption>
