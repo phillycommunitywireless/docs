@@ -12,7 +12,7 @@ Choose your computer's OS:
 
 **[Ubuntu](#ubuntu)**  
 **[MacOS](#macos)**  
-Windows (_TBD_)
+**[Windows](#windows)**  
 
 ## Ubuntu
 
@@ -45,3 +45,24 @@ _Begin these steps with the AP not connected to your computer via an ethernet po
 4.  To confirm that the AP has a route to the internet, you can run the same commands as specified in step 5 of the Ubuntu instructions above (ssh, ping, etc.).
 
 Note: These instructions were developed on a MacBook running Catalina, version 10.15.7.
+
+## Windows 
+*Begin these steps by connecting the AP to a PoE injector, and connecting the LAN port of the PoE injector to your computer's Ethernet port.*
+
+1. Open the 'Settings' menu, and then click 'Network and Internet'  
+
+2. Under 'Advanced Network Settings', click 'Change Adapter Options'
+
+3. In the popup, right-click the interface you're connected through the Internet with (this will probably be 'Wifi' or 'Ethernet'), and then click 'Properties'
+
+4. In the second popup, click the 'Sharing' tab.
+
+5. Under 'Internet Connection Sharing', select 'Allow other network users to connect through this computer's Internet connection'. 
+
+6. In the dropdown, select the interface that the AP/PoE injector is connected to. 
+
+7. Click 'OK' 
+
+8. Run `arp -a`, and check for the AP's MAC address in the ARP table. 
+
+Note: these instructions were developed on Windows 10.

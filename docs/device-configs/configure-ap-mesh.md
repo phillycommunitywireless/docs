@@ -8,10 +8,10 @@ This guide will walk you through configuring a Ubiquiti Access Point AC Mesh ("b
 
 - Power and factory reset the Unifi AP AC Mesh
 - Connect the device to your computer, and make sure it has a route to the Internet
-- Identify AP's IP address and SSH to connect to the device: `ssh ubnt@192.168.1.20`
+- Identify AP's IP address and `ssh` to connect to the device: `ssh ubnt@192.168.1.20`
 - Inform the device of the URL of our Unifi controller: `sudo set-inform http://unifi.phillycommunitywireless.org:8080/inform`
 - Adopt the device via the controller interface
-- Configure the device and Update the device's firmware
+- Configure the device and update the device's firmware
 
 ## You will need
 
@@ -25,7 +25,7 @@ This guide will walk you through configuring a Ubiquiti Access Point AC Mesh ("b
 | Wall outlet                                  |                                                   |
 | Paperclip (or other thin item)               | Performing a factory reset                        |
 
-![Materials](../assets/images/mesh/Materials.jpeg)
+![Materials](../assets/images/device-configs/mesh/Materials.jpeg)
 
 ## Setup Steps
 
@@ -39,25 +39,37 @@ This guide will walk you through configuring a Ubiquiti Access Point AC Mesh ("b
 
     The light will be blue if the device has an existing configuration. Don't worry, we'll factory reset the device next.
 
-<img src="../../assets/images/mesh/Reset.jpeg" width="30%">
-<img src="../../assets/images/mesh/Ports.jpeg" width="30%">
-<img src="../../assets/images/mesh/Wiring.jpeg" width="30%">
+<img src="../../assets/images/device-configs/mesh/Reset.jpeg" width="30%">
+<img src="../../assets/images/device-configs/mesh/Ports.jpeg" width="30%">
+<img src="../../assets/images/device-configs/mesh/Wiring.jpeg" width="30%">
 
 The AP Mesh Units have had unexpected behavior even out of the box, so it is recommended to factory reset it before continuing.
 
 1. With the paperclip, press the reset button at the bottom of the AP Mesh Unit in until it clicks.
 2. Hold it pressed in for 5 seconds.
 3. The status light on the AP should flash, then go out as the device reboots. When it comes back on it should be solid white, indicating the reset was successful. 
-4. For more info on the status lights, refer to this article: [LED Color Patterns for UniFi Devices](https://help.ui.com/hc/en-us/articles/204910134-UniFi-LED-Color-Patterns-for-UniFi-Devices)
+4. For more info on the status lights, refer to [LED Color Patterns for UniFi Devices](/device-configs/troubleshooting-devices/#unifi-ap-led-status-indicators)
 
 Note: The AP Mesh Unit can take a few minutes to boot after being plugged in or reset, so wait until the status light is solid white,.
 
 
 ### 2. Connect the AP to your computer
 
-We need to connect the device to our computer and determine its IP address, while also making sure it also has a route to the Internet. The Unifi mesh aps should automatically reset to `192.168.1.20` so you can first try Step 2 and see if the ssh command works. 
+We need to connect the device to our computer and determine its IP address, while also making sure it also has a route to the Internet. 
 
-If the mesh AP's IP address isn't `192.168.1.20`, there are two ways to find the IP address: a) connect to local router b) connect to your computer. We usually do option b) connect the AP directly to our computer.
+!!! info ""
+    Normally, any device on your network will recieve an IP address via the Dynamic Host Configuration Protocol, or DHCP. This ensures that your router knows which device it is communicating with on your network. Although Unifi APs reset to `192.168.1.20`, if the AP has already been configured it may recieve a different IP address. 
+
+The Unifi mesh APs should automatically reset to `192.168.1.20` so you can first try Step 2 and see if the `ssh` command works. 
+
+If the mesh AP's IP address isn't `192.168.1.20`, there are two ways to find the IP address: 
+
+<ol type="a">
+  <li>Connect to local router </li>
+  <li>Connect to your computer</li>
+</ol>
+
+We usually do option b) connect the AP directly to our computer.
 
 #### 2a) If you have physical access to your WiFi router
 
@@ -68,7 +80,7 @@ If the mesh AP's IP address isn't `192.168.1.20`, there are two ways to find the
 
 1. Connect the `LAN` port of the injector to your computer, using the USB Ethernet adapter if you don't have an Ethernet port.
 2. Make sure your computer is connected to WiFi.
-3. Your computer's IP address must be Static in order for you t see and SSH into the AP.
+3. Your computer's IP address must be Static in order for you to see and `ssh` into the AP.
 5. Follow the instructions here: [Setting a static IP for your computer](./static-ip.md) to set your IP address.
 6. You can also follow the directions on [Sharing a WiFi connection over Ethernet](shared-connection.md) to share your computer's wireless connection with the AP.
 7. To find the AP's ip address, or if the SSH hangs, try running `arp -a` to find the AP.
@@ -76,12 +88,15 @@ If the mesh AP's IP address isn't `192.168.1.20`, there are two ways to find the
 
 ### 3. Connect to the AP using SSH
 
+!!! info ""
+    `ssh`, or Secure Shell, is a protocol used for securing communications over a network using public key cryptogrpahy. We use `ssh` to connect to APs via the command line to configure and adopt APs.  
+
 1. At the terminal, run the command `ssh ubnt@192.168.1.20` or replace the default IP address with the one you copied.
 3. You may see "`The authenticity of host [...] can't be established`". Type "yes" and press Enter.
 4. When prompted for the password, enter `ubnt`.
 5. You should now be connected to the AP Mesh Unit.
 
-   ![SSH Connection](../assets/images/mesh/SSH.png)
+   ![SSH Connection](../assets/images/device-configs//mesh/SSH.png)
 
 !!! warning ""
 
@@ -112,17 +127,16 @@ If the mesh AP's IP address isn't `192.168.1.20`, there are two ways to find the
 
 ### 5. Configure the AP and set the firmware version 
 
-We use device firmware version 4.3.20, [on the advice of the good people at NYCMesh](https://docs.nycmesh.net/hardware/unifi-ap/).
-
 1. Change the settings to add your name and a number for each device you configure. The admin team will relabel devices upon install.
-2. To upgrade firmware from within the controller, go to the device and open the Settings. Under Manage, find the Location URL field, and paste the link for the firmware version (`https://dl.ui.com/unifi/firmware/U7PG2/4.3.20.11298/BZ.qca956x.v4.3.20.11298.200704.1347.bin`), then press Update. We use device firmware version 4.3.20, [on the advice of the good people at NYCMesh](https://docs.nycmesh.net/hardware/unifi-ap/).
+2. To upgrade firmware from within the controller, go to the device and open the Settings. Under Manage, find the Location URL field, and paste the link for the firmware version, then press Update.
+    * URLs for firmware are available from [Unifi](https://ui.com/download/unifi) 
 
 Further configurations of the device can be adjusted in the settings, but it is better to leave radio settings as default until installed on the network.
 
-You can also set the firmware version while you are connected to the device through SSH:
+You can also set the firmware version while you are connected to the device through `ssh`:
 
-1. While connected to the device via SSH, type `upgrade https://dl.ui.com/unifi/firmware/U7PG2/4.3.20.11298/BZ.qca956x.v4.3.20.11298.200704.1347.bin`
-2. You will be disconnected from the device. Wait until it reboots and the light is solid white (you can `ping` the IP address to test if it's up, or just try SSHing), then SSH back in.
+1. While connected to the device via `ssh`, type `upgrade $url_to_firmware_version`
+2. You will be disconnected from the device. Wait until it reboots and the light is solid white (you can `ping` the IP address to test if it's up, or just try SSHing), then `ssh` back in.
 3. If it hangs, try canceling out and re-running the command
 4. You can verify the firmware upgrade by looking at the header to your command line input, which provides the firmware version like "UBNT-BZ.v4.3.20#".
 
