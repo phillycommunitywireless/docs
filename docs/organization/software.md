@@ -20,7 +20,7 @@ New members joining the team, depending on role, will be given access to the col
 
 1. Groups.io Listserv
 2. Philly Community Wireless Steering Committee Google Group
-3. (Phillycommunitywireless@gmail.com)[mailto:phillycommunitywireless@gmail.com] email
+3. [phillycommunitywireless@gmail.com](mailto:phillycommunitywireless@gmail.com) email
 
 ## Wifi Tools
 
