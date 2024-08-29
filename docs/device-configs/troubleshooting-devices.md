@@ -29,6 +29,13 @@ Not every device will work perfectly. Additionally, devices deployed outdoors wi
 * **Ensure the device is connected to the Internet** - Review the instructions in [Sharing a WiFi connection over Ethernet](/device-configs/shared-connection) and ensure the AP can access the Internet
 * **Refresh the controller** - There can sometimes be a delay in sending the request and the request appearing in the controller.
 
+### Device is 'isolated'
+* **Observations** - Device marked as 'isolated' in Unifi controller
+
+**Potential Causes and Fixes**
+
+* **Device losing connectivity upstream** - An AP will become 'isolated' if it can no longer connect with the Unifi controller. Ensure that no changes have been made to the network configuration that would block the AP from communicating with the controller. First, power-cycle the AP (disconnect from PoE injector, or `ssh` remotely and run `reboot`.). If unsuccessful, remove and re-adopt the AP.
+
 ## Troubleshooting ERXs
 ### No power on ERX
 **Observations**: No lights, device is offline/missing from UISP.
