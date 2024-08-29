@@ -13,6 +13,10 @@ and deployed to [readthedocs.org](readthedocs.org)
 # Editing these docs
 Instructions to edit these docs via the web or locally are viewable at `organization/edit-docs.md`.
 
+## Editing locally with Docker 
+* `git clone` 
+* `docker compose up-d`; docs will be serving at `http://localhost:8000`
+
 <!-- 
 * [Team Onboarding](docs/onboarding.md)
 * [Hardware Inventory](docs/hardware.md)
