@@ -4,7 +4,7 @@ title: Installations
 
 # Installations
 
-Philly Community Wireless has partnered with PhillyWisper to install antennas for the free wifi network on rooftops in the Norris Square Park neighborhood. PhillyWisper is a wireless internet service provider (WISP) which means our project delivers the internet the "last mile" to our customers using radio technology.
+Philly Community Wireless has partnered with [**PhillyWisper**](https://phillywisper.net/) to install antennas for the free wifi network on rooftops in the Norris Square Park neighborhood. PhillyWisper is a wireless internet service provider (WISP) which means our project delivers the internet the "last mile" to our customers using radio technology.
 
 ## Rooftop Installation Process
 
