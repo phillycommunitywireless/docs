@@ -34,7 +34,7 @@ Not every device will work perfectly. Additionally, devices deployed outdoors wi
 
 **Potential Causes and Fixes**
 
-* **Device losing connectivity upstream** - An AP will become 'isolated' if it can no longer connect with the Unifi controller. Ensure that no changes have been made to the network configuration that would block the AP from communicating with the controller. First, power-cycle the AP (disconnect from PoE injector, or `ssh` remotely and run `reboot`.). If unsuccessful, remove and re-adopt the AP.
+* **Device losing connectivity upstream** - An AP will become 'isolated' if it can no longer connect with the Unifi controller. Ensure that no changes have been made to the network configuration that would block the AP from communicating with the controller. First, power-cycle the AP (disconnect from PoE injector, or `ssh` remotely and run `reboot`.). If the AP is meshed, hard-wiring it without power-cycling may also get it back on the network. If unsuccessful, remove and re-adopt the AP. If the problem persists, power-cycle the ERX or clear the DHCP leases. 
 
 ## Troubleshooting ERXs
 ### No power on ERX
