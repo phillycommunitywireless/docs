@@ -4,6 +4,21 @@ title: Troubleshooting Devices
 
 Not every device will work perfectly. Additionally, devices deployed outdoors will be exposed to the elements, primarily heat and moisture, and degrade naturally over time. 
 
+## Unifi AP LED Status Indicators
+
+Each Unifi AP has an LED which indicates its current status. 
+
+* **LED Off** - The AP is offline. 
+* **Flashing White** - The AP is receiving power and booting up 
+* **Steady White** - The AP has finished configuration and is ready for adoption. 
+    * See [Configure Unifi Mesh AP](/device-configs/configure-ap-mesh) for adoption instructions. 
+* **Steady Blue** - The AP is adopted and operating normally; in our case, broadcasting the Philly Community Wireless network. 
+* **Flashing White/Blue** - The AP's firmware is being updated. **Do not unplug the AP**.
+* **Flashing Blue** - The AP has lost connectivity and is searching for a parent AP or uplink. 
+* **Rapid Flashing Blue/Off** - The 'Locate' feature was activated via the Unifi Controller.  
+
+Please see [this page](https://help.ui.com/hc/en-us/articles/204910134-Understanding-Device-LED-Status-Indicators) for more information on LED status indicators. 
+
 ## Troubleshooting Access Points
 ### No power on access point; device power cycles but doesn't stay online 
 **Observations**: No lights, device is offline/missing from controller.
