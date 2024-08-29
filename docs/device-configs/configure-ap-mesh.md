@@ -39,9 +39,9 @@ This guide will walk you through configuring a Ubiquiti Access Point AC Mesh ("b
 
     The light will be blue if the device has an existing configuration. Don't worry, we'll factory reset the device next.
 
-<img src="../../assets/images/mesh/Reset.jpeg" width="30%">
-<img src="../../assets/images/mesh/Ports.jpeg" width="30%">
-<img src="../../assets/images/mesh/Wiring.jpeg" width="30%">
+<img src="../../assets/images/device-configs/mesh/Reset.jpeg" width="30%">
+<img src="../../assets/images/device-configs/mesh/Ports.jpeg" width="30%">
+<img src="../../assets/images/device-configs/mesh/Wiring.jpeg" width="30%">
 
 The AP Mesh Units have had unexpected behavior even out of the box, so it is recommended to factory reset it before continuing.
 
@@ -96,7 +96,7 @@ We usually do option b) connect the AP directly to our computer.
 4. When prompted for the password, enter `ubnt`.
 5. You should now be connected to the AP Mesh Unit.
 
-   ![SSH Connection](../assets/images/mesh/SSH.png)
+   ![SSH Connection](../assets/images/device-configs//mesh/SSH.png)
 
 !!! warning ""
 
