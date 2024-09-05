@@ -6,8 +6,8 @@ title: Configure EdgeRouter X
 
 This guide will walk you through configuring a Ubiquiti EdgeRouter X.
 
-## Normal Setup
-This method involves plugging the ERX directly into your computer and setting a static IP address.
+## LiteBeam Setup
+This method configures the ERX to be used at a PCW install site, connecting to the Internet via LiteBeam.
 
 ### Required Hardware
 
@@ -52,7 +52,7 @@ Follow the instructions here: [Setting a static IP for your computer](./static-i
 2. Log into the portal with username `ubnt`, password `ubnt`.
 <figure style="display: flex; align-items: center; flex-direction: column;">
     <img src="../../assets/images/device-configs/erx/login.jpeg"
-         alt="PurpleAir air monitor at KCT Gardens"
+         alt="ERX login prompt"
          style="width: 50%;">
     <figcaption>Connect 'eth0' to your computer's Ethernet port/USB Ethernet adapter</figcaption>
 </figure>
@@ -97,7 +97,61 @@ To double check if a device is properly configured, check the settings under the
 9. Make sure to follow instructions (steps 11 and 12) to update the host name and DNS address in the `System` tab.
 
 ## Downstream Setup
-plug into your router and set a different subnet.
+This method allows the ERX to connect to the Internet through your home router. 
+
+### 1) Wire up ERX
+1. See [Wire up ERX](#1-wire-up-erx) in the section above. 
+
+### 2) Configure your network settings
+2. Follow the instructions here: [Setting a static IP for your computer](./static-ip.md).
+3. **Turn OFF** WiFi/your Internet connection. 
+!!! info ""
+      This ensures that during the next step, you make a request to the ERX and not your home router. 
+
+### 3) Configure ERX 
+1. Navigate to the portal at [https://192.168.1.1](https://192.168.1.1) in your browser
+2. Log into the portal with username `ubnt`, password `ubnt`.
+<figure style="display: flex; align-items: center; flex-direction: column;">
+    <img src="../../assets/images/device-configs/erx/login.jpeg"
+         alt="ERX login prompt"
+         style="width: 50%;">
+    <figcaption>Connect 'eth0' to your computer's Ethernet port/USB Ethernet adapter</figcaption>
+</figure>
+
+4. On the `Use wizard?` prompt, press 'yes'.
+<figure style="display: flex; align-items: center; flex-direction: column;">
+    <img src="../../assets/images/device-configs/erx/wizard.jpeg"
+         alt="ERX configuration prompt"
+         style="width: 50%;">
+    <figcaption></figcaption>
+</figure>
+
+5. Change the `Port` from `eth0` to `eth4.` 
+
+6. Click on 'LAN Ports', and assign the ERX a **different** IP address than your home router (not `192.168.1.1`) on a different subnet. For example, set the ERX to `192.168.5.1`.
+
+6. Under `User Setup` create a new user and set the PCW username and password.
+
+7. Reboot your router and reboot the ERX. 
+
+8. Return to the portal and log in with the PCW username and password (contact project maintainers for this info).
+
+9. Finally, Click on the `System` tab at the bottom left of the console.
+
+10. Input the host name for the device.
+
+11. Set up the DNS address as 1.1.1.1.
+
+12. Reset your computer's network steps; remove the static IP set in [Step 2](#2-configure-your-network-settings), and reset your connection settings to Dynamic. 
+
+13. Connect to the ERX again and log in with the PCW username and password. 
+
+14. Plug `eth4` on the ERX into a LAN port on your router. You should now be able to access the Internet through the ERX. 
+
+15. Adopt the ERX via copying the UISP key. 
+
+16. If needed, update the ERX's firmware. 
+
 
 ## Installation Notes
 
