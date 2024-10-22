@@ -32,3 +32,4 @@ PCW-installed air monitors are present at:
 * Kensington Library 
 * HACE - Caribe Tower
 * KCT Gardens
+* Lillian Marrero Library
