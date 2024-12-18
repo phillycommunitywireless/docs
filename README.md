@@ -15,7 +15,7 @@ Instructions to edit these docs via the web or locally are viewable at `organiza
 
 ## Editing locally with Docker 
 * `git clone` 
-* `docker compose up-d`; docs will be serving at `http://localhost:8000`
+* `docker compose up -d`; docs will be serving at `http://localhost:8000`
 
 <!-- 
 * [Team Onboarding](docs/onboarding.md)
