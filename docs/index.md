@@ -3,9 +3,16 @@ title: Documentation
 
 ---
 
-# Introduction
+<!-- # Introduction -->
+# Welcome to the Philly Community Wireless Docs!
+<!-- ## The PCW Project -->
 
-## The PCW Project
+<figure style="">
+    <img src="/assets/images/pcw_hero.svg" alt="" style="width: 100%; height: 100px;">
+</figure>
+
+<!-- for formatting...h1 has lots of padding-bottom -->
+#
 
 **Philly Community Wireless** (PCW) is led by a working group of community organizers, technologists, academics, public librarians, and City Hall staffers in Philadelphia. During a time of social distancing and online teaching, roughly half of city public school students lack a wifi connection at home. In certain neighborhoods, even more residents lack any connection to the Internet. We seek to address the city's digital divide with **community-owned and -operated mesh network technologies.**
 

@@ -48,30 +48,34 @@ See NYCMesh's [Networking Hardware](https://docs.nycmesh.net/hardware/) and [Ins
 - [Universal J-Arm Mount](https://store.ui.com/collections/operator-airmax-and-ltu-accessories/products/universal-antenna-mount)
 - [Window Mount](https://store.ui.com/collections/operator-airmax-and-ltu-accessories/products/nanostation-window-mount)
 - [Non-penetrating Roof Mount](https://www.data-alliance.net/non-penetrating-roof-mount-base-fits-pipe-mast-antenna-mounts-extendable-up-to-7ft-mast/)
+- Enclosure(s)
 
 ### Accessories
 
-- [Outdoor Cat5e Ethernet Cable](https://store.ui.com/us/en/collections/accessories-pro-box-cables/products/unifi-outdoor-cable)
 - Short-to-medium length Ethernet cable(s)
-- Power Strip(s)
+- Outdoor-rated power strip(s)
+- Outdoor-rated extension cord(s)    
+- outdoor-rated power splitter(s)
 - [Extension cords](https://www.newegg.com/black-monoprice-6-00-ft-others/p/0N6-01B8-002D6)
 - [PoE Injector/Splitter](https://www.newegg.com/p/2WG-00DK-00004)
 - [Ethernet to Ethernet adapter/coupler](https://www.newegg.com/p/0Y3-02J6-00001)
+- Pass-through Ethernet (RJ45) heads
 - [USB Type C to Ethernet adapter](https://www.ebay.com/itm/132225990432?epid=910384900&hash=item1ec9487f20:g:FhgAAOSwqiVdyN)
-- Mounting Tape
 
 ## Tools
 
-### Ethernet Cabling
+### Networking
 
 - [Ethernet cable crimper](https://www.homedepot.com/p/Klein-Tools-Compact-Ratcheting-Modular-Crimper-VDV226-107/204732347?source=shoppingads&locale=en-US&srsltid=AfmBOopOP-5p-ibEZ6Xg-9GSiYkxoTyprixZLrUXPKiSeqJMjNqTxc5oPwU)
 - CAT5e cable stripper
 - [Ethernet cable tester](https://www.lowes.com/pd/Klein-Tools-Cable-Tester-Kit-with-Scout-Pro-3-Tester-Remotes-Adapter-Battery/5014306081)
+- Mobile hotspot 
+- Unifi WifiMan spectrum analyzer 
 
 ### Hardware tools
 
 - Drill(s) - drill driver, hammer
-- Impact Driver
+- Impact driver
 - Drill bit set 
 - Cobalt / titanium drill bit (1/4")
 - Carbide-tip masonry drill bit (5/32")
@@ -82,26 +86,35 @@ See NYCMesh's [Networking Hardware](https://docs.nycmesh.net/hardware/) and [Ins
 - Snips
 - Needlenose pliers
 - Screwdrivers - Phillips, Flathead, Torx
-- Socket Wrenches
-- Tape Measure
+- Socket wrenches
+- Tape measure
+- Laser ruler
 - Fishtape/push rod
-- Files
+- Files - triangular, flat, round 
+- Adjustable crescent wrench (6")
+- Extra bag for carrying/lifting equipment 
+- Rope
+- Utility knife
+- Allen wrenches 
+- Wire stripper 
 
 ### Consumables
-
 - Concrete nails
 - Concrete screws (3/16" hex head CSH316134)
-- Adjustable crescent wrench (6")
 - Screws
 - Nails
-- Cable staples
 - Cable fastener clips
-- Small diameter (28) hose clamp
+- Hose clamps
 - Zipties
-- Electrical Tape
+- Electrical tape
+- Velcro strips 
+- Velcro cable ties 
+- PCW stickers 
 - Rubberized waterproof sealant
-- Velcro
+- Superglue
 
 ### PPE
-- Safety Glasses
+- Safety glasses
 - Work gloves 
+- KN95 masks
+- First aid Kit
