@@ -7,8 +7,12 @@ title: Documentation
 # Welcome to the Philly Community Wireless Docs!
 <!-- ## The PCW Project -->
 
+<!-- <figure style="">
+    <img src="/en/latest/assets/images/pcw_hero.svg" alt="" style="width: 100%; height: 100px;">
+</figure> -->
+
 <figure style="">
-    <img src="/assets/images/pcw_hero.svg" alt="" style="width: 100%; height: 100px;">
+    <img src="assets/images/pcw_hero.svg" alt="" style="width: 100%; height: 100px;">
 </figure>
 
 <!-- for formatting...h1 has lots of padding-bottom -->
