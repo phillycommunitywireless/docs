@@ -4,7 +4,7 @@ title: Documentation
 ---
 
 <!-- # Introduction -->
-# Welcome to the Philly Community Wireless Docs!
+# Welcome to the Philly Community Wireless Docs! :)
 <!-- ## The PCW Project -->
 
 <!-- <figure style="">
