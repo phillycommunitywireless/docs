@@ -1,14 +1,10 @@
-Deploy previews on `Netlify`
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ce7d15f5-6e93-4702-af89-265f90684dcd/deploy-status)](https://app.netlify.com/sites/pcw-docs-preview/deploys)
-
-Production deploy hosted on `ReadTheDocs`
-[![Documentation Status](https://readthedocs.org/projects/pcwdocs/badge/?version=latest)](https://docs.phillycommunitywireless.org/en/latest/?badge=latest)
-
 # PCW Documentation
 Technical documentation and onboarding materials for Philly Community Wireless.
 
+Deploy previews via `Render` ![Test](https://img.shields.io/badge/Render-Unknown-lightgrey?logo=render&style=for-the-badge)
+
 Built with [mkdocs](https://www.mkdocs.org) (via [Material Theme](https://squidfunk.github.io/mkdocs-material/)) 
-and deployed to [readthedocs.org](readthedocs.org)
+and deployed to [readthedocs.org](readthedocs.org) [![Documentation Status](https://readthedocs.org/projects/pcwdocs/badge/?version=latest)](https://docs.phillycommunitywireless.org/en/latest/?badge=latest)
 
 # Editing these docs
 Instructions to edit these docs via the web or locally are viewable at `organization/edit-docs.md`.
