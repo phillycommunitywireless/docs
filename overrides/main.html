@@ -9,13 +9,6 @@
   <meta http-equiv="pragma" content="no-cache" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  {% block extrahead %}
-    {{ super() }}
-    {% if page and page.meta.canonical_url %}
-      <link rel="canonical" href="{{ page.meta.canonical_url }}">
-    {% elif page %}
-      <link rel="canonical" href="{{ config.site_url ~ page.url }}">
-    {% endif %}
-  {% endblock %}
+  <link rel="canonical" href="{{ page.canonical_url | default(page.abs_url) }}">
 
 {% endblock %}
