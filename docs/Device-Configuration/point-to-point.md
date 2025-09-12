@@ -27,3 +27,4 @@ During installation, adjust mounting and alignment as needed.
 * Install the AP. 
 * Install the station pointing at the AP. 
 * If necessary, further align the devices - the LEDs will change color based off of alignment (blue = aligned, red/green = misaligned).  
+* **If you need to reset the UBBs, ensure you reset BOTH the access point and station. Reset the station first. If you do not do this, re-adoption will fail!** 
