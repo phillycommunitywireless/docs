@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting Devices
+title: Troubleshooting
 ---
 
 Not every device will work perfectly. Additionally, devices deployed outdoors will be exposed to the elements, primarily heat and moisture, and degrade naturally over time. 

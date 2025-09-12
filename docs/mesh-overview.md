@@ -3,7 +3,7 @@ title: What is a Mesh Network?
 ---
 
 ## What is a Mesh Network?
-Philly Community Wireless's goal, with assistance from [**PhillyWisper**](https://phillywisper.net/), is to address Philadelphia's digital divide with community-owned and -operated mesh network technologies.
+Philly Community Wireless's goal, with assistance from [**PhillyWisper**](https://phillywisper.net/), is to address Philadelphia's digital divide with community-owned and community-operated mesh network technologies.
 
 In a typical home network, all 'access points' (APs) are hard-wired to your router via Ethernet cable. In a mesh network, access points can not only be hard-wired, but connect to each other wirelessly, allowing a single Internet connection to be shared with significantly less infrastructure and labor than hard-wiring every single AP. 
 
