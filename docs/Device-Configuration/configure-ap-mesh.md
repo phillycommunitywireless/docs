@@ -48,7 +48,7 @@ The AP Mesh Units have had unexpected behavior even out of the box, so it is rec
 1. With the paperclip, press the reset button at the bottom of the AP Mesh Unit in until it clicks.
 2. Hold it pressed in for 5 seconds.
 3. The status light on the AP should flash, then go out as the device reboots. When it comes back on it should be solid white, indicating the reset was successful. 
-4. For more info on the status lights, refer to [LED Color Patterns for UniFi Devices](/device-configs/troubleshooting-devices/#unifi-ap-led-status-indicators)
+4. For more info on the status lights, refer to [LED Color Patterns for UniFi Devices](/Device-Configuration/troubleshooting-devices/#unifi-ap-led-status-indicators)
 
 Note: The AP Mesh Unit can take a few minutes to boot after being plugged in or reset, so wait until the status light is solid white,.
 

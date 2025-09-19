@@ -10,13 +10,13 @@ Philly Community Wireless has partnered with [**PhillyWisper**](https://phillywi
 
 Most installations proceed in the following order:
 
-1. **LoS Check** - A new address is submitted to us. We check if the address has line of sight (LoS) to a PhillyWisper high site using Google Earth and other mapping tools, as well as in-person building assessments. For more information, please see [Building Assessments](/installations/buildingassessment) page.
+1. **LoS Check** - A new address is submitted to us. We check if the address has line of sight (LoS) to a PhillyWisper high site using Google Earth and other mapping tools, as well as in-person building assessments. For more information, please see [Building Assessments](../buildingassessment) page.
 
 2. **Install Planning** - If there is LoS, we communicate with the resident or community organization to determine their connectivity needs. This helps us determine what sort of access points and networking equipment to bring, as well as how much cable we will need. Once the logistics for the initial install are determined, an install date is set! 
 
 3. **Establish uplink** - On the day of the install, PCW will begin by installing the uplink radio pointing back at a PhillyWisper high site, usually a [LiteBeam](https://store.ui.com/us/en/products/litebeam-5ac). This provides the internet connection. 
 
-4. **Deploy access points** - Once the uplink is set up, we can begin running cable on the roof or through the buliding and deploying WiFi access points as needed, either indoors or outdoors. For more info, see our [Configure AP-Mesh Guide](/device-configs/configure-ap-mesh) and our [Configure ERX Router Guide](/device-configs/configure-erx)
+4. **Deploy access points** - Once the uplink is set up, we can begin running cable on the roof or through the buliding and deploying WiFi access points as needed, either indoors or outdoors. For more info, see our [Configure AP-Mesh Guide](../../Device-Configuration/configure-ap-mesh) and our [Configure ERX Router Guide](../../Device-Configuration/configure-erx)
 
 During residential installs, we either broadcast a private network for the resident to use from the same access points broadcasting the public PCW network, or provide an additional router for the resident to have their own private network that gets its uplink from the PCW network. 
 
@@ -119,4 +119,4 @@ Finally, a Ubiquiti Mesh AP ("bunny ears" because look at them!) is connected to
 </figure>
 
 
-For more information on the mesh kit, see our [Configure AP-Mesh Guide](/device-configs/configure-ap-mesh)
+For more information on the mesh kit, see our [Configure AP-Mesh Guide](../../Device-Configuration/configure-ap-mesh)
