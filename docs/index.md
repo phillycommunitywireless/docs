@@ -36,15 +36,15 @@ Overviews the hardware necessary for the PCW project's infrastructure.
 
 This guide overviews the process for installing rooftop antennas as the foundation for the wireless mesh network and free public wifi.
 
-### [Configure Mesh AP](./device-configs/configure-ap-mesh/)
+### [Configure Mesh AP](./Device-Configuration/configure-ap-mesh/)
 
 This guide overviews the set-up of a mesh kit that can be installed in any home in close proximity (half a neighborhood block) to a rooftop antenna host.
 
-### [Configure EdgeRouter X](./device-configs/configure-erx/)
+### [Configure EdgeRouter X](./Device-Configuration/configure-erx/)
 
 The Configure ERX Router page explains the stage of setting up the router hosts of rooftop installations.
 
-### [Setting a static IP](./device-configs/static-ip/)
+### [Setting a static IP](./Device-Configuration/static-ip/)
 
 This guide overviews how to set up your computer with a static IP, so you can configure the router and mesh-kit.
 
