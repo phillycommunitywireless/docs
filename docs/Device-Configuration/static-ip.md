@@ -2,7 +2,7 @@
 title: Setting a static IP
 ---
 
-# Setting a static IP
+# Setting a static IP address
 
 This article contains instructions for setting your computer's Ethernet adapter to use a static IP address on the 192.168.1.\* subnet. This is a necessary step for connecting to certain network devices via Ethernet, and is used in our config instructions for the [EdgeRouter X](../configure-erx) and the [Mesh AP](../configure-ap-mesh).
 
