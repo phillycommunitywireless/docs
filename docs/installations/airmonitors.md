@@ -26,10 +26,14 @@ Real-time air quality data can be viewed on [PurpleAir's map](https://map.purple
 
 PCW-installed air monitors are present at:
 
-* Norris Square Neighborhood Project
+
 * Cesar Andreú Iglesias Community Garden 
-* GALAEI 
-* Kensington Library 
+* GALAEI
 * HACE - Caribe Tower
-* KCT Gardens
+* HACE - Somerset Villas
+* Kensington Library
 * Lillian Marrero Library
+* Multiple Residential Homes of PCW's Community
+* Norris Square Neighborhood Project
+* The Lighthouse 1893
+* West Kensington Ministry
