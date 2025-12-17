@@ -17,7 +17,7 @@ theme:
     - scheme: slate
       media: "(prefers-color-scheme: dark)"
       primary: black
-      accent: amber
+      accent: deep purple
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
@@ -32,14 +32,14 @@ theme:
 
 extra:
   homepage: https://phillycommunitywireless.org
-#  alternate:
-#    - name: English
-#      link: /en/latest
-#      lang: en
+  alternate:
+    - name: English
+      link: /en/latest
+      lang: en
 
-#    - name: Español
-#      link: /es/latest
-#      lang: es
+    - name: Español
+      link: /es/latest
+      lang: es
 
 markdown_extensions:
   - meta
