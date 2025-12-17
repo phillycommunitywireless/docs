@@ -1,5 +1,5 @@
 ---
-title: IoT Devices
+title: Configure IoT Devices
 ---
 # IoT Devices
 

@@ -17,7 +17,7 @@ theme:
     - scheme: slate
       media: "(prefers-color-scheme: dark)"
       primary: black
-      accent: amber
+      accent: deep purple
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
@@ -36,6 +36,7 @@ extra:
     - name: English
       link: /en/latest
       lang: en
+
     - name: Español
       link: /es/latest
       lang: es

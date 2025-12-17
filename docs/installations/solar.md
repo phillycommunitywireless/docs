@@ -4,11 +4,9 @@ title: Solar Mesh Nodes
 
 # Solar Mesh Node Overview
 
-PCW has commissioned and deployed solar mesh nodes designed by [Holobiont Lab](https://holobiontlab.org/). See their [meshbox docs](https://holobiontlab.org/r&d/meshbox) for info on how they build these solar-powered wifi access points.
+Designed by [Holobiont Lab](https://holobiontlab.org/), we install solar-powered wifi access points at gardens and other spaces where electricity is not available. For more information, see Holobiont' [meshbox docs](https://holobiontlab.org/r&d/meshbox).
 
-For troublshooting, see [troubleshooting](#troubleshooting) below
-
-# Specs
+# Hardware Specs
 
 * An enclosure
 * 25 -50W solar panel
@@ -54,8 +52,3 @@ Common issues include:
 * Connections between the enclosure and the charge controller, as well as the connections between the charge controller and AP.
     * There should be a **red** light on the charge controller, and a **green** light on the PoE injector. 
 * Low temperature or bad weather conditions
- 
-
-
-
-
