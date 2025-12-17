@@ -4,9 +4,9 @@ title: Hardware
 
 # Hardware
 
-The following materials are used for [Installations](/installations/installations), and further information about configuring many of these devices can be found in the guides in these docs.
+The following materials are used for [Installations](/installations/installations). Further information about configuring many of these devices can be found in the Installation guides in these docs.
 
-See NYCMesh's [Networking Hardware](https://docs.nycmesh.net/hardware/) and [Installation Equipment](https://docs.nycmesh.net/installs/equipment/) docs for further details and information on the materials below.
+See NYCMesh's [Networking Hardware](https://docs.nycmesh.net/hardware/) and [Installation Equipment](https://docs.nycmesh.net/installs/equipment/) docs for further details and information on the hardware and tools below.
 
 ## Networking Hardware
 ### Access Points
