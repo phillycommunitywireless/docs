@@ -1,8 +1,8 @@
 ---
-title: Troubleshooting
+title: Troubleshooting Outages
 ---
 
-Not every device will work perfectly. Additionally, devices deployed outdoors will be exposed to the elements, primarily heat and moisture, and degrade naturally over time. 
+Not every device will work perfectly. Additionally, devices deployed outdoors will be exposed to the elements, primarily heat and moisture, and degrade naturally over time. With that said, outdoor access points have often lasted 5 years or longer. In Philadelphia, we rarely encounter inclement weather that damages our radios.  
 
 ## Unifi AP LED Status Indicators
 
