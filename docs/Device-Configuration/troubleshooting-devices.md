@@ -58,3 +58,8 @@ Please see [this page](https://help.ui.com/hc/en-us/articles/204910134-Understan
 **Potential Causes and Fixes**:
 
 * **Flawed power connection/Ethernet cable if PoE** - Test the ERX with a different 9v power supply and check if the ERX comes online. Try switching to a different 9v power supply. If using PoE, ensure the voltage is correct.
+
+## Useful Terminal Commands for Networking 
+* `ipconfig` (Windows)/`ifconfig` (Unix) - display network interfaces and related information - IP address, subnet mask, and default gateway. 
+* `arp -a` (Windows/Unix)- Show the Address Resolution Protocol (ARP) table - the mapping of IP addresses/MAC addresses. 
+    * `ip neigh show` - Equivalent command.  
