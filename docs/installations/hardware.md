@@ -1,5 +1,5 @@
 ---
-title: Hardware
+title: Hardware and Tools
 ---
 
 # Hardware
