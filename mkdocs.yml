@@ -6,6 +6,7 @@ theme:
   language: en
   logo: assets/icons/logo.svg
   favicon: assets/icons/favicon/favicon.ico
+  site_favicon: favicon.ico
   custom_dir: overrides
   features:
     # Enable this if searching ever becomes slow
