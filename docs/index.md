@@ -18,44 +18,32 @@ title: Home
 <!-- for formatting...h1 has lots of padding-bottom -->
 #
 
-**Philly Community Wireless** (PCW) is led by a working group of community organizers, technologists, academics, and public librarians in Philadelphia. During a time of social distancing and online teaching, roughly half of city public school students lack a wifi connection at home. In certain neighborhoods, even more residents lack any connection to the Internet. We seek to address the city's digital divide with **community-owned and community-operated mesh network technologies.**
+**Philly Community Wireless** (PCW) is led by a working group of community organizers, technologists, academics, and public librarians in Philadelphia. During a time of social distancing and online teaching, roughly half of city public school students lack a wifi connection at home. In certain neighborhoods, even more residents lack any connection to the Internet. We seek to address the city's digital divide with **community-owned and community-operated wireless mesh networks.**
 
-Mesh networks allow a single Internet connection to be shared among a broader group of users with very little cost or infrastructure required. With the help of [**PhillyWisper**](https://phillywisper.net/), a pro-net neutrality, wireless internet service provider, we are working toward installing two pilot sites in **Kensington** and **Fairhill**. From there, we will plan participatory design workshops and technical training for the community that will empower them to maintain and grow this free network connection.
+Mesh networks allow a single Internet connection to be shared among a broader group of users with very little cost or infrastructure required. With the help of [**PhillyWisper**](https://phillywisper.net/), a pro-net neutrality, wireless internet service provider, we are actively installing internet throughout **Kensington** and **Fairhill**, in public and private areas of North Philadelphia. You can see our network's geographic scope on our [webmap](https://phillycommunitywireless.org/networklocation/).
 
 ## The PCW Docs
 
-This docs page provides in-development technical information and guides for replicating the project's configuration and distribution of routers and antennas for building a mesh network.
+This docs page provides technical information and guides for individuals or organizations looking to contribute to or replicate elsewhere the organization's configuration and installation of routers and antennas for building a large-scale public wireless mesh network.
 
 If you are looking for a **non-technical overview** of the project, or are interested in signing up for PCW coverage, please visit our [homepage](https://phillycommunitywireless.org).
 
-### [Hardware](./installations/hardware/)
+If you have additional questions, please don't hesitate to reach out at info@phillycommunitywireless.org.
 
+### [Hardware](./installations/hardware/)
 Overviews the hardware necessary for the PCW project's infrastructure.
 
 ### [Installations](./installations/installations/)
-
-This guide overviews the process for installing rooftop antennas as the foundation for the wireless mesh network and free public wifi.
+Covers the process for installing rooftop antennas as the foundation for the wireless mesh network and free public wifi.
 
 ### [Configure Mesh AP](./Device-Configuration/configure-ap-mesh/)
-
-This guide overviews the set-up of a mesh kit that can be installed in any home in close proximity (half a neighborhood block) to a rooftop antenna host.
+Guide to set-up a Unifi mesh AP that can be installed in any home in close proximity (half a neighborhood block) to a rooftop antenna host.
 
 ### [Configure EdgeRouter X](./Device-Configuration/configure-erx/)
+Guide to set up the ERX router for installing points-of-presence at rooftop antenna.
 
-The Configure ERX Router page explains the stage of setting up the router hosts of rooftop installations.
+### [Networking and Computer Configuration](./Device-Configuration/configure-computer/)
+Tutorials on how to set up your computer with a static IP, so you can configure the router and mesh-kit, and how to share your internet access with other computers.
 
-### [Setting a static IP](./Device-Configuration/static-ip/)
-
-This guide overviews how to set up your computer with a static IP, so you can configure the router and mesh-kit.
-
-### [Editing this site](./organization/edit-docs)
-
-If you'd like to contribute to PCW's docs, please see our guidelines.
-
-### [Scholarly Resources](./organization/resources/)
-
-This page overviews secondary resources on the problems of broadband access and digital inequity in urban cities like Philadelphia.
-
-### [Software we use](./organization/software)
-
-Overviews the software used by the PCW team.
+### [Informational Resources](./organization/resources/)
+Oerviews secondary resources on the problems of broadband access and digital inequity in urban cities like Philadelphia.
