@@ -10,9 +10,9 @@ Philly Community Wireless has partnered with [**PhillyWisper**](https://phillywi
 
 Most installations proceed in the following order:
 
-1. **LoS Check** - A new address is submitted to us. We check if the address has line of sight (LoS) to a PhillyWisper high site using Google Earth and other mapping tools, as well as in-person building assessments. For more information, please see [Building Assessments](../buildingassessment) page.
+1. **Building Assessment** - A new address is submitted to us. We check if the address has line of sight (LoS) to a PhillyWisper high site using Google Earth and other mapping tools, and we conduct both remote and in-person building assessments as part of developing an install plan. For more information, please see [Building Assessments](../buildingassessment) page.
 
-2. **Install Planning** - If there is LoS, we communicate with the resident or community organization to determine their connectivity needs. This helps us determine what sort of access points and networking equipment to bring, as well as how much cable we will need. Once the logistics for the initial install are determined, an install date is set! 
+2. **Install Planning** - If there is LoS, we communicate with the resident or community organization to determine their connectivity needs, as well as needs of neighbors and the general area. This helps us determine what sort of access points and networking equipment to bring, as well as how much cable we will need. Once the logistics for the initial install are determined, an install date is set! 
 
 3. **Establish uplink** - On the day of the install, PCW will begin by installing the uplink radio pointing back at a PhillyWisper high site, usually a [LiteBeam](https://store.ui.com/us/en/products/litebeam-5ac). This provides the internet connection. 
 
@@ -85,13 +85,11 @@ The mast on the right has PTMP radios with symmetrical horn antennas. The radios
 
 The square-ish white device between and below the masts is a Ubiquiti EP-S16, an outdoor rated network switch. 54 VDC power is supplied to the EP-S16 which in turns provides power to the radios using POE (power of Ethernet). -->
 
-## Mesh-kit Install for Rooftop Antenna Hosts
+## Outdoor Access Points Overview 
 
-Hosts of rooftop installations will also host a router in the house near the window to the front of the house. In some cases we may install a wall-mounted antenna on the outside of the house to propagate the broadband signal throughout the neighborhood.
+Hosts of rooftop installations will also host a router in the house near the window to the front of the house. In some cases we may install a wall-mounted acess point on the outside of the house to propagate the broadband signal throughout the neighborhood.
 
-We provide a kit with a PoE injector and a bunny-ears mesh AP. Philly Community Wireless can install the kit, or the resident can install the bunny ears in any location within their home, as long as other mesh APs are within radio range (we’re planning on suggesting the entrance of the house or the porch -- the APs are weatherproof).
-
-### Mesh Kit Overview
+### Indoor Router and Access Points Overview
 
 The Ethernet cable is passed through a Power-over-Ethernet (PoE) injector, which adds power to the signal the Ethernet cable is carrying and allows downstream devices to be powered solely through Ethernet.
 
@@ -119,4 +117,6 @@ Finally, a Ubiquiti Mesh AP ("bunny ears" because look at them!) is connected to
 </figure>
 
 
-For more information on the mesh kit, see our [Configure AP-Mesh Guide](../../Device-Configuration/configure-ap-mesh)
+For more information on configuring our access points, see our [Configure AP-Mesh Guide](../../Device-Configuration/configure-ap-mesh)
+
+
