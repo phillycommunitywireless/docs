@@ -1,5 +1,5 @@
 ---
-title: Setting a static IP
+title: Configure Computer
 ---
 
 This page reviews how to configure your computer, to be able to connect to the networking devices. We review setting a static IP address and sharing internet with other computers. 
