@@ -32,13 +32,14 @@ theme:
 
 extra:
   homepage: https://phillycommunitywireless.org
-  alternate:
-    - name: English
-      link: /en/latest
-      lang: en
-    - name: Español
-      link: /es/latest
-      lang: es
+#  alternate:
+#    - name: English
+#      link: /en/latest
+#      lang: en
+
+#    - name: Español
+#      link: /es/latest
+#      lang: es
 
 markdown_extensions:
   - meta
