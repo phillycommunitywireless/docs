@@ -87,7 +87,7 @@ The square-ish white device between and below the masts is a Ubiquiti EP-S16, an
 
 ## Outdoor Access Points Overview 
 
-Hosts of rooftop installations will also host a router in the house near the window to the front of the house. In some cases we may install a wall-mounted acess point on the outside of the house to propagate the broadband signal throughout the neighborhood.
+Hosts of rooftop installations will also host a router in the house near the window to the front of the house. In some cases we may install a wall-mounted access point on the outside of the house to propagate the broadband signal throughout the neighborhood.
 
 ### Indoor Router and Access Points Overview
 
