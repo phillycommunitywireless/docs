@@ -34,11 +34,10 @@ extra:
   homepage: https://phillycommunitywireless.org
   alternate:
     - name: English
-      link: /en/latest
+      link: /en/
       lang: en
-
     - name: Español
-      link: /es/latest
+      link: /es/
       lang: es
 
 markdown_extensions:
