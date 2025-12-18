@@ -2,24 +2,10 @@
 title: Home
 
 ---
-
-<!-- # Introduction -->
 # Welcome to the Philly Community Wireless Docs!
-<!-- ## The PCW Project -->
-
-<!-- <figure style="">
-    <img src="/en/latest/assets/images/pcw_hero.svg" alt="" style="width: 100%; height: 100px;">
-</figure> -->
-
-<figure style="">
-    <img src="assets/images/pcw_hero.svg" alt="" style="width: 100%; height: 100px;">
-</figure>
-
-<!-- for formatting...h1 has lots of padding-bottom -->
 
 **Philly Community Wireless** (PCW) is building community-controlled wireless internet networks in Philadelphia. We aim to provide a baseline of internet access for everyone, enhancing quality of life today and positioning communities for a more healthy and prosperous tomorrow. With the help of [**PhillyWisper**](https://phillywisper.net/), a pro-net neutrality, wireless internet service provider, we are actively installing internet throughout **Kensington** and **Fairhill**, in public and private areas of North Philadelphia. You can see our network's geographic scope on our [webmap](https://phillycommunitywireless.org/networklocation/).
 
-## The PCW Docs
 Our community wireless mesh network allows us to share Internet connections among a broader group of users with very little cost for the infrastructure. This docs page provides technical information and guides for individuals or organizations looking to contribute to or replicate elsewhere the organization's configuration and installation of routers and antennas for building a large-scale public wireless mesh network.
 
 If you are looking for a **non-technical overview** of the project, or are interested in signing up for PCW coverage, please visit our [homepage](https://phillycommunitywireless.org).
