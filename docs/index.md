@@ -16,19 +16,18 @@ title: Home
 </figure>
 
 <!-- for formatting...h1 has lots of padding-bottom -->
-#
 
-**Philly Community Wireless** (PCW) is led by a working group of community organizers, technologists, academics, and public librarians in Philadelphia. During a time of social distancing and online teaching, roughly half of city public school students lack a wifi connection at home. In certain neighborhoods, even more residents lack any connection to the Internet. We seek to address the city's digital divide with **community-owned and community-operated wireless mesh networks.**
-
-Mesh networks allow a single Internet connection to be shared among a broader group of users with very little cost or infrastructure required. With the help of [**PhillyWisper**](https://phillywisper.net/), a pro-net neutrality, wireless internet service provider, we are actively installing internet throughout **Kensington** and **Fairhill**, in public and private areas of North Philadelphia. You can see our network's geographic scope on our [webmap](https://phillycommunitywireless.org/networklocation/).
+**Philly Community Wireless** (PCW) is building community-controlled wireless internet networks in Philadelphia. We aim to provide a baseline of internet access for everyone, enhancing quality of life today and positioning communities for a more healthy and prosperous tomorrow. With the help of [**PhillyWisper**](https://phillywisper.net/), a pro-net neutrality, wireless internet service provider, we are actively installing internet throughout **Kensington** and **Fairhill**, in public and private areas of North Philadelphia. You can see our network's geographic scope on our [webmap](https://phillycommunitywireless.org/networklocation/).
 
 ## The PCW Docs
-
-This docs page provides technical information and guides for individuals or organizations looking to contribute to or replicate elsewhere the organization's configuration and installation of routers and antennas for building a large-scale public wireless mesh network.
+Our community wireless mesh network allows us to share Internet connections among a broader group of users with very little cost for the infrastructure. This docs page provides technical information and guides for individuals or organizations looking to contribute to or replicate elsewhere the organization's configuration and installation of routers and antennas for building a large-scale public wireless mesh network.
 
 If you are looking for a **non-technical overview** of the project, or are interested in signing up for PCW coverage, please visit our [homepage](https://phillycommunitywireless.org).
 
 If you have additional questions, please don't hesitate to reach out at info@phillycommunitywireless.org.
+
+### [Informational Resources](./organization/resources/)
+Oerviews secondary resources on the problems of broadband access and digital inequity in urban cities like Philadelphia.
 
 ### [Hardware](./installations/hardware/)
 Overviews the hardware necessary for the PCW project's infrastructure.
@@ -36,14 +35,11 @@ Overviews the hardware necessary for the PCW project's infrastructure.
 ### [Installations](./installations/installations/)
 Covers the process for installing rooftop antennas as the foundation for the wireless mesh network and free public wifi.
 
-### [Configure Mesh AP](./Device-Configuration/configure-ap-mesh/)
+### [Configuring Mesh AP](./Device-Configuration/configure-ap-mesh/)
 Guide to set-up a Unifi mesh AP that can be installed in any home in close proximity (half a neighborhood block) to a rooftop antenna host.
 
-### [Configure EdgeRouter X](./Device-Configuration/configure-erx/)
+### [Configuring EdgeRouter X](./Device-Configuration/configure-erx/)
 Guide to set up the ERX router for installing points-of-presence at rooftop antenna.
 
 ### [Networking and Computer Configuration](./Device-Configuration/configure-computer/)
 Tutorials on how to set up your computer with a static IP, so you can configure the router and mesh-kit, and how to share your internet access with other computers.
-
-### [Informational Resources](./organization/resources/)
-Oerviews secondary resources on the problems of broadband access and digital inequity in urban cities like Philadelphia.
