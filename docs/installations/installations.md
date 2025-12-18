@@ -30,27 +30,7 @@ For most locations, we first install a Ubiquiti LiteBeam antenna on the roof of 
 
 The rooftop radio gets powered via outdoor-rated Ethernet cable that runs into the home (our equipment uses Power over Ethernet (PoE), so we can power outdoor devices with Ethernet from an indoor outlet). We make sure the wire run is as inconspicuous and secure as possible. We try to use preexisting penetrations into the building from previous ISPs, and we seal any holes to the exterior.
 
-## Installation Examples
-
-### Non-Penetrating Roof Mounts
-We utilize non-penetrating roof mounts (NPRM). A thick rubber mat is placed below the NPRM to protect the roof. Cinderblocks are used as ballast to secure the NPRM:
-
-<figure style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-    <img src="../../assets/images/installations/install/image2.jpg"
-         alt=""
-         style="width: 80%;">
-    <figcaption>A non-penetrating roof mount</figcaption>
-</figure>
-
-<figure style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-    <img src="../../assets/images/installations/install/image7.jpg"
-         alt=""
-         style="width: 80%;">
-    <figcaption>Another example of a non-penetrating roof mount</figcaption>
-</figure>
-
-### Mounting on existing roof structures
-We also often use j-arm mounts or previously existing mounts from previous telecommunications installations (old TV/Satellite antennas)to mount our equipment: 
+In general, we will install a Ubiquiti LiteBeam antenna on the roof of the home, which receives signal from a PhillyWisper tower. The antenna is wired into the home via an Ethernet cable. Currently, this part of the install must be completed by a PhillyWisper technician. For installation purposes, this means PhillyWisper technicians will need to mount a small radio antenna (approx 14" x 11" x 11") at roof height and precision aim it at the closest tower.
 
 <figure style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
     <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
@@ -59,6 +39,27 @@ We also often use j-arm mounts or previously existing mounts from previous telec
     <figcaption>LiteBeam mounted via J-arm on a chimmney</figcaption>
 </figure>
 
+PhillyWisper and Philly Commuinity Wireless take every effort to minimally impact buildings during installation. They use non-invasive techniques when mounting the radio (see attached images of various mounting techniques below). They never penetrate the roofing system itself and they try and utilize preexisting structures (chimneys, vent pipes, etc) when possible.
+
+If preexisting structures aren't an option, they will use a non-penetrating roof mount, which is properly weighed down and rests on a rubber mat on top of your roof. They then secure an outdoor-rated network cable from the radio on the roof, down along the building exterior, and inside where your WiFi router will be located.
+
+Both PhillyWisper and Philly Community Wireless make sure the wire run is as inconspicuously as possible and ensure there is plenty of tension on the wire so that it doesn't flap in the wind. If there are any preexisting penetrations entering the building from previous ISPs, they will use that if possible and caulk when finished.
+
+## Installation Examples
+
+### Non-Penetrating Roof Mounts
+We utilize non-penetrating roof mounts (NPRM). A thick rubber mat is placed below the NPRM to protect the roof. 4 cinderblocks are used as ballast to secure the NPRM.
+
+<figure style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    <img src="../../assets/images/installations/install/image7.jpg"
+         alt=""
+         style="width: 80%;">
+    <figcaption>A  non-penetrating roof mount with a Litebeam attached</figcaption>
+</figure>
+
+### Mounting on existing roof structures
+We also often use j-arm mounts or pre-existing mounts from prior telecommunications installations (old Satellite dishes)to mount our equipment. 
+
 <figure style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
     <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
         <img src="../../assets/images/installations/install/image9.jpg" width="80%">
@@ -66,18 +67,9 @@ We also often use j-arm mounts or previously existing mounts from previous telec
     <figcaption>A LiteBeam mounted on a previously-installed mast on a chimmney</figcaption>
 </figure>
 
+## WiFi Access Points Overview 
 
-<!-- ### Wall-Mounted Antennas
-
-The following image displays two wall-mounted masts with radios along with an outdoor switch and junction box.
-
-The mast on the left has a Ubiquiti AF-24 radio that operates at 24 GHz and provides a 1.4 Gbps back-haul connection to the data center.
-
-The mast on the right has PTMP radios with symmetrical horn antennas. The radios provide service to individual customers.
-
-The square-ish white device between and below the masts is a Ubiquiti EP-S16, an outdoor rated network switch. 54 VDC power is supplied to the EP-S16 which in turns provides power to the radios using POE (power of Ethernet). -->
-
-## Outdoor Access Points Overview 
+### Outdoor Wifi APs
 Hosts of rooftop installations will also host a router in the house near the window to the front of the house. In some cases we may install a wall-mounted access point on the outside of the house to propagate the broadband signal throughout the neighborhood.
 
 ### Indoor Router and Access Points Overview

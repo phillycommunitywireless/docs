@@ -3,14 +3,12 @@ title: Configure EdgeRouter X
 ---
 
 # Configure EdgeRouter X
-
 This guide will walk you through configuring a Ubiquiti EdgeRouter X.
 
 ## LiteBeam Setup
 This method configures the ERX to be used at a PCW install site, connecting to the Internet via LiteBeam.
 
 ### Required Hardware
-
 - [ERX router](https://store.ui.com/collections/operator-edgemax-routers/products/edgerouter-x) and power cable
 - Ethernet cable
 - Computer
@@ -24,7 +22,6 @@ This method configures the ERX to be used at a PCW install site, connecting to t
 </figure>
 
 ### 1) Wire up ERX
-
 1. Plug the ERX into its power cable, and plug the power cable into an outlet.
 2. Connect the `eth0` port of the ERX to your computer with an Ethernet cable, using the USB Ethernet adapter if you don't have an Ethernet port.
 
@@ -41,13 +38,10 @@ This method configures the ERX to be used at a PCW install site, connecting to t
     <figcaption>Connect 'eth0' to your computer's Ethernet port/USB Ethernet adapter</figcaption>
 </figure>
 
-
 ### 2) Configure your network settings
-
 Follow the instructions here: [Setting a static IP for your computer](./static-ip.md)
 
 ### 3a) Configure ER-X using Wizard
-
 1. Navigate to the portal at [https://192.168.1.1](https://192.168.1.1) in your browser
 2. Log into the portal with username `ubnt`, password `ubnt`.
 <figure style="display: flex; align-items: center; flex-direction: column;">
@@ -77,7 +71,6 @@ Follow the instructions here: [Setting a static IP for your computer](./static-i
 To double check if a device is properly configured, check the settings under the `Dashboard` and `System` tabs. To verify WAN is set to `eth4,` visit the `Firewall/Nat` section. Under the NAT tab, see if `Masquerade` is set to `eth4` for the WAN masquerade.
 
 ### 3b) Configure ER-X using Config File
-
 1. Download the [ERX config file](../assets/configs/erx-config.tar.gz)
 2. Navigate to the portal at [https://192.168.1.1](https://192.168.1.1) in your browser
 3. Log into the portal with username `ubnt`, password `ubnt` as above.
@@ -152,9 +145,7 @@ This method allows the ERX to connect to the Internet through your home router.
 
 16. If needed, update the ERX's firmware. 
 
-
 ## Installation Notes
-
 When installing the ER-X at a house with a rooftop Litebeam and a Mesh AP, remember the typical setup is:
 
 1. Port `eth0` serves as the passthrough for POE from an adaptor plugged into an outlet.

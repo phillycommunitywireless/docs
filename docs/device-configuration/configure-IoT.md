@@ -3,7 +3,7 @@ title: Configure IoT Devices
 ---
 # IoT Devices
 
-## How to use your IoT (Chromecast, Roku, Firestick, etc) devices on the PCW network
+## How to use your IoT Streaming (Chromecast, Roku, Firestick, etc) devices on the PCW public network
 The public 'Philly Community Wireless' network is not set up for Internet of Things (IoT) devices like Chromecast, Roku and Firestick to work consistently. 
 
 If you are having trouble with them on our network, we have a hidden network called 'PCW_HIDDEN' which is set up so that those devices work best. 

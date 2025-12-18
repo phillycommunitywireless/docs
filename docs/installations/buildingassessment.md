@@ -17,8 +17,7 @@ To assess a building for installation, we have to ask the following questions:
     * LiteBeams are ideally installed on the roof, either via pre-existing roof structure, j-arm mount on the wall, or non-penetrating roof mount. 
     * Do we have permission to mount on the building or on structures on the roof?
     * PCW only installs on flat roofs, with rare exceptions. 
-
-    
+ 
 * **Is there access to power?**
     * If outdoors, is the power source protected? 
     * Will the power source need to be used by something else? Is it accessible to others who could unplug our equipment? 
@@ -33,7 +32,6 @@ To assess a building for installation, we have to ask the following questions:
     * Is there pre-existing Internet infrastructure (previous coaxial or fiber installations) we need to be mindful of? Cables running in parallel can interfere with each other, degrading performance for both connections 
 
 * **If maintenance is required, will we be able to return in the future?**
-
 As an example, this is an ideal install site: 
 
 <figure style="display: flex; align-items: center; flex-direction: column;">
@@ -46,4 +44,3 @@ As an example, this is an ideal install site:
 * The roof is clear of debris and is flat, with plenty of space for non-penetrating roof mounts. 
 * The building is taller than almost every other building in the area, giving it free LoS to both PhillyWisper high sites and other potential PtP/PtMP sites.
 * There is power on the roof, in this case covered GFCIs.
-
