@@ -1,2 +1,5 @@
 .venv
 site
+.DS_Store
+Pipfile
+Pipfile.lock
