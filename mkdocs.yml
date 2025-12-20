@@ -30,16 +30,16 @@ theme:
         icon: material/weather-night
         name: Switch to dark mode
 
-extra:
-  homepage: https://phillycommunitywireless.org
-  alternate:
-    - name: English
-      link: /en/latest
-      lang: en
+# extra:
+#  homepage: https://phillycommunitywireless.org
+#  alternate:
+#    - name: English
+#      link: /en/latest
+#      lang: en
 
-    - name: Español
-      link: /es/latest
-      lang: es
+#    - name: Español
+#      link: /es/latest
+#      lang: es
 
 markdown_extensions:
   - meta
