@@ -3,11 +3,9 @@ title: Solar Mesh Nodes
 ---
 
 # Solar Mesh Node Overview
-
 Designed by [Holobiont Lab](https://holobiontlab.org/), we install solar-powered wifi access points at gardens and other spaces where electricity is not available. For more information, see Holobiont' [meshbox docs](https://holobiontlab.org/r&d/meshbox).
 
 # Hardware Specs
-
 * An enclosure
 * 25 -50W solar panel
 * Any assortment of appropriate repurposed batteries nominal 24v
@@ -16,7 +14,6 @@ Designed by [Holobiont Lab](https://holobiontlab.org/), we install solar-powered
 * A mesh node : starting with the Ubiquity mesh access point
 
 # Deployments
-
 PCW installed a solar mesh node in Norris Square Neighborhood Projects Colobo Gardens in 2021, and it only recently needed to be fixed with a replacement battery. Here are a few photos of what the setup looks like.
 
 <figure style="display: flex; align-items: center; flex-direction: column;">

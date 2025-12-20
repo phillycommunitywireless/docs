@@ -3,3 +3,4 @@ site
 .DS_Store
 Pipfile
 Pipfile.lock
+docs.code-workspace
