@@ -21,11 +21,11 @@ Overviews the hardware necessary for the PCW project's infrastructure.
 ### [Installations](./installations/installations/)
 Covers the process for installing rooftop antennas as the foundation for the wireless mesh network and free public wifi.
 
-### [Configuring Mesh AP](./Device-Configuration/configure-ap-mesh/)
+### [Configuring Mesh AP](./device-configuration/configure-ap-mesh/)
 Guide to set-up a Unifi mesh AP that can be installed in any home in close proximity (half a neighborhood block) to a rooftop antenna host.
 
-### [Configuring EdgeRouter X](./Device-Configuration/configure-erx/)
+### [Configuring EdgeRouter X](./device-configuration/configure-erx/)
 Guide to set up the ERX router for installing points-of-presence at rooftop antenna.
 
-### [Networking and Computer Configuration](./Device-Configuration/configure-computer/)
+### [Networking and Computer Configuration](./device-configuration/configure-computer/)
 Tutorials on how to set up your computer with a static IP, so you can configure the router and mesh-kit, and how to share your internet access with other computers.
