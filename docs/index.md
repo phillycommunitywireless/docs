@@ -24,7 +24,7 @@ Covers the process for installing rooftop antennas as the foundation for the wir
 ### [Configuring Mesh AP](./device-configuration/configure-ap-mesh/)
 Guide to set-up a Unifi mesh AP that can be installed in any home in close proximity (half a neighborhood block) to a rooftop antenna host.
 
-### [Configuring EdgeRouter X](./device-configuration/configure-erx/)
+### [Configuring EdgeRouter X](./device-configuration/configure-edgerouter-x/)
 Guide to set up the ERX router for installing points-of-presence at rooftop antenna.
 
 ### [Networking and Computer Configuration](./device-configuration/configure-computer/)
