@@ -10,7 +10,7 @@ Each Unifi AP has an LED which indicates its current status.
 * **LED Off** - The AP is offline. 
 * **Flashing White** - The AP is receiving power and booting up 
 * **Steady White** - The AP has finished configuration and is ready for adoption. 
-    * See [Configure Unifi Mesh AP](/Device-Configuration/configure-ap-mesh) for adoption instructions. 
+    * See [Configure Unifi Mesh AP](configure-ap-mesh.md) for adoption instructions. 
 * **Steady Blue** - The AP is adopted and operating normally; in our case, broadcasting the Philly Community Wireless network. 
 * **Flashing White/Blue** - The AP's firmware is being updated. **Do not unplug the AP**.
 * **Flashing Blue** - The AP has lost connectivity and is searching for a parent AP or uplink. 
@@ -31,13 +31,13 @@ Please see [this page](https://help.ui.com/hc/en-us/articles/204910134-Understan
 
 **Potential Causes and Fixes**
 * **Assigned a non-default IP address** - The factory configuration of most Unifi devices sets their IP to `192.168.1.20` pre-adoption; however, if that address is already taken, the device may be assigned another IP address. Try using `arp -a` to find the AP.
-* **Ensure your static IP address is correctly assigned** - Review the instructions in [Setting a static IP](/Device-Configuration/static-ip) and ensure you are using the `192.168.1.x` subnet.
+* **Ensure your static IP address is correctly assigned** - Review the instructions in [Setting a static IP](configure-computer.md#setting-a-static-ip-address) and ensure you are using the `192.168.1.x` subnet.
 
 ### Adoption request sent, but device doesn't appear in controller
 * **Observations** - Device appears online and adoption request sent via `sudo set-inform`, but adoption request does not appear in controller.
 
 **Potential Causes and Fixes**
-* **Ensure the device is connected to the Internet** - Review the instructions in [Sharing a WiFi connection over Ethernet](/Device-Configuration/shared-connection) and ensure the AP can access the Internet
+* **Ensure the device is connected to the Internet** - Review the instructions in [Sharing a WiFi connection over Ethernet](configure-computer.md#sharing-a-wifi-connection-over-ethernet) and ensure the AP can access the Internet
 * **Refresh the controller** - There can sometimes be a delay in sending the request and the request appearing in the controller.
 
 ### Device is 'isolated'

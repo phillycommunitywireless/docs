@@ -10,13 +10,13 @@ Philly Community Wireless seeks to build community-owned and community-operated 
 ## Rooftop Installation Process
 Most installations proceed in the following order:
 
-1. **Building Assessment** - A new address is submitted to us. We check if the address has line of sight (LoS) to a PhillyWisper high site using Google Earth and other mapping tools, and we conduct both remote and in-person building assessments as part of developing an install plan. For more information, please see [Building Assessments](../buildingassessment) page.
+1. **Building Assessment** - A new address is submitted to us. We check if the address has line of sight (LoS) to a PhillyWisper high site using Google Earth and other mapping tools, and we conduct both remote and in-person building assessments as part of developing an install plan. For more information, please see [Building Assessments](buildingassessment.md) page.
 
 2. **Install Planning** - If there is LoS, we communicate with the resident or community organization to determine their connectivity needs, as well as needs of neighbors and the general area. This helps us determine what sort of access points and networking equipment to bring, as well as how much cable we will need. Once the logistics for the initial install are determined, an install date is set! 
 
 3. **Establish uplink** - On the day of the install, PCW will begin by installing the uplink radio pointing back at a PhillyWisper high site, usually a [LiteBeam](https://store.ui.com/us/en/products/litebeam-5ac). This provides the internet connection. 
 
-4. **Deploy access points** - Once the uplink is set up, we can begin running cable on the roof or through the buliding and deploying WiFi access points as needed, either indoors or outdoors. For more info, see our [Configure AP-Mesh Guide](../../Device-Configuration/configure-ap-mesh) and our [Configure ERX Router Guide](../../Device-Configuration/configure-erx)
+4. **Deploy access points** - Once the uplink is set up, we can begin running cable on the roof or through the buliding and deploying WiFi access points as needed, either indoors or outdoors. For more info, see our [Configure AP-Mesh Guide](../device-configuration/configure-ap-mesh.md) and our [Configure ERX Router Guide](../device-configuration/configure-edgerouter-x.md)
 
 During residential installs, we either broadcast a private network for the resident to use from the same access points broadcasting the public PCW network, or provide an additional router for the resident to have their own private network that gets its uplink from the PCW network. 
 
@@ -98,7 +98,7 @@ Finally, a Ubiquiti Mesh AP ("bunny ears" because look at them!) is connected to
     <figcaption>A Unifi UAP-AC-Mesh, or "bunny ears"</figcaption>
 </figure>
 
-For more information on configuring our access points, see our [Configure AP-Mesh Guide](../../Device-Configuration/configure-ap-mesh)
+For more information on configuring our access points, see our [Configure AP-Mesh Guide](../device-configuration/configure-ap-mesh.md)
 
 ## Considerations When Installing a Mesh Node
 Mesh nodes are installations where we do not use a Litebeam, but instead set up a wireless access point that meshes from a nearby access point wired to a router and Litebeam at a local hub. As documented by [Unifi](https://help.ui.com/hc/en-us/articles/115002262328-Considerations-for-Optimal-Wireless-Mesh-Networks), several factors must be considered when building a mesh network:

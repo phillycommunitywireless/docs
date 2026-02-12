@@ -12,20 +12,20 @@ If you are looking for a **non-technical overview** of the project, or are inter
 
 If you have additional questions, please don't hesitate to reach out at info@phillycommunitywireless.org.
 
-### [Informational Resources](./resources/)
+### [Informational Resources](resources.md)
 Overviews secondary resources on the problems of broadband access and digital inequity in urban cities like Philadelphia.
 
-### [Hardware](./installations/hardware/)
+### [Hardware](installations/hardware.md)
 Overviews the hardware necessary for the PCW project's infrastructure.
 
-### [Installations](./installations/installations/)
+### [Installations](installations/installations.md)
 Covers the process for installing rooftop antennas as the foundation for the wireless mesh network and free public wifi.
 
-### [Configuring Mesh AP](./device-configuration/configure-ap-mesh/)
+### [Configuring Mesh AP](device-configuration/configure-ap-mesh.md)
 Guide to set-up a Unifi mesh AP that can be installed in any home in close proximity (half a neighborhood block) to a rooftop antenna host.
 
-### [Configuring EdgeRouter X](./device-configuration/configure-edgerouter-x/)
+### [Configuring EdgeRouter X](device-configuration/configure-edgerouter-x.md)
 Guide to set up the ERX router for installing points-of-presence at rooftop antenna.
 
-### [Networking and Computer Configuration](./device-configuration/configure-computer/)
+### [Networking and Computer Configuration](device-configuration/configure-computer.md)
 Tutorials on how to set up your computer with a static IP, so you can configure the router and mesh-kit, and how to share your internet access with other computers.
