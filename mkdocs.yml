@@ -1,5 +1,5 @@
 site_name: Philly Community Wireless Docs
-site_url: https://docs.phillycommunitywireless.org
+site_url: https://docs.phillycommunitywireless.org/en/latest/
 
 theme:
   name: material
