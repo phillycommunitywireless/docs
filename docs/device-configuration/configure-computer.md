@@ -5,7 +5,7 @@ title: Configure Computer
 This page reviews how to configure your computer, to be able to connect to the networking devices. We review setting a static IP address and sharing internet with other computers. 
 
 # Setting a static IP address
-This section contains instructions for setting your computer's Ethernet adapter to use a static IP address on the 192.168.1.\* subnet. This is a necessary step for connecting to certain network devices via Ethernet, and is used in our config instructions for the [EdgeRouter X](../configure-erx) and the [Mesh AP](../configure-ap-mesh).
+This section contains instructions for setting your computer's Ethernet adapter to use a static IP address on the 192.168.1.\* subnet. This is a necessary step for connecting to certain network devices via Ethernet, and is used in our config instructions for the [EdgeRouter X](configure-edgerouter-x.md) and the [Mesh AP](configure-ap-mesh.md).
 
 Choose your computer's OS:
 
@@ -56,7 +56,7 @@ These steps use `192.168.1.2` as the static IP, but it can be anything within th
 # Sharing a WiFi connection over Ethernet
 This section describes how to connect a device to your computer via Ethernet and share your computer's existing Internet connection with that device. In other words, your computer will be acting as a gateway and the connected device will be able to send packets via your computer to the Internet.
 
-This is useful when you need a device to be able to access the internet while networked with your computer, but you do not have access to your router. We use it as an option in our config instructions for the [Unifi Mesh AP](../configure-ap-mesh).
+This is useful when you need a device to be able to access the internet while networked with your computer, but you do not have access to your router. We use it as an option in our config instructions for the [Unifi Mesh AP](configure-ap-mesh.md).
 
 Choose your computer's OS:
 

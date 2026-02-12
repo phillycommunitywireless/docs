@@ -39,7 +39,7 @@ This method configures the ERX to be used at a PCW install site, connecting to t
 </figure>
 
 ### 2) Configure your network settings
-Follow the instructions here: [Setting a static IP for your computer](./static-ip.md)
+Follow the instructions here: [Setting a static IP for your computer](configure-computer.md#setting-a-static-ip-address)
 
 ### 3a) Configure ER-X using Wizard
 1. Navigate to the portal at [https://192.168.1.1](https://192.168.1.1) in your browser
@@ -96,7 +96,7 @@ This method allows the ERX to connect to the Internet through your home router.
 1. See [Wire up ERX](#1-wire-up-erx) in the section above. 
 
 ### 2) Configure your network settings
-2. Follow the instructions here: [Setting a static IP for your computer](./static-ip.md).
+2. Follow the instructions here: [Setting a static IP for your computer](configure-computer.md#setting-a-static-ip-address).
 3. **Turn OFF** WiFi/your Internet connection. 
 !!! info ""
       This ensures that during the next step, you make a request to the ERX and not your home router. 

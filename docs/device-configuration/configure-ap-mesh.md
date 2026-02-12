@@ -48,7 +48,7 @@ The AP Mesh Units have had unexpected behavior even out of the box, so it is rec
 1. With the paperclip, press the reset button at the bottom of the AP Mesh Unit in until it clicks.
 2. Hold it pressed in for 5 seconds.
 3. The status light on the AP should flash, then go out as the device reboots. When it comes back on it should be solid white, indicating the reset was successful. 
-4. For more info on the status lights, refer to [LED Color Patterns for UniFi Devices](/Device-Configuration/troubleshooting-devices#unifi-ap-led-status-indicators)
+4. For more info on the status lights, refer to [LED Color Patterns for UniFi Devices](troubleshoot-devices.md#unifi-ap-led-status-indicators)
 
 Note: The AP Mesh Unit can take a few minutes to boot after being plugged in or reset, so wait until the status light is solid white,.
 
@@ -74,15 +74,15 @@ We usually do option b) connect the AP directly to our computer.
 #### 2a) If you have physical access to your WiFi router
 
 1. Plug the `LAN` port of the PoE injector directly into an Ethernet port on your router. 
-2. The AP will get the IP address `192.168.1.20` from your router. [Skip to the SSH step](#connect-to-the-ap-using-ssh).
+2. The AP will get the IP address `192.168.1.20` from your router. [Skip to the SSH step](#3-connect-to-the-ap-using-ssh).
 
 #### 2b) If you don't have access to your router
 
 1. Connect the `LAN` port of the injector to your computer, using the USB Ethernet adapter if you don't have an Ethernet port.
 2. Make sure your computer is connected to WiFi.
 3. Your computer's IP address must be Static in order for you to see and `ssh` into the AP.
-5. Follow the instructions here: [Setting a static IP for your computer](./static-ip.md) to set your IP address.
-6. You can also follow the directions on [Sharing a WiFi connection over Ethernet](shared-connection.md) to share your computer's wireless connection with the AP.
+5. Follow the instructions here: [Setting a static IP for your computer](configure-computer.md#setting-a-static-ip-address) to set your IP address.
+6. You can also follow the directions on [Sharing a WiFi connection over Ethernet](configure-computer.md#sharing-a-wifi-connection-over-ethernet) to share your computer's wireless connection with the AP.
 7. To find the AP's ip address, or if the SSH hangs, try running `arp -a` to find the AP.
 
 
@@ -116,7 +116,7 @@ We usually do option b) connect the AP directly to our computer.
 
 !!! warning ""
 
-    If your prompt hangs here, your AP probably doesn't have a route to the internet. [Return to the connection step](#connect-the-ap-to-your-computer) and make sure your setup follows those instructions.
+    If your prompt hangs here, your AP probably doesn't have a route to the internet. [Return to the connection step](#2-connect-the-ap-to-your-computer) and make sure your setup follows those instructions.
 
 2. Open the Unifi controller Hostifi portal in your browser, and navigate to the device list. The AP should appear in the list of devices awaiting adoption.
 4. Press `Adopt` to adopt the AP Mesh Unit.
