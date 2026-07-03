@@ -35,7 +35,7 @@ To assess a building for installation, we have to ask the following questions:
 As an example, this is an ideal install site: 
 
 <figure style="display: flex; align-items: center; flex-direction: column;">
-    <img src="../../assets/images/installations/install/nkcdc_roof.png"
+    <img src="/assets/images/installations/install/nkcdc_roof.png"
          alt="An ideal roof install location"
          style="width: 80%; ">
     <figcaption>An ideal roof install location in Kensington</figcaption>
