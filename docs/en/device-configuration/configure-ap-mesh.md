@@ -1,9 +1,6 @@
 ---
 title: Configure Unifi Mesh AP
 ---
-
-# Configuring Unifi APs (UAP-AC-M and UAP-AC-M-PRO)
-
 This guide will walk you through configuring a Ubiquiti Access Point AC Mesh ("bunny ears"), which consists of the following steps:
 
 - Power and factory reset the Unifi AP AC Mesh
@@ -25,7 +22,7 @@ This guide will walk you through configuring a Ubiquiti Access Point AC Mesh ("b
 | Wall outlet                                  |                                                   |
 | Paperclip (or other thin item)               | Performing a factory reset                        |
 
-![Materials](../assets/images/device-configs/mesh/Materials.jpeg)
+![Materials](../../assets/images/device-configs/mesh/Materials.jpeg)
 
 ## Setup Steps
 
@@ -96,7 +93,7 @@ We usually do option b) connect the AP directly to our computer.
 4. When prompted for the password, enter `ubnt`.
 5. You should now be connected to the AP Mesh Unit.
 
-   ![SSH Connection](../assets/images/device-configs//mesh/SSH.png)
+   ![SSH Connection](../../assets/images/device-configs/mesh/SSH.png)
 
 !!! warning ""
 

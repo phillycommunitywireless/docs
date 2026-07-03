@@ -71,7 +71,7 @@ Follow the instructions here: [Setting a static IP for your computer](configure-
 To double check if a device is properly configured, check the settings under the `Dashboard` and `System` tabs. To verify WAN is set to `eth4,` visit the `Firewall/Nat` section. Under the NAT tab, see if `Masquerade` is set to `eth4` for the WAN masquerade.
 
 ### 3b) Configure ER-X using Config File
-1. Download the [ERX config file](../assets/configs/erx-config.tar.gz)
+1. Download the [ERX config file](../../assets/configs/erx-config.tar.gz)
 2. Navigate to the portal at [https://192.168.1.1](https://192.168.1.1) in your browser
 3. Log into the portal with username `ubnt`, password `ubnt` as above.
 4. On the `Use wizard?` prompt, press 'no'.

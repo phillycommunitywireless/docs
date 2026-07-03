@@ -1,5 +1,5 @@
 site_name: Philly Community Wireless Docs
-site_url: https://docs.phillycommunitywireless.org/en/latest/
+site_url: https://docs.phillycommunitywireless.org
 
 theme:
   name: material
@@ -8,20 +8,9 @@ theme:
   favicon: assets/icons/favicon/favicon.ico
   custom_dir: overrides
   features:
-    # Enable this if searching ever becomes slow
-    # - navigation.instant
     - navigation.tracking
     - navigation.sections
   palette:
-    # Dark mode
-    - scheme: slate
-      media: "(prefers-color-scheme: dark)"
-      primary: black
-      accent: deep purple
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
-    # Light mode
     - scheme: default
       media: "(prefers-color-scheme: light)"
       primary: indigo
@@ -29,20 +18,60 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
+    - scheme: slate
+      media: "(prefers-color-scheme: dark)"
+      primary: black
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
 
-# extra:
-#  homepage: https://phillycommunitywireless.org
-#  alternate:
-#    - name: English
-#      link: /en/latest
-#      lang: en
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: es
+          name: Español
+          build: true
+          nav_translations:
+            Home: Inicio
+            Installations: Instalaciones
+            Installation Overview: Descripción general
+            Building Assessment: Evaluación del edificio
+            Hardware: Hardware
+            Solar Mesh Nodes: Nodos solares
+            Device Configuration: Configuración de dispositivos
+            Set a Static IP Address: Configurar una IP estática
+            Configure EdgeRouter X: Configurar EdgeRouter X
+            Configure Unifi APs: Configurar APs Unifi
+            Configure IoT Devices: Configurar dispositivos IoT
+            Troubleshoot Devices: Solución de problemas
+            Resources: Recursos
 
-#    - name: Español
-#      link: /es/latest
-#      lang: es
+nav:
+  - Home: index.md
+  - Installations:
+      - Installation Overview: installations/installations.md
+      - Building Assessment: installations/buildingassessment.md
+      - Hardware: installations/hardware.md
+      - Solar Mesh Nodes: installations/solar.md
+  - Device Configuration:
+      - Set a Static IP Address: device-configuration/configure-computer.md
+      - Configure EdgeRouter X: device-configuration/configure-edgerouter-x.md
+      - Configure Unifi APs: device-configuration/configure-ap-mesh.md
+      - Configure IoT Devices: device-configuration/configure-IoT.md
+      - Troubleshoot Devices: device-configuration/troubleshoot-devices.md
+  - Resources: resources.md
 
 markdown_extensions:
-  - meta
   - tables
   - admonition
   - pymdownx.details

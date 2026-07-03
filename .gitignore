@@ -4,3 +4,7 @@ site
 Pipfile
 Pipfile.lock
 docs.code-workspace
+
+.venv-ml/
+site/
+.DS_Store
