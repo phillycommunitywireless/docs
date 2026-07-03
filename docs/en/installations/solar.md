@@ -17,7 +17,7 @@ Designed by [Holobiont Lab](https://holobiontlab.org/), we install solar-powered
 PCW installed a solar mesh node in Norris Square Neighborhood Projects Colobo Gardens in 2021, and it only recently needed to be fixed with a replacement battery. Here are a few photos of what the setup looks like.
 
 <figure style="display: flex; align-items: center; flex-direction: column;">
-    <img src="../../assets/images/installations/solar/colobo_ap.jpg"
+    <img src="/assets/images/installations/solar/colobo_ap.jpg"
          alt="Colobo AP"
          style="width: 50%; height: 50%;">
     <figcaption>A photo of the AP at Colobo.</figcaption>
@@ -25,7 +25,7 @@ PCW installed a solar mesh node in Norris Square Neighborhood Projects Colobo Ga
 
 
 <figure style="display: flex; align-items: center; flex-direction: column;">
-    <img src="../../assets/images/installations/solar/ap_install.jpg"
+    <img src="/assets/images/installations/solar/ap_install.jpg"
          alt="Installing the AP at Colobo"
          style="width: 50%; height: 50%;">
     <figcaption>Installing the AP!</figcaption>
@@ -33,7 +33,7 @@ PCW installed a solar mesh node in Norris Square Neighborhood Projects Colobo Ga
 
 
 <figure style="display: flex; align-items: center; flex-direction: column;">
-    <img src="../../assets/images/installations/solar/solar_with_info.jpg"
+    <img src="/assets/images/installations/solar/solar_with_info.jpg"
          alt="Installing the AP at Colobo"
          style="width: 50%; height: 50%;">
     <figcaption>The meshbox's contents</figcaption>
