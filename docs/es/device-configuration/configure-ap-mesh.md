@@ -2,19 +2,19 @@
 Title: Configurar AP Mesh
 
 ---
-# Configurar AP Mesh
-
 Esta guía lo guiará a través de la configuración de una malla de punto de acceso Ubiquiti para que pueda ser adoptada por la red PCW.
 
 ## Hardware requerido
 
-* Unidad de malla AP: [Ubiquiti Mesh Dual-Band Access Point](https://store.ui.com/products/unifi-ac-mesh-ap) (antena Ubiquiti blanca con orejas de conejo)
-* Inyector PoE
-* Cable Ethernet
-* Ordenador
-* Adaptador Ethernet USB (si el ordenador no tiene puerto ethernet)
-* Cable de regleta/alargador
-* Paperclip
+| Item                                         | Purpose                                           |
+| -------------------------------------------- | ------------------------------------------------- |
+| Unidad de malla AP                           | Unidad a configurar                               |
+| Inyector PoE (comes with AP)                 |                                                   |
+| Cable Ethernet                               | Uno alimenta el punto de acceso, el otro proporciona el enlace de datos a la computadora. |
+| Adaptador Ethernet USB                       | Si el ordenador no tiene puerto ethernet          |
+| Ordenador                                    | Realizar configuración remota                     |
+| Cable de regleta/alargador                   |                                                   |
+| Paperclip (or other thin item)               | Realizar un restablecimiento de fábrica           |
 
 ![Materials](../../assets/images/device-configs/mesh/Materials.jpeg)
 
