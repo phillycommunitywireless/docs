@@ -37,8 +37,8 @@ Tanto Philly Community Wireless y PhillyWisper como la de la comunidad Philly ga
 
 Utilizamos soportes de techo no penetrantes (NPRM). Una alfombra de goma gruesa se coloca debajo del NPRM para proteger el techo. Los bloques de cemento se utilizan como lastre para asegurar el NPRM:
 
-![Non-penetrating roof mount 1](../assets/images/install/image1.jpg)
-![Non-penetrating roof mount 2](../assets/images/install/image2.jpg)
+![Non-penetrating roof mount 1](../../assets/images/installations/install/image1.jpg)
+![Non-penetrating roof mount 2](../../assets/images/installations/install/image2.jpg)
 
 ### Antenas montadas en la pared
 
@@ -46,10 +46,10 @@ La siguiente imagen muestra dos mástiles montados en la pared con radios, junto
 
 El mástil de la izquierda tiene una radio Ubiquiti AF-24 que funciona a 24 GHz y proporciona una conexión de retorno de 1,4 Gbps al centro de datos.
 
-![Wall mounted antenna 1](../assets/images/install/image6.jpg)
-![Wall mounted antenna 2](../assets/images/install/image7.jpg)
-![Wall mounted antenna 3](../assets/images/install/image8.jpg)
-![Wall mounted antenna 4](../assets/images/install/image9.jpg)
+![Wall mounted antenna 1](../../assets/images/installations/install/image6.jpg)
+![Wall mounted antenna 2](../../assets/images/installations/install/image7.jpg)
+![Wall mounted antenna 3](../../assets/images/installations/install/image8.jpg)
+![Wall mounted antenna 4](../../assets/images/installations/install/image9.jpg)
 
 El mástil de la derecha tiene radios PTMP con antenas de bocina simétricas. Las radios proporcionan servicio a clientes individuales.
 
@@ -65,14 +65,14 @@ Proporcionamos un kit con un inyector PoE y un AP de malla de orejas de conejo. 
 
 El cable Ethernet pasa a través de un inyector de alimentación a través de Ethernet (PoE), que añade alimentación a la señal que transporta el cable Ethernet y permite que los dispositivos de bajada se alimenten únicamente a través de Ethernet.
 
-![PoE Injector](../assets/images/install/image4.jpg)
+![PoE Injector](../../assets/images/installations/install/image4.jpg)
 
 El cable Ethernet alimentado está conectado a un Ubiquiti EdgeRouter-X (o posiblemente a otro router en el futuro) configurado para admitir redes de malla. El router gestiona el tráfico de cada uno de los puntos de acceso (AP) con los que está conectado en malla.
 
-![EdgeRouter-X](../assets/images/install/image5.jpg)
+![EdgeRouter-X](../../assets/images/installations/install/image5.jpg)
 
 Por último, un Ubiquiti Mesh AP (“orejas de conejito” porque miren a ellos!) está conectado al router y permite que los dispositivos de su rango de señal de radio se conecten a la red. Las orejas de conejito deben instalarse en una ubicación que sea radiovisible para los puntos de acceso de malla en las instalaciones domésticas a su alcance.
 
-![Ubiquiti Mesh AP](../assets/images/install/image3.jpg)
+![Ubiquiti Mesh AP](../../assets/images/installations/install/image3.jpg)
 
 Para obtener más información sobre el kit de malla, consulte nuestra guía [Configurar AP-Mesh](../device-configuration/configure-ap-mesh.md)

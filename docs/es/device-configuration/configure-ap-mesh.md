@@ -16,7 +16,7 @@ Esta guía lo guiará a través de la configuración de una malla de punto de ac
 * Cable de regleta/alargador
 * Paperclip
 
-![Materials](../assets/images/mesh/Materials.jpeg)
+![Materials](../../assets/images/device-configs/mesh/Materials.jpeg)
 
 ## Pasos de instalación
 
@@ -25,12 +25,12 @@ Esta guía lo guiará a través de la configuración de una malla de punto de ac
 Instrucciones para Mac (otros sistemas operativos por determinar)
 
 1. Abra `System Preferences` > `Network`.
-2. Seleccione la conexión Ethernet que tiene con la unidad de malla AP. ![Mac Network Settings #1](../assets/images/static-ip/Network_1.png)
+2. Seleccione la conexión Ethernet que tiene con la unidad de malla AP. ![Mac Network Settings #1](../../assets/images/device-configs/static-ip/mac1.png)
 3. Cambie el valor de `Configure IPv4` a `Manually`.
-   ![Mac Network Settings #2](../assets/images/static-ip/Network_2.png)
+   ![Mac Network Settings #2](../../assets/images/device-configs/static-ip/mac2.png)
 4. Establezca la dirección IP en `192.168.1.29` (aunque la mayoría de los valores deberían funcionar aquí).
 5. Establezca la máscara de subred a `255.255.255.0`
-   ![Mac Network Settings #3](../assets/images/static-ip/Network_3.png)
+   ![Mac Network Settings #3](../../assets/images/device-configs/static-ip/mac3.png)
 6. Haga clic en `Apply`
 
 ### Conecte la unidad de malla AP.
@@ -38,14 +38,14 @@ Instrucciones para Mac (otros sistemas operativos por determinar)
 1. Conecte el inyector PoE a una toma de corriente o a una regleta.
 2. Conecte el puerto `POE` del inyector a la unidad de malla AP con un cable ethernet.
 3. Conecte el puerto `LAN` del inyector al ordenador, utilizando el adaptador Ethernet USB si no dispone de un puerto Ethernet.
-   ![Ports](../assets/images/mesh/Ports.jpeg)
-   ![Wiring](../assets/images/mesh/Wiring.jpeg)
+   ![Ports](../../assets/images/device-configs/mesh/Ports.jpeg)
+   ![Wiring](../../assets/images/device-configs/mesh/Wiring.jpeg)
 
 ### Restablecimiento de fábrica de la unidad de malla AP.
 
 Las unidades de malla AP han tenido un comportamiento inesperado incluso fuera de la caja, por lo que se recomienda reiniciarlas de fábrica antes de continuar.
 
-1. Con el clip, pulse el botón de restablecimiento situado en la parte inferior de la unidad de malla AP hasta que haga clic.![Reset Button](../assets/images/mesh/Reset.jpeg)
+1. Con el clip, pulse el botón de restablecimiento situado en la parte inferior de la unidad de malla AP hasta que haga clic.![Reset Button](../../assets/images/device-configs/mesh/Reset.jpeg)
 2. Mantenga pulsado durante 15 segundos.
 3. Una vez que la luz de estado de la unidad de malla AP ha destellado y se ha apagado, el dispositivo se ha restablecido.
 
@@ -65,7 +65,7 @@ Las unidades de malla AP han tenido un comportamiento inesperado incluso fuera d
    Presione sí para continuar.
 5. Cuando se le solicite la contraseña, escriba `ubnt`.
 6. Ahora debe estar conectado a la unidad de malla AP.
-   ![SSH Connection](../assets/images/mesh/SSH.png)
+   ![SSH Connection](../../assets/images/device-configs/mesh/SSH.png)
 
 ### Adopte AP Mesh Unit
 
