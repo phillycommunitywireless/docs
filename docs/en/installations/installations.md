@@ -5,7 +5,7 @@ title: Installation Overview
 
 Philly Community Wireless has partnered with [**PhillyWisper**](https://phillywisper.net/) to install antennas for our free WiFi network on rooftops in the Norris Square, Fairhill, and Kensington neighborhoods. PhillyWisper is a wireless internet service provider (WISP) which means our project delivers the internet the "last mile" to our customers using radio technology.
 
-Philly Community Wireless seeks to build community-owned and community-operated wireless mesh network technologies. This page describes our process for installation and the type of network we are trying to build over a large expanse of the city. In a typical home network, all 'access points' (APs) are hard-wired to your router via Ethernet cable. In a mesh network, access points can not only be hard-wired, but connect to each other wirelessly, allowing a single Internet connection to be shared with significantly less infrastructure and labor than hard-wiring every single AP.
+Philly Community Wireless seeks to build community-owned and community-operated wireless mesh network technologies. This page describes our process for installation and the type of network we are trying to build over a large expanse of the city. In a typical home network, all ['access points' (APs)](https://en.wikipedia.org/wiki/Wireless_access_point) are hard-wired to your router via Ethernet cable to create a wireless local area network. In a mesh network, access points can not only be hard-wired, but also connect to each other wirelessly, allowing a single Internet connection to be shared with significantly less infrastructure and labor than hard-wiring every single AP.
 
 ## Rooftop Installation Process
 
@@ -17,6 +17,15 @@ Most installations proceed in the following order:
 4. **Deploy access points** - Once the uplink is set up, we can begin running cable on the roof or through the buliding and deploying WiFi access points as needed, either indoors or outdoors. For more info, see our [Configure AP-Mesh Guide](../device-configuration/configure-ap-mesh.md) and our [Configure ERX Router Guide](../device-configuration/configure-edgerouter-x.md)
 
 During residential installs, we either broadcast a private network for the resident to use from the same access points broadcasting the public PCW network, or provide an additional router for the resident to have their own private network that gets its uplink from the PCW network.
+
+Below is a diagram of the resulting system. Attached to and inside the residential house silhouette are the outdoor and indoor devices we will install for you. The following sections describe our installation methods further in detail.
+
+<figure style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    <img src="../../assets/images/installations/install/image10.png"
+         alt=""
+         style="width: 85%;">
+    <figcaption>Installation overview diagram</figcaption>
+</figure>
 
 ## Length of Time for Antenna Installations
 
