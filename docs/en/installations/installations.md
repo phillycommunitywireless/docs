@@ -18,7 +18,7 @@ Most installations proceed in the following order:
 
 During residential installs, we either broadcast a private network for the resident to use from the same access points broadcasting the public PCW network, or provide an additional router for the resident to have their own private network that gets its uplink from the PCW network.
 
-Below is a diagram of the resulting system. Attached to and inside the residential house silhouette are the outdoor and indoor devices we will install for you. The following sections describe our installation methods further in detail.
+Below is a diagram of the resulting system. Attached to and inside the residential house silhouette are the outdoor and indoor devices PCW will install for you. The following sections describe our installation methods further in detail.
 
 <figure style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
     <img src="../../assets/images/installations/install/image10.png"
