@@ -58,17 +58,34 @@ plugins:
 
 nav:
   - Home: index.md
-  - Installations:
-      - Installation Overview: installations/installations.md
-      - Building Assessment: installations/buildingassessment.md
+  
+  - For Property Owners:
+    - Installation Overview: installations/installations.md
+    - Building Assessments: installations/buildingassessment.md
+
+  - For Volunteers:
+    - Installations:
+      - Install Handbook for Volunteers: "Install Handbook for Volunteers" 
       - Hardware: installations/hardware.md
       - Solar Mesh Nodes: installations/solar.md
-  - Device Configuration:
-      - Set a Static IP Address: device-configuration/configure-computer.md
-      - Configure EdgeRouter X: device-configuration/configure-edgerouter-x.md
-      - Configure Unifi APs: device-configuration/configure-ap-mesh.md
-      - Configure IoT Devices: device-configuration/configure-IoT.md
-      - Troubleshoot Devices: device-configuration/troubleshoot-devices.md
+    - Device Configuration:
+        - Set a Static IP Address: device-configuration/configure-computer.md
+        - Configure routers running EdgeOS: 
+          - Manual configuration: device-configuration/configure-edgerouter-x.md
+          - Automated configuration with Ansible: "Automated configuration with Ansible"  
+        - Configure Unifi APs: device-configuration/configure-ap-mesh.md
+        - Wireless settings: Wireless settings
+        - Troubleshoot Unifi Devices: device-configuration/troubleshoot-devices.md
+    - Software:
+      - Network Monitoring:
+        - Unpoller: "Unpoller"
+      - Useful Software: useful software
+
+  - For network users: 
+    - Troubleshoot your connection: "Troubleshoot your connection"
+    - Configure IoT Devices: device-configuration/configure-IoT.md
+    - "FAQs": "FAQs"
+
   - Resources: resources.md
 
 markdown_extensions:
