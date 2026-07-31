@@ -59,9 +59,15 @@ plugins:
 nav:
   - Home: index.md
   
-  - For Property Owners:
+  - For Antenna Hosts:
     - Installation Overview: installations/installations.md
     - Building Assessments: installations/buildingassessment.md
+
+  - For network users: 
+    - Troubleshoot your connection: "Troubleshoot your connection"
+    - Configure IoT Devices: device-configuration/configure-IoT.md
+    - "FAQs": "FAQs"
+
 
   - For Volunteers:
     - Installations:
@@ -89,10 +95,6 @@ nav:
         - Unpoller: "Unpoller"
       - Useful Software: useful software
 
-  - For network users: 
-    - Troubleshoot your connection: "Troubleshoot your connection"
-    - Configure IoT Devices: device-configuration/configure-IoT.md
-    - "FAQs": "FAQs"
 
   - Resources: resources.md
 
