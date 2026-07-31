@@ -65,17 +65,25 @@ nav:
 
   - For Volunteers:
     - Installations:
-      - Install Handbook for Volunteers: "Install Handbook for Volunteers" 
-      - Hardware: installations/hardware.md
-      - Solar Mesh Nodes: installations/solar.md
-    - Device Configuration:
+      - Guiding Principles and Ettiquete: "Guiding Principles and Ettiquete"
+      - Safety during Installs: "Safety"
+      - The Installation Process: "The Installation Process"
+    - Maintenance: "Maintenance"
+    - Tools and Hardware: installations/hardware.md
+    - Solar Mesh Nodes: installations/solar.md
+    
+    - Networking:
         - Set a Static IP Address: device-configuration/configure-computer.md
         - Configure routers running EdgeOS: 
           - Manual configuration: device-configuration/configure-edgerouter-x.md
           - Automated configuration with Ansible: "Automated configuration with Ansible"  
         - Configure Unifi APs: device-configuration/configure-ap-mesh.md
-        - Wireless settings: Wireless settings
         - Troubleshoot Unifi Devices: device-configuration/troubleshoot-devices.md
+
+    - Wireless and RF:
+      - Fixed Wireless and You: "Fixed Wireless and You"
+      - Wireless settings: Wireless settings
+
     - Software:
       - Network Monitoring:
         - Unpoller: "Unpoller"
