@@ -62,7 +62,7 @@ plugins:
 nav:
   - Home: index.md
   
-  - For Property Owners:
+  - For Antenna Hosts:
     - Installation Overview: installations/installations.md
     - Building Assessments: installations/buildingassessment.md
 
