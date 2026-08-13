@@ -47,8 +47,11 @@ plugins:
             Installation Overview: Descripción general
             Building Assessment: Evaluación del edificio
             Hardware: Hardware
+            Solar: Solar
             Solar Mesh Nodes: Nodos solares
-            Device Configuration: Configuración de dispositivos
+            Networking and Device Configuration: Redes y configuración de dispositivos
+            Wireless: Inalámbrico
+            Software and Cloud Infrastructure: Software e infraestructura en la nube
             Set a Static IP Address: Configurar una IP estática
             Configure EdgeRouter X: Configurar EdgeRouter X
             Configure Unifi APs: Configurar APs Unifi
@@ -65,21 +68,35 @@ nav:
 
   - For Volunteers:
     - Installations:
-      - Install Handbook for Volunteers: "Install Handbook for Volunteers" 
+      - Install & Maintenance Handbook:
+        - Overview: installations/handbook/overview.md
+        - Etiquette On Site: installations/handbook/etiquette.md
+        - Safety Basics: installations/handbook/safety-basics.md
+        - Weather & Environmental Risks: installations/handbook/risks-weather-environment.md
+        - Rooftop, Ladder & Drill Safety: installations/handbook/risks-rooftop-ladder-drill.md
+        - Building & Electrical Safety: installations/handbook/safety-buildings-electrical.md
+        - Install Phases Overview: installations/handbook/phases-overview.md
+        - Building Assessment & Planning: installations/handbook/assessment-planning.md
+        - Install Day & Maintenance: installations/handbook/install-day-and-maintenance.md
       - Hardware: installations/hardware.md
-      - Solar Mesh Nodes: installations/solar.md
-    - Device Configuration:
+    - Networking and Device Configuration:
         - Set a Static IP Address: device-configuration/configure-computer.md
-        - Configure routers running EdgeOS: 
+        - Configure routers running EdgeOS:
           - Manual configuration: device-configuration/configure-edgerouter-x.md
-          - Automated configuration with Ansible: "Automated configuration with Ansible"  
+          - Automated configuration with Ansible: "Automated configuration with Ansible"
         - Configure Unifi APs: device-configuration/configure-ap-mesh.md
         - Wireless settings: Wireless settings
         - Troubleshoot Unifi Devices: device-configuration/troubleshoot-devices.md
-    - Software:
-      - Network Monitoring:
-        - Unpoller: "Unpoller"
-      - Useful Software: useful software
+        - Network Monitoring:
+          - Unpoller: "Unpoller"
+        - Useful Software: useful software
+    - Solar:
+      - Solar Mesh Nodes: installations/solar.md
+    - Wireless:
+      - Fixed Wireless: wireless/fixed-wireless.md
+      - WiFi: wireless/wifi.md
+    - Software and Cloud Infrastructure:
+      - Overview: software-infrastructure/overview.md
 
   - For network users: 
     - Troubleshoot your connection: "Troubleshoot your connection"
