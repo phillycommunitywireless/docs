@@ -9,6 +9,12 @@ The following materials are used for [Installations](installations.md). Further 
 See NYCMesh's [Networking Hardware](https://docs.nycmesh.net/hardware/) and [Installation Equipment](https://docs.nycmesh.net/installs/equipment/) docs for further details and information on the hardware and tools below.
 
 ## Networking Hardware
+
+!!! info "Unifi (by Ubiquiti)"
+    The brand of WiFi equipment that PCW uses; a community of wireless access points, switches, routers, controller devices, VoIP phones, and access control products.
+
+    [Unifi product line](https://techspecs.ui.com/unifi)
+
 ### Access Points
 
 #### Indoor/Outdoor Installs
@@ -22,7 +28,7 @@ See NYCMesh's [Networking Hardware](https://docs.nycmesh.net/hardware/) and [Ins
   <figure>
     <img class="device-art" src="../../assets/images/equipment/uma-d.svg"
          alt="Line drawing of a Ubiquiti UMA-D directional antenna, a flat rectangular panel on a mount.">
-    <figcaption><a href="https://store.ui.com/collections/operator-airmax-and-ltu-antennas/products/directional-dual-band-antenna-for-uap-ac-m">UMA-D</a><br>Directional antenna</figcaption>
+    <figcaption><a href="https://store.ui.com/collections/operator-airmax-and-ltu-antennas/products/directional-dual-band-antenna-for-uap-ac-m">UMA-D</a><br>Directional antenna, 'Panel Antenna'</figcaption>
   </figure>
 </div>
 
@@ -66,7 +72,7 @@ mounted at the site.
 - [Ubiquiti U6 Extender](https://store.ui.com/us/en/products/u6-extender)
 - [Ubiquiti U6+](https://store.ui.com/us/en/products/u6-plus)
 - [Ubiquiti U6 Lite](https://store.ui.com/us/en/products/u6-lite)
-- [Ubiquiti U6 Pro](https://store.ui.com/us/en/category/wifi-flagship/products/u6-pro)
+- [Ubiquiti U6 Pro - 'UFO AP'](https://store.ui.com/us/en/category/wifi-flagship/products/u6-pro)
 - [Ubiquiti U7 Lite](https://store.ui.com/us/en/products/u7-lite)
 - [Ubiquiti U7 Pro](https://store.ui.com/us/en/products/u7-pro)
 - [Ubiquiti U7 Pro Max](https://store.ui.com/us/en/products/u7-pro-max)
@@ -96,6 +102,11 @@ mounted at the site.
 </figure>
 
 ### PtP and PtMP radios
+
+!!! info "Point-to-point (PtP) and point-to-multi-point (PtMP)"
+    **Point-to-point (PtP)** — a network consisting of only two nodes directly communicating with each other.
+
+    **Point-to-multi-point (PtMP)** — a network where a single central "access point" connects to multiple remote "stations."
 
 <div class="device-grid" style="--cols: 2">
   <figure>

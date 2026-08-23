@@ -4,6 +4,11 @@ title: Building Assessments
 
 PCW regularly installs WiFi at a wide range of building types, such as rowhomes, multi-dwelling units (MDUs), community centers, and public spaces such as parks and gardens. 
 
+!!! info "Line-of-sight (LoS)"
+    Our wifi relies on "line of sight" between PhillyWisper sector antennas on high points and a rooftop (or otherwise) where we can install a radio to "draw in" wireless connectivity.
+
+    [More on line-of-sight propagation](https://www.techtarget.com/whatis/definition/line-of-sight-LOS)
+
 To assess a building for installation, we have to ask the following questions:
 
 * **Does the building have line-of-sight (LoS) to a PhillyWisper high site or close proximity to a current PCW mesh node?**
@@ -43,4 +48,9 @@ As an example, this is an ideal install site:
 
 * The roof is clear of debris and is flat, with plenty of space for non-penetrating roof mounts. 
 * The building is taller than almost every other building in the area, giving it free LoS to both PhillyWisper high sites and other potential PtP/PtMP sites.
+
+!!! info "Point-to-point (PtP) and point-to-multi-point (PtMP)"
+    **Point-to-point (PtP)** — a network consisting of only two nodes directly communicating with each other.
+
+    **Point-to-multi-point (PtMP)** — a network where a single central "access point" connects to multiple remote "stations."
 * There is power on the roof, in this case covered GFCIs.
