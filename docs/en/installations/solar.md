@@ -3,7 +3,7 @@ title: Solar Mesh Nodes
 ---
 # Solar Mesh Node Overview
 
-Philly Community Wireless is actively supporting sustainable green spaces focus on environmental conservation and resource efficiency. Using off-the-grid solar nodes designed by [Holobiont Lab](https://holobiontlab.org/), we have installed solar-powered Wi-Fi access points at gardens and other spaces where electricity is costly and/or not readily available. Philly Community Wireless is also in the process of powering smart sensors such as the [PurpleAir air monitor](https://www.purpleair.com/products/classic-plus-air-quality-monitor) with modified solar nodes to track environmental health. For more information on our solar mesh nodes, see Holobiont Lab's [meshbox docs](https://holobiontlab.org/r&d/meshbox).
+Philly Community Wireless is actively supporting sustainable green spaces focused on environmental conservation and resource efficiency. Using off-the-grid solar nodes designed by [Holobiont Lab](https://holobiontlab.org/), we have installed solar-powered Wi-Fi access points at gardens and other spaces where electricity is costly and/or not readily available. Philly Community Wireless is also in the process of powering smart sensors such as the [PurpleAir air monitor](https://www.purpleair.com/products/classic-plus-air-quality-monitor) with modified solar nodes to track environmental health.
 
 ## Hardware Specs
 
@@ -17,32 +17,29 @@ Philly Community Wireless is actively supporting sustainable green spaces focus 
 
 ## Deployments
 
-PCW installed a solar mesh node in Norris Square Neighborhood Projects Colobo Gardens in 2021, and it only recently needed to be fixed with a replacement battery. Here are a few photos of what the setup looks like.
-
-<figure style="display: flex; align-items: center; flex-direction: column;">
-    <img src="/assets/images/installations/solar/colobo_ap.jpg"
-         alt="Colobo AP"
-         style="width: 50%; height: 50%;">
-    <figcaption>A photo of the AP at Colobo</figcaption>
-</figure>
+PCW installed a solar mesh node in Norris Square Neighborhood Projects Colobo Gardens in 2021, and it only recently needed to be fixed with a replacement battery. The access point sits at the top of a bamboo mast, high enough to clear the garden's structures, with the solar panel and enclosure mounted below it.
 
 <figure style="display: flex; align-items: center; flex-direction: column;">
     <img src="/assets/images/installations/solar/ap_install.jpg"
-         alt="Installing the AP at Colobo"
+         alt="Mounting the access point on the bamboo mast at Colobo Gardens"
          style="width: 50%; height: 50%;">
-    <figcaption>Installing the AP!</figcaption>
+    <figcaption>Mounting the access point on the bamboo mast at Colobo Gardens</figcaption>
 </figure>
+
+## The Solar Battery Enclosure
+
+The weather-proof enclosure holds everything that is not the panel or the access point: the battery, the charge controller, and the PoE injector that carries power up to the AP over a single Ethernet run.
 
 <figure style="display: flex; align-items: center; flex-direction: column;">
     <img src="/assets/images/installations/solar/solar_with_info.jpg"
-         alt="Installing the AP at Colobo"
+         alt="The open enclosure, with the battery, charge controller and PoE injector labelled"
          style="width: 50%; height: 50%;">
-    <figcaption>The meshbox's contents</figcaption>
+    <figcaption>Inside the enclosure at Colobo Gardens</figcaption>
 </figure>
 
 ## Troubleshooting Solar Mesh Nodes
 
-For additional troubleshooting help, check out the 'Troubleshooting' section (pg. 12) of  the [Meshbox Documentation](https://holobiontlab.org/docs/meshBoxDocumentation.pdf).
+For additional troubleshooting help, check out the 'Troubleshooting' section (pg. 12) of  the [Meshbox Documentation](https://holobiontlab.org/docs/meshBoxDocumentation.pdf). Holobiont Lab's [meshbox docs](https://holobiontlab.org/r&d/meshbox) cover the design these nodes are based on in more detail.
 
 Common issues include:
 
@@ -52,15 +49,6 @@ Common issues include:
   * There should be a **red** light on the charge controller, and a **green** light on the PoE injector.
 * Low temperature or bad weather conditions
 
-## Community Solar Resources
+## Further resources
 
-* [Solarize Philly](https://solarizegreaterphl.org/) is a citywide program to help all Philadelphians go solar. The Philadelphia Energy Authority (PEA) launched Solarize Philly to make the process of installing solar as easy and affordable as possible, while also supporting solar training at the School District of Philadelphia and improving access to clean energy for all neighborhoods.
-  * PEA has carefully selected vetted installers, chosen high-quality equipment for solar panels and energy storage systems, and negotiated discounted prices and important consumer protections to help Philadelphians go solar at their homes and businesses. The Solarize Philly approved installers are Exact Solar, Superior Solar Design, PosiGen Solar, and Solr Standard. You can now also go solar with a lease at no upfront cost!
-* [Solar for All (EPA)](https://phillygreencapital.org/news/solar-for-all-pennsylvania/) offers funding to help low-income communities install solar systems, which could be paired with Wi-Fi infrastructure. Currently being implemented by the Philadelphia Green Capital Corp (PGCC) locally.
-
-## Urban Agriculture Resources
-
-* [Grounded in Philly](https://groundedinphilly.org/resources/)
-* [Pennsylvania Horticultural Society](https://phsonline.org/programs/community-gardens)
-* [Farm Philly](https://www.phila.gov/programs/farmphilly/)
-* [Neighborhood Gardens Trust](https://www.ngtrust.org/resources/)
+See [Green Technology Resources](green-technology.md) for solar programs, urban agriculture organizations, and environmental monitoring initiatives in Philadelphia.

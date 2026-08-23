@@ -52,6 +52,7 @@ plugins:
             Hardware: Hardware
             Solar: Solar
             Solar Mesh Nodes: Nodos solares
+            Green Technology Resources: Recursos de tecnología verde
             Networking and Device Configuration: Redes y configuración de dispositivos
             Wireless: Inalámbrico
             Software and Cloud Infrastructure: Software e infraestructura en la nube
@@ -95,6 +96,7 @@ nav:
         - Useful Software: device-configuration/useful-software.md
     - Solar:
       - Solar Mesh Nodes: installations/solar.md
+      - Green Technology Resources: installations/green-technology.md
     - Wireless:
       - Fixed Wireless: wireless/fixed-wireless.md
       - WiFi: wireless/wifi.md
