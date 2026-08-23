@@ -21,7 +21,7 @@ During residential installs, we either broadcast a private network for the resid
 Below is a diagram of the resulting system. Attached to and inside the residential house silhouette are the outdoor and indoor devices PCW will install for you. The following sections describe our installation methods further in detail.
 
 <figure style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-    <img src="../../assets/images/installations/install/image10.png"
+    <img src="../../assets/images/installations/install/diagram.png"
          alt=""
          style="width: 85%;">
     <figcaption>Installation overview diagram</figcaption>
