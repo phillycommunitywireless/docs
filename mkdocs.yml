@@ -83,13 +83,13 @@ nav:
         - Set a Static IP Address: device-configuration/configure-computer.md
         - Configure routers running EdgeOS:
           - Manual configuration: device-configuration/configure-edgerouter-x.md
-          - Automated configuration with Ansible: "Automated configuration with Ansible"
+          - Automated configuration with Ansible: device-configuration/configure-edgerouter-ansible.md
         - Configure Unifi APs: device-configuration/configure-ap-mesh.md
-        - Wireless settings: Wireless settings
+        - Wireless settings: device-configuration/wireless-settings.md
         - Troubleshoot Unifi Devices: device-configuration/troubleshoot-devices.md
         - Network Monitoring:
-          - Unpoller: "Unpoller"
-        - Useful Software: useful software
+          - Unpoller: device-configuration/unpoller.md
+        - Useful Software: device-configuration/useful-software.md
     - Solar:
       - Solar Mesh Nodes: installations/solar.md
     - Wireless:
@@ -99,9 +99,9 @@ nav:
       - Overview: software-infrastructure/overview.md
 
   - For network users: 
-    - Troubleshoot your connection: "Troubleshoot your connection"
+    - Troubleshoot your connection: device-configuration/troubleshoot-connection.md
     - Configure IoT Devices: device-configuration/configure-IoT.md
-    - "FAQs": "FAQs"
+    - FAQs: faqs.md
 
   - Resources: resources.md
 
