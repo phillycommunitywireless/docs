@@ -9,6 +9,7 @@ The following materials are used for [Installations](installations.md). Further 
 See NYCMesh's [Networking Hardware](https://docs.nycmesh.net/hardware/) and [Installation Equipment](https://docs.nycmesh.net/installs/equipment/) docs for further details and information on the hardware and tools below.
 
 ## Networking Hardware
+
 ### Access Points
 
 #### Indoor/Outdoor Installs
@@ -22,7 +23,7 @@ See NYCMesh's [Networking Hardware](https://docs.nycmesh.net/hardware/) and [Ins
   <figure>
     <img class="device-art" src="../../assets/images/equipment/uma-d.svg"
          alt="Line drawing of a Ubiquiti UMA-D directional antenna, a flat rectangular panel on a mount.">
-    <figcaption><a href="https://store.ui.com/collections/operator-airmax-and-ltu-antennas/products/directional-dual-band-antenna-for-uap-ac-m">UMA-D</a><br>Directional antenna</figcaption>
+    <figcaption><a href="https://store.ui.com/collections/operator-airmax-and-ltu-antennas/products/directional-dual-band-antenna-for-uap-ac-m">UMA-D</a><br>Directional antenna, 'Panel Antenna'</figcaption>
   </figure>
 </div>
 
@@ -36,7 +37,6 @@ spreading it evenly.
 - [Ubiquiti UAP-AC-M-Pro](https://store.ui.com/us/en/products/uap-ac-mesh-pro)
 - [Ubiquiti U7 Outdoor](https://store.ui.com/us/en/products/u7-outdoor)
 - [Ubiquiti Swiss Army Knife](https://store.ui.com/us/en/products/uk-ultra)
-
 
 #### Indoor Installs
 
@@ -66,14 +66,13 @@ mounted at the site.
 - [Ubiquiti U6 Extender](https://store.ui.com/us/en/products/u6-extender)
 - [Ubiquiti U6+](https://store.ui.com/us/en/products/u6-plus)
 - [Ubiquiti U6 Lite](https://store.ui.com/us/en/products/u6-lite)
-- [Ubiquiti U6 Pro](https://store.ui.com/us/en/category/wifi-flagship/products/u6-pro)
+- [Ubiquiti U6 Pro - 'UFO AP'](https://store.ui.com/us/en/category/wifi-flagship/products/u6-pro)
 - [Ubiquiti U7 Lite](https://store.ui.com/us/en/products/u7-lite)
 - [Ubiquiti U7 Pro](https://store.ui.com/us/en/products/u7-pro)
 - [Ubiquiti U7 Pro Max](https://store.ui.com/us/en/products/u7-pro-max)
 - [Ubiquiti U7 In-Wall](https://store.ui.com/us/en/products/u7-iw)
 - [Ubiquiti U7 Long Range](https://store.ui.com/us/en/products/u7-lr)
 - [Ubiquiti UAP-BeaconHD](https://store.ui.com/us/en/products/uap-beaconhd)
-
 
 ### Switches
 - [Ubiquiti USW Flex Mini](https://store.ui.com/us/en/products/usw-flex-mini)

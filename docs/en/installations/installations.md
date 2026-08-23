@@ -72,7 +72,7 @@ We also often use J-arm mounts or pre-existing mounts from prior telecommunicati
 
 ## WiFi Access Points Overview
 
-### Outdoor Wifi APs
+### Outdoor WiFi APs
 
 Hosts of rooftop installations will also host a router in the house near the window to the front of the house. In some cases we may install a wall-mounted access point on the outside of the house to propagate the broadband signal throughout the neighborhood.
 

@@ -32,6 +32,7 @@ To assess a building for installation, we have to ask the following questions:
     * Is there pre-existing Internet infrastructure (previous coaxial or fiber installations) we need to be mindful of? Cables running in parallel can interfere with each other, degrading performance for both connections 
 
 * **If maintenance is required, will we be able to return in the future?**
+
 As an example, this is an ideal install site: 
 
 <figure style="display: flex; align-items: center; flex-direction: column;">

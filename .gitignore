@@ -8,3 +8,4 @@ docs.code-workspace
 .venv-ml/
 site/
 .DS_Store
+hooks/__pycache__/
