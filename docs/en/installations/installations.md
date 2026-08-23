@@ -10,7 +10,7 @@ Philly Community Wireless seeks to build community-owned and community-operated 
 !!! info "Mesh"
     A mesh network is a type of local area network (LAN) composed of multiple nodes that work together to broadcast a WiFi signal over a large area. "Meshing" refers to the ability for multiple nodes to be linked together within the same network, expanding service range.
 
-!!! info "Wi-Fi Access Point (AP)"
+!!! info "WiFi Access Point (AP)"
     A wireless network device that acts as a portal for devices to connect to a local area network. Access points are used for extending the wireless coverage of an existing network and for increasing the number of users that can connect to it.
 
 ## Rooftop Installation Process
@@ -86,7 +86,7 @@ We also often use J-arm mounts or pre-existing mounts from prior telecommunicati
 
 ## WiFi Access Points Overview
 
-### Outdoor Wifi APs
+### Outdoor WiFi APs
 
 Hosts of rooftop installations will also host a router in the house near the window to the front of the house. In some cases we may install a wall-mounted access point on the outside of the house to propagate the broadband signal throughout the neighborhood.
 

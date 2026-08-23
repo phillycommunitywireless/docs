@@ -8,7 +8,7 @@ Programs, funding, and monitoring resources related to PCW's green-space work. F
 ## Solar programs in Philadelphia
 
 * [Solarize Greater Philadelphia](https://solarizegreaterphl.org/) is a citywide program to help all Philadelphians go solar, run by the Philadelphia Energy Authority (PEA). PEA pre-approves installers and equipment, and negotiates group discounts and consumer protections, to make installing solar as easy and affordable as possible. Homeowners can also go solar with a lease at no upfront cost.
-* [Solar for All (EPA)](https://phillygreencapital.org/news/solar-for-all-pennsylvania/) offers funding to help low-income communities install solar systems, which could be paired with Wi-Fi infrastructure. Implemented locally by the Philadelphia Green Capital Corp (PGCC).
+* [Solar for All (EPA)](https://phillygreencapital.org/news/solar-for-all-pennsylvania/) offers funding to help low-income communities install solar systems, which could be paired with WiFi infrastructure. Implemented locally by the Philadelphia Green Capital Corp (PGCC).
 * [Philadelphia Solar Rebate](https://www.phila.gov/programs/solar-rebate-program/) is a one-time City incentive paid after a solar project is installed and has received Permission to Operate from PECO: $0.20/watt residential, $0.10/watt commercial, capped at $100,000. Administered by PEA for the Office of Sustainability.
 
     !!! warning ""

@@ -3,7 +3,7 @@ title: Solar Mesh Nodes
 ---
 # Solar Mesh Node Overview
 
-Philly Community Wireless is actively supporting sustainable green spaces focused on environmental conservation and resource efficiency. Using off-the-grid solar nodes designed by [Holobiont Lab](https://holobiontlab.org/), we have installed solar-powered Wi-Fi access points at gardens and other spaces where electricity is costly and/or not readily available. Philly Community Wireless is also in the process of powering smart sensors such as the [PurpleAir air monitor](https://www.purpleair.com/products/classic-plus-air-quality-monitor) with modified solar nodes to track environmental health.
+Philly Community Wireless is actively supporting sustainable green spaces focused on environmental conservation and resource efficiency. Using off-the-grid solar nodes designed by [Holobiont Lab](https://holobiontlab.org/), we have installed solar-powered WiFi access points at gardens and other spaces where electricity is costly and/or not readily available. Philly Community Wireless is also in the process of powering smart sensors such as the [PurpleAir air monitor](https://www.purpleair.com/products/classic-plus-air-quality-monitor) with modified solar nodes to track environmental health.
 
 ## Hardware Specs
 
