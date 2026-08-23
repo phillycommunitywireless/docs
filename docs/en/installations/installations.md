@@ -13,6 +13,11 @@ Philly Community Wireless seeks to build community-owned and community-operated 
 !!! info "WiFi Access Point (AP)"
     A wireless network device that acts as a portal for devices to connect to a local area network. Access points are used for extending the wireless coverage of an existing network and for increasing the number of users that can connect to it.
 
+!!! info "Line-of-sight (LoS)"
+    Our wifi relies on "line of sight" between PhillyWisper sector antennas on high points and a rooftop (or otherwise) where we can install a radio to "draw in" wireless connectivity.
+
+    [More on line-of-sight propagation](https://www.techtarget.com/whatis/definition/line-of-sight-LOS)
+
 ## Rooftop Installation Process
 
 Most installations proceed in the following order:
@@ -21,11 +26,6 @@ Most installations proceed in the following order:
 2. **Install Planning** - If there is LoS, we communicate with the resident or community organization to determine their connectivity needs, as well as needs of neighbors and the general area. This helps us determine what sort of access points and networking equipment to bring, as well as how much cable we will need. Once the logistics for the initial install are determined, an install date is set!
 3. **Establish uplink** - On the day of the install, PCW will begin by installing the uplink radio pointing back at a PhillyWisper high site, usually a [LiteBeam](https://store.ui.com/us/en/products/litebeam-5ac). This provides the internet connection.
 4. **Deploy access points** - Once the uplink is set up, we can begin running cable on the roof or through the buliding and deploying WiFi access points as needed, either indoors or outdoors. For more info, see our [Configure AP-Mesh Guide](../device-configuration/configure-ap-mesh.md) and our [Configure ERX Router Guide](../device-configuration/configure-edgerouter-x.md)
-
-!!! info "Line-of-sight (LoS)"
-    Our wifi relies on "line of sight" between PhillyWisper sector antennas on high points and a rooftop (or otherwise) where we can install a radio to "draw in" wireless connectivity.
-
-    [More on line-of-sight propagation](https://www.techtarget.com/whatis/definition/line-of-sight-LOS)
 
 During residential installs, we either broadcast a private network for the resident to use from the same access points broadcasting the public PCW network, or provide an additional router for the resident to have their own private network that gets its uplink from the PCW network.
 

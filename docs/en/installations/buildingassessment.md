@@ -49,8 +49,9 @@ As an example, this is an ideal install site:
 * The roof is clear of debris and is flat, with plenty of space for non-penetrating roof mounts. 
 * The building is taller than almost every other building in the area, giving it free LoS to both PhillyWisper high sites and other potential PtP/PtMP sites.
 
+* There is power on the roof, in this case covered GFCIs.
+
 !!! info "Point-to-point (PtP) and point-to-multi-point (PtMP)"
     **Point-to-point (PtP)** — a network consisting of only two nodes directly communicating with each other.
 
     **Point-to-multi-point (PtMP)** — a network where a single central "access point" connects to multiple remote "stations."
-* There is power on the roof, in this case covered GFCIs.
