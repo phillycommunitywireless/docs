@@ -10,11 +10,6 @@ See NYCMesh's [Networking Hardware](https://docs.nycmesh.net/hardware/) and [Ins
 
 ## Networking Hardware
 
-!!! info "Unifi (by Ubiquiti)"
-    The brand of WiFi equipment that PCW uses; a community of wireless access points, switches, routers, controller devices, VoIP phones, and access control products.
-
-    [Unifi product line](https://techspecs.ui.com/unifi)
-
 ### Access Points
 
 #### Indoor/Outdoor Installs
@@ -42,7 +37,6 @@ spreading it evenly.
 - [Ubiquiti UAP-AC-M-Pro](https://store.ui.com/us/en/products/uap-ac-mesh-pro)
 - [Ubiquiti U7 Outdoor](https://store.ui.com/us/en/products/u7-outdoor)
 - [Ubiquiti Swiss Army Knife](https://store.ui.com/us/en/products/uk-ultra)
-
 
 #### Indoor Installs
 
@@ -80,7 +74,6 @@ mounted at the site.
 - [Ubiquiti U7 Long Range](https://store.ui.com/us/en/products/u7-lr)
 - [Ubiquiti UAP-BeaconHD](https://store.ui.com/us/en/products/uap-beaconhd)
 
-
 ### Switches
 - [Ubiquiti USW Flex Mini](https://store.ui.com/us/en/products/usw-flex-mini)
 - [Ubiquiti USW Flex](https://store.ui.com/us/en/category/switching-utility/products/usw-flex)
@@ -102,11 +95,6 @@ mounted at the site.
 </figure>
 
 ### PtP and PtMP radios
-
-!!! info "Point-to-point (PtP) and point-to-multi-point (PtMP)"
-    **Point-to-point (PtP)** — a network consisting of only two nodes directly communicating with each other.
-
-    **Point-to-multi-point (PtMP)** — a network where a single central "access point" connects to multiple remote "stations."
 
 <div class="device-grid" style="--cols: 2">
   <figure>
