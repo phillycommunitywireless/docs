@@ -14,7 +14,7 @@ Most installations proceed in the following order:
 1. **Building Assessment** - A new address is submitted to us. We check if the address has [line of sight (LoS)](https://en.wikipedia.org/wiki/Line-of-sight_propagation) to a PhillyWisper high site using Google Earth and other mapping tools, and we conduct both remote and in-person building assessments as part of developing an install plan. For more information, please see [Building Assessments](buildingassessment.md) page.
 2. **Install Planning** - If there is LoS, we communicate with the resident or community organization to determine their connectivity needs, as well as needs of neighbors and the general area. This helps us determine what sort of access points and networking equipment to bring, as well as how much cable we will need. Once the logistics for the initial install are determined, an install date is set!
 3. **Establish uplink** - On the day of the install, PCW will begin by installing the uplink radio pointing back at a PhillyWisper high site, usually a [LiteBeam](https://store.ui.com/us/en/products/litebeam-5ac). This provides the internet connection.
-4. **Deploy access points** - Once the uplink is set up, we can begin running cable on the roof or through the buliding and deploying WiFi access points as needed, either indoors or outdoors. For more info, see our [Configure AP-Mesh Guide](../device-configuration/configure-ap-mesh.md) and our [Configure ERX Router Guide](../device-configuration/configure-edgerouter-x.md)
+4. **Deploy access points** - Once the uplink is set up, we can begin running cable on the roof or through the building and deploying WiFi access points as needed, either indoors or outdoors.
 
 During residential installs, we either broadcast a private network for the resident to use from the same access points broadcasting the public PCW network, or provide an additional router for the resident to have their own private network that gets its uplink from the PCW network.
 
@@ -74,11 +74,11 @@ We also often use J-arm mounts or pre-existing mounts from prior telecommunicati
 
 ### Outdoor WiFi APs
 
-Hosts of rooftop installations will also host a router in the house near the window to the front of the house. In some cases we may install a wall-mounted access point on the outside of the house to propagate the broadband signal throughout the neighborhood.
+Hosts of rooftop installations will also host a router in the house, near the window to the front of the house. In some cases we may install a wall-mounted access point on the outside of the house to propagate the broadband signal throughout the neighborhood.
 
 ### Indoor Router and Access Points Overview
 
-The Ethernet cable is passed through a Power-over-Ethernet (PoE) injector, which adds power to the signal the Ethernet cable is carrying and allows downstream devices to be powered solely through Ethernet.
+The Ethernet cable coming down from the roof passes through a Power-over-Ethernet (PoE) injector, which adds power to the signal the cable is already carrying. That is how the rooftop antenna runs off an ordinary indoor outlet.
 
 <figure style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
     <img src="../../assets/images/installations/install/image4.jpg"
@@ -103,7 +103,3 @@ Finally, a Ubiquiti Mesh AP ("bunny ears" because look at them!) is connected to
     <figcaption>A Unifi UAP-AC-Mesh, or "bunny ears"</figcaption>
 </figure>
 
-For more information on configuring our access points, see our [Configure AP-Mesh Guide](../device-configuration/configure-ap-mesh.md)
-
-For where access points go — hubs versus nodes, and what to watch for when a node meshes
-wirelessly — see [Access Point Placement](ap-placement.md).

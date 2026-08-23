@@ -73,10 +73,10 @@ nav:
   
   - For Antenna Hosts:
     - Installation Overview: installations/installations.md
-    - Building Assessments: installations/buildingassessment.md
 
   - For Volunteers:
     - Installations:
+      - Building Assessments: installations/buildingassessment.md
       - Install & Maintenance Handbook:
         - Overview: installations/handbook/overview.md
         - Etiquette On Site: installations/handbook/etiquette.md
