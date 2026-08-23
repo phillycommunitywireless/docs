@@ -24,9 +24,9 @@ title: Resources
 
 [Neighborhood Network Construction Kit: Do-it-ourselves Guide to Community Networks](https://communitytechnology.github.io/docs/cck/index.html)
 
-> originally released as [Commotion Construction Kit](https://commotionwireless.net/docs/cck/), this tutorial was co-designed by New America's Open Technology Institute, The Work Department, Allied Media Projects, and the Detroit Community Technology Project
+> originally released as [Commotion Construction Kit](https://web.archive.org/web/20240625185349/https://commotionwireless.net/docs/cck/), this tutorial was co-designed by New America's Open Technology Institute, The Work Department, Allied Media Projects, and the Detroit Community Technology Project
 
-[Portable Network Kit Setup Guide](http://communitytechny.org/stepping-through-the-portal-ctny-the-pandemic/), Community Tech NY
+[Portable Network Kit Setup Guide](https://www.communitytechny.org/portable-network-kits), Community Tech NY
 
 [Wireless Networking in the Developing World](http://wndw.net). 3rd Edition. Copenhagen, 2013.
 
@@ -36,7 +36,7 @@ title: Resources
 
 ## Policy & Organizing Models
 
-[Detroit Digital Stewards Program](https://www.alliedmedia.org/dctp/digitalstewards)
+[Detroit Digital Stewards Program](https://web.archive.org/web/20200519201019/https://www.alliedmedia.org/dctp/digitalstewards)
 
 National Urban League's [Lewis Latimer Plan for Digital Equity and Inclusion](https://nul.org/news/national-urban-league-unveils-new-framework-bridge-digital-divide)
 
@@ -70,4 +70,4 @@ Shaffer, Gwen. "[Common Sense: An Examination of Three Los Angeles Community WiF
 
 Solomon, Rory. [_Meshiness: Mesh Networks and the Politics of Connectivity_](http://search.proquest.com/pqdtglobal/docview/2408892960/abstract/479AB38D8B044610PQ/1)_._ Ph.D., New York University, 2020.
 
-Thakur, Dhanaraj, and Teddy Woodhouse. "[Meaningful Connectivity: A New Standard to Raise the Bar for Internet Access](https://a4ai.org/meaningful-connectivity/)." Alliance for Affordable Internet, 2020.
+Thakur, Dhanaraj, and Teddy Woodhouse. "[Meaningful Connectivity: A New Standard to Raise the Bar for Internet Access](https://web.archive.org/web/20260220230151/https://a4ai.org/meaningful-connectivity/)." Alliance for Affordable Internet, 2020.

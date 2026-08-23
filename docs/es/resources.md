@@ -20,9 +20,9 @@ Dunbar-Hester, Christina. _Low Power to the People: Pirates, Protest, and Politi
 
 [Neighborhood Network Construction Kit: Do-it-ourselves Guide to Community Networks](https://communitytechnology.github.io/docs/cck/index.html)
 
-> originally released as [Commotion Construction Kit](https://commotionwireless.net/docs/cck/), this tutorial was co-designed by New America's Open Technology Institute, The Work Department, Allied Media Projects, and the Detroit Community Technology Project
+> originally released as [Commotion Construction Kit](https://web.archive.org/web/20240625185349/https://commotionwireless.net/docs/cck/), this tutorial was co-designed by New America's Open Technology Institute, The Work Department, Allied Media Projects, and the Detroit Community Technology Project
 
-[Portable Network Kit Setup Guide](http://communitytechny.org/stepping-through-the-portal-ctny-the-pandemic/), Community Tech NY
+[Portable Network Kit Setup Guide](https://www.communitytechny.org/portable-network-kits), Community Tech NY
 
 [Wireless Networking in the Developing World](http://wndw.net). 3rd Edition. Copenhagen, 2013.
 
@@ -34,7 +34,7 @@ Dunbar-Hester, Christina. _Low Power to the People: Pirates, Protest, and Politi
 
 ## Modelos de política y organización
 
-[Detroit Digital Stewards Program](https://www.alliedmedia.org/dctp/digitalstewards)
+[Detroit Digital Stewards Program](https://web.archive.org/web/20200519201019/https://www.alliedmedia.org/dctp/digitalstewards)
 
 National Urban League's [Lewis Latimer Plan for Digital Equity and Inclusion](https://nul.org/news/national-urban-league-unveils-new-framework-bridge-digital-divide)
 
@@ -56,7 +56,7 @@ Shaffer, Gwen. “[Common Sense: An Examination of Three Los Angeles Community W
 
 Solomon, Rory. [_Meshiness: Mesh Networks and the Politics of Connectivity_](http://search.proquest.com/pqdtglobal/docview/2408892960/abstract/479AB38D8B044610PQ/1)_._ Ph.D., New York University, 2020.
 
-Thakur, Dhanaraj, and Teddy Woodhouse. “[Meaningful Connectivity: A New Standard to Raise the Bar for Internet Access](https://a4ai.org/meaningful-connectivity/).” Alliance for Affordable Internet, 2020.
+Thakur, Dhanaraj, and Teddy Woodhouse. “[Meaningful Connectivity: A New Standard to Raise the Bar for Internet Access](https://web.archive.org/web/20260220230151/https://a4ai.org/meaningful-connectivity/).” Alliance for Affordable Internet, 2020.
 
 <br/>
 
@@ -68,4 +68,4 @@ Gross, Paige. “[A Digital Literacy Alliance Grant Is Creating Roles to Help Re
 
 Hetrick, Christian, and Dylan Purcell. “[Thousands of Philly Students Are Stuck at Home with No Computer or Internet after Coronavirus Closed Schools](https://www.inquirer.com/education/coronavirus-students-digital-divide-philadelphia-comcast-20200403.html).” _The Philadelphia Inquirer,_ April 3, 2020.
 
-Noor, Jaisal. “[Baltimore City Students Demand Comcast Increase Internet Speed During Pandemic](https://baltimorebeat.com/2020/05/26/baltimore-city-students-demand-comcast-increase-internet-speed-during-pandemic/).” _Baltimore Beat_, May 26, 2020.
+Noor, Jaisal. “[Baltimore City Students Demand Comcast Increase Internet Speed During Pandemic](https://baltimorebeat.com/baltimore-city-students-demand-comcast-increase-internet-speed-during-pandemic/).” _Baltimore Beat_, May 26, 2020.
