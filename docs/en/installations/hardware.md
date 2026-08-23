@@ -12,8 +12,23 @@ See NYCMesh's [Networking Hardware](https://docs.nycmesh.net/hardware/) and [Ins
 ### Access Points
 
 #### Indoor/Outdoor Installs
-- [Ubiquiti UAP-AC-M - 'Bunny Ears'](https://store.ui.com/products/unifi-ac-mesh-ap)
-- [Ubiquiti UMA-D - Directional Antenna](https://store.ui.com/collections/operator-airmax-and-ltu-antennas/products/directional-dual-band-antenna-for-uap-ac-m)
+
+<div class="device-grid" style="--cols: 2">
+  <figure>
+    <img class="device-art" src="../../assets/images/equipment/unifi-ap-ac-mesh.svg"
+         alt="Line drawing of a Ubiquiti UAP-AC-M access point, a slim body with two upright antennas.">
+    <figcaption><a href="https://store.ui.com/products/unifi-ac-mesh-ap">UAP-AC-M</a><br>'Bunny Ears'</figcaption>
+  </figure>
+  <figure>
+    <img class="device-art" src="../../assets/images/equipment/uma-d.svg"
+         alt="Line drawing of a Ubiquiti UMA-D directional antenna, a flat rectangular panel on a mount.">
+    <figcaption><a href="https://store.ui.com/collections/operator-airmax-and-ltu-antennas/products/directional-dual-band-antenna-for-uap-ac-m">UMA-D</a><br>Directional antenna</figcaption>
+  </figure>
+</div>
+
+The UMA-D clips onto a UAP-AC-M in place of its antennas, to aim coverage in one direction instead of
+spreading it evenly.
+
 - [Ubiquiti UAP-Flex-HD](https://store.ui.com/us/en/products/uap-flexhd)
 - [Ubiquiti U6 Mesh](https://store.ui.com/us/en/products/u6-mesh)
 - [Ubiquiti U6 Mesh Pro](https://store.ui.com/us/en/products/u6-mesh-pro)
@@ -24,6 +39,28 @@ See NYCMesh's [Networking Hardware](https://docs.nycmesh.net/hardware/) and [Ins
 
 
 #### Indoor Installs
+
+Indoor access points come in three shapes. Which one you want is mostly a question of where it can be
+mounted at the site.
+
+<div class="device-grid" style="--cols: 3">
+  <figure>
+    <img class="device-art" src="../../assets/images/equipment/indoor-ap-round.svg"
+         alt="Line drawing of a round ceiling-mounted access point, seen face on as a plain disc with a narrow inner ring.">
+    <figcaption><strong>Round, ceiling or wall</strong><br>nanoHD, U6 Lite, U6+, U6 Pro, U7 Lite, U7 Pro</figcaption>
+  </figure>
+  <figure>
+    <img class="device-art" src="../../assets/images/equipment/u6-in-wall.svg"
+         alt="Line drawing of an in-wall access point, a small rectangular faceplate with an Ethernet port on its lower edge.">
+    <figcaption><strong>In-wall faceplate</strong><br>UAP-AC-IW, U7 In-Wall</figcaption>
+  </figure>
+  <figure>
+    <img class="device-art" src="../../assets/images/equipment/beacon-hd.svg"
+         alt="Line drawing of a UAP-BeaconHD, a rounded unit that plugs directly into a wall outlet.">
+    <figcaption><strong>Outlet plug-in</strong><br><a href="https://store.ui.com/us/en/products/uap-beaconhd">UAP-BeaconHD</a></figcaption>
+  </figure>
+</div>
+
 - [Ubiquiti UAP-nanoHD](https://store.ui.com/us/en/products/uap-nanohd)
 - [Ubiquiti UAP-AC-Inwall](https://store.ui.com/us/en/products/uap-ac-iw)
 - [Ubiquiti U6 Extender](https://store.ui.com/us/en/products/u6-extender)
@@ -42,11 +79,36 @@ See NYCMesh's [Networking Hardware](https://docs.nycmesh.net/hardware/) and [Ins
 - [Ubiquiti USW Flex Mini](https://store.ui.com/us/en/products/usw-flex-mini)
 - [Ubiquiti USW Flex](https://store.ui.com/us/en/category/switching-utility/products/usw-flex)
 
+<figure class="device-diagram">
+    <img class="device-art" src="../../assets/images/equipment/flex-mini-ports.svg"
+         alt="Line drawing of the USW Flex Mini port face, showing its five Ethernet ports in a row with the PoE input port at one end.">
+    <figcaption>USW Flex Mini ports. Port 1 accepts PoE in and powers the switch, so it is the one that goes back toward the router.</figcaption>
+</figure>
+
 ### Routers
 - [Ubiquiti EdgeRouter X](https://store.ui.com/collections/operator-edgemax-routers/products/edgerouter-x)
 - [Ubiquiti EdgePoint R6](https://store.ui.com/collections/operator-edgemax-control-points/products/edgepoint-r6) - see [NYC Mesh's doc](https://docs.nycmesh.net/hardware/epr6/) on this alternative to ER-X's.
 
+<figure class="device-diagram">
+    <img class="device-art" src="../../assets/images/equipment/edgerouter-x.svg"
+         alt="Line drawing of the EdgeRouter X front panel, with the five Ethernet ports labelled from left to right: eth0/PoE IN, eth 1, eth 2, eth 3, and eth4/PoE OUT.">
+    <figcaption>ERX ports. See <a href="../../device-configuration/configure-edgerouter-x/">Configure EdgeRouter X</a> for what goes where.</figcaption>
+</figure>
+
 ### PtP and PtMP radios
+
+<div class="device-grid" style="--cols: 2">
+  <figure>
+    <img class="device-art" src="../../assets/images/equipment/litebeam-ac.svg"
+         alt="Line drawing of an airMAX LiteBeam AC Gen2, a dish antenna on a ball-joint mount.">
+    <figcaption><a href="https://store.ui.com/collections/wireless/products/litebeam-5ac-gen2">LiteBeam AC Gen2</a></figcaption>
+  </figure>
+  <figure>
+    <img class="device-art" src="../../assets/images/equipment/powerbeam.svg"
+         alt="Line drawing of an airMAX PowerBeam 5AC, a deeper solid dish antenna on a mount.">
+    <figcaption><a href="https://techspecs.ui.com/uisp/wireless/pbe-5ac-500">PowerBeam 5ac 500</a></figcaption>
+  </figure>
+</div>
 
 - [airMAX LiteBeam AC 5 GHz Bridge](https://store.ui.com/collections/wireless/products/litebeam-5ac-gen2)
 - [airMAX PowerBeam 5ac 500](https://techspecs.ui.com/uisp/wireless/pbe-5ac-500)
@@ -61,6 +123,12 @@ See NYCMesh's [Networking Hardware](https://docs.nycmesh.net/hardware/) and [Ins
 - Enclosure(s)
 
 ### Accessories
+
+<figure class="device-diagram">
+    <img class="device-art" src="../../assets/images/equipment/poe-injector.svg"
+         alt="Line drawing of a Power-over-Ethernet injector with two Ethernet cables running from it to an access point.">
+    <figcaption>A PoE injector powers an AP over its Ethernet cable, so the AP needs no outlet of its own.</figcaption>
+</figure>
 
 - Short-to-medium length Ethernet cable(s)
 - Outdoor-rated power strip(s)

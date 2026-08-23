@@ -22,6 +22,16 @@ This method configures the ERX to be used at a PCW install site, connecting to t
 </figure>
 
 ### 1) Wire up ERX
+
+The ERX has five Ethernet ports. `eth0` takes power in over PoE and is the port you configure the
+router through; `eth4` is the WAN port, and the one that passes PoE back out to a LiteBeam.
+
+<figure class="device-diagram">
+    <img class="device-art" src="../../assets/images/equipment/edgerouter-x.svg"
+         alt="EdgeRouter X front panel, with the five Ethernet ports labelled from left to right: eth0/PoE IN, eth 1, eth 2, eth 3, and eth4/PoE OUT.">
+    <figcaption>ERX port layout, left to right</figcaption>
+</figure>
+
 1. Plug the ERX into its power cable, and plug the power cable into an outlet.
 2. Connect the `eth0` port of the ERX to your computer with an Ethernet cable, using the USB Ethernet adapter if you don't have an Ethernet port.
 
@@ -77,7 +87,6 @@ To double check if a device is properly configured, check the settings under the
 4. On the `Use wizard?` prompt, press 'no'.
 5. Press the `System` tab on the bottom of the page.
 6. Under the `Restore Config` section, press `Upload a file` and select the ERX config file you downloaded.
-   <img src="" width="50%">
 <figure style="display: flex; align-items: center; flex-direction: column;">
     <img src="../../assets/images/device-configs/erx/system.jpeg"
          alt="ERX configuration prompt"

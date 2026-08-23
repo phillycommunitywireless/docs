@@ -71,6 +71,9 @@ nav:
       - Troubleshoot Devices: device-configuration/troubleshoot-devices.md
   - Resources: resources.md
 
+extra_css:
+  - stylesheets/extra.css
+
 markdown_extensions:
   - tables
   - admonition

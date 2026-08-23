@@ -1,6 +1,13 @@
 ---
 title: Configure Unifi Mesh AP
 ---
+<figure class="device-diagram">
+    <img class="device-art" src="../../assets/images/equipment/unifi-ap-ac-mesh.svg"
+         alt="Line drawing of a Ubiquiti UAP-AC-M access point, a slim body with two upright antennas."
+         style="max-width: 11rem;">
+    <figcaption>The UAP-AC-M, or 'bunny ears'</figcaption>
+</figure>
+
 This guide will walk you through configuring a Ubiquiti Access Point AC Mesh ("bunny ears"), which consists of the following steps:
 
 - Power and factory reset the Unifi AP AC Mesh
@@ -31,6 +38,12 @@ This guide will walk you through configuring a Ubiquiti Access Point AC Mesh ("b
 
 1. Plug the PoE injector into an outlet, or power strip.
 2. Connect the `POE` port of the injector to the AP Mesh Unit with an ethernet cable. You should see a white light turn on.
+
+<figure class="device-diagram">
+    <img class="device-art" src="../../assets/images/equipment/poe-injector.svg"
+         alt="Line drawing of a Power-over-Ethernet injector with two Ethernet cables running from it to an access point.">
+    <figcaption>The injector sits between the wall outlet and the AP. One cable carries power and data to the AP, the other is the data link back to your computer or router.</figcaption>
+</figure>
 
 !!! info ""
 
