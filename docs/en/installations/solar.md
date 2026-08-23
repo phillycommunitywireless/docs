@@ -52,15 +52,6 @@ Common issues include:
   * There should be a **red** light on the charge controller, and a **green** light on the PoE injector.
 * Low temperature or bad weather conditions
 
-## Community Solar Resources
+## Further resources
 
-* [Solarize Philly](https://solarizegreaterphl.org/) is a citywide program to help all Philadelphians go solar. The Philadelphia Energy Authority (PEA) launched Solarize Philly to make the process of installing solar as easy and affordable as possible, while also supporting solar training at the School District of Philadelphia and improving access to clean energy for all neighborhoods.
-  * PEA has carefully selected vetted installers, chosen high-quality equipment for solar panels and energy storage systems, and negotiated discounted prices and important consumer protections to help Philadelphians go solar at their homes and businesses. The Solarize Philly approved installers are Exact Solar, Superior Solar Design, PosiGen Solar, and Solr Standard. You can now also go solar with a lease at no upfront cost!
-* [Solar for All (EPA)](https://phillygreencapital.org/news/solar-for-all-pennsylvania/) offers funding to help low-income communities install solar systems, which could be paired with Wi-Fi infrastructure. Currently being implemented by the Philadelphia Green Capital Corp (PGCC) locally.
-
-## Urban Agriculture Resources
-
-* [Grounded in Philly](https://groundedinphilly.org/resources/)
-* [Pennsylvania Horticultural Society](https://phsonline.org/programs/community-gardens)
-* [Farm Philly](https://www.phila.gov/programs/farmphilly/)
-* [Neighborhood Gardens Trust](https://www.ngtrust.org/resources/)
+See [Green Technology Resources](green-technology.md) for solar programs, urban agriculture organizations, and environmental monitoring initiatives in Philadelphia.
