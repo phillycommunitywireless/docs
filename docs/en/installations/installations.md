@@ -7,12 +7,6 @@ Philly Community Wireless has partnered with [**PhillyWisper**](https://phillywi
 
 Philly Community Wireless seeks to build community-owned and community-operated wireless mesh network technologies. This page describes our process for installation and the type of network we are trying to build over a large expanse of the city. In a typical home network, all ['access points' (APs)](https://en.wikipedia.org/wiki/Wireless_access_point) are hard-wired to your router via Ethernet cable to create a wireless local area network. In a mesh network, access points can not only be hard-wired, but also connect to each other wirelessly, allowing a single Internet connection to be shared with significantly less infrastructure and labor than hard-wiring every single AP.
 
-!!! info "Mesh"
-    A mesh network is a type of local area network (LAN) composed of multiple nodes that work together to broadcast a WiFi signal over a large area. "Meshing" refers to the ability for multiple nodes to be linked together within the same network, expanding service range.
-
-!!! info "WiFi Access Point (AP)"
-    A wireless network device that acts as a portal for devices to connect to a local area network. Access points are used for extending the wireless coverage of an existing network and for increasing the number of users that can connect to it.
-
 ## Rooftop Installation Process
 
 Most installations proceed in the following order:
@@ -21,11 +15,6 @@ Most installations proceed in the following order:
 2. **Install Planning** - If there is LoS, we communicate with the resident or community organization to determine their connectivity needs, as well as needs of neighbors and the general area. This helps us determine what sort of access points and networking equipment to bring, as well as how much cable we will need. Once the logistics for the initial install are determined, an install date is set!
 3. **Establish uplink** - On the day of the install, PCW will begin by installing the uplink radio pointing back at a PhillyWisper high site, usually a [LiteBeam](https://store.ui.com/us/en/products/litebeam-5ac). This provides the internet connection.
 4. **Deploy access points** - Once the uplink is set up, we can begin running cable on the roof or through the buliding and deploying WiFi access points as needed, either indoors or outdoors. For more info, see our [Configure AP-Mesh Guide](../device-configuration/configure-ap-mesh.md) and our [Configure ERX Router Guide](../device-configuration/configure-edgerouter-x.md)
-
-!!! info "Line-of-sight (LoS)"
-    Our wifi relies on "line of sight" between PhillyWisper sector antennas on high points and a rooftop (or otherwise) where we can install a radio to "draw in" wireless connectivity.
-
-    [More on line-of-sight propagation](https://www.techtarget.com/whatis/definition/line-of-sight-LOS)
 
 During residential installs, we either broadcast a private network for the resident to use from the same access points broadcasting the public PCW network, or provide an additional router for the resident to have their own private network that gets its uplink from the PCW network.
 
@@ -63,9 +52,6 @@ The rooftop radio is powered via outdoor-rated Ethernet cable that runs down the
 
 We utilize non-penetrating roof mounts (NPRM). A thick rubber mat is placed below the NPRM to protect the roof. 4 cinderblocks are used as ballast to secure the NPRM.
 
-!!! info "Non-penetrating roof mount (NPRM / Non-Pen)"
-    Mounts used for larger radios and wifi devices so that we do not drill into any roofs, using rubber mats and cinderblocks.
-
 <figure style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
     <img src="../../assets/images/installations/install/image7.jpg"
          alt=""
@@ -94,22 +80,12 @@ Hosts of rooftop installations will also host a router in the house near the win
 
 The Ethernet cable is passed through a Power-over-Ethernet (PoE) injector, which adds power to the signal the Ethernet cable is carrying and allows downstream devices to be powered solely through Ethernet.
 
-!!! info "Power over Ethernet (PoE)"
-    Devices that pass electric power along with data on Ethernet cabling.
-
-    [PoE injector product page](https://store.ui.com/us/en/pro/products/poe-24)
-
 <figure style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
     <img src="../../assets/images/installations/install/image4.jpg"
          alt="" style="">
 </figure>
 
 The powered Ethernet cable is wired to a Ubiquiti EdgeRouter-X (or possibly another router in the future) configured to support mesh networking. The router handles traffic for each of the access points (APs) it is meshed with.
-
-!!! info "EdgeRouter-X (ERX)"
-    Router that PCW uses as a switch; a switch moves data between devices.
-
-    [EdgeRouter X product page](https://store.ui.com/us/en/pro/category/wired-edge-max-routing/products/er-x)
 
 <figure style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
     <img src="../../assets/images/installations/install/image5.jpg"
@@ -119,11 +95,6 @@ The powered Ethernet cable is wired to a Ubiquiti EdgeRouter-X (or possibly anot
 </figure>
 
 Finally, a Ubiquiti Mesh AP ("bunny ears" because look at them!) is connected to the router and allows devices in its radio signal range to connect to the network. The bunny ears should be installed in a location that is radio-visible to the mesh APs at the home installs in range.
-
-!!! info "Bunny ears"
-    A type of access point antenna — PCW's nickname for the Ubiquiti UAP-AC-Mesh.
-
-    [UAP-AC-Mesh product page](https://store.ui.com/us/en/collections/unifi-wifi-outdoor-long-range/products/uap-ac-mesh)
 
 <figure style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
     <img src="../../assets/images/device-configs/mesh/Materials.jpeg"

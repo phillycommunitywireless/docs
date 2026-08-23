@@ -8,12 +8,6 @@ Where an access point goes matters as much as which access point it is. This pag
 decides where to put APs — the difference between a hub and a node, and what to consider when a
 node meshes wirelessly rather than being wired in.
 
-!!! info "Hub"
-    For PCW purposes, a hub refers to an install where we use a radio to "draw in" wireless connectivity. When we do hub installations, they include PhillyWisper.
-
-!!! info "Node"
-    A node is a mesh install that does not require a radio/router; it acts as a relay zone that expands WiFi connectivity from a hub.
-
 ## Hubs and nodes
 
 Mesh nodes are installations where we do not use a Litebeam, but instead set up a wireless access
