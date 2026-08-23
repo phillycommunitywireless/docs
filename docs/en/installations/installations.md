@@ -134,17 +134,5 @@ Finally, a Ubiquiti Mesh AP ("bunny ears" because look at them!) is connected to
 
 For more information on configuring our access points, see our [Configure AP-Mesh Guide](../device-configuration/configure-ap-mesh.md)
 
-## Considerations When Installing a Mesh Node
-
-!!! info "Hub"
-    For PCW purposes, a hub refers to an install where we use a radio to "draw in" wireless connectivity. When we do hub installations, they include PhillyWisper.
-
-!!! info "Node"
-    A node is a mesh install that does not require a radio/router; it acts as a relay zone that expands wifi connectivity from a hub.
-
-Mesh nodes are installations where we do not use a Litebeam, but instead set up a wireless access point that meshes from a nearby access point wired to a router and Litebeam at a local hub. As documented by [Unifi](https://help.ui.com/hc/en-us/articles/115002262328-Considerations-for-Optimal-Wireless-Mesh-Networks), several factors must be considered when building a mesh network:
-
-* **Mesh networks should be supplemental** - Although mesh networks can operate comporably to a hard-wired network, connection quality and speed can be greatly affected by radiofrequency (RF) noise and obstructions between APs such as walls, trees, or other structures.
-* **Mesh 'hops' should be minimized** - A meshed AP should only have one 'parent' - each mesh 'hop', or mesh connection between APs, results in a significant performance decrease. Ideally, there should be a maximum of two 'hops' - e.g, a mesh AP meshes with another mesh AP, which then meshes to a hard-wired AP.
-* **Limit conncurrent connections to a 'parent'** - Similarly, meshing too many APs to the same 'parent' creates additional RF noise and performance demands on the parent, resulting in decreased performance and stability.
-* **Ensure strong signal strength between meshed APs** - Ideally, a meshed AP will have clear Line-of-Sight (LoS) to its mesh parent. A signal strength of -60dbm is recommended for ideal performance. Ensure minimal obstructions between the meshed AP and the parent, such as walls, trees, furniture, etc.
+For where access points go — hubs versus nodes, and what to watch for when a node meshes
+wirelessly — see [Access Point Placement](ap-placement.md).

@@ -52,6 +52,7 @@ plugins:
             Hardware: Hardware
             Solar: Solar
             Solar Mesh Nodes: Nodos solares
+            Access Point Placement: Ubicación de los puntos de acceso
             Green Technology Resources: Recursos de tecnología verde
             Networking and Device Configuration: Redes y configuración de dispositivos
             Wireless: Inalámbrico
@@ -82,6 +83,7 @@ nav:
         - Install Phases Overview: installations/handbook/phases-overview.md
         - Building Assessment & Planning: installations/handbook/assessment-planning.md
         - Install Day & Maintenance: installations/handbook/install-day-and-maintenance.md
+      - Access Point Placement: installations/ap-placement.md
       - Hardware: installations/hardware.md
     - Networking and Device Configuration:
         - Set a Static IP Address: device-configuration/configure-computer.md
