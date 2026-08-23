@@ -15,7 +15,7 @@ Philly Community Wireless is actively supporting sustainable green spaces focus 
 * A 12V to 24V 3A boost converter
 * A mesh node: starting with the 24V Ubiquity mesh access point
 
-### Deployments
+## Deployments
 
 PCW installed a solar mesh node in Norris Square Neighborhood Projects Colobo Gardens in 2021, and it only recently needed to be fixed with a replacement battery. Here are a few photos of what the setup looks like.
 
@@ -40,7 +40,7 @@ PCW installed a solar mesh node in Norris Square Neighborhood Projects Colobo Ga
     <figcaption>The meshbox's contents</figcaption>
 </figure>
 
-### Troubleshooting Solar Mesh Nodes
+## Troubleshooting Solar Mesh Nodes
 
 For additional troubleshooting help, check out the 'Troubleshooting' section (pg. 12) of  the [Meshbox Documentation](https://holobiontlab.org/docs/meshBoxDocumentation.pdf).
 
