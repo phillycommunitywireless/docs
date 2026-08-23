@@ -1,0 +1,96 @@
+/* ---------------------------------------------------------------------------
+   Equipment line art
+   ---------------------------------------------------------------------------
+   Vector drawings of the hardware PCW installs, in assets/images/equipment/.
+   They are black stroke on a transparent ground, so in the dark (slate) scheme
+   they would be invisible. The filter below flips lightness and puts hue back,
+   which turns the black strokes white while keeping the red and green port LEDs
+   recognisably red and green instead of cyan and magenta.
+--------------------------------------------------------------------------- */
+
+.device-art {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+[data-md-color-scheme="slate"] .device-art {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+/* A small cluster of device drawings with their names underneath. Set the
+   column count per cluster with style="--cols: N"; the grid then sizes itself
+   to those columns and centres in the text column rather than stretching to
+   its full width, which spreads four drawings into a thin unreadable strip. */
+
+.device-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--cols, 2), minmax(0, 1fr));
+  justify-items: center;
+  gap: 1.25rem 1.5rem;
+  max-width: calc(var(--cols, 2) * 9.5rem);
+  margin: 1.25rem 0 1.75rem;
+  align-items: start;
+}
+
+/* Two columns on phones whatever the cluster asks for. */
+
+@media screen and (max-width: 44.9em) {
+  .device-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 19rem;
+  }
+}
+
+.device-grid figure {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+/* Fixed box, contained drawing: the drawings range from a 4.7:1 port strip to
+   a 0.6:1 upright panel, so sizing on width alone makes some tower over
+   others. A common height with object-fit keeps them optically even. Keep the
+   box near four lines of body text — these are thumbnails beside prose, not
+   illustrations the prose hangs off. */
+
+.device-grid img {
+  width: 100%;
+  height: 4.5rem;
+  object-fit: contain;
+}
+
+.device-grid figcaption {
+  font-size: 0.68rem;
+  line-height: 1.35;
+  text-align: center;
+  color: var(--md-default-fg-color--light);
+}
+
+.device-grid figcaption a {
+  font-weight: 600;
+}
+
+/* A single large labelled diagram, for the port maps that people read numbers
+   off. These carry text at the drawing's own scale, so they need real width. */
+
+figure.device-diagram {
+  margin: 1.25rem 0 1.75rem;
+  max-width: 26rem;
+  text-align: center;
+}
+
+figure.device-diagram img {
+  width: 100%;
+  height: auto;
+}
+
+figure.device-diagram figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--md-default-fg-color--light);
+}

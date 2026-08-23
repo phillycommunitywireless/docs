@@ -23,6 +23,15 @@ Ver [Configurar una IP estática](configure-computer.md)
 
 ### Conecte el ERX
 
+El ERX tiene cinco puertos Ethernet. `eth0` recibe alimentación por PoE y es el puerto por el que se
+configura el router; `eth4` es el puerto WAN y el que devuelve PoE hacia una LiteBeam.
+
+<figure class="device-diagram">
+    <img class="device-art" src="../../../assets/images/equipment/edgerouter-x.svg"
+         alt="Dibujo del panel frontal del EdgeRouter X, con los cinco puertos Ethernet rotulados de izquierda a derecha: eth0/PoE IN, eth 1, eth 2, eth 3 y eth4/PoE OUT.">
+    <figcaption>Puertos del ERX, de izquierda a derecha</figcaption>
+</figure>
+
 1. Conecte el ERX a su cable de alimentación y conecte el cable de alimentación a una toma de corriente.
 2. Conecte el puerto `eth0` del ERX al ordenador con un cable Ethernet, utilizando el adaptador Ethernet USB si no dispone de un puerto Ethernet.
 

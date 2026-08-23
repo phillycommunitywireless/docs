@@ -10,6 +10,29 @@ Title: Hardware
 
 ## Instalación de antena en la azotea
 
+<div class="device-grid" style="--cols: 2">
+  <figure>
+    <img class="device-art" src="../../../assets/images/equipment/litebeam-ac.svg"
+         alt="Dibujo de una antena airMAX LiteBeam AC Gen2, una parábola sobre un soporte de rótula.">
+    <figcaption><a href="https://store.ui.com/collections/wireless/products/litebeam-5ac-gen2">LiteBeam AC Gen2</a></figcaption>
+  </figure>
+  <figure>
+    <img class="device-art" src="../../../assets/images/equipment/edgerouter-x.svg"
+         alt="Dibujo del panel frontal del EdgeRouter X con sus cinco puertos Ethernet rotulados.">
+    <figcaption><a href="https://dl.ui.com/qsg/ER-X/ER-X_EN.html">EdgeRouter X</a></figcaption>
+  </figure>
+  <figure>
+    <img class="device-art" src="../../../assets/images/equipment/unifi-ap-ac-mesh.svg"
+         alt="Dibujo de un punto de acceso Ubiquiti UAP-AC-M, un cuerpo delgado con dos antenas verticales.">
+    <figcaption><a href="https://store.ui.com/products/unifi-ac-mesh-ap">UAP-AC-M</a></figcaption>
+  </figure>
+  <figure>
+    <img class="device-art" src="../../../assets/images/equipment/uma-d.svg"
+         alt="Dibujo de una antena direccional Ubiquiti UMA-D, un panel rectangular plano sobre un soporte.">
+    <figcaption><a href="https://store.ui.com/collections/operator-airmax-and-ltu-antennas/products/directional-dual-band-antenna-for-uap-ac-m">UMA-D</a><br>Se acopla al UAP-AC-M</figcaption>
+  </figure>
+</div>
+
 * [airMAX LiteBeam AC 5 GHz Bridge](https://store.ui.com/collections/wireless/products/litebeam-5ac-gen2)
 * [Ubiquiti EdgeRouter ERX](https://dl.ui.com/qsg/ER-X/ER-X_EN.html)
 * [Ubiquiti Mesh Dual-Band Access Point](https://store.ui.com/products/unifi-ac-mesh-ap)
