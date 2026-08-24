@@ -13,20 +13,50 @@ If you are looking for a **non-technical overview** of the project, or are inter
 
 If you have additional questions, please don't hesitate to reach out at info@phillycommunitywireless.org.
 
-### [Informational Resources](resources.md)
-Overviews secondary resources on the problems of broadband access and digital inequity in urban cities like Philadelphia.
+## Where to start
 
-### [Hardware](installations/hardware.md)
-Overviews the hardware necessary for the PCW project's infrastructure.
+### For antenna hosts
 
-### [Installations](installations/installations.md)
-Covers the process for installing rooftop antennas as the foundation for the wireless mesh network and free public wifi.
+*You are hosting a rooftop antenna, or considering it.*
 
-### [Configuring Mesh AP](device-configuration/configure-ap-mesh.md)
-Guide to set-up a Unifi mesh AP that can be installed in any home in close proximity (half a neighborhood block) to a rooftop antenna host.
+- [Installation Overview](installations/installations.md) — what a rooftop install involves, start to finish
 
-### [Configuring EdgeRouter X](device-configuration/configure-edgerouter-x.md)
-Guide to set up the ERX router for installing points-of-presence at rooftop antenna.
+### For volunteers
 
-### [Networking and Computer Configuration](device-configuration/configure-computer.md)
-Tutorials on how to set up your computer with a static IP, so you can configure the router and mesh-kit, and how to share your internet access with other computers.
+*You are helping build and maintain the network.*
+
+**Installations**
+
+- [Building Assessments](installations/buildingassessment.md)
+- [Access Point Placement](installations/ap-placement.md)
+- [Hardware](installations/hardware.md)
+
+**Networking and device configuration**
+
+- [Set a Static IP Address](device-configuration/configure-computer.md)
+- [Configure routers running EdgeOS](device-configuration/configure-edgerouter-x.md)
+- [Configure Unifi APs](device-configuration/configure-ap-mesh.md)
+- [Troubleshoot Unifi Devices](device-configuration/troubleshoot-devices.md)
+
+**Solar**
+
+- [Solar Mesh Nodes](installations/solar.md)
+- [Green Technology Resources](installations/green-technology.md)
+
+### For network users
+
+*You are connected to a PCW network, or want to be.*
+
+- [Configure IoT Devices](device-configuration/configure-IoT.md)
+- [Get connected](https://phillycommunitywireless.org/getconnected) — coverage areas and sign-up, on the main site
+
+### Resources
+
+- [Glossary](glossary.md)
+- [Further reading](resources.md) — secondary resources on broadband access and digital inequity in cities like Philadelphia
+
+## Get involved
+
+- [**Sign up for free WiFi, or host an antenna**](https://tally.so/r/mR8VM9)
+- [**Volunteer with PCW**](https://tally.so/r/w2ODaj)
+- [**Subscribe to our newsletter**](https://phillycommunitywireless.us5.list-manage.com/subscribe?u=7a97e4278a5833f5505a85940&id=6af414f631)
