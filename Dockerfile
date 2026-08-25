@@ -6,3 +6,5 @@ WORKDIR /srv
 COPY --from=caddy /usr/bin/caddy /usr/bin/caddy
 COPY . .
 RUN pip install -r requirements.txt
+
+ENTRYPOINT ["/bin/sh", "/srv/entrypoint.sh"]
