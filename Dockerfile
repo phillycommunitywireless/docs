@@ -7,5 +7,5 @@ COPY --from=caddy /usr/bin/caddy /usr/bin/caddy
 COPY . .
 RUN pip install -r requirements.txt
 
-RUN chmod+x /srv/entrypoint.sh
+RUN ["chmod", "+x", "/srv/entrypoint.sh"]
 ENTRYPOINT ["/bin/sh", "/srv/entrypoint.sh"]
