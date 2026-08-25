@@ -1,0 +1,54 @@
+# inherits parent (prod) settings for mkdocs settings 
+# this is so we can display draft pages in the nav where they will eventually be
+# during development, but not during production. 
+
+INHERIT: mkdocs.yml
+
+nav:
+  - Home: index.md
+
+  - For Antenna Hosts:
+    - Installation Overview: installations/installations.md
+
+  - For Volunteers:
+    - Installations:
+      - Overview: installations/handbook/overview.md
+      - Install Phases Overview: installations/handbook/phases-overview.md
+      - Assessment & Planning: installations/handbook/assessment-planning.md
+      - Building Assessments: installations/buildingassessment.md
+      - Access Point Placement: installations/ap-placement.md
+      - Hardware: installations/hardware.md
+      - Etiquette On Site: installations/handbook/etiquette.md
+      - Install Day & Maintenance: installations/handbook/install-day-and-maintenance.md
+      - Safety:
+        - Safety Basics: installations/handbook/safety-basics.md
+        - Building & Electrical Safety: installations/handbook/safety-buildings-electrical.md
+        - Rooftop, Ladder & Drill Safety: installations/handbook/risks-rooftop-ladder-drill.md
+        - Weather & Environmental Risks: installations/handbook/risks-weather-environment.md
+    - Wireless:
+      - Fixed Wireless: wireless/fixed-wireless.md
+      - WiFi: wireless/wifi.md
+    - Networking and Device Configuration:
+        - Set a Static IP Address: device-configuration/configure-computer.md
+        - Configure routers running EdgeOS:
+          - Manual configuration: device-configuration/configure-edgerouter-x.md
+          - Automated configuration (Ansible): device-configuration/configure-edgerouter-ansible.md
+        - Configure Unifi APs: device-configuration/configure-ap-mesh.md
+        - Troubleshoot Unifi Devices: device-configuration/troubleshoot-devices.md
+        - Troubleshoot Your Connection: device-configuration/troubleshoot-connection.md
+        - Wireless Settings: device-configuration/wireless-settings.md
+        - Useful Software: device-configuration/useful-software.md
+        - Unpoller: device-configuration/unpoller.md
+    - Solar:
+      - Solar Mesh Nodes: installations/solar.md
+      - Green Technology Resources: installations/green-technology.md
+    - Software & Infrastructure:
+      - Overview: software-infrastructure/overview.md
+
+  - For network users:
+    - Configure IoT Devices: device-configuration/configure-IoT.md
+
+  - Resources:
+    - Glossary: glossary.md
+    - FAQs: faqs.md
+    - Further reading: resources.md

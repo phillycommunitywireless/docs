@@ -1,4 +1,3 @@
-version: "3.9"
 services:
   docs:
     build: .
@@ -6,3 +5,7 @@ services:
       - ./:/srv
     ports:
       - 8000:8000
+    # uncomment this to simulate the production webserver
+    # environment:
+    #   - APP_TAG=production
+    entrypoint: ["/bin/sh", "/srv/entrypoint.sh"]
