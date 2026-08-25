@@ -6,7 +6,5 @@ WORKDIR /srv
 COPY --from=caddy /usr/bin/caddy /usr/bin/caddy
 COPY . .
 RUN pip install -r requirements.txt
-
-RUN ["chmod", "+x", "/usr/bin/caddy"]
-RUN ["chmod", "+x", "/srv/entrypoint.sh"]
+EXPOSE 8000
 ENTRYPOINT ["/bin/sh", "/srv/entrypoint.sh"]
