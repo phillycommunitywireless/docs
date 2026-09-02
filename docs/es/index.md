@@ -13,20 +13,52 @@ Esta página de documentos proporciona información técnica en desarrollo y gu�
 
 Si está buscando una **descripción no técnica del proyecto** o está interesado en suscribirse a la cobertura de PCW, visite nuestra [homepage](https://phillycommunitywireless.org).
 
-### [Recursos Académicos](resources.md)
-Esta página describe recursos secundarios sobre los problemas del acceso de banda ancha y la inequidad digital en ciudades urbanas como Philadelphia.
+<!-- TODO: Spanish review of the short italic descriptor lines below — for a fluent speaker at PR review. -->
 
-### [Hardware requerido](installations/hardware.md)
-Visión general del hardware necesario para la infraestructura del proyecto PCW.
+## Por dónde empezar
 
-### [Instalaciones de antenas](installations/installations.md)
-Esta guía describe el proceso de instalación de antenas en la azotea como base para la red de malla inalámbrica y el wifi público gratuito.
+### Para anfitriones de antenas
 
-### [Configurar enrutadores ERX](device-configuration/configure-edgerouter-x.md)
-La página Configurar enrutadores ERX explica la fase de configuración de los hosts de enrutador de las instalaciones en tejados.
+*Aloja una antena en su azotea, o está considerándolo.*
 
-### IP estática
-Esta guía describe cómo configurar el ordenador con una IP estática, de modo que pueda configurar el router y el kit de malla.
+- [Descripción general](installations/installations.md) — en qué consiste una instalación en la azotea
 
-### [Configurar AP-Mesh](device-configuration/configure-ap-mesh.md)
-Esta guía describe la configuración de un kit de malla que se puede instalar en cualquier hogar muy cerca (medio bloque de vecindario) de un host de antena en la azotea.
+### Para voluntarios
+
+*Ayuda a construir y mantener la red.*
+
+**Instalaciones**
+
+- [Evaluación del edificio](installations/buildingassessment.md)
+- [Ubicación de los puntos de acceso](installations/ap-placement.md)
+- [Hardware](installations/hardware.md)
+
+**Redes y configuración de dispositivos**
+
+- [Configurar una IP estática](device-configuration/configure-computer.md)
+- [Configurar EdgeRouter X](device-configuration/configure-edgerouter-x.md)
+- [Configurar APs Unifi](device-configuration/configure-ap-mesh.md)
+- [Solución de problemas](device-configuration/troubleshoot-devices.md)
+
+**Solar**
+
+- [Nodos solares](installations/solar.md)
+- [Recursos de tecnología verde](installations/green-technology.md)
+
+### Para usuarios de la red
+
+*Está conectado a una red de PCW, o quiere estarlo.*
+
+- [Configurar dispositivos IoT](device-configuration/configure-IoT.md)
+- [Conéctate](https://phillycommunitywireless.org/getconnected) — áreas de cobertura e inscripción, en el sitio principal
+
+### Recursos
+
+- [Glosario](glossary.md)
+- [Más recursos](resources.md) — recursos secundarios sobre el acceso de banda ancha y la inequidad digital en ciudades como Philadelphia
+
+## Participa
+
+- [**Conéctate al wifi gratuito, o aloja una antena**](https://tally.so/r/mR8VM9)
+- [**Ser voluntario con PCW**](https://tally.so/r/w2ODaj)
+- [**Suscríbase a nuestro boletín**](https://phillycommunitywireless.us5.list-manage.com/subscribe?u=7a97e4278a5833f5505a85940&id=6af414f631)

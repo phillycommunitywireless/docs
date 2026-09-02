@@ -47,10 +47,18 @@ plugins:
           name: Español
           build: true
           nav_translations:
+            # TODO: Spanish review of the nav labels added below — for a fluent speaker at PR review.
             Home: Inicio
+            For Antenna Hosts: Para anfitriones de antenas
+            For Volunteers: Para voluntarios
+            For network users: Para usuarios de la red
             Installations: Instalaciones
             Installation Overview: Descripción general
             Building Assessment: Evaluación del edificio
+            Building Assessments: Evaluación del edificio
+            Configure routers running EdgeOS: Configurar routers con EdgeOS
+            Manual configuration: Configuración manual
+            Troubleshoot Unifi Devices: Solución de problemas de dispositivos Unifi
             Hardware: Hardware
             Solar: Solar
             Solar Mesh Nodes: Nodos solares
