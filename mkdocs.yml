@@ -28,8 +28,31 @@ theme:
         name: Switch to light mode
 
 hooks:
-  - hooks/hide_empty_pages.py
   - hooks/glossary_tooltips.py
+
+# Draft pages still being worked on.
+# Built with `mkdocs serve` for dev. purposes, but excluded from prod builds with `mkdocs build`
+# When a page is ready, delete its line here, add it to `nav:` below in the proper place, and
+# remove its entry from mkdocs.dev.yml's nav 
+draft_docs: |
+  /en/faqs.md
+  /en/device-configuration/configure-edgerouter-ansible.md
+  /en/device-configuration/troubleshoot-connection.md
+  /en/device-configuration/unpoller.md
+  /en/device-configuration/useful-software.md
+  /en/device-configuration/wireless-settings.md
+  /en/installations/handbook/assessment-planning.md
+  /en/installations/handbook/etiquette.md
+  /en/installations/handbook/install-day-and-maintenance.md
+  /en/installations/handbook/overview.md
+  /en/installations/handbook/phases-overview.md
+  /en/installations/handbook/risks-rooftop-ladder-drill.md
+  /en/installations/handbook/risks-weather-environment.md
+  /en/installations/handbook/safety-basics.md
+  /en/installations/handbook/safety-buildings-electrical.md
+  /en/software-infrastructure/overview.md
+  /en/wireless/fixed-wireless.md
+  /en/wireless/wifi.md
 
 plugins:
   - search
@@ -65,8 +88,6 @@ plugins:
             Access Point Placement: Ubicación de los puntos de acceso
             Green Technology Resources: Recursos de tecnología verde
             Networking and Device Configuration: Redes y configuración de dispositivos
-            Wireless: Inalámbrico
-            Software and Cloud Infrastructure: Software e infraestructura en la nube
             Set a Static IP Address: Configurar una IP estática
             Configure EdgeRouter X: Configurar EdgeRouter X
             Configure Unifi APs: Configurar APs Unifi
@@ -85,42 +106,20 @@ nav:
   - For Volunteers:
     - Installations:
       - Building Assessments: installations/buildingassessment.md
-      - Install & Maintenance Handbook:
-        - Overview: installations/handbook/overview.md
-        - Etiquette On Site: installations/handbook/etiquette.md
-        - Safety Basics: installations/handbook/safety-basics.md
-        - Weather & Environmental Risks: installations/handbook/risks-weather-environment.md
-        - Rooftop, Ladder & Drill Safety: installations/handbook/risks-rooftop-ladder-drill.md
-        - Building & Electrical Safety: installations/handbook/safety-buildings-electrical.md
-        - Install Phases Overview: installations/handbook/phases-overview.md
-        - Building Assessment & Planning: installations/handbook/assessment-planning.md
-        - Install Day & Maintenance: installations/handbook/install-day-and-maintenance.md
       - Access Point Placement: installations/ap-placement.md
       - Hardware: installations/hardware.md
     - Networking and Device Configuration:
         - Set a Static IP Address: device-configuration/configure-computer.md
         - Configure routers running EdgeOS:
           - Manual configuration: device-configuration/configure-edgerouter-x.md
-          - Automated configuration with Ansible: device-configuration/configure-edgerouter-ansible.md
         - Configure Unifi APs: device-configuration/configure-ap-mesh.md
-        - Wireless settings: device-configuration/wireless-settings.md
         - Troubleshoot Unifi Devices: device-configuration/troubleshoot-devices.md
-        - Network Monitoring:
-          - Unpoller: device-configuration/unpoller.md
-        - Useful Software: device-configuration/useful-software.md
     - Solar:
       - Solar Mesh Nodes: installations/solar.md
       - Green Technology Resources: installations/green-technology.md
-    - Wireless:
-      - Fixed Wireless: wireless/fixed-wireless.md
-      - WiFi: wireless/wifi.md
-    - Software and Cloud Infrastructure:
-      - Overview: software-infrastructure/overview.md
 
-  - For network users: 
-    - Troubleshoot your connection: device-configuration/troubleshoot-connection.md
+  - For network users:
     - Configure IoT Devices: device-configuration/configure-IoT.md
-    - FAQs: faqs.md
 
   - Resources:
     - Glossary: glossary.md

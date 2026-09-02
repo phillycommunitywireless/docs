@@ -1,0 +1,11 @@
+:8000 {
+	root * site
+	file_server
+
+	# handle 404s
+	# serve the custom 404 page from mkdocs/material as a file 
+	handle_errors {
+		rewrite * /{err.status_code}.html
+		file_server
+	}
+}
