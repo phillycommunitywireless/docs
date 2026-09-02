@@ -17,13 +17,20 @@ Philly Community Wireless is actively supporting sustainable green spaces focuse
 
 ## Deployments
 
-PCW installed a solar mesh node in Norris Square Neighborhood Projects Colobo Gardens in 2021, and it only recently needed to be fixed with a replacement battery. The access point sits at the top of a bamboo mast, high enough to clear the garden's structures, with the solar panel and enclosure mounted below it.
+PCW installed a solar mesh node in Norris Square Neighborhood Projects Colobo Gardens in 2021. Batteries typically last a couple of years at least before needing replacement. The access point sits at the top of a bamboo mast, high enough to clear the garden's structures, with the solar panel and enclosure mounted below it.
 
 <figure style="display: flex; align-items: center; flex-direction: column;">
-    <img src="/assets/images/installations/solar/ap_install.jpg"
-         alt="Mounting the access point on the bamboo mast at Colobo Gardens"
+    <img src="/assets/images/installations/solar/full_solar_node.jpg"
+         alt="The full solar mesh node at Colobo Gardens: the access point atop the bamboo mast, with the solar panel mounted on the roof below"
          style="width: 50%; height: 50%;">
-    <figcaption>Mounting the access point on the bamboo mast at Colobo Gardens</figcaption>
+    <figcaption>The full solar mesh node at Colobo Gardens: the access point atop the bamboo mast, with the solar panel mounted on the roof below</figcaption>
+</figure>
+
+<figure style="display: flex; align-items: center; flex-direction: column;">
+    <img src="/assets/images/installations/solar/solar_panel_mount.jpg"
+         alt="The solar panel on its angled mount at the roof edge, with the wiring running down to the enclosure"
+         style="width: 50%; height: 50%;">
+    <figcaption>The solar panel on its angled mount at the roof edge, with the wiring running down to the enclosure</figcaption>
 </figure>
 
 ## The Solar Battery Enclosure
