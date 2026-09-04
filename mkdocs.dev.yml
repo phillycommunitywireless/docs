@@ -40,8 +40,9 @@ nav:
         - Useful Software: device-configuration/useful-software.md
         - Unpoller: device-configuration/unpoller.md
     - Solar:
-      - Solar Mesh Nodes: installations/solar.md
-      - Green Technology Resources: installations/green-technology.md
+      - Solar Mesh Nodes: installations/green-tech/solar-mesh-node.md
+      - Solar Air Monitors: installations/green-tech/solar-air-monitor.md
+      - Green Technology Resources: installations/green-tech/green-technology.md
     - Software & Infrastructure:
       - Overview: software-infrastructure/overview.md
 

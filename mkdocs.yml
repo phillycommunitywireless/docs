@@ -53,6 +53,7 @@ draft_docs: |
   /en/software-infrastructure/overview.md
   /en/wireless/fixed-wireless.md
   /en/wireless/wifi.md
+  /en/installations/green-tech/solar-air-monitor.md
 
 plugins:
   - search
@@ -83,8 +84,12 @@ plugins:
             Manual configuration: Configuración manual
             Troubleshoot Unifi Devices: Solución de problemas de dispositivos Unifi
             Hardware: Hardware
-            Solar: Solar
+            # TODO - translation
+            # ### 
+            Green Tech: Green Tech
             Solar Mesh Nodes: Nodos solares
+            Solar Air Monitors: Solar Air Monitors
+            # ### 
             Access Point Placement: Ubicación de los puntos de acceso
             Green Technology Resources: Recursos de tecnología verde
             Networking and Device Configuration: Redes y configuración de dispositivos
@@ -114,7 +119,7 @@ nav:
           - Manual configuration: device-configuration/configure-edgerouter-x.md
         - Configure Unifi APs: device-configuration/configure-ap-mesh.md
         - Troubleshoot Unifi Devices: device-configuration/troubleshoot-devices.md
-    - Solar:
+    - Green Tech:
       - Solar Mesh Nodes: installations/solar.md
       - Green Technology Resources: installations/green-technology.md
 
