@@ -98,3 +98,15 @@ To add a new page, simply add a new `.md` file to the desired parent directory; 
 Links to other pages on the doc should be suffixed by `.md` to avoid warnings at runtime. 
 
 ![A screenshot showing two links to "buildingassessment.md", with the first not including ".md".](readme-imgs/link-formatting.png)
+
+#### Drafts VS Production 
+We've added new functionality that allows drafts to be worked on, but not built during production deployments. 
+
+To add a new draft page: 
+* Create a new .md file as normal. 
+* In mkdocs.yml, add the path as a list item under the key `draft_docs`. This tells mkdocs to not build and publish that page during production deployments. 
+* However, if you mark something as a draft, it will not appear at all :(. Not good. So add the page to the `nav` key in mkdocs.dev.yml
+    * these are development settings that inherit prod's settings; so it's basically saying to mkdocs "add this page, but only add it to the site navigation during development mode" 
+* When the page is ready for publication, remove the litsing from `draft_docs`, and move the entry in `mkdocs.dev.yml/nav` to `mkdocs.yml/nav`. 
+
+You can test differences between the production and development webservers by changing the app_tag in compose.yml to "production". Leaving this value blank will run the dev webserver by default. 
