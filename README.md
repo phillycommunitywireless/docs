@@ -1,7 +1,7 @@
 # PCW Documentation
 Technical documentation and onboarding materials for Philly Community Wireless. 
 
-Deploy previews via [`Render`](https://render.com/)
+Deploy previews via [Render](https://github.com/phillycommunitywireless/phillycommunitywireless/wiki/Deploy-Previews) — every pull request gets a live preview URL
 
 Built with [`mkdocs`](https://www.mkdocs.org) (via [Material Theme](https://squidfunk.github.io/mkdocs-material/))
 and deployed to [readthedocs.org](readthedocs.org)
