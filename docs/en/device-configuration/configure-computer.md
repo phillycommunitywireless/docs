@@ -1,5 +1,5 @@
 ---
-title: Configure Computer
+title: Set a Static IP Address
 ---
 
 This page reviews how to configure your computer, to be able to connect to the networking devices. We review setting a static IP address and sharing internet with other computers. 
@@ -35,7 +35,7 @@ _These instructions have only been tested on Ubuntu 20.04._
 3. In the **IPv4** tab, choose "Manual".
 4. Set the Address field to `192.168.1.2` <br>
 5. Set the Netmask to: `255.255.255.0` <br>
-   (Leave Gateway empty, and DNS/Routes on \`Automatic)
+   (Leave Gateway empty, and DNS/Routes on Automatic)
    ![ Ubuntu Network Settings 2](../../assets/images/device-configs/static-ip/ubuntu2.png)
 6. Click "add"; you should see the profile appear in your settings. Select it when connected to activate the static IP configuration.
 
@@ -60,9 +60,9 @@ This is useful when you need a device to be able to access the internet while ne
 
 Choose your computer's OS:
 
-**[Ubuntu](#ubuntu)**  
-**[MacOS](#macos)**  
-**[Windows](#windows)**  
+**[Ubuntu](#ubuntu_1)**  
+**[MacOS](#macos_1)**  
+**[Windows](#windows_1)**  
 
 ## Ubuntu
 1.  Open your `Settings` > `Network`.
