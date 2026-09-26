@@ -25,7 +25,7 @@ is the reference we work from. The points that come up most often on PCW install
 * **Mesh networks should be supplemental** - Although mesh networks can operate comparably to a hard-wired network, connection quality and speed can be greatly affected by radiofrequency (RF) noise and obstructions between APs such as walls, trees, or other structures.
 * **Mesh 'hops' should be minimized** - A meshed AP should only have one 'parent' - each mesh 'hop', or mesh connection between APs, results in a significant performance decrease. Ideally, there should be a maximum of two 'hops' - e.g, a mesh AP meshes with another mesh AP, which then meshes to a hard-wired AP.
 * **Limit concurrent connections to a 'parent'** - Similarly, meshing too many APs to the same 'parent' creates additional RF noise and performance demands on the parent, resulting in decreased performance and stability.
-* **Ensure strong signal strength between meshed APs** - Ideally, a meshed AP will have clear line-of-sight (LoS) to its mesh parent. A signal strength of -60dbm is recommended for ideal performance. Ensure minimal obstructions between the meshed AP and the parent, such as walls, trees, furniture, etc.
+* **Ensure strong signal strength between meshed APs** - Ideally, a meshed AP will have clear line-of-sight (LoS) to its mesh parent. A signal strength of -60 dBm is recommended for ideal performance. Ensure minimal obstructions between the meshed AP and the parent, such as walls, trees, furniture, etc.
 
 ## Outdoor placement
 

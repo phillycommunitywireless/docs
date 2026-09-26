@@ -15,7 +15,7 @@ Access the docs here - https://docs.phillycommunitywireless.org
 ## Editing on GitHub
 After receiving access to the repository, edits can be made to the site's code directly from the GitHub web editor. Just find the file you'd like to edit (the filename will be the same as the page's slug) and click the pencil icon in the corner. Once you've completed your changes, scroll to the bottom, add a commit message, and click "Commit changes".
 
-**The `main` branch has merge protections enabled;** to propose edits, commit your chanages to a new branch and open a pull request. This will generate a deploy preview using `Render` which will then be approved or denied. 
+**The `main` branch has merge protections enabled;** to propose edits, commit your changes to a new branch and open a pull request. This will generate a deploy preview using `Render` which will then be approved or denied. 
 
 
 ## Editing locally
@@ -72,7 +72,7 @@ You should see several markdown files in the docs/docs subfolder. These correspo
 #### Finalizing your changes
 Once you're confident in the changes you've made to the docs, you can push them back to the remote repo. 
 
-**The `main` branch has merge protections enabled;** to propose edits, commit your chanages to a new branch and open a pull request. This will generate a deploy preview using `Render` which will then be approved or denied. 
+**The `main` branch has merge protections enabled;** to propose edits, commit your changes to a new branch and open a pull request. This will generate a deploy preview using `Render` which will then be approved or denied. 
 
 ```
 git checkout -b your-branch-name

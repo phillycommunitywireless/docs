@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting Outages
+title: Troubleshoot Unifi Devices
 ---
 
 Not every device will work perfectly. Additionally, devices deployed outdoors will be exposed to the elements, primarily heat and moisture, and degrade naturally over time. With that said, outdoor access points have often lasted 5 years or longer. In Philadelphia, we rarely encounter inclement weather that damages our radios.  

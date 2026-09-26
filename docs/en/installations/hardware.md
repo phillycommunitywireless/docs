@@ -1,12 +1,12 @@
 ---
-title: Hardware and Tools
+title: Hardware
 ---
 
 # Hardware
 
 The following materials are used for [Installations](installations.md). Further information about configuring many of these devices can be found in the Installation guides in these docs.
 
-See NYCMesh's [Networking Hardware](https://docs.nycmesh.net/hardware/) and [Installation Equipment](https://docs.nycmesh.net/installs/equipment/) docs for further details and information on the hardware and tools below.
+See NYCMesh's [Networking Hardware](https://wiki.nycmesh.net/books/3-hardware-firmware) and [Installation Equipment](https://wiki.nycmesh.net/books/2-install-maintenance-guides/page/install-tools-and-equipment) docs for further details and information on the hardware and tools below.
 
 ## Networking Hardware
 
@@ -86,7 +86,7 @@ mounted at the site.
 
 ### Routers
 - [Ubiquiti EdgeRouter X](https://store.ui.com/collections/operator-edgemax-routers/products/edgerouter-x)
-- [Ubiquiti EdgePoint R6](https://store.ui.com/collections/operator-edgemax-control-points/products/edgepoint-r6) - see [NYC Mesh's doc](https://docs.nycmesh.net/hardware/epr6/) on this alternative to ER-X's.
+- [Ubiquiti EdgePoint R6](https://store.ui.com/collections/operator-edgemax-control-points/products/edgepoint-r6) - see [NYC Mesh's doc](https://wiki.nycmesh.net/books/3-hardware-firmware/page/ubiquiti-edgepoint-r6) on this alternative to ER-X's.
 
 <figure class="device-diagram">
     <img class="device-art" src="../../assets/images/equipment/edgerouter-x.svg"
@@ -111,14 +111,14 @@ mounted at the site.
 
 - [airMAX LiteBeam AC 5 GHz Bridge](https://store.ui.com/collections/wireless/products/litebeam-5ac-gen2)
 - [airMAX PowerBeam 5ac 500](https://techspecs.ui.com/uisp/wireless/pbe-5ac-500)
-- [airMax NanoBeam M5](https://store.ui.com/us/en/products/nbe-m5-16)
-- [airMax NanoStation M5 loco](https://store.ui.com/us/en/category/wireless-airmax-5ghz/products/locom5)
+- [airMAX NanoBeam M5](https://store.ui.com/us/en/products/nbe-m5-16)
+- [airMAX NanoStation M5 loco](https://store.ui.com/us/en/category/wireless-airmax-5ghz/products/locom5)
 
 ### Mounts
 
 - [Universal J-Arm Mount](https://store.ui.com/collections/operator-airmax-and-ltu-accessories/products/universal-antenna-mount)
 - [Window Mount](https://store.ui.com/collections/operator-airmax-and-ltu-accessories/products/nanostation-window-mount)
-- [Non-penetrating Roof Mount](https://www.data-alliance.net/non-penetrating-roof-mount-base-fits-pipe-mast-antenna-mounts-extendable-up-to-7ft-mast/)
+- [Non-penetrating Roof Mount](https://www.data-alliance.net/roof-mounts/)
 - Enclosure(s)
 
 ### Accessories
@@ -132,7 +132,7 @@ mounted at the site.
 - Short-to-medium length Ethernet cable(s)
 - Outdoor-rated power strip(s)
 - Outdoor-rated extension cord(s)    
-- outdoor-rated power splitter(s)
+- Outdoor-rated power splitter(s)
 - [Extension cords](https://www.newegg.com/black-monoprice-6-00-ft-others/p/0N6-01B8-002D6)
 - [PoE Injector/Splitter](https://www.newegg.com/p/2WG-00DK-00004)
 - [Ethernet to Ethernet adapter/coupler](https://www.newegg.com/p/0Y3-02J6-00001)

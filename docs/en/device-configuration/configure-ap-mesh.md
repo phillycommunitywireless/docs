@@ -1,5 +1,5 @@
 ---
-title: Configure Unifi Mesh AP
+title: Configure Unifi APs
 ---
 <figure class="device-diagram">
     <img class="device-art" src="../../assets/images/equipment/unifi-ap-ac-mesh.svg"
@@ -49,9 +49,9 @@ This guide will walk you through configuring a Ubiquiti Access Point AC Mesh ("b
 
     The light will be blue if the device has an existing configuration. Don't worry, we'll factory reset the device next.
 
-<img src="../../assets/images/device-configs/mesh/Reset.jpeg" width="30%">
-<img src="../../assets/images/device-configs/mesh/Ports.jpeg" width="30%">
-<img src="../../assets/images/device-configs/mesh/Wiring.jpeg" width="30%">
+<img src="../../assets/images/device-configs/mesh/Reset.jpeg" alt="The reset button and Ethernet port under the cover of the AP Mesh Unit" width="30%">
+<img src="../../assets/images/device-configs/mesh/Ports.jpeg" alt="The POE and LAN ports on the PoE injector, with the black cable in POE and the yellow cable in LAN" width="30%">
+<img src="../../assets/images/device-configs/mesh/Wiring.jpeg" alt="The AP Mesh Unit wired through the PoE injector to the computer" width="30%">
 
 The AP Mesh Units have had unexpected behavior even out of the box, so it is recommended to factory reset it before continuing.
 
@@ -60,7 +60,7 @@ The AP Mesh Units have had unexpected behavior even out of the box, so it is rec
 3. The status light on the AP should flash, then go out as the device reboots. When it comes back on it should be solid white, indicating the reset was successful. 
 4. For more info on the status lights, refer to [LED Color Patterns for UniFi Devices](troubleshoot-devices.md#unifi-ap-led-status-indicators)
 
-Note: The AP Mesh Unit can take a few minutes to boot after being plugged in or reset, so wait until the status light is solid white,.
+Note: The AP Mesh Unit can take a few minutes to boot after being plugged in or reset, so wait until the status light is solid white.
 
 
 ### 2. Connect the AP to your computer
@@ -68,7 +68,7 @@ Note: The AP Mesh Unit can take a few minutes to boot after being plugged in or 
 We need to connect the device to our computer and determine its IP address, while also making sure it also has a route to the Internet. 
 
 !!! info ""
-    Normally, any device on your network will recieve an IP address via the Dynamic Host Configuration Protocol, or DHCP. This ensures that your router knows which device it is communicating with on your network. Although Unifi APs reset to `192.168.1.20`, if the AP has already been configured it may recieve a different IP address. 
+    Normally, any device on your network will receive an IP address via the Dynamic Host Configuration Protocol, or DHCP. This ensures that your router knows which device it is communicating with on your network. Although Unifi APs reset to `192.168.1.20`, if the AP has already been configured it may receive a different IP address. 
 
 The Unifi mesh APs should automatically reset to `192.168.1.20` so you can first try Step 2 and see if the `ssh` command works. 
 
@@ -91,28 +91,28 @@ We usually do option b) connect the AP directly to our computer.
 1. Connect the `LAN` port of the injector to your computer, using the USB Ethernet adapter if you don't have an Ethernet port.
 2. Make sure your computer is connected to WiFi.
 3. Your computer's IP address must be Static in order for you to see and `ssh` into the AP.
-5. Follow the instructions here: [Setting a static IP for your computer](configure-computer.md#setting-a-static-ip-address) to set your IP address.
-6. You can also follow the directions on [Sharing a WiFi connection over Ethernet](configure-computer.md#sharing-a-wifi-connection-over-ethernet) to share your computer's wireless connection with the AP.
-7. To find the AP's ip address, or if the SSH hangs, try running `arp -a` to find the AP.
+4. Follow the instructions here: [Setting a static IP for your computer](configure-computer.md#setting-a-static-ip-address) to set your IP address.
+5. You can also follow the directions on [Sharing a WiFi connection over Ethernet](configure-computer.md#sharing-a-wifi-connection-over-ethernet) to share your computer's wireless connection with the AP.
+6. To find the AP's ip address, or if the SSH hangs, try running `arp -a` to find the AP.
 
 
 ### 3. Connect to the AP using SSH
 
 !!! info ""
-    `ssh`, or Secure Shell, is a protocol used for securing communications over a network using public key cryptogrpahy. We use `ssh` to connect to APs via the command line to configure and adopt APs.  
+    `ssh`, or Secure Shell, is a protocol used for securing communications over a network using public key cryptography. We use `ssh` to connect to APs via the command line to configure and adopt APs.  
 
 1. At the terminal, run the command `ssh ubnt@192.168.1.20` or replace the default IP address with the one you copied.
-3. You may see "`The authenticity of host [...] can't be established`". Type "yes" and press Enter.
-4. When prompted for the password, enter `ubnt`.
-5. You should now be connected to the AP Mesh Unit.
+2. You may see "`The authenticity of host [...] can't be established`". Type "yes" and press Enter.
+3. When prompted for the password, enter `ubnt`.
+4. You should now be connected to the AP Mesh Unit.
 
    ![SSH Connection](../../assets/images/device-configs/mesh/SSH.png)
 
 !!! warning ""
 
-    If you you get a `Host key verification failed` error, you'll need to edit your `known_hosts` file.
+    If you get a `Host key verification failed` error, you'll need to edit your `known_hosts` file.
     1. The easiest way is to run the following command (at least on Ubuntu this works): `sudo ssh-keygen -f "/root/.ssh/known_hosts" -R "192.168.1.20"`
-    1. Alternatively, ppen `~/.ssh/known_hosts` with `vim`, `nano`, or the text editor of your choice.
+    1. Alternatively, open `~/.ssh/known_hosts` with `vim`, `nano`, or the text editor of your choice.
     2. Remove the line beginning with `192.168.1.20` (It will look something like `192.168.1.20 ssh-rsa AAAAB3NzaC1yc2E...`), and save the file.
 
 
@@ -124,16 +124,16 @@ We usually do option b) connect the AP directly to our computer.
 
 1. From your `ssh` shell, run the command `sudo set-inform http://unifi.phillycommunitywireless.org:8080/inform`. This will send a message over the internet to our controller, letting it know the device wants to be adopted.
 
-!!! warning ""
+    !!! warning ""
 
-    If your prompt hangs here, your AP probably doesn't have a route to the internet. [Return to the connection step](#2-connect-the-ap-to-your-computer) and make sure your setup follows those instructions.
+        If your prompt hangs here, your AP probably doesn't have a route to the internet. [Return to the connection step](#2-connect-the-ap-to-your-computer) and make sure your setup follows those instructions.
 
 2. Open the Unifi controller Hostifi portal in your browser, and navigate to the device list. The AP should appear in the list of devices awaiting adoption.
-4. Press `Adopt` to adopt the AP Mesh Unit.
-5. Adoption can take a while. Try refreshing the Hostifi portal and/or browser. 
-6. You will be prompted to choose a Group for the AP. Choose All AP's and press save.
-7. Go back to the main Dashboard to see if the device has been adopted.
-8. If the device hangs during adopt, try to Forget it. Try the `set inform` command again.
+3. Press `Adopt` to adopt the AP Mesh Unit.
+4. Adoption can take a while. Try refreshing the Hostifi portal and/or browser. 
+5. You will be prompted to choose a Group for the AP. Choose All APs and press save.
+6. Go back to the main Dashboard to see if the device has been adopted.
+7. If the device hangs during adopt, try to Forget it. Try the `set inform` command again.
 
 ### 5. Configure the AP and set the firmware version 
 
