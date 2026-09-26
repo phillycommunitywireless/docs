@@ -47,7 +47,7 @@ If you have additional questions, please don't hesitate to reach out at info@phi
 
 *You are connected to a PCW network, or want to be.*
 
-- [Configure IoT Devices](device-configuration/configure-IoT.md)
+- [Configure IoT Devices](for-network-users/configure-IoT.md)
 - [Get connected](https://phillycommunitywireless.org/getconnected) — coverage areas and sign-up, on the main site
 
 ### Resources
