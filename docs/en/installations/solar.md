@@ -13,7 +13,7 @@ Philly Community Wireless is actively supporting sustainable green spaces focuse
 * A charge controller
 * A low-temp disconnect (depending on the battery)
 * A 12V to 24V 3A boost converter
-* A mesh node: starting with the 24V Ubiquity mesh access point
+* A mesh node: starting with the 24V Ubiquiti mesh access point
 
 ## Deployments
 
@@ -50,8 +50,8 @@ For additional troubleshooting help, check out the 'Troubleshooting' section (pg
 
 Common issues include:
 
-* Battery Discharge - the LiFePo4 battery should read between 12.5V to 14.6V.
-  * Anything less than 12.5v and the battery management system will shut off to save power.
+* Battery Discharge - the LiFePO4 battery should read between 12.5V to 14.6V.
+  * Anything less than 12.5V and the battery management system will shut off to save power.
 * Connections between the enclosure and the charge controller, as well as the connections between the charge controller and AP.
   * There should be a **red** light on the charge controller, and a **green** light on the PoE injector.
 * Low temperature or bad weather conditions

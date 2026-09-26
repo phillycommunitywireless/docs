@@ -22,7 +22,7 @@ Below is a diagram of the resulting system. Attached to and inside the residenti
 
 <figure style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
     <img src="../../assets/images/installations/install/diagram.png"
-         alt=""
+         alt="Installation overview diagram"
          style="width: 85%;">
     <figcaption>Installation overview diagram</figcaption>
 </figure>
@@ -35,16 +35,16 @@ Typically, installs take between two and four hours to complete, but in certain 
 
 <figure style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
     <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-        <img src="../../assets/images/installations/install/image8.jpg" width="80%">
+        <img src="../../assets/images/installations/install/image8.jpg" alt="LiteBeam mounted via J-arm on a chimney" width="80%">
     </div>
-    <figcaption>LiteBeam (approx 14" x 11" x 11") mounted via J-arm on a chimmney</figcaption>
+    <figcaption>LiteBeam (approx 14" x 11" x 11") mounted via J-arm on a chimney</figcaption>
 </figure>
 
 Internet installations typically consist of a rooftop antenna, a power-over-Ethernet injector, a router, and a WiFi access point (all of which are typically Ubiquiti networking equipment). During installation, PhillyWisper and Philly Community Wireless take every effort to minimally impact buildings. At any given install site, our installation work will be customized to ensure the least invasive and most secure placement of networking equipment, according to industry standards.
 
 For most locations, we first install a Ubiquiti LiteBeam radio antenna on the roof of the home, which receives signal from a nearby high site managed by PhillyWisper. To install the rooftop antenna, PhillyWisper technicians will access a high point and mount the small radio antenna (see attached images of various mounting techniques below) that they precision aim at the closest source tower. We never penetrate the roofing system itself when mounting the antenna, and wherever possible we utilize preexisting structures (chimneys, vent pipes, etc). If preexisting structures aren't an option, we use a non-penetrating roof mount, which is properly weighed down and rests on a rubber mat on top of your roof.
 
-The rooftop radio is powered via outdoor-rated Ethernet cable that runs down the building exterior and into the home (our equipment uses Power over Ethernet, so we can power outdoor devices with Ethernet from an indoor outlet). We make sure the wire run is as inconspicuously as possible and ensure there is plenty of tension on the wire so that it doesn't flap in the wind. If there are any preexisting penetrations entering the building from previous ISPs, they will use that if possible and caulk when finished.
+The rooftop radio is powered via outdoor-rated Ethernet cable that runs down the building exterior and into the home (our equipment uses Power over Ethernet, so we can power outdoor devices with Ethernet from an indoor outlet). We make sure the wire run is as inconspicuous as possible and ensure there is plenty of tension on the wire so that it doesn't flap in the wind. If there are any preexisting penetrations entering the building from previous ISPs, they will use that if possible and caulk when finished.
 
 ## Installation Examples
 
@@ -54,9 +54,9 @@ We utilize non-penetrating roof mounts (NPRM). A thick rubber mat is placed belo
 
 <figure style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
     <img src="../../assets/images/installations/install/image7.jpg"
-         alt=""
+         alt="A non-penetrating roof mount with a Litebeam attached"
          style="width: 80%;">
-    <figcaption>A  non-penetrating roof mount with a Litebeam attached</figcaption>
+    <figcaption>A non-penetrating roof mount with a Litebeam attached</figcaption>
 </figure>
 
 ### Mounting on existing roof structures
@@ -65,9 +65,9 @@ We also often use J-arm mounts or pre-existing mounts from prior telecommunicati
 
 <figure style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
     <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-        <img src="../../assets/images/installations/install/image9.jpg" width="80%">
+        <img src="../../assets/images/installations/install/image9.jpg" alt="A LiteBeam mounted on a previously-installed mast on a chimney" width="80%">
     </div>
-    <figcaption>A LiteBeam mounted on a previously-installed mast on a chimmney</figcaption>
+    <figcaption>A LiteBeam mounted on a previously-installed mast on a chimney</figcaption>
 </figure>
 
 ## WiFi Access Points Overview
@@ -82,14 +82,14 @@ The Ethernet cable coming down from the roof passes through a Power-over-Etherne
 
 <figure style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
     <img src="../../assets/images/installations/install/image4.jpg"
-         alt="" style="">
+         alt="Diagram of a PoE injector: power from a wall outlet and data from a non-PoE switch combine into one Ethernet cable" style="">
 </figure>
 
 The powered Ethernet cable is wired to a Ubiquiti EdgeRouter-X (or possibly another router in the future) configured to support mesh networking. The router handles traffic for each of the access points (APs) it is meshed with.
 
 <figure style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
     <img src="../../assets/images/installations/install/image5.jpg"
-         alt=""
+         alt="Ubiquiti EdgeRouterX"
          style="width: 50%;">
     <figcaption>Ubiquiti EdgeRouterX</figcaption>
 </figure>
@@ -98,7 +98,7 @@ Finally, a Ubiquiti Mesh AP ("bunny ears" because look at them!) is connected to
 
 <figure style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
     <img src="../../assets/images/device-configs/mesh/Materials.jpeg"
-         alt=""
+         alt="A Unifi UAP-AC-Mesh, or bunny ears"
          style="width: 50%;">
     <figcaption>A Unifi UAP-AC-Mesh, or "bunny ears"</figcaption>
 </figure>
