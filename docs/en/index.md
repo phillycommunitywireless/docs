@@ -40,8 +40,8 @@ If you have additional questions, please don't hesitate to reach out at info@phi
 
 **Solar**
 
-- [Solar Mesh Nodes](installations/solar.md)
-- [Green Technology Resources](installations/green-technology.md)
+- [Solar Mesh Nodes](installations/green-tech/solar-mesh-node.md)
+- [Green Technology Resources](installations/green-tech/green-technology.md)
 
 ### For network users
 

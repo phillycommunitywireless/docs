@@ -86,9 +86,9 @@ plugins:
             Hardware: Hardware
             # TODO - translation
             # ### 
-            Green Tech: Green Tech
+            Green Tech: Tecnología verde
             Solar Mesh Nodes: Nodos solares
-            Solar Air Monitors: Solar Air Monitors
+            Solar Air Monitors: Monitores de aire solares
             # ### 
             Access Point Placement: Ubicación de los puntos de acceso
             Green Technology Resources: Recursos de tecnología verde
@@ -120,8 +120,8 @@ nav:
         - Configure Unifi APs: device-configuration/configure-ap-mesh.md
         - Troubleshoot Unifi Devices: device-configuration/troubleshoot-devices.md
     - Green Tech:
-      - Solar Mesh Nodes: installations/solar.md
-      - Green Technology Resources: installations/green-technology.md
+      - Solar Mesh Nodes: installations/green-tech/solar-mesh-node.md
+      - Green Technology Resources: installations/green-tech/green-technology.md
 
   - For network users:
     - Configure IoT Devices: device-configuration/configure-IoT.md

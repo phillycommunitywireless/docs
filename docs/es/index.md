@@ -42,8 +42,8 @@ Si está buscando una **descripción no técnica del proyecto** o está interesa
 
 **Solar**
 
-- [Nodos solares](installations/solar.md)
-- [Recursos de tecnología verde](installations/green-technology.md)
+- [Nodos solares](installations/green-tech/solar-mesh-node.md)
+- [Recursos de tecnología verde](installations/green-tech/green-technology.md)
 
 ### Para usuarios de la red
 
