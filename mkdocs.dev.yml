@@ -46,7 +46,8 @@ nav:
       - Overview: software-infrastructure/overview.md
 
   - For network users:
-    - Configure IoT Devices: device-configuration/configure-IoT.md
+    - Connecting to the network: for-network-users/connect-to-the-network.md
+    - Configure IoT Devices: for-network-users/configure-IoT.md
 
   - Resources:
     - Glossary: glossary.md
