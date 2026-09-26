@@ -49,6 +49,7 @@ Si está buscando una **descripción no técnica del proyecto** o está interesa
 
 *Está conectado a una red de PCW, o quiere estarlo.*
 
+- [Conectarse a la red](for-network-users/connect-to-the-network.md)
 - [Configurar dispositivos IoT](for-network-users/configure-IoT.md)
 - [Conéctate](https://phillycommunitywireless.org/getconnected) — áreas de cobertura e inscripción, en el sitio principal
 
