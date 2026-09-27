@@ -1,78 +1,109 @@
 ---
-Title: Instalación de antenas
-
+title: Descripción general de la instalación
 ---
-# Instalación de antenas
 
-Philly Community Wireless se ha asociado con PhillyWisper para instalar antenas para la red wifi gratuita en los tejados del barrio de Norris Square Park. PhillyWisper es un proveedor de servicios de Internet inalámbrico (WISP), lo que significa que nuestro proyecto ofrece Internet a nuestros clientes a través de la tecnología de radio.
+<!-- TODO: machine-drafted Spanish translation — needs review by a fluent speaker. -->
+!!! note "Traducción preliminar"
+    Esta página es una traducción preliminar y está pendiente de revisión. Si encuentra un error, la [versión en inglés](../../../installations/installations/) es la referencia.
+
+# Descripción general de la instalación
+
+Philly Community Wireless se ha asociado con [**PhillyWisper**](https://phillywisper.net/) para instalar antenas para nuestra red wifi gratuita en azoteas de los vecindarios de Norris Square, Fairhill y Kensington. PhillyWisper es un proveedor de servicios de Internet inalámbrico (WISP), lo que significa que nuestro proyecto lleva Internet a nuestros clientes en la "última milla" mediante tecnología de radio.
+
+Philly Community Wireless busca construir tecnologías de redes de malla inalámbricas que sean propiedad de la comunidad y operadas por ella. Esta página describe nuestro proceso de instalación y el tipo de red que intentamos construir en una amplia zona de la ciudad. En una red doméstica típica, todos los ["puntos de acceso" (APs)](https://en.wikipedia.org/wiki/Wireless_access_point) están conectados por cable Ethernet a su router para crear una red de área local inalámbrica. En una red de malla, los puntos de acceso no solo pueden estar conectados por cable, sino que también pueden conectarse entre sí de forma inalámbrica. Esto permite compartir una sola conexión a Internet con mucha menos infraestructura y mano de obra que si se conectara cada AP por cable.
 
 ## Proceso de instalación en la azotea
 
-La mayoría de las instalaciones se realizaron en el siguiente orden:
+La mayoría de las instalaciones se realizan en el siguiente orden:
 
-1. Examine el edificio y la azotea para evaluar la línea de visión (LOV) de la torre de origen de la ubicación alta para la señal de banda ancha.
-2. Instale la antena en la azotea y conecte el cable al edificio.
-3. Configure el router wifi y los kits de malla (para obtener más información, consulte nuestra guía [Configurar AP-Mesh](../device-configuration/configure-ap-mesh.md) y nuestra guía [Configurar enrutadores ERX](../device-configuration/configure-edgerouter-x.md)).
-4. Es posible que instale una antena montada en la pared para propagar la señal por la calle.
+1. **Evaluación del edificio**: recibimos una nueva dirección. Verificamos si la dirección tiene [línea de visión (LoS)](https://en.wikipedia.org/wiki/Line-of-sight_propagation) con un sitio alto de PhillyWisper usando Google Earth y otras herramientas de mapas, y hacemos evaluaciones del edificio tanto a distancia como en persona para elaborar un plan de instalación. Para obtener más información, consulte la página [Evaluación del edificio](buildingassessment.md).
+2. **Planificación de la instalación**: si hay LoS, nos comunicamos con el residente o la organización comunitaria para conocer sus necesidades de conectividad, así como las de sus vecinos y de la zona en general. Esto nos ayuda a decidir qué tipo de puntos de acceso y equipos de red llevar, y cuánto cable vamos a necesitar. Una vez definida la logística de la instalación inicial, ¡se fija la fecha de instalación!
+3. **Establecer el enlace ascendente**: el día de la instalación, PCW comienza instalando la radio de enlace ascendente (uplink), por lo general una [LiteBeam](https://store.ui.com/us/en/products/litebeam-5ac), apuntada hacia un sitio alto de PhillyWisper. Esta radio proporciona la conexión a Internet.
+4. **Instalar los puntos de acceso**: una vez establecido el enlace ascendente, podemos empezar a tender cable por el techo o por dentro del edificio e instalar puntos de acceso wifi según se necesiten, ya sea en interiores o en exteriores.
+
+En las instalaciones residenciales, o bien transmitimos una red privada para el residente desde los mismos puntos de acceso que transmiten la red pública de PCW, o bien le proporcionamos un router adicional para que tenga su propia red privada, que obtiene su enlace ascendente de la red de PCW.
+
+A continuación se muestra un diagrama del sistema resultante. Pegados a la silueta de la casa y dentro de ella aparecen los dispositivos de exterior y de interior que PCW instalará para usted. Las siguientes secciones describen con más detalle nuestros métodos de instalación.
+
+<figure style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    <img src="../../../assets/images/installations/install/diagram.png"
+         alt="Diagrama general de la instalación"
+         style="width: 85%;">
+    <figcaption>Diagrama general de la instalación</figcaption>
+</figure>
 
 ## Duración de las instalaciones de antenas
 
-Normalmente, las instalaciones tardan entre dos y cuatro horas en completarse, pero en algunos casos pueden tardar más. El proceso de instalación completo, desde una antena en el techo hasta un kit de malla montado en la pared, puede implicar 2-3 visitas, cada una de las cuales implica una o dos horas de trabajo.
+Por lo general, las instalaciones tardan entre dos y cuatro horas, pero en algunos casos pueden tardar más. El proceso de instalación completo, desde la antena en la azotea hasta un kit de malla montado en la pared, puede requerir 2 o 3 visitas, cada una de una o dos horas de trabajo.
 
-# Hardware para la instalación
+## Hardware para la instalación
 
-Las instalaciones en la azotea constan de una antena en la azotea, un inyector de alimentación a través de Ethernet, un router y un punto de acceso de malla. Philly Community Wireless y PhillyWisper utilizan principalmente radios y equipos de red Ubiquiti. Como cada techo es diferente, la instalación se personaliza para cada ubicación para garantizar la colocación más segura de acuerdo con los estándares del sector.
+<figure style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+        <img src="../../../assets/images/installations/install/image8.jpg" alt="LiteBeam montada en una chimenea con un soporte tipo J (J-arm)" width="80%">
+    </div>
+    <figcaption>LiteBeam (aprox. 14 x 11 x 11 pulgadas) montada en una chimenea con un soporte tipo J (J-arm)</figcaption>
+</figure>
 
-En general, instalamos una antena Ubiquiti LiteBeam en el techo de la casa, que recibe la señal de una torre PhillyWisper. La antena se conecta al hogar mediante un cable Ethernet. Actualmente, esta parte de la instalación debe ser completada por un técnico de PhillyWisper. Para fines de instalación, esto significa que los técnicos de PhillyWisper tendrán que montar una antena de radio pequeña (aproximadamente 14 x 11 x 11 pulgadas) a la altura del techo y apuntar con precisión a la torre más cercana.
+Por lo general, una instalación de Internet consiste en una antena en la azotea, un inyector PoE (alimentación a través de Ethernet), un router y un punto de acceso wifi (normalmente, todos son equipos de red Ubiquiti). Durante la instalación, PhillyWisper y Philly Community Wireless hacen todo lo posible por afectar los edificios lo menos posible. En cada lugar, adaptamos nuestro trabajo de instalación para que la colocación de los equipos de red sea lo menos invasiva y lo más segura posible, de acuerdo con los estándares de la industria.
 
-PhillyWisper se esfuerza al máximo por impactar los edificios durante la instalación. Utilizan técnicas no invasivas al montar la radio (consulte las imágenes adjuntas de las distintas técnicas de montaje que aparecen a continuación). Nunca penetran en el sistema de techado mismo y ellos intentan y utilizan estructuras preexistentes (chimeneas, tubos de ventilación, etc) cuando es posible.
+En la mayoría de los lugares, primero instalamos una antena de radio Ubiquiti LiteBeam en el techo de la casa, que recibe la señal de un sitio alto cercano administrado por PhillyWisper. Para instalar la antena en la azotea, los técnicos de PhillyWisper suben a un punto alto y montan la pequeña antena de radio (vea más abajo las imágenes de distintas técnicas de montaje), que apuntan con precisión hacia la torre más cercana. Al montar la antena nunca perforamos el sistema de techado y, siempre que es posible, aprovechamos estructuras existentes (chimeneas, tubos de ventilación, etc.). Si no es posible usar estructuras existentes, utilizamos un soporte de techo no penetrante, que lleva el lastre adecuado y descansa sobre una alfombrilla de goma encima de su techo.
 
-Si las estructuras preexistentes no son una opción, utilizarán un soporte de techo no penetrante, que se pesa correctamente y descansa sobre una alfombrilla de goma en la parte superior de su techo. A continuación, aseguran un cable de red estabilizado a los rayos UV para exteriores desde la radio del techo, hacia abajo a lo largo del exterior del edificio y el interior donde se ubicará el router WiFi.
-
-Tanto Philly Community Wireless y PhillyWisper como la de la comunidad Philly garantizan que el recorrido del cable sea lo más discreto posible y garantizan que el cable tenga mucha tensión para que no se solapa con el viento. Si hay alguna penetración preexistente que entra en el edificio de ISP anteriores, utilizarán eso si es posible y calafatearás cuando termine.
+La radio de la azotea se alimenta con un cable Ethernet apto para exteriores que baja por la fachada del edificio y entra en la casa (nuestros equipos usan PoE, así que podemos alimentar los dispositivos de exterior por Ethernet desde un tomacorriente interior). Nos aseguramos de que el recorrido del cable sea lo más discreto posible y de que el cable quede bien tensado para que no se sacuda con el viento. Si hay perforaciones existentes por donde entraban al edificio los cables de proveedores de Internet (ISP) anteriores, se usarán si es posible y se sellarán con masilla al terminar.
 
 ## Ejemplos de instalación
 
 ### Soportes de techo no penetrantes
 
-Utilizamos soportes de techo no penetrantes (NPRM). Una alfombra de goma gruesa se coloca debajo del NPRM para proteger el techo. Los bloques de cemento se utilizan como lastre para asegurar el NPRM:
+Utilizamos soportes de techo no penetrantes (NPRM). Debajo del NPRM se coloca una alfombrilla gruesa de goma para proteger el techo, y se usan 4 bloques de cemento como lastre para asegurarlo.
 
-![Non-penetrating roof mount 1](../../assets/images/installations/install/image1.jpg)
-![Non-penetrating roof mount 2](../../assets/images/installations/install/image2.jpg)
+<figure style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    <img src="../../../assets/images/installations/install/image7.jpg"
+         alt="Un soporte de techo no penetrante con una LiteBeam instalada"
+         style="width: 80%;">
+    <figcaption>Un soporte de techo no penetrante con una LiteBeam instalada</figcaption>
+</figure>
 
-### Antenas montadas en la pared
+### Montaje en estructuras existentes del techo
 
-La siguiente imagen muestra dos mástiles montados en la pared con radios, junto con un interruptor exterior y una caja de conexiones.
+También solemos usar soportes tipo J (J-arm) o soportes que quedaron de instalaciones de telecomunicaciones anteriores (antiguas antenas parabólicas de satélite) para montar nuestros equipos.
 
-El mástil de la izquierda tiene una radio Ubiquiti AF-24 que funciona a 24 GHz y proporciona una conexión de retorno de 1,4 Gbps al centro de datos.
+<figure style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+        <img src="../../../assets/images/installations/install/image9.jpg" alt="Una LiteBeam montada en un mástil previamente instalado en una chimenea" width="80%">
+    </div>
+    <figcaption>Una LiteBeam montada en un mástil previamente instalado en una chimenea</figcaption>
+</figure>
 
-![Wall mounted antenna 1](../../assets/images/installations/install/image6.jpg)
-![Wall mounted antenna 2](../../assets/images/installations/install/image7.jpg)
-![Wall mounted antenna 3](../../assets/images/installations/install/image8.jpg)
-![Wall mounted antenna 4](../../assets/images/installations/install/image9.jpg)
+## Descripción general de los puntos de acceso wifi
 
-El mástil de la derecha tiene radios PTMP con antenas de bocina simétricas. Las radios proporcionan servicio a clientes individuales.
+### Puntos de acceso wifi para exteriores
 
-El dispositivo blanco cuadrado entre y debajo de los mástiles es un Ubiquiti EP-S16, un conmutador de red para exteriores. Se suministra alimentación de 54 V CC al EP-S16, que a su vez suministra alimentación a las radios mediante POE (alimentación de Ethernet).
+Los anfitriones de antena también tendrán un router en su casa, cerca de la ventana del frente. En algunos casos, podemos instalar un punto de acceso montado en la pared exterior de la casa para propagar la señal de banda ancha por el vecindario.
 
-# Instalación de kit de malla para hosts de antena en la azotea
+### Descripción general del router y los puntos de acceso para interiores
 
-Los anfitriones de las instalaciones en la azotea también albergará un router en la casa cerca de la ventana al frente de la casa. En algunos casos podemos instalar una antena montada en la pared en el exterior de la casa para propagar la señal de banda ancha a través del vecindario.
+El cable Ethernet que baja de la azotea pasa por un inyector PoE, que añade alimentación eléctrica a la señal que el cable ya transporta. Así es como la antena de la azotea funciona con un tomacorriente interior común.
 
-Proporcionamos un kit con un inyector PoE y un AP de malla de orejas de conejo. Philly Community Wireless puede instalar el kit, o el residente puede instalar las orejas de conejo en cualquier lugar dentro de su casa, siempre y cuando otros puntos de acceso de malla estén dentro del alcance de radio (estamos planeando sugerir la entrada de la casa o el porche -- los puntos de acceso son impermeables).
+<figure style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    <img src="../../../assets/images/installations/install/image4.jpg"
+         alt="Diagrama de un inyector PoE: la alimentación de un tomacorriente de pared y los datos de un switch sin PoE se combinan en un solo cable Ethernet" style="">
+</figure>
 
-## Descripción general del kit de malla
+El cable Ethernet alimentado se conecta a un Ubiquiti EdgeRouter-X (o posiblemente a otro router en el futuro) configurado para admitir redes de malla. El router gestiona el tráfico de cada uno de los puntos de acceso (APs) con los que está conectado en malla.
 
-El cable Ethernet pasa a través de un inyector de alimentación a través de Ethernet (PoE), que añade alimentación a la señal que transporta el cable Ethernet y permite que los dispositivos de bajada se alimenten únicamente a través de Ethernet.
+<figure style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    <img src="../../../assets/images/installations/install/image5.jpg"
+         alt="Ubiquiti EdgeRouterX"
+         style="width: 50%;">
+    <figcaption>Ubiquiti EdgeRouterX</figcaption>
+</figure>
 
-![PoE Injector](../../assets/images/installations/install/image4.jpg)
+Por último, un AP de malla Ubiquiti (las "orejas de conejo"; ¡mírelo y verá por qué!) se conecta al router y permite que los dispositivos dentro del alcance de su señal de radio se conecten a la red. Las orejas de conejo deben instalarse en un lugar con visibilidad de radio hacia los APs de malla de las instalaciones domésticas que estén a su alcance.
 
-El cable Ethernet alimentado está conectado a un Ubiquiti EdgeRouter-X (o posiblemente a otro router en el futuro) configurado para admitir redes de malla. El router gestiona el tráfico de cada uno de los puntos de acceso (AP) con los que está conectado en malla.
-
-![EdgeRouter-X](../../assets/images/installations/install/image5.jpg)
-
-Por último, un Ubiquiti Mesh AP (“orejas de conejito” porque miren a ellos!) está conectado al router y permite que los dispositivos de su rango de señal de radio se conecten a la red. Las orejas de conejito deben instalarse en una ubicación que sea radiovisible para los puntos de acceso de malla en las instalaciones domésticas a su alcance.
-
-![Ubiquiti Mesh AP](../../assets/images/installations/install/image3.jpg)
-
-Para obtener más información sobre el kit de malla, consulte nuestra guía [Configurar AP-Mesh](../device-configuration/configure-ap-mesh.md)
+<figure style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    <img src="../../../assets/images/device-configs/mesh/Materials.jpeg"
+         alt="Un Unifi UAP-AC-Mesh, conocido como orejas de conejo"
+         style="width: 50%;">
+    <figcaption>Un Unifi UAP-AC-Mesh, conocido como "orejas de conejo"</figcaption>
+</figure>

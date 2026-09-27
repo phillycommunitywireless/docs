@@ -1,0 +1,26 @@
+# Monthly pull requests to keep dependencies current. Each one runs the
+# docs-checks build, so a breaking update shows up as a failed check.
+#
+# Major versions are ignored: they need a person to read the release notes.
+# In particular MkDocs 2.0 drops the plugin and theme systems this site relies
+# on, so requirements.txt keeps mkdocs below 2 on purpose.
+version: 2
+updates:
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: monthly
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
+    groups:
+      docs-dependencies:
+        patterns: ["*"]
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      github-actions:
+        patterns: ["*"]
