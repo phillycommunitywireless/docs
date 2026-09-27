@@ -88,7 +88,7 @@ _Begin these steps with the AP not connected to your computer via an ethernet po
 
 3.  Connect the ap to your machine or adapter and run `arp -a | grep -v incomplete` again. The difference between this and the previous grep output should be the AP. Note the IP address and MAC address.
 
-4.  To confirm that the AP has a route to the internet, you can run the same commands as specified in step 5 of the Ubuntu instructions above (ssh, ping, etc.).
+4.  To confirm that the AP has a route to the internet, SSH into it using the IP address you noted (see [Connect to the AP using SSH](configure-ap-mesh.md#3-connect-to-the-ap-using-ssh)) and `ping` an outside address from there.
 
 Note: These instructions were developed on a MacBook running Catalina, version 10.15.7.
 
