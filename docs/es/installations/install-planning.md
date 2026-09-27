@@ -96,7 +96,7 @@ es la referencia con la que trabajamos. Los puntos que surgen con más frecuenci
 ### Ubicación en exteriores
 
 Los AP exteriores deben montarse donde sean visibles por radio para los AP de malla de las instalaciones domésticas
-dentro del alcance, y lo bastante altos para superar lo que tengan alrededor. En los [nodos solares](solar.md), eso normalmente
+dentro del alcance, y lo bastante altos para superar lo que tengan alrededor. En los [nodos solares](green-tech/solar-mesh-node.md), eso normalmente
 significa que el AP va en la parte superior del mástil, con el panel y la caja montados debajo.
 
 Para saber cómo configurar un AP una vez ubicado, consulte la guía

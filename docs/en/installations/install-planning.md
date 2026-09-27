@@ -92,7 +92,7 @@ is the reference we work from. The points that come up most often on PCW install
 ### Outdoor placement
 
 Outdoor APs should be mounted where they are radio-visible to the mesh APs at the home installs in
-range, and high enough to clear whatever is around them. On [solar nodes](solar.md), that usually
+range, and high enough to clear whatever is around them. On [solar nodes](green-tech/solar-mesh-node.md), that usually
 means the AP sits at the top of the mast with the panel and enclosure mounted below it.
 
 For how to configure an AP once it is placed, see the

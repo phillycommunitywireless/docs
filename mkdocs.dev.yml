@@ -35,9 +35,10 @@ nav:
         - Wireless Settings: device-configuration/wireless-settings.md
         - Useful Software: device-configuration/useful-software.md
         - Unpoller: device-configuration/unpoller.md
-    - Solar:
-      - Solar Mesh Nodes: installations/solar.md
-      - Green Technology Resources: installations/green-technology.md
+    - Green Tech:
+      - Solar Mesh Nodes: installations/green-tech/solar-mesh-node.md
+      - Solar IoT Devices: installations/green-tech/solar-iot-devices.md
+      - Green Technology Resources: installations/green-tech/green-technology.md
     - Software & Infrastructure:
       - Overview: software-infrastructure/overview.md
 

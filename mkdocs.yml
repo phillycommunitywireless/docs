@@ -81,8 +81,9 @@ plugins:
             Manual configuration: Configuración manual
             Troubleshoot Unifi Devices: Solución de problemas de dispositivos Unifi
             Hardware: Hardware
-            Solar: Solar
+            Green Tech: Tecnología verde
             Solar Mesh Nodes: Nodos solares de malla
+            Solar IoT Devices: Dispositivos IoT solares
             Green Technology Resources: Recursos de tecnología verde
             Networking and Device Configuration: Redes y configuración de dispositivos
             Set a Static IP Address: Configurar una IP estática
@@ -130,9 +131,10 @@ nav:
           - Manual configuration: device-configuration/configure-edgerouter-x.md
         - Configure Unifi APs: device-configuration/configure-ap-mesh.md
         - Troubleshoot Unifi Devices: device-configuration/troubleshoot-devices.md
-    - Solar:
-      - Solar Mesh Nodes: installations/solar.md
-      - Green Technology Resources: installations/green-technology.md
+    - Green Tech:
+      - Solar Mesh Nodes: installations/green-tech/solar-mesh-node.md
+      - Solar IoT Devices: installations/green-tech/solar-iot-devices.md
+      - Green Technology Resources: installations/green-tech/green-technology.md
 
   - For network users:
     - Connecting to the network: for-network-users/connect-to-the-network.md

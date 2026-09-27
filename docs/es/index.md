@@ -46,8 +46,8 @@ Si tiene más preguntas, no dude en escribirnos a info@phillycommunitywireless.o
 
 **Solar**
 
-- [Nodos solares de malla](installations/solar.md)
-- [Recursos de tecnología verde](installations/green-technology.md)
+- [Nodos solares de malla](installations/green-tech/solar-mesh-node.md)
+- [Recursos de tecnología verde](installations/green-tech/green-technology.md)
 
 ### Para usuarios de la red
 
