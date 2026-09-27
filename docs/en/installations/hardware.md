@@ -77,12 +77,26 @@ mounted at the site.
 ### Switches
 - [Ubiquiti USW Flex Mini](https://store.ui.com/us/en/products/usw-flex-mini)
 - [Ubiquiti USW Flex](https://store.ui.com/us/en/category/switching-utility/products/usw-flex)
+- [Ubiquiti NanoSwitch](https://store.ui.com/us/en/products/n-sw) - an outdoor four-port switch; three of its ports supply 24V passive PoE. Used occasionally.
 
 <figure class="device-diagram">
     <img class="device-art" src="../../assets/images/equipment/flex-mini-ports.svg"
          alt="Line drawing of the USW Flex Mini port face, showing its five Ethernet ports in a row with the PoE input port at one end.">
     <figcaption>USW Flex Mini ports. Port 1 accepts PoE in and powers the switch, so it is the one that goes back toward the router.</figcaption>
 </figure>
+
+<div class="device-grid" style="--cols: 2">
+  <figure>
+    <img class="device-art" src="../../assets/images/equipment/nanoswitch.svg"
+         alt="Line drawing of a Ubiquiti NanoSwitch, a flat rounded rectangular enclosure with a round mounting point and a small status light.">
+    <figcaption><a href="https://store.ui.com/us/en/products/n-sw">NanoSwitch</a><br>Outdoor enclosure</figcaption>
+  </figure>
+  <figure>
+    <img class="device-art" src="../../assets/images/equipment/nanoswitch-ports.svg"
+         alt="Line drawing of the NanoSwitch port face, showing four Ethernet ports in a row, each with a green and a red status light.">
+    <figcaption>NanoSwitch ports</figcaption>
+  </figure>
+</div>
 
 ### Routers
 - [Ubiquiti EdgeRouter X](https://store.ui.com/collections/operator-edgemax-routers/products/edgerouter-x)
