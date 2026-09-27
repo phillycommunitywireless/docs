@@ -18,7 +18,7 @@ Programas, financiamiento y recursos de monitoreo relacionados con el trabajo de
 
     !!! warning ""
 
-        Consulte la página del programa antes de recomendarle a alguien este reembolso. En agosto de 2026, la Ciudad lo indica como sin fondos; las solicitudes se procesarán por orden de llegada solo si se restablece el financiamiento.
+        En agosto de 2026, la Ciudad indica este programa como sin fondos; las solicitudes se procesarán por orden de llegada solo si se restablece el financiamiento. Consulte la página del programa para conocer su estado actual.
 
 ## Agricultura urbana
 

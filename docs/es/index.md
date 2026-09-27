@@ -13,8 +13,6 @@ Si está buscando una **descripción no técnica del proyecto** o está interesa
 
 Si tiene más preguntas, no dude en escribirnos a info@phillycommunitywireless.org.
 
-<!-- TODO: Spanish review of the short italic descriptor lines below — for a fluent speaker at PR review. -->
-
 ## Por dónde empezar
 
 ### Para anfitriones de antena
