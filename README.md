@@ -148,7 +148,7 @@ mkdocs build --strict
 These run on GitHub; you don't need to set anything up.
 
 * **Docs checks** (`.github/workflows/docs-checks.yml`) runs on every pull request:
-    * **build** runs `mkdocs build --strict` and fails if a link points at a missing page or heading. Fix these before merging.
+    * **build** runs `mkdocs build --strict` and fails if a link points at a missing page or heading. It also fails if an image or link written in raw HTML (like `<img src="...">`) points at a file that doesn't exist. Raw HTML paths are relative to the page's URL, so pages under `docs/es/` need one more `../` than their English versions. Fix these before merging.
     * **translations** never fails. Its summary (on the pull request's "Checks" tab) lists Spanish pages that are missing, machine-drafted, or behind their English page. If your pull request changes an English page but not its Spanish version, it leaves a warning on the file.
 * **Link check** (`.github/workflows/link-check.yml`) tests every external link on the 1st of each month. If any are broken it opens an issue labeled `broken-links` (or updates the open one), and closes it once they all pass. To run it now, open the repo's Actions tab, choose "Link check" and click "Run workflow". If a site works in a browser but always fails the check, add an `--exclude` line for it in that file.
 * **Dependabot** (`.github/dependabot.yml`) opens a monthly pull request with minor dependency updates. It skips major versions on purpose, since MkDocs 2.0 would break this site.

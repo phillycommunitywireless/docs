@@ -2,8 +2,9 @@
 #
 # build:        builds the site with `mkdocs build --strict`, which fails on
 #               broken links between pages, links to missing headings, and
-#               pages missing from the nav. This is the check to require
-#               before merging.
+#               pages missing from the nav, then checks that image and link
+#               paths written in raw HTML point at real files. This is the
+#               check to require before merging.
 # translations: reports which Spanish pages are missing, machine-drafted, or
 #               behind their English page. Report only; it never fails.
 name: Docs checks
@@ -34,6 +35,8 @@ jobs:
           cache-dependency-path: requirements.txt
       - run: pip install -r requirements.txt
       - run: mkdocs build --strict
+      - name: Check image and link paths in raw HTML
+        run: python .github/scripts/check_built_links.py site
 
   translations:
     runs-on: ubuntu-latest
