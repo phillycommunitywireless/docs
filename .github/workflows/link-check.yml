@@ -1,0 +1,78 @@
+# Checks every external link in the docs once a month.
+#
+# Outside sites break or move on their own schedule, so this doesn't run on
+# pull requests or block anything. When links are broken it opens an issue
+# (or updates the open one) labeled `broken-links`, and closes that issue
+# once everything passes again. Run it by hand from the Actions tab with
+# "Run workflow".
+#
+# Links that always fail for reasons we can't fix (login walls, bot
+# blocking) get an `--exclude '<regex>'` line in the args below.
+name: Link check
+
+on:
+  schedule:
+    - cron: "23 13 1 * *" # 1st of each month, 13:23 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # Only http(s) links: links between pages are already checked by
+          # `mkdocs build --strict` in the docs-checks workflow. --root-dir
+          # lets lychee read root-relative image paths (/assets/...) as local
+          # files, which --scheme then skips.
+          # Excluded: the UniFi controller's device-adoption address (not a
+          # web page) and ProQuest (needs a library login).
+          args: >-
+            --no-progress
+            --scheme https --scheme http
+            --exclude-all-private
+            --root-dir ${{ github.workspace }}/docs
+            --max-retries 3 --retry-wait-time 10 --timeout 30
+            --accept 100..=103,200..=299,429
+            --exclude '^https?://unifi\.phillycommunitywireless\.org'
+            --exclude '^https?://search\.proquest\.com'
+            'docs/**/*.md' README.md
+          output: lychee/out.md
+          fail: false
+
+      - name: Open, update or close the broken-links issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          EXIT_CODE: ${{ steps.lychee.outputs.exit_code }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          existing=$(gh issue list --label broken-links --state open --json number --jq '.[0].number // empty')
+          today=$(date -u +%F)
+
+          if [ "$EXIT_CODE" != "0" ]; then
+            {
+              echo "The monthly link check found links that don't work. Fix or replace them, or add a pattern to \`.lycheeignore\` if a site blocks automated checks but works in a browser."
+              echo
+              echo "Last checked $today ([run]($RUN_URL))."
+              echo
+              cat lychee/out.md
+            } > issue.md
+            if [ -n "$existing" ]; then
+              gh issue edit "$existing" --body-file issue.md
+              gh issue comment "$existing" --body "Checked again on $today; the list above is updated."
+            else
+              gh label create broken-links --color d93f0b --description "Found by the monthly link check" --force
+              gh issue create --title "Broken links in the docs" --label broken-links --assignee hawc2 --body-file issue.md
+            fi
+          elif [ -n "$existing" ]; then
+            gh issue close "$existing" --comment "All links passed on $today ([run]($RUN_URL))."
+          fi

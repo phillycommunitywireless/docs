@@ -1,0 +1,45 @@
+# Runs on every pull request (and on main after a merge).
+#
+# build:        builds the site with `mkdocs build --strict`, which fails on
+#               broken links between pages, links to missing headings, and
+#               pages missing from the nav. This is the check to require
+#               before merging.
+# translations: reports which Spanish pages are missing, machine-drafted, or
+#               behind their English page. Report only; it never fails.
+name: Docs checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: docs-checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          # Same version Read the Docs uses (.readthedocs.yaml)
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - run: pip install -r requirements.txt
+      - run: mkdocs build --strict
+
+  translations:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # full history, to compare when each English and Spanish page last changed
+          fetch-depth: 0
+      - run: python .github/scripts/check_translations.py ${{ github.base_ref && format('origin/{0}', github.base_ref) || '' }}
