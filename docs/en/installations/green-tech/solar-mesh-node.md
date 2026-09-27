@@ -46,7 +46,7 @@ The weather-proof enclosure holds everything that is not the panel or the access
 
 ## Troubleshooting Solar Mesh Nodes
 
-For additional troubleshooting help, check out the 'Troubleshooting' section (pg. 12) of  the [Meshbox Documentation](https://holobiontlab.org/docs/meshBoxDocumentation.pdf). Holobiont Lab's [meshbox docs](https://holobiontlab.org/r&d/meshbox) cover the design these nodes are based on in more detail.
+For additional troubleshooting help, check out the 'Troubleshooting' section (pg. 12) of  the [Meshbox Documentation](https://holobiontlab.org/docs/meshBoxDocumentation.pdf) ([PCW's copy](../../../assets/files/solar/holobiont-meshbox-documentation.pdf)). Holobiont Lab's [meshbox docs](https://holobiontlab.org/r&d/meshbox) cover the design these nodes are based on in more detail.
 
 Common issues include:
 

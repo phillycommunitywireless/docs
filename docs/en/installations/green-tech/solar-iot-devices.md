@@ -47,7 +47,7 @@ The Holobiont Lab box charges a 12V battery from a solar panel and boosts it to 
 | Weather-proof enclosure | Holds everything except the panel and monitor | [Joinfworld 11.4 x 7.5 x 5.5 in junction box](https://www.amazon.com/dp/B0D3DVQGZ9) | |
 | Solar panel, 12V 10W | Charges the battery | [ECO-WORTHY 13.3 x 8.1 in, 10W](https://www.amazon.com/dp/B00OZC3X1C) | ~$29 |
 | [MPPT](https://en.wikipedia.org/wiki/Maximum_power_point_tracking) charge controller | Converts the panel's output into the right voltage to charge the battery | 4A [BQ24650](https://www.ti.com/product/BQ24650) board, same as the solar mesh node ([review](https://www.beyondlogic.org/review-bq24650-5a-mppt-solar-controller-3s-4s-li-ion-lifepo4-12v-lead-acid/)) | |
-| Low-temperature disconnect | Cuts the panel off below freezing, since LiFePO4 is damaged by charging in the cold | [XH-W1209](https://components101.com/modules/w1209-temperature-control-switch) thermostat board, same as the solar mesh node | |
+| Low-temperature disconnect | Cuts the panel off below freezing, since LiFePO4 is damaged by charging in the cold | [XH-W1209](https://components101.com/modules/w1209-temperature-control-switch) thermostat board, same as the solar mesh node ([manual](../../../assets/files/solar/xh-w1209-thermostat-manual.pdf)) | |
 | LiFePO4 battery, 12V 10Ah | Stores power for nights and cloudy days | [NERMAK 12V 10Ah](https://www.amazon.com/dp/B097BRKCQP) | ~$40 |
 | In-line fuse holder + 2-3A fuse | Protects against a short | [18 AWG in-line fuse holders](https://www.amazon.com/dp/B0DT4NCD5V) (Holobiont boxes come with one) | ~$7.50 for five |
 | F2 (6.3mm spade) crimp terminals | Connect wires to the battery's F2 terminals | [16 AWG spade terminals](https://www.amazon.com/dp/B09CYQLG49) | ~$13 for thirty |
@@ -252,7 +252,14 @@ Options Holobiont Lab suggested for Meshtastic specifically:
 
 ## Powering IoT devices over PoE
 
-Where a site already has power and a PCW install, an air monitor can instead be powered over Ethernet: a PoE switch or injector sends power down the cable, and a PoE splitter at the far end steps it down to 5V micro USB (or USB-C for a Meshtastic node). The adapter at the monitor end needs heat-shrink tubing to keep moisture out.
+Where a site already has power and a PCW install, an air monitor can instead be powered over Ethernet: a PoE switch or injector sends power down the cable, and a PoE splitter at the far end steps it down to 5V micro USB (or USB-C for a Meshtastic node). The adapter at the monitor end needs heat-shrink tubing to keep moisture out. The same approach can run a monitor off a solar box's battery through a PoE injector, as in the sketch below ([editable source](../../../assets/files/solar/air-monitor-solar-poe.drawio), opens in [diagrams.net](https://app.diagrams.net/)).
+
+<figure style="display: flex; align-items: center; flex-direction: column;">
+    <img src="../../../assets/images/installations/solar-air-monitor/air_monitor_solar_poe.png"
+         alt="Diagram: a solar panel charges a battery in a weatherproof enclosure with cable glands; the battery feeds a PoE injector, which sends power down an Ethernet cable to a PoE to micro USB adapter covered in heat-shrink tubing, which powers the air monitor"
+         style="width: 30%; height: 30%;">
+    <figcaption>Powering an air monitor from a solar box over PoE (PCW sketch, 2025)</figcaption>
+</figure>
 
 !!! todo "For PCW staff"
 
@@ -260,7 +267,8 @@ Where a site already has power and a PCW install, an air monitor can instead be 
 
 ## Further resources
 
-* [Holobiont Lab meshbox documentation](https://holobiontlab.org/docs/meshBoxDocumentation.pdf)
+* [Holobiont Lab meshbox documentation](https://holobiontlab.org/docs/meshBoxDocumentation.pdf) ([PCW's copy](../../../assets/files/solar/holobiont-meshbox-documentation.pdf), in case that link moves)
+* [XH-W1209 thermostat manual](../../../assets/files/solar/xh-w1209-thermostat-manual.pdf), the vendor's sheet for the low-temperature disconnect
 * [Power PurpleAir Quality Monitor From Solar](https://blog.voltaicsystems.com/power-purple-air-quality-monitor-from-solar/), Voltaic Systems' tested sizing for the same monitor
 * PurpleAir community: [power and data use](https://community.purpleair.com/t/how-much-power-does-a-purpleair-sensor-draw-and-how-much-bandwidth-data-does-it-use/847) and [running off the grid](https://community.purpleair.com/t/off-the-grid/119)
 * EPA: [guide to siting and installing air sensors](https://www.epa.gov/air-sensor-toolbox/guide-siting-and-installing-air-sensors)

@@ -45,7 +45,6 @@ draft_docs: |
   /*/software-infrastructure/overview.md
   /*/wireless/fixed-wireless.md
   /*/wireless/wifi.md
-  /*/installations/green-tech/solar-iot-devices.md
 
 plugins:
   - search
@@ -134,6 +133,7 @@ nav:
         - Troubleshoot Unifi Devices: device-configuration/troubleshoot-devices.md
     - Green Tech:
       - Solar Mesh Nodes: installations/green-tech/solar-mesh-node.md
+      - Solar IoT Devices: installations/green-tech/solar-iot-devices.md
       - Green Technology Resources: installations/green-tech/green-technology.md
 
   - For network users:

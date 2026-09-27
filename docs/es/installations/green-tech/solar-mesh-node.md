@@ -51,7 +51,7 @@ La caja resistente a la intemperie contiene todo lo que no es el panel ni el pun
 
 ## Solución de problemas de los nodos solares de malla
 
-Si necesita más ayuda para resolver problemas, consulte la sección 'Troubleshooting' (solución de problemas, pág. 12) de la [Meshbox Documentation](https://holobiontlab.org/docs/meshBoxDocumentation.pdf) (en inglés). La [documentación de meshbox](https://holobiontlab.org/r&d/meshbox) de Holobiont Lab explica con más detalle el diseño en el que se basan estos nodos.
+Si necesita más ayuda para resolver problemas, consulte la sección 'Troubleshooting' (solución de problemas, pág. 12) de la [Meshbox Documentation](https://holobiontlab.org/docs/meshBoxDocumentation.pdf) (en inglés; [copia de PCW](../../../assets/files/solar/holobiont-meshbox-documentation.pdf)). La [documentación de meshbox](https://holobiontlab.org/r&d/meshbox) de Holobiont Lab explica con más detalle el diseño en el que se basan estos nodos.
 
 Los problemas comunes incluyen:
 
