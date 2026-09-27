@@ -1,19 +1,23 @@
 ---
 title: Configurar dispositivos IoT
 ---
+
+<!-- TODO: machine-drafted Spanish translation — needs review by a fluent speaker. -->
+!!! note "Traducción preliminar"
+    Esta página es una traducción preliminar y está pendiente de revisión. Si encuentra un error, la [versión en inglés](../../../for-network-users/configure-IoT/) es la referencia.
+
 # Configurar dispositivos IoT
 
-## How to use your IoT Streaming (Chromecast, Roku, Firestick, etc) devices on the PCW public network
-The public 'Philly Community Wireless' network is not set up for Internet of Things (IoT) devices like Chromecast, Roku and Firestick to work consistently. 
+## Cómo usar sus dispositivos de streaming IoT (Chromecast, Roku, Firestick, etc.) en la red pública de PCW
+La red pública 'Philly Community Wireless' no está configurada para que los dispositivos del Internet de las cosas (IoT), como Chromecast, Roku y Firestick, funcionen de manera constante. 
 
-If you are having trouble with them on our network, we have a hidden network called 'PCW_HIDDEN' which is set up so that those devices work best. 
+Si tiene problemas con ellos en nuestra red, tenemos una red oculta llamada 'PCW_HIDDEN' que está configurada para que esos dispositivos funcionen mejor. 
 
-'Hidden' means that when you are selecting which WiFi network to connect to, you will not see its name listed. You will have to manually type in the name of the network “PCW_HIDDEN” into your device’s WiFi text box (this will depend on your device). There is no password for this network. 
+'Oculta' significa que, cuando elija la red wifi a la que se va a conectar, no verá su nombre en la lista. Tendrá que escribir manualmente el nombre de la red, “PCW_HIDDEN”, en el campo de texto de wifi de su dispositivo (esto depende de su dispositivo). Esta red no tiene contraseña. 
 
-## Tutorials to Change the WiFi Network for Common IoT Devices
-You might have the same device as one of these tutorials but a different version, which may change what you need to do to change your WiFi Network. If your device isn’t listed here search for “How to change WiFi network on [DEVICE NAME]”, hopefully there will be a useful tutorial. 
+## Tutoriales para cambiar la red wifi en dispositivos IoT comunes
+Es posible que tenga el mismo dispositivo que aparece en uno de estos tutoriales, pero en otra versión, y eso puede cambiar los pasos que debe seguir para cambiar su red wifi. Si su dispositivo no aparece aquí, busque “cómo cambiar la red wifi en [NOMBRE DEL DISPOSITIVO]” (o, en inglés, “How to change WiFi network on [DEVICE NAME]”); con suerte encontrará un tutorial útil. 
 
-* [Chromecast](https://support.google.com/chromecast/answer/7331010?hl=en)
-* [Firestick](https://www.spectrum.net/support/internet/amazon-fire-tv-stick-wifi-connection)
-* [Roku](https://support.roku.com/en-ca/article/208754458)
-
+* [Chromecast](https://support.google.com/chromecast/answer/7331010?hl=en) (en inglés)
+* [Firestick](https://www.spectrum.net/support/internet/amazon-fire-tv-stick-wifi-connection) (en inglés)
+* [Roku](https://support.roku.com/en-ca/article/208754458) (en inglés)

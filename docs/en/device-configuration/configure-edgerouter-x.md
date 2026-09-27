@@ -144,7 +144,7 @@ This method allows the ERX to connect to the Internet through your home router.
 
 11. Set up the DNS address as 1.1.1.1.
 
-12. Reset your computer's network settings; remove the static IP set in [Step 2](#2-configure-your-network-settings), and reset your connection settings to Dynamic. 
+12. Reset your computer's network settings; remove the static IP set in [Step 2](#2-configure-your-network-settings_1), and reset your connection settings to Dynamic. 
 
 13. Connect to the ERX again and log in with the PCW username and password. 
 

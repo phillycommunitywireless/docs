@@ -4,6 +4,18 @@ title: Troubleshoot Unifi Devices
 
 Not every device will work perfectly. Additionally, devices deployed outdoors will be exposed to the elements, primarily heat and moisture, and degrade naturally over time. With that said, outdoor access points have often lasted 5 years or longer. In Philadelphia, we rarely encounter inclement weather that damages our radios.  
 
+## Maintenance and Troubleshooting
+
+Here are some considerations for maintenance and troubleshooting work:
+
+* Start with identifying the problem. What evidence can we use to understand why equipment may not be functioning properly?
+    * Check the power source.
+    * Check to ensure all equipment is properly plugged in.
+    * Check for water damage.
+    * Check the settings in the Controller.
+* Always try the easiest solution first.
+* Don’t be afraid to schedule a follow-up visit if a problem cannot be solved day-of.
+
 ## Unifi AP LED Status Indicators
 Each Unifi AP has an LED which indicates its current status. 
 
@@ -51,7 +63,7 @@ Please see [this page](https://help.ui.com/hc/en-us/articles/204910134-Understan
 **Observations**: No lights, device is offline/missing from UISP.
 
 **Potential Causes and Fixes**:
-* **Flawed power connection/Ethernet cable if PoE** - Test the ERX with a different 9v power supply and check if the ERX comes online. Try switching to a different 9v power supply. If using PoE, ensure the voltage is correct.
+* **Flawed power connection/Ethernet cable if PoE** - Test the ERX with a different 12V power supply and check if the ERX comes online. Try switching to a different 12V power supply. If using PoE, ensure the voltage is correct.
 
 ## Useful Terminal Commands for Networking 
 * `ipconfig` (Windows)/`ifconfig` (Unix) - display network interfaces and related information - IP address, subnet mask, and default gateway. 

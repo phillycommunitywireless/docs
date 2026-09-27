@@ -47,12 +47,12 @@ mounted at the site.
   <figure>
     <img class="device-art" src="../../assets/images/equipment/indoor-ap-round.svg"
          alt="Line drawing of a round ceiling-mounted access point, seen face on as a plain disc with a narrow inner ring.">
-    <figcaption><strong>Round, ceiling or wall</strong><br>nanoHD, U6 Lite, U6+, U6 Pro, U7 Lite, U7 Pro</figcaption>
+    <figcaption><strong>Round, ceiling or wall</strong><br><a href="https://store.ui.com/us/en/products/uap-nanohd">nanoHD</a>, <a href="https://store.ui.com/us/en/products/u6-lite">U6 Lite</a>, <a href="https://store.ui.com/us/en/products/u6-plus">U6+</a>, <a href="https://store.ui.com/us/en/category/wifi-flagship/products/u6-pro">U6 Pro</a>, <a href="https://store.ui.com/us/en/products/u7-lite">U7 Lite</a>, <a href="https://store.ui.com/us/en/products/u7-pro">U7 Pro</a></figcaption>
   </figure>
   <figure>
     <img class="device-art" src="../../assets/images/equipment/u6-in-wall.svg"
          alt="Line drawing of an in-wall access point, a small rectangular faceplate with an Ethernet port on its lower edge.">
-    <figcaption><strong>In-wall faceplate</strong><br>UAP-AC-IW, U7 In-Wall</figcaption>
+    <figcaption><strong>In-wall faceplate</strong><br><a href="https://store.ui.com/us/en/products/uap-ac-iw">UAP-AC-IW</a>, <a href="https://store.ui.com/us/en/products/u7-iw">U7 In-Wall</a></figcaption>
   </figure>
   <figure>
     <img class="device-art" src="../../assets/images/equipment/beacon-hd.svg"
@@ -61,28 +61,31 @@ mounted at the site.
   </figure>
 </div>
 
-- [Ubiquiti UAP-nanoHD](https://store.ui.com/us/en/products/uap-nanohd)
-- [Ubiquiti UAP-AC-Inwall](https://store.ui.com/us/en/products/uap-ac-iw)
-- [Ubiquiti U6 Extender](https://store.ui.com/us/en/products/u6-extender)
-- [Ubiquiti U6+](https://store.ui.com/us/en/products/u6-plus)
-- [Ubiquiti U6 Lite](https://store.ui.com/us/en/products/u6-lite)
-- [Ubiquiti U6 Pro - 'UFO AP'](https://store.ui.com/us/en/category/wifi-flagship/products/u6-pro)
-- [Ubiquiti U7 Lite](https://store.ui.com/us/en/products/u7-lite)
-- [Ubiquiti U7 Pro](https://store.ui.com/us/en/products/u7-pro)
-- [Ubiquiti U7 Pro Max](https://store.ui.com/us/en/products/u7-pro-max)
-- [Ubiquiti U7 In-Wall](https://store.ui.com/us/en/products/u7-iw)
-- [Ubiquiti U7 Long Range](https://store.ui.com/us/en/products/u7-lr)
-- [Ubiquiti UAP-BeaconHD](https://store.ui.com/us/en/products/uap-beaconhd)
+Also used indoors: [Ubiquiti U6 Extender](https://store.ui.com/us/en/products/u6-extender), [Ubiquiti U7 Pro Max](https://store.ui.com/us/en/products/u7-pro-max), [Ubiquiti U7 Long Range](https://store.ui.com/us/en/products/u7-lr).
 
 ### Switches
 - [Ubiquiti USW Flex Mini](https://store.ui.com/us/en/products/usw-flex-mini)
 - [Ubiquiti USW Flex](https://store.ui.com/us/en/category/switching-utility/products/usw-flex)
+- [Ubiquiti NanoSwitch](https://store.ui.com/us/en/products/n-sw) - an outdoor four-port switch; three of its ports supply 24V passive PoE. Used occasionally.
 
 <figure class="device-diagram">
     <img class="device-art" src="../../assets/images/equipment/flex-mini-ports.svg"
          alt="Line drawing of the USW Flex Mini port face, showing its five Ethernet ports in a row with the PoE input port at one end.">
     <figcaption>USW Flex Mini ports. Port 1 accepts PoE in and powers the switch, so it is the one that goes back toward the router.</figcaption>
 </figure>
+
+<div class="device-grid" style="--cols: 2">
+  <figure>
+    <img class="device-art" src="../../assets/images/equipment/nanoswitch.svg"
+         alt="Line drawing of a Ubiquiti NanoSwitch, a flat rounded rectangular enclosure with a round mounting point and a small status light.">
+    <figcaption><a href="https://store.ui.com/us/en/products/n-sw">NanoSwitch</a><br>Outdoor enclosure</figcaption>
+  </figure>
+  <figure>
+    <img class="device-art" src="../../assets/images/equipment/nanoswitch-ports.svg"
+         alt="Line drawing of the NanoSwitch port face, showing four Ethernet ports in a row, each with a green and a red status light.">
+    <figcaption>NanoSwitch ports</figcaption>
+  </figure>
+</div>
 
 ### Routers
 - [Ubiquiti EdgeRouter X](https://store.ui.com/collections/operator-edgemax-routers/products/edgerouter-x)
@@ -114,6 +117,11 @@ mounted at the site.
 - [airMAX NanoBeam M5](https://store.ui.com/us/en/products/nbe-m5-16)
 - [airMAX NanoStation M5 loco](https://store.ui.com/us/en/category/wireless-airmax-5ghz/products/locom5)
 
+<!-- Ideas to note, 2026-09-27, from the retired Drive doc "Installation Overview - Public Docs". Unverified; staff to confirm before use.
+4. Equipment per install type, as that doc listed it: hub = 1 EdgeRouter X, 1 UAP-AC-Mesh, 1 J-arm and mounting hardware (it also listed a clamshell for an outdoor ER-X, dropped: the ERX stays indoors); mesh node = 1 UAP-AC-Mesh, 1 J-arm and mounting hardware; mesh node + indoor AP = "Same as Mesh node, plus:" (the list was never finished). Check: which APs now (U6 Mesh, U6 LR, U7 Outdoor, AC-M-Pro are listed above); add an outdoor switch when a hub has more than one AP? The hub list is missing the LiteBeam, the PoE injector and the cable.
+6. Cable: that doc said the LiteBeam "is powered via passive PoE through a single Cat 5 cable". Check what is run now (Cat 5e / Cat 6, outdoor-rated).
+-->
+
 ### Mounts
 
 - [Universal J-Arm Mount](https://store.ui.com/collections/operator-airmax-and-ltu-accessories/products/universal-antenna-mount)
@@ -129,6 +137,12 @@ mounted at the site.
     <figcaption>A PoE injector powers an AP over its Ethernet cable, so the AP needs no outlet of its own.</figcaption>
 </figure>
 
+Identify what voltage and wattage of Power-over-Ethernet (PoE) will be needed for the equipment. Notes on voltage:
+
+- ERXs (and, by extension, LiteBeams) are 24V
+- Almost all access points are 48V
+    - UAP-AC-Mesh (colloquially known as “Bunny Ears”) can accept 48V or 24V
+
 - Short-to-medium length Ethernet cable(s)
 - Outdoor-rated power strip(s)
 - Outdoor-rated extension cord(s)    
@@ -137,13 +151,13 @@ mounted at the site.
 - [PoE Injector/Splitter](https://www.newegg.com/p/2WG-00DK-00004)
 - [Ethernet to Ethernet adapter/coupler](https://www.newegg.com/p/0Y3-02J6-00001)
 - Pass-through Ethernet (RJ45) heads
-- [USB Type C to Ethernet adapter](https://www.ebay.com/itm/132225990432?epid=910384900&hash=item1ec9487f20:g:FhgAAOSwqiVdyN)
+- [USB Type C to Ethernet adapter](https://www.ebay.com/itm/132225990432)
 
 ## Tools
 
 ### Networking
 
-- [Ethernet cable crimper](https://www.homedepot.com/p/Klein-Tools-Compact-Ratcheting-Modular-Crimper-VDV226-107/204732347?source=shoppingads&locale=en-US&srsltid=AfmBOopOP-5p-ibEZ6Xg-9GSiYkxoTyprixZLrUXPKiSeqJMjNqTxc5oPwU)
+- [Ethernet cable crimper](https://www.homedepot.com/p/Klein-Tools-Compact-Ratcheting-Modular-Crimper-VDV226-107/204732347)
 - CAT5e cable stripper
 - [Ethernet cable tester](https://www.lowes.com/pd/Klein-Tools-Cable-Tester-Kit-with-Scout-Pro-3-Tester-Remotes-Adapter-Battery/5014306081)
 - Mobile hotspot 

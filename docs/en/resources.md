@@ -1,6 +1,5 @@
 ---
 title: Resources
-
 ---
 # Resources
 
@@ -27,10 +26,6 @@ title: Resources
 > originally released as [Commotion Construction Kit](https://web.archive.org/web/20240625185349/https://commotionwireless.net/docs/cck/), this tutorial was co-designed by New America's Open Technology Institute, The Work Department, Allied Media Projects, and the Detroit Community Technology Project
 
 [Portable Network Kit Setup Guide](https://www.communitytechny.org/portable-network-kits), Community Tech NY
-
-[Wireless Networking in the Developing World](http://wndw.net). 3rd Edition. Copenhagen, 2013.
-
-[The Community Network Manual: How to Build the Internet Yourself](https://bibliotecadigital.fgv.br/dspace/handle/10438/25696)
 
 [Meshnet DWeb Camp 2019](https://dweb-camp-2019.github.io/meshnet/)
 
@@ -68,6 +63,6 @@ Sanchez, Alvaro. "[Toward Digital Inclusion: Broadband Access in the Third Feder
 
 Shaffer, Gwen. "[Common Sense: An Examination of Three Los Angeles Community WiFi Projects That Privileged Public Funding Over Commons-Based Infrastructure Management](https://doi.org/10.2139/ssrn.2941920)." Rochester, NY: Social Science Research Network, March 28, 2017.
 
-Solomon, Rory. [_Meshiness: Mesh Networks and the Politics of Connectivity_](http://search.proquest.com/pqdtglobal/docview/2408892960/abstract/479AB38D8B044610PQ/1)_._ Ph.D., New York University, 2020.
+Solomon, Rory. [_Meshiness: Mesh Networks and the Politics of Connectivity_](http://search.proquest.com/pqdtglobal/docview/2408892960/abstract/479AB38D8B044610PQ/1). Ph.D., New York University, 2020.
 
 Thakur, Dhanaraj, and Teddy Woodhouse. "[Meaningful Connectivity: A New Standard to Raise the Bar for Internet Access](https://web.archive.org/web/20260220230151/https://a4ai.org/meaningful-connectivity/)." Alliance for Affordable Internet, 2020.

@@ -1,0 +1,1 @@
+# Configuración automatizada con Ansible

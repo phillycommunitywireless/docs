@@ -20,14 +20,14 @@ Philly Community Wireless is actively supporting sustainable green spaces focuse
 PCW installed a solar mesh node in Norris Square Neighborhood Projects Colobo Gardens in 2021. Batteries typically last a couple of years at least before needing replacement. The access point sits at the top of a bamboo mast, high enough to clear the garden's structures, with the solar panel and enclosure mounted below it.
 
 <figure style="display: flex; align-items: center; flex-direction: column;">
-    <img src="/assets/images/installations/solar/full_solar_node.jpg"
+    <img src="../../../assets/images/installations/solar/full_solar_node.jpg"
          alt="The full solar mesh node at Colobo Gardens: the access point atop the bamboo mast, with the solar panel mounted on the roof below"
          style="width: 50%; height: 50%;">
     <figcaption>The full solar mesh node at Colobo Gardens: the access point atop the bamboo mast, with the solar panel mounted on the roof below</figcaption>
 </figure>
 
 <figure style="display: flex; align-items: center; flex-direction: column;">
-    <img src="/assets/images/installations/solar/solar_panel_mount.jpg"
+    <img src="../../../assets/images/installations/solar/solar_panel_mount.jpg"
          alt="The solar panel on its angled mount at the roof edge, with the wiring running down to the enclosure"
          style="width: 50%; height: 50%;">
     <figcaption>The solar panel on its angled mount at the roof edge, with the wiring running down to the enclosure</figcaption>
@@ -38,7 +38,7 @@ PCW installed a solar mesh node in Norris Square Neighborhood Projects Colobo Ga
 The weather-proof enclosure holds everything that is not the panel or the access point: the battery, the charge controller, and the PoE injector that carries power up to the AP over a single Ethernet run.
 
 <figure style="display: flex; align-items: center; flex-direction: column;">
-    <img src="/assets/images/installations/solar/solar_with_info.jpg"
+    <img src="../../../assets/images/installations/solar/solar_with_info.jpg"
          alt="The open enclosure, with the battery, charge controller and PoE injector labelled"
          style="width: 50%; height: 50%;">
     <figcaption>Inside the enclosure at Colobo Gardens</figcaption>

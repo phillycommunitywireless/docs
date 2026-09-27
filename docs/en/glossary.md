@@ -39,7 +39,7 @@ hover any dotted-underlined term on a page to see its definition without leaving
 :   The brand of WiFi equipment that PCW uses; a family of wireless access points, switches, routers, controller devices, VoIP phones, and access control products. [Unifi product line](https://techspecs.ui.com/unifi)
 
 **EdgeRouter-X (ERX)**
-:   The router PCW uses as a switch; a switch moves data between devices. [EdgeRouter X product page](https://store.ui.com/us/en/pro/category/wired-edge-max-routing/products/er-x)
+:   The router PCW uses. [EdgeRouter X product page](https://store.ui.com/us/en/pro/category/wired-edge-max-routing/products/er-x)
 
 **Power over Ethernet (PoE)**
 :   Passing electric power along with data on Ethernet cabling, so an outdoor device can be powered from an indoor outlet. [PoE injector product page](https://store.ui.com/us/en/pro/products/poe-24)
