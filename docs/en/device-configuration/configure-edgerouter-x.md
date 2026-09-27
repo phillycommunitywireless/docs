@@ -111,48 +111,33 @@ This method allows the ERX to connect to the Internet through your home router.
       This ensures that during the next step, you make a request to the ERX and not your home router. 
 
 ### 3) Configure ERX 
-1. Navigate to the portal at [https://192.168.1.1](https://192.168.1.1) in your browser
-2. Log into the portal with username `ubnt`, password `ubnt`.
-    <figure style="display: flex; align-items: center; flex-direction: column;">
-        <img src="../../assets/images/device-configs/erx/login.jpeg"
-             alt="ERX login prompt"
-             style="width: 50%;">
-        <figcaption>ERX login prompt</figcaption>
-    </figure>
+1. Follow steps 1 to 3 of [Configure ER-X using Wizard](#3a-configure-er-x-using-wizard): open the portal at [https://192.168.1.1](https://192.168.1.1), log in with username `ubnt`, password `ubnt`, and press 'yes' on the `Use wizard?` prompt.
 
-3. On the `Use wizard?` prompt, press 'yes'.
-    <figure style="display: flex; align-items: center; flex-direction: column;">
-        <img src="../../assets/images/device-configs/erx/wizard.jpeg"
-             alt="ERX configuration prompt"
-             style="width: 50%;">
-        <figcaption></figcaption>
-    </figure>
+2. Change the `Port` from `eth0` to `eth4.` 
 
-4. Change the `Port` from `eth0` to `eth4.` 
+3. Click on 'LAN Ports', and assign the ERX a **different** IP address than your home router (not `192.168.1.1`) on a different subnet. For example, set the ERX to `192.168.5.1`.
 
-5. Click on 'LAN Ports', and assign the ERX a **different** IP address than your home router (not `192.168.1.1`) on a different subnet. For example, set the ERX to `192.168.5.1`.
+4. Under `User Setup` create a new user and set the PCW username and password.
 
-6. Under `User Setup` create a new user and set the PCW username and password.
+5. Reboot your router and reboot the ERX. 
 
-7. Reboot your router and reboot the ERX. 
+6. Return to the portal and log in with the PCW username and password (contact project maintainers for this info).
 
-8. Return to the portal and log in with the PCW username and password (contact project maintainers for this info).
+7. Finally, Click on the `System` tab at the bottom left of the console.
 
-9. Finally, Click on the `System` tab at the bottom left of the console.
+8. Input the host name for the device.
 
-10. Input the host name for the device.
+9. Set up the DNS address as 1.1.1.1.
 
-11. Set up the DNS address as 1.1.1.1.
+10. Reset your computer's network settings; remove the static IP set in [Step 2](#2-configure-your-network-settings_1), and reset your connection settings to Dynamic. 
 
-12. Reset your computer's network settings; remove the static IP set in [Step 2](#2-configure-your-network-settings_1), and reset your connection settings to Dynamic. 
+11. Connect to the ERX again and log in with the PCW username and password. 
 
-13. Connect to the ERX again and log in with the PCW username and password. 
+12. Plug `eth4` on the ERX into a LAN port on your router. You should now be able to access the Internet through the ERX. 
 
-14. Plug `eth4` on the ERX into a LAN port on your router. You should now be able to access the Internet through the ERX. 
+13. Adopt the ERX via copying the UISP key. 
 
-15. Adopt the ERX via copying the UISP key. 
-
-16. If needed, update the ERX's firmware. 
+14. If needed, update the ERX's firmware. 
 
 ## Installation Notes
 When installing the ER-X at a house with a rooftop Litebeam and a Mesh AP, remember the typical setup is:
