@@ -32,27 +32,28 @@ hooks:
 
 # Draft pages still being worked on.
 # Built with `mkdocs serve` for dev. purposes, but excluded from prod builds with `mkdocs build`
-# When a page is ready, delete its line here, add it to `nav:` below in the proper place, and
-# remove its entry from mkdocs.dev.yml's nav 
+# Each line starts with `/*/` so it matches the page in every language folder (en/, es/).
+# When a page is ready, delete its line here and add it to `nav:` below in the proper place.
+# mkdocs.dev.yml's nav already lists it, so leave that file as is.
 draft_docs: |
-  /en/faqs.md
-  /en/device-configuration/configure-edgerouter-ansible.md
-  /en/device-configuration/troubleshoot-connection.md
-  /en/device-configuration/unpoller.md
-  /en/device-configuration/useful-software.md
-  /en/device-configuration/wireless-settings.md
-  /en/installations/handbook/assessment-planning.md
-  /en/installations/handbook/etiquette.md
-  /en/installations/handbook/install-day-and-maintenance.md
-  /en/installations/handbook/overview.md
-  /en/installations/handbook/phases-overview.md
-  /en/installations/handbook/risks-rooftop-ladder-drill.md
-  /en/installations/handbook/risks-weather-environment.md
-  /en/installations/handbook/safety-basics.md
-  /en/installations/handbook/safety-buildings-electrical.md
-  /en/software-infrastructure/overview.md
-  /en/wireless/fixed-wireless.md
-  /en/wireless/wifi.md
+  /*/faqs.md
+  /*/device-configuration/configure-edgerouter-ansible.md
+  /*/device-configuration/troubleshoot-connection.md
+  /*/device-configuration/unpoller.md
+  /*/device-configuration/useful-software.md
+  /*/device-configuration/wireless-settings.md
+  /*/installations/handbook/assessment-planning.md
+  /*/installations/handbook/etiquette.md
+  /*/installations/handbook/install-day-and-maintenance.md
+  /*/installations/handbook/overview.md
+  /*/installations/handbook/phases-overview.md
+  /*/installations/handbook/risks-rooftop-ladder-drill.md
+  /*/installations/handbook/risks-weather-environment.md
+  /*/installations/handbook/safety-basics.md
+  /*/installations/handbook/safety-buildings-electrical.md
+  /*/software-infrastructure/overview.md
+  /*/wireless/fixed-wireless.md
+  /*/wireless/wifi.md
 
 plugins:
   - search
@@ -97,6 +98,27 @@ plugins:
             Resources: Recursos
             Glossary: Glosario
             Further reading: Más recursos
+            # Labels only in mkdocs.dev.yml's nav, for draft pages.
+            Overview: Descripción general
+            Install Phases Overview: Fases de instalación
+            Assessment & Planning: Evaluación y planificación
+            Etiquette On Site: Normas de conducta en el sitio
+            Install Day & Maintenance: Día de instalación y mantenimiento
+            Safety: Seguridad
+            Safety Basics: Seguridad básica
+            Building & Electrical Safety: Seguridad en edificios y eléctrica
+            "Rooftop, Ladder & Drill Safety": Seguridad en azoteas, escaleras y taladros
+            Weather & Environmental Risks: Riesgos climáticos y ambientales
+            Wireless: Inalámbrico
+            Fixed Wireless: Inalámbrico fijo
+            WiFi: WiFi
+            Automated configuration (Ansible): Configuración automatizada (Ansible)
+            Troubleshoot Your Connection: Solución de problemas de su conexión
+            Wireless Settings: Configuración inalámbrica
+            Useful Software: Software útil
+            Unpoller: Unpoller
+            Software & Infrastructure: Software e infraestructura
+            FAQs: Preguntas frecuentes
 
 nav:
   - Home: index.md
