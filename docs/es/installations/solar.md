@@ -8,7 +8,7 @@ title: Nodos solares de malla
 
 # Descripción general de los nodos solares de malla
 
-Philly Community Wireless apoya activamente espacios verdes sostenibles enfocados en la conservación ambiental y el uso eficiente de los recursos. Con nodos solares autónomos (sin conexión a la red eléctrica) diseñados por [Holobiont Lab](https://holobiontlab.org/), hemos instalado puntos de acceso WiFi alimentados por energía solar en huertos y otros espacios donde la electricidad es costosa o no está fácilmente disponible. Philly Community Wireless también está trabajando para alimentar sensores inteligentes, como el [monitor de calidad del aire PurpleAir](https://www.purpleair.com/products/classic-plus-air-quality-monitor), con nodos solares modificados para dar seguimiento a la salud ambiental.
+Philly Community Wireless apoya activamente espacios verdes sostenibles enfocados en la conservación ambiental y el uso eficiente de los recursos. Con nodos solares autónomos (sin conexión a la red eléctrica) diseñados por [Holobiont Lab](https://holobiontlab.org/), hemos instalado puntos de acceso wifi alimentados por energía solar en huertos y otros espacios donde la electricidad es costosa o no está fácilmente disponible. Philly Community Wireless también está trabajando para alimentar sensores inteligentes, como el [monitor de calidad del aire PurpleAir](https://www.purpleair.com/products/classic-plus-air-quality-monitor), con nodos solares modificados para dar seguimiento a la salud ambiental.
 
 ## Especificaciones del hardware
 
@@ -40,7 +40,7 @@ En 2021, PCW instaló un nodo solar de malla en Colobo Gardens, de Norris Square
 
 ## La caja de la batería solar
 
-La caja resistente a la intemperie contiene todo lo que no es el panel ni el punto de acceso: la batería, el controlador de carga y el inyector PoE, que lleva la alimentación hasta el AP a través de un solo cable Ethernet.
+La caja resistente a la intemperie contiene todo lo que no es el panel ni el punto de acceso: la batería, el controlador de carga y el inyector PoE (alimentación a través de Ethernet), que lleva la alimentación hasta el AP a través de un solo cable Ethernet.
 
 <figure style="display: flex; align-items: center; flex-direction: column;">
     <img src="/assets/images/installations/solar/solar_with_info.jpg"

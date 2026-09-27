@@ -6,7 +6,7 @@ title: Evaluación del edificio
 !!! note "Traducción preliminar"
     Esta página es una traducción preliminar y está pendiente de revisión. Si encuentra un error, la [versión en inglés](../../../installations/buildingassessment/) es la referencia.
 
-PCW instala WiFi con regularidad en una gran variedad de edificios, como casas en hilera (rowhomes), edificios multifamiliares (MDUs), centros comunitarios y espacios públicos como parques y jardines.
+PCW instala wifi con regularidad en una gran variedad de edificios, como casas en hilera, edificios multifamiliares (MDUs), centros comunitarios y espacios públicos como parques y jardines.
 
 Para evaluar si un edificio es adecuado para una instalación, debemos hacernos las siguientes preguntas:
 
@@ -18,7 +18,7 @@ Para evaluar si un edificio es adecuado para una instalación, debemos hacernos 
 
 * **¿El acceso a la azotea o al último piso del edificio es fácil, seguro y sencillo?**
     * ¿Se necesitan escaleras de mano? ¿Hay escaleras o una escotilla de acceso a la azotea?
-    * Lo ideal es instalar las LiteBeam en la azotea, ya sea en una estructura existente del techo, con un soporte tipo J (j-arm) en la pared o con un soporte de techo no penetrante.
+    * Lo ideal es instalar las LiteBeam en la azotea, ya sea en una estructura existente del techo, con un soporte tipo J (J-arm) en la pared o con un soporte de techo no penetrante.
     * ¿Tenemos permiso para instalar equipos en el edificio o en las estructuras de la azotea?
     * PCW solo instala en techos planos, salvo raras excepciones.
 
@@ -29,7 +29,7 @@ Para evaluar si un edificio es adecuado para una instalación, debemos hacernos 
     * PCW NO perfora techos, ya que es muy difícil impermeabilizarlos.
 
 * **¿Hay maneras fáciles de montar los puntos de acceso?**
-    * Por ejemplo: postes existentes a los que podríamos simplemente sujetar los AP con amarres plásticos (zip ties), en lugar de traer un soporte de techo no penetrante o un soporte tipo J.
+    * Por ejemplo: postes existentes a los que podríamos simplemente sujetar los APs con amarres plásticos (zip ties), en lugar de traer un soporte de techo no penetrante o un soporte tipo J.
     * ¿Cuánto cable tendremos que tender?
     * ¿Qué tipo de puntos de acceso se necesitarán? Algunos no son resistentes a la intemperie y solo pueden usarse en interiores.
     * ¿Existe la posibilidad de que el montaje de los puntos de acceso dañe el techo o las paredes?

@@ -7,7 +7,7 @@ title: Configurar APs Unifi
     Esta página es una traducción preliminar y está pendiente de revisión. Si encuentra un error, la [versión en inglés](../../../device-configuration/configure-ap-mesh/) es la referencia.
 
 <figure class="device-diagram">
-    <img class="device-art" src="../../assets/images/equipment/unifi-ap-ac-mesh.svg"
+    <img class="device-art" src="../../../assets/images/equipment/unifi-ap-ac-mesh.svg"
          alt="Dibujo lineal de un punto de acceso Ubiquiti UAP-AC-M, de cuerpo delgado y con dos antenas verticales."
          style="max-width: 11rem;">
     <figcaption>El UAP-AC-M, también conocido como 'orejas de conejo'</figcaption>
@@ -45,7 +45,7 @@ Esta guía le explica paso a paso cómo configurar un Ubiquiti Access Point AC M
 2. Conecte el puerto `POE` del inyector al AP de malla con un cable Ethernet. Debería ver que se enciende una luz blanca.
 
 <figure class="device-diagram">
-    <img class="device-art" src="../../assets/images/equipment/poe-injector.svg"
+    <img class="device-art" src="../../../assets/images/equipment/poe-injector.svg"
          alt="Dibujo lineal de un inyector PoE (alimentación a través de Ethernet) con dos cables Ethernet que van de él a un punto de acceso.">
     <figcaption>El inyector va entre el tomacorriente de pared y el AP. Un cable lleva electricidad y datos al AP; el otro es el enlace de datos de regreso a su computadora o router.</figcaption>
 </figure>
@@ -54,9 +54,9 @@ Esta guía le explica paso a paso cómo configurar un Ubiquiti Access Point AC M
 
     La luz será azul si el dispositivo tiene una configuración anterior. No se preocupe: a continuación vamos a restablecer el dispositivo a la configuración de fábrica.
 
-<img src="../../assets/images/device-configs/mesh/Reset.jpeg" alt="El botón de reinicio y el puerto Ethernet debajo de la tapa del AP de malla" width="30%">
-<img src="../../assets/images/device-configs/mesh/Ports.jpeg" alt="Los puertos POE y LAN del inyector PoE, con el cable negro en POE y el cable amarillo en LAN" width="30%">
-<img src="../../assets/images/device-configs/mesh/Wiring.jpeg" alt="El AP de malla conectado a la computadora a través del inyector PoE" width="30%">
+<img src="../../../assets/images/device-configs/mesh/Reset.jpeg" alt="El botón de reinicio y el puerto Ethernet debajo de la tapa del AP de malla" width="30%">
+<img src="../../../assets/images/device-configs/mesh/Ports.jpeg" alt="Los puertos POE y LAN del inyector PoE, con el cable negro en POE y el cable amarillo en LAN" width="30%">
+<img src="../../../assets/images/device-configs/mesh/Wiring.jpeg" alt="El AP de malla conectado a la computadora a través del inyector PoE" width="30%">
 
 Los AP de malla han tenido un comportamiento inesperado incluso recién sacados del empaque, por lo que se recomienda restablecerlos a la configuración de fábrica antes de continuar.
 

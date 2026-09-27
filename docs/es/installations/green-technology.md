@@ -8,12 +8,12 @@ title: Recursos de tecnología verde
 
 # Recursos de tecnología verde
 
-Programas, financiamiento y recursos de monitoreo relacionados con el trabajo de PCW en espacios verdes. Para saber cómo se construyen y se mantienen los nodos solares, consulte [Nodos solares](solar.md).
+Programas, financiamiento y recursos de monitoreo relacionados con el trabajo de PCW en espacios verdes. Para saber cómo se construyen y se mantienen los nodos solares, consulte [Nodos solares de malla](solar.md).
 
 ## Programas solares en Filadelfia
 
 * [Solarize Greater Philadelphia](https://solarizegreaterphl.org/) es un programa de toda la ciudad para ayudar a todos los residentes de Filadelfia a pasarse a la energía solar, administrado por la Philadelphia Energy Authority (PEA, la Autoridad de Energía de Filadelfia). La PEA preaprueba a los instaladores y los equipos, y negocia descuentos grupales y protecciones para el consumidor, para que instalar paneles solares sea lo más fácil y económico posible. Los propietarios de vivienda también pueden pasarse a la energía solar mediante un arrendamiento, sin costo inicial.
-* [Solar for All (EPA)](https://phillygreencapital.org/news/solar-for-all-pennsylvania/) ofrece financiamiento para ayudar a las comunidades de bajos ingresos a instalar sistemas solares, que podrían combinarse con infraestructura de WiFi. A nivel local, lo implementa la Philadelphia Green Capital Corp (PGCC).
+* [Solar for All (EPA)](https://phillygreencapital.org/news/solar-for-all-pennsylvania/) ofrece financiamiento para ayudar a las comunidades de bajos ingresos a instalar sistemas solares, que podrían combinarse con infraestructura de wifi. A nivel local, lo implementa la Philadelphia Green Capital Corp (PGCC).
 * [Philadelphia Solar Rebate](https://www.phila.gov/programs/solar-rebate-program/) (reembolso solar de Filadelfia) es un incentivo único de la Ciudad que se paga después de que un proyecto solar se ha instalado y ha recibido de PECO el permiso para operar (Permission to Operate): $0.20/vatio para viviendas y $0.10/vatio para comercios, con un límite de $100,000. Lo administra la PEA en nombre de la Office of Sustainability (Oficina de Sostenibilidad).
 
     !!! warning ""
