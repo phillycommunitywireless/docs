@@ -100,6 +100,35 @@ Some Spanish pages are machine-drafted placeholders that still need review by a 
 grep -rl "TODO: machine-drafted" docs/es
 ```
 
+Use these terms so pages stay consistent. If a fluent reviewer decides a different term is better, change it here and on every page.
+
+| English | Spanish |
+|---|---|
+| access point (AP) | punto de acceso (AP); plural puntos de acceso (APs) |
+| mesh AP | AP de malla |
+| mesh / mesh network / mesh node | malla / red de malla / nodo de malla |
+| high site (PhillyWisper's tower) | sitio alto |
+| line of sight (LoS) | línea de visión (LoS) |
+| hub | hub (nodo central) on first use, then hub |
+| rooftop / roof | azotea / techo |
+| enclosure | caja |
+| GFCI outlet | tomacorriente GFCI |
+| PoE / PoE injector | PoE (alimentación a través de Ethernet) / inyector PoE |
+| non-penetrating roof mount (NPRM) | soporte de techo no penetrante (NPRM) |
+| uplink | enlace ascendente (uplink) |
+| computer | computadora (not ordenador) |
+| Wi-Fi (in prose) | wifi |
+| rowhome | casa en hilera |
+| multi-dwelling unit (MDU) | edificio multifamiliar (MDU) |
+| building assessment | evaluación del edificio |
+| antenna host | anfitrión de antena |
+| installation / install | instalación / instalar |
+| solar node | nodo solar |
+
+Address readers as *usted* (e.g. "Seleccione", "Conéctese"). Keep acronyms in English (AP, LoS, PoE, MDU) so the hover definitions work, and keep English software labels as they appear on screen, with a Spanish gloss in parentheses the first time.
+
+Hover definitions for acronyms come from `includes/abbreviations.md` on English pages and `includes/abbreviations.es.md` on Spanish pages. Keep the two files' terms in sync.
+
 Anchor links (`page.md#some-heading`) use the heading text, so a link into a Spanish page must use the Spanish heading's anchor, e.g. `configure-computer.md#configurar-una-direccion-ip-estatica`.
 
 Known limitation: the dev server shows Spanish draft pages in the menu, but opening one gives a 404. The translation plugin builds the Spanish site separately and always leaves drafts out. Preview the English draft instead.
@@ -109,11 +138,20 @@ Links to other pages in the docs should point at the `.md` file, relative to the
 
 ![A screenshot showing two links to "buildingassessment.md", with the first not including ".md".](readme-imgs/link-formatting.png)
 
-Before opening a pull request, you can check for broken internal links by running:
+Before opening a pull request, you can check for broken internal links (including links to headings that don't exist) by running:
 
 ```
 mkdocs build --strict
 ```
+
+## Automated checks
+These run on GitHub; you don't need to set anything up.
+
+* **Docs checks** (`.github/workflows/docs-checks.yml`) runs on every pull request:
+    * **build** runs `mkdocs build --strict` and fails if a link points at a missing page or heading. Fix these before merging.
+    * **translations** never fails. Its summary (on the pull request's "Checks" tab) lists Spanish pages that are missing, machine-drafted, or behind their English page. If your pull request changes an English page but not its Spanish version, it leaves a warning on the file.
+* **Link check** (`.github/workflows/link-check.yml`) tests every external link on the 1st of each month. If any are broken it opens an issue labeled `broken-links` (or updates the open one), and closes it once they all pass. To run it now, open the repo's Actions tab, choose "Link check" and click "Run workflow". If a site works in a browser but always fails the check, add an `--exclude` line for it in that file.
+* **Dependabot** (`.github/dependabot.yml`) opens a monthly pull request with minor dependency updates. It skips major versions on purpose, since MkDocs 2.0 would break this site.
 
 ## Finalizing your changes
 Once you're confident in your changes, push them to a new branch and open a pull request:
