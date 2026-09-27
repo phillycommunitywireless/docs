@@ -113,47 +113,33 @@ Este método permite que el ERX se conecte a Internet a través del router de su
       Así se asegura de que, en el siguiente paso, su solicitud llegue al ERX y no al router de su casa. 
 
 ### 3) Configure el ERX 
-1. En su navegador, vaya al portal en [https://192.168.1.1](https://192.168.1.1).
-2. Inicie sesión en el portal con el nombre de usuario `ubnt` y la contraseña `ubnt`.
-    <figure style="display: flex; align-items: center; flex-direction: column;">
-        <img src="../../../assets/images/device-configs/erx/login.jpeg"
-             alt="Pantalla de inicio de sesión del ERX"
-             style="width: 50%;">
-        <figcaption>Pantalla de inicio de sesión del ERX</figcaption>
-    </figure>
+1. Siga los pasos 1 a 3 de [Configure el ER-X con el asistente](#3a-configure-el-er-x-con-el-asistente): vaya al portal en [https://192.168.1.1](https://192.168.1.1), inicie sesión con el nombre de usuario `ubnt` y la contraseña `ubnt`, y presione 'yes' (sí) cuando aparezca el mensaje `Use wizard?`.
 
-3. Cuando aparezca el mensaje `Use wizard?` (¿Usar el asistente?), presione 'yes' (sí).
-    <figure style="display: flex; align-items: center; flex-direction: column;">
-        <img src="../../../assets/images/device-configs/erx/wizard.jpeg"
-             alt="Pantalla de configuración del ERX"
-             style="width: 50%;">
-    </figure>
+2. Cambie el `Port` (puerto) de `eth0` a `eth4`. 
 
-4. Cambie el `Port` (puerto) de `eth0` a `eth4`. 
+3. Haga clic en 'LAN Ports' (puertos LAN) y asígnele al ERX una dirección IP **diferente** a la del router de su casa (que no sea `192.168.1.1`), en una subred diferente. Por ejemplo, configure el ERX en `192.168.5.1`.
 
-5. Haga clic en 'LAN Ports' (puertos LAN) y asígnele al ERX una dirección IP **diferente** a la del router de su casa (que no sea `192.168.1.1`), en una subred diferente. Por ejemplo, configure el ERX en `192.168.5.1`.
+4. En `User Setup` (configuración de usuario), cree un usuario nuevo y establezca el nombre de usuario y la contraseña de PCW.
 
-6. En `User Setup` (configuración de usuario), cree un usuario nuevo y establezca el nombre de usuario y la contraseña de PCW.
+5. Reinicie su router y reinicie el ERX. 
 
-7. Reinicie su router y reinicie el ERX. 
+6. Vuelva al portal e inicie sesión con el nombre de usuario y la contraseña de PCW (el personal de PCW se los proporcionará).
 
-8. Vuelva al portal e inicie sesión con el nombre de usuario y la contraseña de PCW (el personal de PCW se los proporcionará).
+7. Por último, haga clic en la pestaña `System` (sistema), en la parte inferior izquierda de la consola.
 
-9. Por último, haga clic en la pestaña `System` (sistema), en la parte inferior izquierda de la consola.
+8. Escriba el nombre de host (*host name*) del dispositivo.
 
-10. Escriba el nombre de host (*host name*) del dispositivo.
+9. Configure la dirección DNS como 1.1.1.1.
 
-11. Configure la dirección DNS como 1.1.1.1.
+10. Restablezca la configuración de red de su computadora: elimine la IP estática que estableció en el [paso 2](#2-configure-los-ajustes-de-red_1) y vuelva a poner la conexión en modo dinámico (Dynamic). 
 
-12. Restablezca la configuración de red de su computadora: elimine la IP estática que estableció en el [paso 2](#2-configure-los-ajustes-de-red_1) y vuelva a poner la conexión en modo dinámico (Dynamic). 
+11. Vuelva a conectarse al ERX e inicie sesión con el nombre de usuario y la contraseña de PCW. 
 
-13. Vuelva a conectarse al ERX e inicie sesión con el nombre de usuario y la contraseña de PCW. 
+12. Conecte el puerto `eth4` del ERX a un puerto LAN de su router. Ahora debería poder acceder a Internet a través del ERX. 
 
-14. Conecte el puerto `eth4` del ERX a un puerto LAN de su router. Ahora debería poder acceder a Internet a través del ERX. 
+13. Adopte el ERX copiando la clave de UISP (*UISP key*). 
 
-15. Adopte el ERX copiando la clave de UISP (*UISP key*). 
-
-16. Si es necesario, actualice el firmware del ERX. 
+14. Si es necesario, actualice el firmware del ERX. 
 
 ## Notas de instalación
 Cuando instale el ER-X en una casa con una LiteBeam en la azotea y un AP de malla, recuerde que la configuración típica es:
