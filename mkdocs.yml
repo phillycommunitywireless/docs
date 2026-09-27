@@ -32,18 +32,19 @@ hooks:
 
 # Draft pages still being worked on.
 # Built with `mkdocs serve` for dev. purposes, but excluded from prod builds with `mkdocs build`
-# When a page is ready, delete its line here, add it to `nav:` below in the proper place, and
-# remove its entry from mkdocs.dev.yml's nav 
+# Each line starts with `/*/` so it matches the page in every language folder (en/, es/).
+# When a page is ready, delete its line here and add it to `nav:` below in the proper place.
+# mkdocs.dev.yml's nav already lists it, so leave that file as is.
 draft_docs: |
-  /en/faqs.md
-  /en/device-configuration/configure-edgerouter-ansible.md
-  /en/device-configuration/troubleshoot-connection.md
-  /en/device-configuration/unpoller.md
-  /en/device-configuration/useful-software.md
-  /en/device-configuration/wireless-settings.md
-  /en/software-infrastructure/overview.md
-  /en/wireless/fixed-wireless.md
-  /en/wireless/wifi.md
+  /*/faqs.md
+  /*/device-configuration/configure-edgerouter-ansible.md
+  /*/device-configuration/troubleshoot-connection.md
+  /*/device-configuration/unpoller.md
+  /*/device-configuration/useful-software.md
+  /*/device-configuration/wireless-settings.md
+  /*/software-infrastructure/overview.md
+  /*/wireless/fixed-wireless.md
+  /*/wireless/wifi.md
 
 plugins:
   - search
@@ -63,17 +64,25 @@ plugins:
           nav_translations:
             # TODO: Spanish review of the nav labels added below — for a fluent speaker at PR review.
             Home: Inicio
-            For Antenna Hosts: Para anfitriones de antenas
+            For Antenna Hosts: Para anfitriones de antena
             For Volunteers: Para voluntarios
             For network users: Para usuarios de la red
             Installations: Instalaciones
-            Installation Overview: Descripción general
+            Guiding Principles: Principios rectores
+            Safety: Seguridad
+            Safety Basics: Fundamentos de seguridad
+            "Rooftop, Ladder & Drill Safety": Seguridad en azoteas, escaleras y taladros
+            Building & Electrical Safety: Seguridad en edificios y eléctrica
+            Install Planning: Planificación de la instalación
+            Hardware and Cabling: Hardware y cableado
+            Cabling and Mounting: Cableado y montaje
+            Installation Overview: Descripción general de la instalación
             Configure routers running EdgeOS: Configurar routers con EdgeOS
             Manual configuration: Configuración manual
             Troubleshoot Unifi Devices: Solución de problemas de dispositivos Unifi
             Hardware: Hardware
             Solar: Solar
-            Solar Mesh Nodes: Nodos solares
+            Solar Mesh Nodes: Nodos solares de malla
             Green Technology Resources: Recursos de tecnología verde
             Networking and Device Configuration: Redes y configuración de dispositivos
             Set a Static IP Address: Configurar una IP estática
@@ -81,10 +90,22 @@ plugins:
             Configure Unifi APs: Configurar APs Unifi
             Configure IoT Devices: Configurar dispositivos IoT
             Connecting to the network: Conectarse a la red
-            Troubleshoot Devices: Solución de problemas
+            Troubleshoot Devices: Solución de problemas de dispositivos
             Resources: Recursos
             Glossary: Glosario
-            Further reading: Más recursos
+            Further reading: Lecturas adicionales
+            # Labels only in mkdocs.dev.yml's nav, for draft pages.
+            Overview: Descripción general
+            Wireless: Inalámbrico
+            Fixed Wireless: Inalámbrico fijo
+            WiFi: Wifi
+            Automated configuration (Ansible): Configuración automatizada (Ansible)
+            Troubleshoot Your Connection: Solución de problemas de su conexión
+            Wireless Settings: Configuración inalámbrica
+            Useful Software: Software útil
+            Unpoller: Unpoller
+            Software & Infrastructure: Software e infraestructura
+            FAQs: Preguntas frecuentes
 
 nav:
   - Home: index.md
@@ -132,3 +153,8 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.highlight
   - pymdownx.superfences
+
+# Report links to headings that don't exist (`page.md#missing-heading`), so
+# `mkdocs build --strict` fails on them like it does on links to missing pages.
+validation:
+  anchors: warn

@@ -1,8 +1,46 @@
 ---
-Title: Recursos Académicos
-
+title: Recursos
 ---
-# Recursos Académicos
+
+<!-- TODO: machine-drafted Spanish translation — needs review by a fluent speaker. -->
+!!! note "Traducción preliminar"
+    Esta página es una traducción preliminar y está pendiente de revisión. Si encuentra un error, la [versión en inglés](../../resources/) es la referencia.
+
+# Recursos
+
+## Documentación de otros proyectos
+
+[Documentación de NYC Mesh](https://wiki.nycmesh.net/)
+
+[Documentación de Toronto Mesh](https://docs.tomesh.net/)
+
+## Videos
+
+[Explicación de los puntos de intercambio de Internet (Internet Exchange Points)](https://www.youtube.com/watch?v=bJG3UFpaqmE)
+
+## Currículos y guías
+
+[Start Your Own ISP](https://startyourownisp.com), Graham Castleton
+
+[Teaching Community Technology Handbook](https://detroitcommunitytech.org/teachcommtech) (PDF), Detroit Community Technology Project
+
+> diseñado con un "método de educación popular basado en la historia de las Escuelas de Ciudadanía (Citizenship Schools) de la época de los Derechos Civiles y en la _Pedagogía del oprimido_ de Paulo Freire. . . . \[un\] enfoque guiado por la gente para llevar la educación tecnológica a comunidades que han sido perjudicadas y oprimidas por la tecnología".
+
+[Neighborhood Network Construction Kit: Do-it-ourselves Guide to Community Networks](https://communitytechnology.github.io/docs/cck/index.html)
+
+> publicado originalmente como [Commotion Construction Kit](https://web.archive.org/web/20240625185349/https://commotionwireless.net/docs/cck/), este tutorial fue diseñado en conjunto por el Open Technology Institute de New America, The Work Department, Allied Media Projects y el Detroit Community Technology Project
+
+[Portable Network Kit Setup Guide](https://www.communitytechny.org/portable-network-kits), Community Tech NY
+
+[Meshnet DWeb Camp 2019](https://dweb-camp-2019.github.io/meshnet/)
+
+## Modelos de política y organización
+
+[Detroit Digital Stewards Program](https://web.archive.org/web/20200519201019/https://www.alliedmedia.org/dctp/digitalstewards)
+
+El [Lewis Latimer Plan for Digital Equity and Inclusion](https://nul.org/news/national-urban-league-unveils-new-framework-bridge-digital-divide) (plan para la equidad y la inclusión digital) de la National Urban League
+
+Nicol Turner Lee (Brookings) propone un "[Tech New Deal](https://www.brookings.edu/blog/techtank/2021/01/12/why-america-needs-a-tech-new-deal-to-build-back-better/)" (un "nuevo trato" tecnológico)
 
 ## Historia de la tecnología comunitaria en Philadelphia
 
@@ -10,41 +48,17 @@ Breitbart, Joshua, Naveen Lakshmipathy, and Sascha D. Meinrath. “[The Philadel
 
 Dunbar-Hester, Christina. _Low Power to the People: Pirates, Protest, and Politics in FM Radio Activism._ MIT Press, 2014.
 
-<br/>
-
-## Currículo
-
-[Teaching Community Technology Handbook](https://detroitcommunitytech.org/teachcommtech) \[pdf\], Detroit Community Technology Project
-
-> designed using a "popular education method grounded in the history of Civil Rights-era Citizenship Schools and Paulo Freire’s _Pedagogy of the Oppressed._ . . . \[a\] people-guided approach to bring tech education to communities that have been harmed and oppressed by technology."
-
-[Neighborhood Network Construction Kit: Do-it-ourselves Guide to Community Networks](https://communitytechnology.github.io/docs/cck/index.html)
-
-> originally released as [Commotion Construction Kit](https://web.archive.org/web/20240625185349/https://commotionwireless.net/docs/cck/), this tutorial was co-designed by New America's Open Technology Institute, The Work Department, Allied Media Projects, and the Detroit Community Technology Project
-
-[Portable Network Kit Setup Guide](https://www.communitytechny.org/portable-network-kits), Community Tech NY
-
-[Wireless Networking in the Developing World](http://wndw.net). 3rd Edition. Copenhagen, 2013.
-
-[The Community Network Manual: How to Build the Internet Yourself](https://bibliotecadigital.fgv.br/dspace/handle/10438/25696)
-
-[Meshnet DWeb Camp 2019](https://dweb-camp-2019.github.io/meshnet/)
-
-<br/>
-
-## Modelos de política y organización
-
-[Detroit Digital Stewards Program](https://web.archive.org/web/20200519201019/https://www.alliedmedia.org/dctp/digitalstewards)
-
-National Urban League's [Lewis Latimer Plan for Digital Equity and Inclusion](https://nul.org/news/national-urban-league-unveils-new-framework-bridge-digital-divide)
-
-Nicol Turner Lee (Brookings) proposing a “[Tech New Deal](https://www.brookings.edu/blog/techtank/2021/01/12/why-america-needs-a-tech-new-deal-to-build-back-better/)"
-
-<br/>
-
 ## Lecturas adicionales
 
+Belli, Luca. "The Community Network Manual - How to Build the Internet Yourself," 2018. <http://bibliotecadigital.fgv.br/dspace/handle/10438/25696>.
+
+Belli, Luca, ed. "Community Networks: The Internet by the People, for the People. Official Outcome of the UN IGF Dynamic Coalition on Community Connectivity," 2017. https://www.apc.org/en/pubs/community-networks-internet-people-people. (PDF)
+
 Byrum, Greta. “[Building the People’s Internet](https://urbanomnibus.net/2019/10/building-the-peoples-internet/).” _Urban Omnibus_, October 2, 2019.
+
+Butler, Jane, ed. Wireless Networking in the Developing World: a Practical Guide to Planning and Building Low-Cost Telecommunications Infrastructure. 3rd ed. S.l.: s.n., 2013. <http://wndw.net/>
+
+OTI, New America, The Work Department, and DCTP. "Neighborhood Network Construction Kit: Do-It-Ourselves Guide to Community Networks." <https://communitytechnology.github.io/docs/cck/index.html>.
 
 Park, Claire. “[Community Broadband: The Fast, Affordable Internet Option That’s Flying Under the Radar](https://www.newamerica.org/oti/reports/community-broadband/).” Washington D.C.: New America Foundation, May 19, 2020.
 
@@ -54,18 +68,6 @@ Sanchez, Alvaro. “[Toward Digital Inclusion: Broadband Access in the Third Fed
 
 Shaffer, Gwen. “[Common Sense: An Examination of Three Los Angeles Community WiFi Projects That Privileged Public Funding Over Commons-Based Infrastructure Management](https://doi.org/10.2139/ssrn.2941920).” Rochester, NY: Social Science Research Network, March 28, 2017.
 
-Solomon, Rory. [_Meshiness: Mesh Networks and the Politics of Connectivity_](http://search.proquest.com/pqdtglobal/docview/2408892960/abstract/479AB38D8B044610PQ/1)_._ Ph.D., New York University, 2020.
+Solomon, Rory. [_Meshiness: Mesh Networks and the Politics of Connectivity_](http://search.proquest.com/pqdtglobal/docview/2408892960/abstract/479AB38D8B044610PQ/1). Ph.D., New York University, 2020.
 
 Thakur, Dhanaraj, and Teddy Woodhouse. “[Meaningful Connectivity: A New Standard to Raise the Bar for Internet Access](https://web.archive.org/web/20260220230151/https://a4ai.org/meaningful-connectivity/).” Alliance for Affordable Internet, 2020.
-
-<br/>
-
-## Prensa local
-
-Graham, Kristen A. “[Philly Schools Chief Says Internet Providers Refuse to Open Their Networks so Students Can Access Education](https://www.inquirer.com/education/internet-access-philadelphia-coronavirus-comcast-budget-council-hite-school-district-20200520.html).” _The Philadelphia Inquirer,_ May 20, 2020.
-
-Gross, Paige. “[A Digital Literacy Alliance Grant Is Creating Roles to Help Residents Access and Use Tech during the Pandemic](https://technical.ly/philly/2020/05/29/digital-literacy-alliance-grant-digital-navigator-help-residents-access-use-tech-during-pandemic/).” _Technical.Ly Philly,_ May 29, 2020, sec. Civic.
-
-Hetrick, Christian, and Dylan Purcell. “[Thousands of Philly Students Are Stuck at Home with No Computer or Internet after Coronavirus Closed Schools](https://www.inquirer.com/education/coronavirus-students-digital-divide-philadelphia-comcast-20200403.html).” _The Philadelphia Inquirer,_ April 3, 2020.
-
-Noor, Jaisal. “[Baltimore City Students Demand Comcast Increase Internet Speed During Pandemic](https://baltimorebeat.com/baltimore-city-students-demand-comcast-increase-internet-speed-during-pandemic/).” _Baltimore Beat_, May 26, 2020.

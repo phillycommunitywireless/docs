@@ -27,8 +27,13 @@ If you have additional questions, please don't hesitate to reach out at info@phi
 
 **Installations**
 
+- [Guiding Principles](installations/handbook/overview.md)
+- [Safety Basics](installations/handbook/safety-basics.md)
+- [Rooftop, Ladder & Drill Safety](installations/handbook/risks-rooftop-ladder-drill.md)
+- [Building & Electrical Safety](installations/handbook/safety-buildings-electrical.md)
 - [Install Planning](installations/install-planning.md)
 - [Hardware](installations/hardware.md)
+- [Cabling and Mounting](installations/cabling-and-mounting.md)
 
 **Networking and device configuration**
 

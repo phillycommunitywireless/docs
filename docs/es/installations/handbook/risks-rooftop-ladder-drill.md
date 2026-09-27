@@ -1,4 +1,7 @@
-<!-- Borrador: traducción preliminar generada 2026-09-27 para revisión de Leanne. -->
+<!-- TODO: machine-drafted Spanish translation — needs review by a fluent speaker. -->
+!!! note "Traducción preliminar"
+    Esta página es una traducción preliminar y está pendiente de revisión. Si encuentra un error, la [versión en inglés](../../../../installations/handbook/risks-rooftop-ladder-drill/) es la referencia.
+
 # Seguridad en azoteas, escaleras y taladros
 
 ## Azoteas

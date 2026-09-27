@@ -70,7 +70,7 @@ We need to connect the device to our computer and determine its IP address, whil
 !!! info ""
     Normally, any device on your network will receive an IP address via the Dynamic Host Configuration Protocol, or DHCP. This ensures that your router knows which device it is communicating with on your network. Although Unifi APs reset to `192.168.1.20`, if the AP has already been configured it may receive a different IP address. 
 
-The Unifi mesh APs should automatically reset to `192.168.1.20` so you can first try Step 2 and see if the `ssh` command works. 
+The Unifi mesh APs should automatically reset to `192.168.1.20` so you can first skip ahead to [Step 3](#3-connect-to-the-ap-using-ssh) and see if the `ssh` command works. 
 
 If the mesh AP's IP address isn't `192.168.1.20`, there are two ways to find the IP address: 
 

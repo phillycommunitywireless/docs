@@ -1,4 +1,7 @@
-<!-- Borrador: traducción preliminar generada 2026-09-27 para revisión de Leanne. -->
+<!-- TODO: machine-drafted Spanish translation — needs review by a fluent speaker. -->
+!!! note "Traducción preliminar"
+    Esta página es una traducción preliminar y está pendiente de revisión. Si encuentra un error, la [versión en inglés](../../../../installations/handbook/safety-basics/) es la referencia.
+
 # Fundamentos de seguridad
 
 Como organización apoyada por voluntarios, trabajamos con personas con distintos niveles de comodidad y experiencia. El personal de PCW se compromete a hacer todo lo posible para garantizar un entorno seguro para todos durante las instalaciones y el trabajo de mantenimiento.

@@ -2,63 +2,68 @@
 title: Inicio
 ---
 
-# El proyecto PCW
+<!-- TODO: machine-drafted Spanish translation of the intro below (updated to the current English) — needs review by a fluent speaker. -->
+# ¡Bienvenido a la documentación de Philly Community Wireless!
 
-**Philly Community Wireless** (PCW) es un proyecto para desarrollar redes de malla de propiedad comunitaria en North Philly. Somos un grupo de trabajo de organizadores, tecnólogos, académicos, maestros de escuelas públicas y personal del Ayuntamiento de Filadelfia. Durante una época de distanciamiento social y enseñanza en línea, aproximadamente la mitad de los estudiantes de las escuelas públicas de la ciudad carecen de conexión wifi en casa. En ciertos vecindarios, aún más residentes carecen de conexión a Internet. Buscamos abordar la brecha digital de **la ciudad con tecnologías de red de malla operadas y propiedad de la comunidad.**
+**Philly Community Wireless** (PCW) está construyendo redes inalámbricas de Internet controladas por la comunidad en Filadelfia. Nuestro objetivo es ofrecer un acceso básico a Internet para todos, mejorando la calidad de vida hoy y preparando a las comunidades para un mañana más saludable y próspero. Con la ayuda de [**PhillyWisper**](https://phillywisper.net/), un proveedor de servicios de Internet inalámbrico que defiende la neutralidad de la red, estamos instalando Internet activamente en **Norris Square**, **Fairhill** y **Kensington**, en espacios públicos y privados del norte de Filadelfia. Puede ver el alcance geográfico de nuestra red en nuestro [mapa web](https://phillycommunitywireless.org/networkmap).
 
-Las redes de malla permiten compartir una única conexión a Internet entre un grupo más amplio de usuarios con muy poco coste o infraestructura necesaria. Con la ayuda de **PhillyWisper**, un proveedor de servicios de Internet inalámbrico, pro-neutral, estamos trabajando para instalar dos sitios piloto en **Kensington y Fairhill**. A partir de ahí, planearemos talleres de diseño participativo y capacitación técnica para la comunidad que los capacitará para mantener y hacer crecer esta conexión de red gratuita.
+Nuestra red comunitaria inalámbrica de malla nos permite compartir conexiones a Internet entre un grupo más amplio de usuarios, con muy poco costo de infraestructura. Esta página de documentación ofrece información técnica y guías para personas u organizaciones que quieran contribuir a la configuración e instalación de routers y antenas de la organización, o replicarlas en otro lugar, para construir una red pública inalámbrica de malla a gran escala.
 
-## Los documentos de PCW
-Esta página de documentos proporciona información técnica en desarrollo y guías para replicar la configuración y distribución del proyecto de routers y antenas para construir una red de malla.
+Si está buscando una **descripción no técnica del proyecto** o está interesado en suscribirse a la cobertura de PCW, visite nuestra [página principal](https://phillycommunitywireless.org).
 
-Si está buscando una **descripción no técnica del proyecto** o está interesado en suscribirse a la cobertura de PCW, visite nuestra [homepage](https://phillycommunitywireless.org).
+Si tiene más preguntas, no dude en escribirnos a info@phillycommunitywireless.org.
 
 <!-- TODO: Spanish review of the short italic descriptor lines below — for a fluent speaker at PR review. -->
 
 ## Por dónde empezar
 
-### Para anfitriones de antenas
+### Para anfitriones de antena
 
-*Aloja una antena en su azotea, o está considerándolo.*
+*Usted aloja una antena en su azotea o está pensando en hacerlo.*
 
-- [Descripción general](installations/installations.md) — en qué consiste una instalación en la azotea
+- [Descripción general de la instalación](installations/installations.md) — en qué consiste una instalación en la azotea, de principio a fin
 
 ### Para voluntarios
 
-*Ayuda a construir y mantener la red.*
+*Usted ayuda a construir y mantener la red.*
 
 **Instalaciones**
 
-- [Install Planning](installations/install-planning.md)
+- [Principios rectores](installations/handbook/overview.md)
+- [Fundamentos de seguridad](installations/handbook/safety-basics.md)
+- [Seguridad en azoteas, escaleras y taladros](installations/handbook/risks-rooftop-ladder-drill.md)
+- [Seguridad en edificios y eléctrica](installations/handbook/safety-buildings-electrical.md)
+- [Planificación de la instalación](installations/install-planning.md)
 - [Hardware](installations/hardware.md)
+- [Cableado y montaje](installations/cabling-and-mounting.md)
 
 **Redes y configuración de dispositivos**
 
 - [Configurar una IP estática](device-configuration/configure-computer.md)
-- [Configurar EdgeRouter X](device-configuration/configure-edgerouter-x.md)
+- [Configurar routers con EdgeOS](device-configuration/configure-edgerouter-x.md)
 - [Configurar APs Unifi](device-configuration/configure-ap-mesh.md)
-- [Solución de problemas](device-configuration/troubleshoot-devices.md)
+- [Solución de problemas de dispositivos Unifi](device-configuration/troubleshoot-devices.md)
 
 **Solar**
 
-- [Nodos solares](installations/solar.md)
+- [Nodos solares de malla](installations/solar.md)
 - [Recursos de tecnología verde](installations/green-technology.md)
 
 ### Para usuarios de la red
 
-*Está conectado a una red de PCW, o quiere estarlo.*
+*Usted está conectado a una red de PCW o quiere estarlo.*
 
 - [Conectarse a la red](for-network-users/connect-to-the-network.md)
 - [Configurar dispositivos IoT](for-network-users/configure-IoT.md)
-- [Conéctate](https://phillycommunitywireless.org/getconnected) — áreas de cobertura e inscripción, en el sitio principal
+- [Conéctese](https://phillycommunitywireless.org/getconnected) — áreas de cobertura e inscripción, en el sitio principal
 
 ### Recursos
 
 - [Glosario](glossary.md)
-- [Más recursos](resources.md) — recursos secundarios sobre el acceso de banda ancha y la inequidad digital en ciudades como Philadelphia
+- [Lecturas adicionales](resources.md) — recursos secundarios sobre el acceso de banda ancha y la inequidad digital en ciudades como Philadelphia
 
-## Participa
+## Participe
 
-- [**Conéctate al wifi gratuito, o aloja una antena**](https://tally.so/r/mR8VM9)
-- [**Ser voluntario con PCW**](https://tally.so/r/w2ODaj)
+- [**Conéctese al wifi gratuito o aloje una antena**](https://tally.so/r/mR8VM9)
+- [**Sea voluntario de PCW**](https://tally.so/r/w2ODaj)
 - [**Suscríbase a nuestro boletín**](https://phillycommunitywireless.us5.list-manage.com/subscribe?u=7a97e4278a5833f5505a85940&id=6af414f631)

@@ -1,4 +1,7 @@
-<!-- Borrador: traducción preliminar generada 2026-09-27 para revisión de Leanne. -->
+<!-- TODO: machine-drafted Spanish translation — needs review by a fluent speaker. -->
+!!! note "Traducción preliminar"
+    Esta página es una traducción preliminar y está pendiente de revisión. Si encuentra un error, la [versión en inglés](../../../../installations/handbook/overview/) es la referencia.
+
 # Principios rectores
 
 El objetivo de PCW es realizar un trabajo exitoso y de calidad de la manera más segura y eficiente posible, a la vez que facilitamos el aprendizaje de nuestra comunidad. Estos son algunos principios rectores que ayudan a alcanzar ese objetivo.

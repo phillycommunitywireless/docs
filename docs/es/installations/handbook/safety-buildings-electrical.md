@@ -1,4 +1,7 @@
-<!-- Borrador: traducción preliminar generada 2026-09-27 para revisión de Leanne. -->
+<!-- TODO: machine-drafted Spanish translation — needs review by a fluent speaker. -->
+!!! note "Traducción preliminar"
+    Esta página es una traducción preliminar y está pendiente de revisión. Si encuentra un error, la [versión en inglés](../../../../installations/handbook/safety-buildings-electrical/) es la referencia.
+
 # Seguridad en edificios y eléctrica
 
 ## Notas sobre la infraestructura de Internet preinstalada
@@ -21,7 +24,7 @@ Arriba se muestra un derivador (tap) coaxial y uno o varios divisores: es como u
 
 ## Techos y techado
 
-Como principio rector, nunca taladramos en las partes del techo sobre las que se puede caminar.
+Como principio rector, nunca taladramos en las partes del techo sobre las que podemos pararnos.
 
 El aspecto más importante de nuestro trabajo en techos es no permitir la entrada de humedad, que puede acumularse y dañar un edificio desde dentro hacia fuera sin ser visible hasta que aparece una gotera u otro daño. Aprender sobre la anatomía del techo puede ayudarnos a entender la mejor manera de montar nuestro equipo sin comprometer la integridad del techo. Obtenga más información sobre las partes del borde de un techo (tapajuntas, goterón, fascia, sofito) en [esta guía](https://roofs.wiki/Roof_Anatomy_and_Parts_Explained).
 

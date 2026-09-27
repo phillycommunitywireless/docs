@@ -1,4 +1,7 @@
-<!-- Borrador: traducción preliminar generada 2026-09-27 para revisión de Leanne. -->
+<!-- TODO: machine-drafted Spanish translation — needs review by a fluent speaker. -->
+!!! note "Traducción preliminar"
+    Esta página es una traducción preliminar y está pendiente de revisión. Si encuentra un error, la [versión en inglés](../../../installations/cabling-and-mounting/) es la referencia.
+
 # Cableado y montaje
 
 Siga el orden de las operaciones: no fije los cables hasta que el tendido esté completo y probado; no asegure los soportes hasta que los cables se hayan tendido.
