@@ -11,9 +11,9 @@ Philly Community Wireless seeks to build community-owned and community-operated 
 
 Most installations proceed in the following order:
 
-1. **Building Assessment** - A new address is submitted to us. We check if the address has [line of sight (LoS)](https://en.wikipedia.org/wiki/Line-of-sight_propagation) to a PhillyWisper high site using Google Earth and other mapping tools, and we conduct both remote and in-person building assessments as part of developing an install plan. For more information, please see [Building Assessments](buildingassessment.md) page.
+1. **Building Assessment** - A new address is submitted to us. We check if the address has [line of sight (LoS)](https://en.wikipedia.org/wiki/Line-of-sight_propagation) to a PhillyWisper high site using Google Earth and other mapping tools, and we conduct both remote and in-person building assessments as part of developing an install plan. For more information, please see [Install Planning](install-planning.md) page.
 2. **Install Planning** - If there is LoS, we communicate with the resident or community organization to determine their connectivity needs, as well as needs of neighbors and the general area. This helps us determine what sort of access points and networking equipment to bring, as well as how much cable we will need. Once the logistics for the initial install are determined, an install date is set!
-3. **Establish uplink** - On the day of the install, PCW will begin by installing the uplink radio pointing back at a PhillyWisper high site, usually a [LiteBeam](https://store.ui.com/us/en/products/litebeam-5ac). This provides the internet connection.
+3. **Establish uplink** - On the day of the install, PhillyWisper will begin by installing the uplink radio pointing back at a PhillyWisper high site, usually a [LiteBeam](https://store.ui.com/us/en/products/litebeam-5ac). This provides the internet connection.
 4. **Deploy access points** - Once the uplink is set up, we can begin running cable on the roof or through the building and deploying WiFi access points as needed, either indoors or outdoors.
 
 During residential installs, we either broadcast a private network for the resident to use from the same access points broadcasting the public PCW network, or provide an additional router for the resident to have their own private network that gets its uplink from the PCW network.
@@ -42,9 +42,9 @@ Typically, installs take between two and four hours to complete, but in certain 
 
 Internet installations typically consist of a rooftop antenna, a power-over-Ethernet injector, a router, and a WiFi access point (all of which are typically Ubiquiti networking equipment). During installation, PhillyWisper and Philly Community Wireless take every effort to minimally impact buildings. At any given install site, our installation work will be customized to ensure the least invasive and most secure placement of networking equipment, according to industry standards.
 
-For most locations, we first install a Ubiquiti LiteBeam radio antenna on the roof of the home, which receives signal from a nearby high site managed by PhillyWisper. To install the rooftop antenna, PhillyWisper technicians will access a high point and mount the small radio antenna (see attached images of various mounting techniques below) that they precision aim at the closest source tower. We never penetrate the roofing system itself when mounting the antenna, and wherever possible we utilize preexisting structures (chimneys, vent pipes, etc). If preexisting structures aren't an option, we use a non-penetrating roof mount, which is properly weighed down and rests on a rubber mat on top of your roof.
+For most locations, we first install a Ubiquiti LiteBeam radio antenna on the roof of the home, which receives signal from a nearby high site managed by PhillyWisper. To install the rooftop antenna, PhillyWisper technicians will access a high point and mount the small radio antenna (see the images of various mounting techniques below) that they precision aim at the closest source tower. We never penetrate the roofing system itself when mounting the antenna, and wherever possible we utilize preexisting structures (chimneys, vent pipes, etc). If preexisting structures aren't an option, we use a non-penetrating roof mount.
 
-The rooftop radio is powered via outdoor-rated Ethernet cable that runs down the building exterior and into the home (our equipment uses Power over Ethernet, so we can power outdoor devices with Ethernet from an indoor outlet). We make sure the wire run is as inconspicuous as possible and ensure there is plenty of tension on the wire so that it doesn't flap in the wind. If there are any preexisting penetrations entering the building from previous ISPs, they will use that if possible and caulk when finished.
+The rooftop radio is powered via outdoor-rated Ethernet cable that runs down the building exterior and into the home. We make sure the wire run is as inconspicuous as possible and ensure there is plenty of tension on the wire so that it doesn't flap in the wind. If there are any preexisting penetrations entering the building from previous ISPs, we will use that if possible and caulk when finished.
 
 ## Installation Examples
 
@@ -94,7 +94,7 @@ The powered Ethernet cable is wired to a Ubiquiti EdgeRouter-X (or possibly anot
     <figcaption>Ubiquiti EdgeRouterX</figcaption>
 </figure>
 
-Finally, a Ubiquiti Mesh AP ("bunny ears" because look at them!) is connected to the router and allows devices in its radio signal range to connect to the network. The bunny ears should be installed in a location that is radio-visible to the mesh APs at the home installs in range.
+Finally, a Ubiquiti Mesh AP ("bunny ears" because look at them!) is connected to the router and allows devices in its radio signal range to connect to the network.
 
 <figure style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
     <img src="../../assets/images/device-configs/mesh/Materials.jpeg"

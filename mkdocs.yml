@@ -41,9 +41,6 @@ draft_docs: |
   /en/device-configuration/unpoller.md
   /en/device-configuration/useful-software.md
   /en/device-configuration/wireless-settings.md
-  /en/installations/handbook/assessment-planning.md
-  /en/installations/handbook/install-day-and-maintenance.md
-  /en/installations/handbook/phases-overview.md
   /en/software-infrastructure/overview.md
   /en/wireless/fixed-wireless.md
   /en/wireless/wifi.md
@@ -71,15 +68,12 @@ plugins:
             For network users: Para usuarios de la red
             Installations: Instalaciones
             Installation Overview: Descripción general
-            Building Assessment: Evaluación del edificio
-            Building Assessments: Evaluación del edificio
             Configure routers running EdgeOS: Configurar routers con EdgeOS
             Manual configuration: Configuración manual
             Troubleshoot Unifi Devices: Solución de problemas de dispositivos Unifi
             Hardware: Hardware
             Solar: Solar
             Solar Mesh Nodes: Nodos solares
-            Access Point Placement: Ubicación de los puntos de acceso
             Green Technology Resources: Recursos de tecnología verde
             Networking and Device Configuration: Redes y configuración de dispositivos
             Set a Static IP Address: Configurar una IP estática
@@ -101,15 +95,14 @@ nav:
   - For Volunteers:
     - Installations:
       - Guiding Principles: installations/handbook/overview.md
-      - Building Assessments: installations/buildingassessment.md
-      - Access Point Placement: installations/ap-placement.md
-      - Hardware: installations/hardware.md
-      - Install Policy: installations/handbook/etiquette.md
       - Safety:
         - Safety Basics: installations/handbook/safety-basics.md
-        - Weather & Environmental Risks: installations/handbook/risks-weather-environment.md
         - Rooftop, Ladder & Drill Safety: installations/handbook/risks-rooftop-ladder-drill.md
         - Building & Electrical Safety: installations/handbook/safety-buildings-electrical.md
+      - Install Planning: installations/install-planning.md
+      - Hardware and Cabling:
+        - Hardware: installations/hardware.md
+        - Cabling and Mounting: installations/cabling-and-mounting.md
     - Networking and Device Configuration:
         - Set a Static IP Address: device-configuration/configure-computer.md
         - Configure routers running EdgeOS:

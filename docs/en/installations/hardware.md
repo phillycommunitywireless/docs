@@ -47,12 +47,12 @@ mounted at the site.
   <figure>
     <img class="device-art" src="../../assets/images/equipment/indoor-ap-round.svg"
          alt="Line drawing of a round ceiling-mounted access point, seen face on as a plain disc with a narrow inner ring.">
-    <figcaption><strong>Round, ceiling or wall</strong><br>nanoHD, U6 Lite, U6+, U6 Pro, U7 Lite, U7 Pro</figcaption>
+    <figcaption><strong>Round, ceiling or wall</strong><br><a href="https://store.ui.com/us/en/products/uap-nanohd">nanoHD</a>, <a href="https://store.ui.com/us/en/products/u6-lite">U6 Lite</a>, <a href="https://store.ui.com/us/en/products/u6-plus">U6+</a>, <a href="https://store.ui.com/us/en/category/wifi-flagship/products/u6-pro">U6 Pro</a>, <a href="https://store.ui.com/us/en/products/u7-lite">U7 Lite</a>, <a href="https://store.ui.com/us/en/products/u7-pro">U7 Pro</a></figcaption>
   </figure>
   <figure>
     <img class="device-art" src="../../assets/images/equipment/u6-in-wall.svg"
          alt="Line drawing of an in-wall access point, a small rectangular faceplate with an Ethernet port on its lower edge.">
-    <figcaption><strong>In-wall faceplate</strong><br>UAP-AC-IW, U7 In-Wall</figcaption>
+    <figcaption><strong>In-wall faceplate</strong><br><a href="https://store.ui.com/us/en/products/uap-ac-iw">UAP-AC-IW</a>, <a href="https://store.ui.com/us/en/products/u7-iw">U7 In-Wall</a></figcaption>
   </figure>
   <figure>
     <img class="device-art" src="../../assets/images/equipment/beacon-hd.svg"
@@ -61,18 +61,7 @@ mounted at the site.
   </figure>
 </div>
 
-- [Ubiquiti UAP-nanoHD](https://store.ui.com/us/en/products/uap-nanohd)
-- [Ubiquiti UAP-AC-Inwall](https://store.ui.com/us/en/products/uap-ac-iw)
-- [Ubiquiti U6 Extender](https://store.ui.com/us/en/products/u6-extender)
-- [Ubiquiti U6+](https://store.ui.com/us/en/products/u6-plus)
-- [Ubiquiti U6 Lite](https://store.ui.com/us/en/products/u6-lite)
-- [Ubiquiti U6 Pro - 'UFO AP'](https://store.ui.com/us/en/category/wifi-flagship/products/u6-pro)
-- [Ubiquiti U7 Lite](https://store.ui.com/us/en/products/u7-lite)
-- [Ubiquiti U7 Pro](https://store.ui.com/us/en/products/u7-pro)
-- [Ubiquiti U7 Pro Max](https://store.ui.com/us/en/products/u7-pro-max)
-- [Ubiquiti U7 In-Wall](https://store.ui.com/us/en/products/u7-iw)
-- [Ubiquiti U7 Long Range](https://store.ui.com/us/en/products/u7-lr)
-- [Ubiquiti UAP-BeaconHD](https://store.ui.com/us/en/products/uap-beaconhd)
+Also used indoors: [Ubiquiti U6 Extender](https://store.ui.com/us/en/products/u6-extender), [Ubiquiti U7 Pro Max](https://store.ui.com/us/en/products/u7-pro-max), [Ubiquiti U7 Long Range](https://store.ui.com/us/en/products/u7-lr).
 
 ### Switches
 - [Ubiquiti USW Flex Mini](https://store.ui.com/us/en/products/usw-flex-mini)
@@ -148,6 +137,12 @@ mounted at the site.
     <figcaption>A PoE injector powers an AP over its Ethernet cable, so the AP needs no outlet of its own.</figcaption>
 </figure>
 
+Identify what voltage and wattage of Power-over-Ethernet (PoE) will be needed for the equipment. Notes on voltage:
+
+- ERXs (and, by extension, LiteBeams) are 24V
+- Almost all access points are 48V
+    - UAP-AC-Mesh (colloquially known as “Bunny Ears”) can accept 48V or 24V
+
 - Short-to-medium length Ethernet cable(s)
 - Outdoor-rated power strip(s)
 - Outdoor-rated extension cord(s)    
@@ -156,13 +151,13 @@ mounted at the site.
 - [PoE Injector/Splitter](https://www.newegg.com/p/2WG-00DK-00004)
 - [Ethernet to Ethernet adapter/coupler](https://www.newegg.com/p/0Y3-02J6-00001)
 - Pass-through Ethernet (RJ45) heads
-- [USB Type C to Ethernet adapter](https://www.ebay.com/itm/132225990432?epid=910384900&hash=item1ec9487f20:g:FhgAAOSwqiVdyN)
+- [USB Type C to Ethernet adapter](https://www.ebay.com/itm/132225990432)
 
 ## Tools
 
 ### Networking
 
-- [Ethernet cable crimper](https://www.homedepot.com/p/Klein-Tools-Compact-Ratcheting-Modular-Crimper-VDV226-107/204732347?source=shoppingads&locale=en-US&srsltid=AfmBOopOP-5p-ibEZ6Xg-9GSiYkxoTyprixZLrUXPKiSeqJMjNqTxc5oPwU)
+- [Ethernet cable crimper](https://www.homedepot.com/p/Klein-Tools-Compact-Ratcheting-Modular-Crimper-VDV226-107/204732347)
 - CAT5e cable stripper
 - [Ethernet cable tester](https://www.lowes.com/pd/Klein-Tools-Cable-Tester-Kit-with-Scout-Pro-3-Tester-Remotes-Adapter-Battery/5014306081)
 - Mobile hotspot 

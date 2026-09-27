@@ -29,8 +29,7 @@ Si está buscando una **descripción no técnica del proyecto** o está interesa
 
 **Instalaciones**
 
-- [Evaluación del edificio](installations/buildingassessment.md)
-- [Ubicación de los puntos de acceso](installations/ap-placement.md)
+- [Install Planning](installations/install-planning.md)
 - [Hardware](installations/hardware.md)
 
 **Redes y configuración de dispositivos**
