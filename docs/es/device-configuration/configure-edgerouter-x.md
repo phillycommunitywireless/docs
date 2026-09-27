@@ -43,7 +43,6 @@ configura el router; `eth4` es el puerto WAN y el que envía PoE hacia una LiteB
     <img src="../../../assets/images/device-configs/erx/wiring.jpeg"
          alt="Cableado del ERX: el cable de alimentación está conectado en la parte trasera y la interfaz 'eth0' está conectada a la computadora."
          style="width: 50%;">
-    <figcaption></figcaption>
 </figure>
 <figure style="display: flex; align-items: center; flex-direction: column;">
     <img src="../../../assets/images/device-configs/erx/eth0.jpeg"
@@ -70,13 +69,12 @@ Siga estas instrucciones: [Configurar una IP estática en su computadora](config
         <img src="../../../assets/images/device-configs/erx/wizard.jpeg"
              alt="Pantalla de configuración del ERX"
              style="width: 50%;">
-        <figcaption></figcaption>
     </figure>
 
 4. Cambie el `Port` (puerto) de `eth0` a `eth4`. Así el puerto funcionará como WAN para la antena LiteBeam. 
 5. En `User Setup` (configuración de usuario), cree un usuario nuevo y establezca el nombre de usuario y la contraseña de PCW.
 6. Presione `Apply` (aplicar) y siga las instrucciones para reiniciar el dispositivo.
-7. Vuelva al portal e inicie sesión con el nombre de usuario y la contraseña de PCW (comuníquese con los responsables del proyecto para obtener estos datos).
+7. Vuelva al portal e inicie sesión con el nombre de usuario y la contraseña de PCW (el personal de PCW se los proporcionará).
 8. En el `Dashboard` (panel), haga clic en `Actions` (acciones) de `eth4` para activar PoE.
 9. Por último, haga clic en la pestaña `System` (sistema), en la parte inferior izquierda de la consola.
 10. Escriba el nombre de host (*host name*) del dispositivo.
@@ -125,7 +123,7 @@ Este método permite que el ERX se conecte a Internet a través del router de su
 
 5. Reinicie su router y reinicie el ERX. 
 
-6. Vuelva al portal e inicie sesión con el nombre de usuario y la contraseña de PCW (comuníquese con los responsables del proyecto para obtener estos datos).
+6. Vuelva al portal e inicie sesión con el nombre de usuario y la contraseña de PCW (el personal de PCW se los proporcionará).
 
 7. Por último, haga clic en la pestaña `System` (sistema), en la parte inferior izquierda de la consola.
 

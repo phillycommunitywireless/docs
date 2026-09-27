@@ -14,8 +14,6 @@ Los voluntarios son responsables de mantenerse concentrados y en la tarea mientr
 
 El mal tiempo o el clima extremo tienen un impacto directo en la seguridad del trabajo de PCW. Las instalaciones y el trabajo de mantenimiento se pospondrán si hay una alta probabilidad de mal tiempo, incluyendo calor extremo, lluvia, nieve, hielo, frío extremo, mala calidad del aire o niebla.
 
-<!-- image held: third-party CCOHS "Keep your cool" heat infographic; needs a PCW-owned or licensed replacement -->
-
 Con calor, manténgase hidratado con agua y/o electrolitos, proteja la piel con protector solar y tome descansos en interiores o a la sombra. Reconozca los signos de exposición al calor, como mareos, náuseas, dolor de cabeza, confusión y respiración rápida y superficial.
 
 Con frío, proteja la piel con ropa de abrigo apropiada y tome descansos en interiores para entrar en calor. Camine con cuidado para evitar resbalones y caídas sobre el hielo; manténgase alejado de las zonas heladas cuando sea posible. Reconozca los signos de estrés por frío, como temblores incontrolables, habla arrastrada, movimientos torpes, fatiga y comportamiento confuso.
@@ -49,8 +47,6 @@ Además, el personal de PCW es responsable de empacar:
 ## Transporte de equipo
 
 La mayor parte del equipo que PCW usa es ligero, y las bolsas deben empacarse de manera que ninguna sea especialmente pesada. Sin embargo, sí usamos escaleras grandes y, en ciertas instalaciones, bloques de concreto para lastrar nuestro soporte de techo no penetrante. Estas son algunas pautas para transportar equipo pesado y minimizar el riesgo de lesiones.
-
-<!-- image held: third-party CCOHS "How to Lift Safely" poster and "power zone" diagram; needs a PCW-owned or licensed replacement -->
 
 Antes de levantar o cargar un objeto pesado o incómodo por su cuenta, pregúntese: ¿sería menos riesgoso hacerlo entre dos personas? ¿Hay otras formas de levantar, cargar o mover este objeto? (p. ej., usando una cuerda, un auto o una rampa). Antes de levantar, identifique también los puntos de agarre disponibles. Algunas cargas pueden no tener puntos de agarre adecuados; los guantes y/o cargar los objetos en equipo pueden reducir el riesgo de lesiones.
 

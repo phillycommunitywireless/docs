@@ -28,7 +28,7 @@ Each Unifi AP has an LED which indicates its current status.
 * **Flashing Blue** - The AP has lost connectivity and is searching for a parent AP or uplink. 
 * **Rapid Flashing Blue/Off** - The 'Locate' feature was activated via the Unifi Controller.  
 
-Please see [this page](https://help.ui.com/hc/en-us/articles/204910134-Understanding-Device-LED-Status-Indicators) for more information on LED status indicators. 
+Ubiquiti's [Understanding Device LED Status Indicators](https://help.ui.com/hc/en-us/articles/204910134-Understanding-Device-LED-Status-Indicators) explains what each LED pattern means. 
 
 ## Troubleshooting Access Points
 ### No power on access point; device power cycles but doesn't stay online 

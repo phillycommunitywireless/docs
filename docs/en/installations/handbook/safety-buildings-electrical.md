@@ -4,8 +4,6 @@
 
 PCW often works in environments that have pre-existing Internet infrastructure. When doing our installations, we may be in proximity to existing cabling/networking infrastructure/etc that could be impacted or damaged by the work of our install.
 
-<!-- Residential notes: still a placeholder in the Drive guide as of 2026-09-24; add when written. -->
-
 ### Commercial
 
 In commercial buildings that already have Internet installed, you might see something like this:
@@ -22,7 +20,7 @@ Pictured above is a coaxial tap and splitter(s) – this is like a switch, but f
 
 As a guiding principle, we never drill into parts of roofs that we can stand on.
 
-The most important aspect of our roof work is to not allow moisture ingress, which can accumulate and damage a building from the inside-out without being visible until a leak or other damage appears. Learning about roof anatomy can help us understand the best way to mount our equipment without implicating the integrity of the roof. Learn more about the parts of a roof edge (flashing, drip edge, fascia, soffit) in [this guide](https://roofs.wiki/Roof_Anatomy_and_Parts_Explained).
+The most important aspect of our roof work is to not allow moisture ingress, which can accumulate and damage a building from the inside-out without being visible until a leak or other damage appears. Learning about roof anatomy can help us understand the best way to mount our equipment without implicating the integrity of the roof. Learn more about the parts of a roof edge (flashing, drip edge, fascia, soffit) in [Roof Anatomy and Parts Explained](https://roofs.wiki/Roof_Anatomy_and_Parts_Explained).
 
 ## Fire Safety/Suppression Systems
 
@@ -50,13 +48,9 @@ Although PCW primarily works with low-voltage (50V or less) cable and devices, w
 
 Romex - indoor power is often carried via this flat, non-metallic (NM) cable. Romex is color-coded based on the gauge and the amperage. Learn more about the color code in [this NEMA bulletin](https://www.nema.org/docs/default-source/technical-document-library/type-nm-b-cable-jacket-color-coding-for-conductor-size-idenification.pdf).
 
-<!-- image held: third-party NM cable colour chart (The Spruce) and outlet-types photo; images to be sorted out later -->
-
 ### Conduit and You
 
 Outdoors, electrical cable is usually encased in a conduit of some sort. We often see flexible conduit made of PVC, or straight conduit made of steel.
-
-<!-- image held: third-party conduit-types photo grid; images to be sorted out later -->
 
 ### Avoiding Radio Frequency Interference Between Electrical Wires
 

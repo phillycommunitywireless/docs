@@ -32,7 +32,7 @@ Cada AP Unifi tiene un LED que indica su estado actual.
 * **Azul intermitente** - El AP perdió la conectividad y está buscando un AP principal (*parent AP*) o un enlace ascendente (uplink). 
 * **Azul/apagado intermitente rápido** - Se activó la función 'Locate' (localizar) desde el controlador Unifi (Unifi Controller).  
 
-Consulte [esta página](https://help.ui.com/hc/en-us/articles/204910134-Understanding-Device-LED-Status-Indicators) (en inglés) para obtener más información sobre los indicadores LED de estado. 
+La guía de Ubiquiti [Understanding Device LED Status Indicators](https://help.ui.com/hc/en-us/articles/204910134-Understanding-Device-LED-Status-Indicators) (en inglés) explica qué significa cada patrón de los LED. 
 
 ## Solución de problemas de puntos de acceso
 ### El punto de acceso no enciende; el dispositivo se reinicia pero no permanece en línea 

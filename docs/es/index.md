@@ -13,8 +13,6 @@ Si está buscando una **descripción no técnica del proyecto** o está interesa
 
 Si tiene más preguntas, no dude en escribirnos a info@phillycommunitywireless.org.
 
-<!-- TODO: Spanish review of the short italic descriptor lines below — for a fluent speaker at PR review. -->
-
 ## Por dónde empezar
 
 ### Para anfitriones de antena
@@ -46,8 +44,8 @@ Si tiene más preguntas, no dude en escribirnos a info@phillycommunitywireless.o
 
 **Solar**
 
-- [Nodos solares de malla](installations/solar.md)
-- [Recursos de tecnología verde](installations/green-technology.md)
+- [Nodos solares de malla](installations/green-tech/solar-mesh-node.md)
+- [Recursos de tecnología verde](installations/green-tech/green-technology.md)
 
 ### Para usuarios de la red
 

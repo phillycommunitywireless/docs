@@ -4,11 +4,11 @@ title: Recursos de tecnología verde
 
 <!-- TODO: machine-drafted Spanish translation — needs review by a fluent speaker. -->
 !!! note "Traducción preliminar"
-    Esta página es una traducción preliminar y está pendiente de revisión. Si encuentra un error, la [versión en inglés](../../../installations/green-technology/) es la referencia.
+    Esta página es una traducción preliminar y está pendiente de revisión. Si encuentra un error, la [versión en inglés](../../../../installations/green-tech/green-technology/) es la referencia.
 
 # Recursos de tecnología verde
 
-Programas, financiamiento y recursos de monitoreo relacionados con el trabajo de PCW en espacios verdes. Para saber cómo se construyen y se mantienen los nodos solares, consulte [Nodos solares de malla](solar.md).
+Programas, financiamiento y recursos de monitoreo relacionados con el trabajo de PCW en espacios verdes. Para saber cómo se construyen y se mantienen los nodos solares, consulte [Nodos solares de malla](solar-mesh-node.md).
 
 ## Programas solares en Filadelfia
 
@@ -18,7 +18,7 @@ Programas, financiamiento y recursos de monitoreo relacionados con el trabajo de
 
     !!! warning ""
 
-        Consulte la página del programa antes de recomendarle a alguien este reembolso. En agosto de 2026, la Ciudad lo indica como sin fondos; las solicitudes se procesarán por orden de llegada solo si se restablece el financiamiento.
+        En agosto de 2026, la Ciudad indica este programa como sin fondos; las solicitudes se procesarán por orden de llegada solo si se restablece el financiamiento. Consulte la página del programa para conocer su estado actual.
 
 ## Agricultura urbana
 

@@ -8,8 +8,6 @@
 
 PCW trabaja a menudo en entornos que ya cuentan con infraestructura de Internet preexistente. Al hacer nuestras instalaciones, podemos estar cerca de cableado/infraestructura de red/etc. existentes que podrían verse afectados o dañados por el trabajo de nuestra instalación.
 
-<!-- Residential notes: still a placeholder in the Drive guide as of 2026-09-24; add when written. -->
-
 ### Comercial
 
 En edificios comerciales que ya tienen Internet instalado, es posible que vea algo como esto:
@@ -26,8 +24,7 @@ Arriba se muestra un derivador (tap) coaxial y uno o varios divisores: es como u
 
 Como principio rector, nunca taladramos en las partes del techo sobre las que podemos pararnos.
 
-El aspecto más importante de nuestro trabajo en techos es no permitir la entrada de humedad, que puede acumularse y dañar un edificio desde dentro hacia fuera sin ser visible hasta que aparece una gotera u otro daño. Aprender sobre la anatomía del techo puede ayudarnos a entender la mejor manera de montar nuestro equipo sin comprometer la integridad del techo. Obtenga más información sobre las partes del borde de un techo (tapajuntas, goterón, fascia, sofito) en [esta guía](https://roofs.wiki/Roof_Anatomy_and_Parts_Explained).
-
+El aspecto más importante de nuestro trabajo en techos es no permitir la entrada de humedad, que puede acumularse y dañar un edificio desde dentro hacia fuera sin ser visible hasta que aparece una gotera u otro daño. Aprender sobre la anatomía del techo puede ayudarnos a entender la mejor manera de montar nuestro equipo sin comprometer la integridad del techo. Obtenga más información sobre las partes del borde de un techo (tapajuntas, goterón, fascia, sofito) en [Roof Anatomy and Parts Explained](https://roofs.wiki/Roof_Anatomy_and_Parts_Explained).
 
 ## Sistemas de seguridad/extinción de incendios
 
@@ -55,13 +52,9 @@ Aunque PCW trabaja principalmente con cables y dispositivos de bajo voltaje (50 
 
 Romex: la corriente en interiores suele transportarse por este cable plano no metálico (NM). El Romex tiene un código de colores según el calibre y el amperaje. Obtenga más información sobre el código de colores en [este boletín de NEMA](https://www.nema.org/docs/default-source/technical-document-library/type-nm-b-cable-jacket-color-coding-for-conductor-size-idenification.pdf).
 
-<!-- image held: third-party NM cable colour chart (The Spruce) and outlet-types photo; images to be sorted out later -->
-
 ### El conducto y usted
 
 En exteriores, el cable eléctrico suele ir encerrado en algún tipo de conducto. A menudo vemos conducto flexible de PVC, o conducto recto de acero.
-
-<!-- image held: third-party conduit-types photo grid; images to be sorted out later -->
 
 ### Cómo evitar interferencias de radiofrecuencia entre cables eléctricos
 

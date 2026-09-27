@@ -10,8 +10,6 @@ Volunteers are responsible for staying focused and on task while on site. Volunt
 
 Poor or extreme weather has a direct impact on the safety of PCW’s work. Installs and maintenance work will be postponed if there is a high likelihood of poor weather, including extreme heat, rain, snow, ice, extreme cold, bad air quality, or fog.
 
-<!-- image held: third-party CCOHS "Keep your cool" heat infographic; needs a PCW-owned or licensed replacement -->
-
 During hot weather, stay hydrated with water and/or electrolytes, protect skin with sunscreen, and take breaks indoors or in the shade. Recognize the signs of heat exposure, such as dizziness, nausea, headache, confusion, and rapid shallow breathing.
 
 During cold weather, protect skin with appropriate outerwear and take breaks indoors to warm up. Tread carefully to avoid slips and falls on any ice; stay away from icy patches when possible. Recognize the signs of cold stress, such as uncontrolled shivering, slurred speech, clumsy movements, fatigue, and confused behavior.
@@ -45,8 +43,6 @@ In addition, PCW Staff are responsible for packing:
 ## Carrying Equipment
 
 Most of the equipment that PCW uses is lightweight, and bags should be packed in a way that none of them are particularly heavy. However, we do use large ladders and, at certain installs, cinderblocks for weighing down our non-penetrating roofmount. Here are some guidelines around carrying heavy equipment to minimize the risk of injury.
-
-<!-- image held: third-party CCOHS "How to Lift Safely" poster and "power zone" diagram; needs a PCW-owned or licensed replacement -->
 
 Before lifting or carrying a heavy or awkward object individually, consider: would this be less risky as a two-person job? Are there other ways to lift, carry, or move this object? (e.g., using a rope, a car, or a ramp). Before lifting, also identify available handholds. Some loads may not have adequate handholds; gloves and/or carrying objects as a team may reduce the risk of injury.
 

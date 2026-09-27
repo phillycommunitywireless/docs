@@ -3,7 +3,7 @@ title: Green Technology Resources
 ---
 # Green Technology Resources
 
-Programs, funding, and monitoring resources related to PCW's green-space work. For how the solar nodes themselves are built and maintained, see [Solar Mesh Nodes](solar.md).
+Programs, funding, and monitoring resources related to PCW's green-space work. For how the solar nodes themselves are built and maintained, see [Solar Mesh Nodes](solar-mesh-node.md).
 
 ## Solar programs in Philadelphia
 
@@ -13,7 +13,7 @@ Programs, funding, and monitoring resources related to PCW's green-space work. F
 
     !!! warning ""
 
-        Check the program page before pointing anyone at the rebate. As of August 2026 the City lists it as unfunded, with applications processed in order received only if funding is restored.
+        As of August 2026 the City lists this program as unfunded, with applications processed in order received only if funding is restored. Check the program page for its current status.
 
 ## Urban agriculture
 
