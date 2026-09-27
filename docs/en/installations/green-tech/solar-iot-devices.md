@@ -7,10 +7,6 @@ Besides WiFi access points, Philly Community Wireless deploys small networked de
 
 The air monitor design below is a modified version of the [solar mesh node](solar-mesh-node.md) that powers a 5V PurpleAir monitor instead of a 24V mesh access point. It was developed by Amaris Chen, PCW's University of Pennsylvania intern, building on [Holobiont Lab's](https://holobiontlab.org/) meshbox.
 
-!!! todo "For Amaris"
-
-    Add a sentence or two in your own words: when you worked on this, what you set out to do, and anything you'd want a volunteer to know before they start.
-
 ## Power needs at a glance
 
 | Device | Power input | Typical draw | Peak draw | Per day |
@@ -52,20 +48,16 @@ The Holobiont Lab box charges a 12V battery from a solar panel and boosts it to 
 | In-line fuse holder + 2-3A fuse | Protects against a short | [18 AWG in-line fuse holders](https://www.amazon.com/dp/B0DT4NCD5V) (Holobiont boxes come with one) | ~$7.50 for five |
 | F2 (6.3mm spade) crimp terminals | Connect wires to the battery's F2 terminals | [16 AWG spade terminals](https://www.amazon.com/dp/B09CYQLG49) | ~$13 for thirty |
 | WAGO lever nuts | Join wires without soldering, easy to take apart | Same as the solar mesh node | |
-| Adjustable buck converter | Steps 12V down to 5V | [DFRobot DFR0379](https://www.digikey.com/en/products/detail/dfrobot/DFR0379/7087190) | |
+| Adjustable buck converter | Steps 12V down to 5V | [DFRobot DFR0379](https://www.dfrobot.com/product-1552.html) | ~$5 |
 | Female USB A breakout board | Turns the USB cable into screw terminals | [USB A breakout with screw terminals](https://www.amazon.com/dp/B0GXJ3NJJM) | |
 | Micro USB to USB A cable | Carries power to the monitor | | |
-| PurpleAir monitor | The load | [PurpleAir Classic Plus](https://www.purpleair.com/products/classic-plus-air-quality-monitor) | |
+| PurpleAir monitor | The load | [PurpleAir Classic Plus](https://www.purpleair.com/products/classic-plus-air-quality-monitor) | ~$239 |
 
 PCW also has one [ECO-WORTHY 12V 20Ah](https://www.amazon.com/dp/B09NB97XGL) battery (~$73, screw terminals) on hand.
 
-!!! todo "For Amaris"
-
-    Fill in the blank costs and confirm this matches the deployed box. A total cost per box would be useful for grant budgets.
-
 ### Load
 
-According to [PurpleAir](https://community.purpleair.com/t/how-much-power-does-a-purpleair-sensor-draw-and-how-much-bandwidth-data-does-it-use/847), the air monitors require 5V x 0.18A (~0.9W) to power continuously. This is about 21.6Wh per day, assuming continuous amperage. PCW's earlier notes also record short peaks of up to 0.6A (3W), which the buck converter and cable need to handle.
+According to [PurpleAir](https://community.purpleair.com/t/how-much-power-does-a-purpleair-sensor-draw-and-how-much-bandwidth-data-does-it-use/847), the air monitors require 5V x 0.18A (~0.9W) to power continuously. This is about 21.6Wh per day, assuming continuous amperage. PurpleAir's [spec sheet](https://www.purpleair.com/products/classic-plus-air-quality-monitor) also lists short peaks of up to 600mA (3W), which the buck converter and cable need to handle.
 
 PurpleAir [says](https://community.purpleair.com/t/purpleair-classic-minimum-input-voltage/9823) the sensors need a full 5V and a quality cable to run reliably; below that they start to misbehave. Voltage drops along a long or thin cable, so check the voltage at the monitor end, not just at the buck converter.
 
@@ -73,20 +65,16 @@ The PurpleAir air monitors have female micro USB ports for power. We use a male 
 
 Existing air monitors' exposed micro USB connections are not water-proof, but PCW has not encountered any issues regarding that. Nonetheless, we may consider sealing the connection with liquid electrical tape.
 
-!!! question "Review note: the whole box's daily load"
+The 21.6Wh figure is the monitor alone. The box also powers itself around the clock, so size the battery and panel for the whole box:
 
-    The 21.6Wh figure is the monitor alone. The box also powers itself around the clock:
+| Draw | Current at 12.8V | Per day |
+|---|---|---|
+| PurpleAir, after the buck converter's ~12% loss | ~80mA | ~24.5Wh |
+| Low-temperature disconnect (XH-W1209): display always on, plus its relay | 35mA idle, 65mA with the relay on ([spec](https://components101.com/modules/w1209-temperature-control-switch)) | ~11-20Wh |
+| Buck converter's display, charge controller | small, not measured | |
+| **Total** | | **~36-45Wh** |
 
-    | Draw | Current at 12.8V | Per day |
-    |---|---|---|
-    | PurpleAir, after the buck converter's ~12% loss | ~80mA | ~24.5Wh |
-    | Low-temperature disconnect (XH-W1209): display always on, plus its relay | 35mA idle, 65mA with the relay on ([spec](https://components101.com/modules/w1209-temperature-control-switch)) | ~11-20Wh |
-    | Buck converter's own idle draw and display, charge controller | not measured | ? |
-    | **Total** | | **~36-45Wh or more** |
-
-    With Holobiont's settings the disconnect runs in cooling mode, so its relay should stay on (passing the panel's power through) whenever it is warmer than the cutoff, which is most of the year. That puts it near the 65mA end, around 20Wh a day, almost as much as the monitor itself. The total is roughly double the 21.6Wh the battery and panel were sized for.
-
-    Worth measuring the whole box's current at the battery, with and without the monitor plugged in. A battery with a built-in low-temperature charge cutoff would remove the XH-W1209 and its draw entirely.
+With the settings in [Assembly](#assembly), the disconnect's relay stays on whenever it is warmer than the cutoff, which is most of the year, so expect the high end. A battery with a built-in low-temperature charge cutoff would remove the XH-W1209 and its draw entirely. To get the real figure for a box, measure the current at the battery with and without the monitor plugged in.
 
 ### Buck converter
 
@@ -114,22 +102,14 @@ Before connecting the buck converter to the system, make sure that the output vo
     <figcaption>12V LiFePO4 voltage by remaining capacity (<a href="https://www.litime.com/blogs/blogs/lithium-battery-voltage-chart">source</a>)</figcaption>
 </figure>
 
-For the air monitor to last for 3 days without sunlight, the battery should be at least 21.6 * 3 / 12.8 = 5.1Ah.
+For the box to last 3 days without sunlight at the [whole-box load](#load) of ~36-45Wh a day, the battery needs about 8.5-10.5Ah, and more in practice, since the BMS shuts the battery off before it is truly empty. The 10Ah battery we used has little margin; the 20Ah battery PCW has on hand would give about six days.
 
-!!! question "Review note: battery margin"
-
-    Redone with the whole box's load from the [table above](#load) (~36-45Wh/day), three days needs ~8.5-10.5Ah, so the 10Ah battery has little or no margin. The BMS also shuts the battery off before it is truly empty. The 20Ah battery PCW already has would give about six days at that load.
-
-We will work with the same temperature disconnect from Holobiont Lab; however, if the battery's [BMS](https://en.wikipedia.org/wiki/Battery_management_system) (battery management system) has a low-temperature charge cutoff, the temperature disconnect will not be needed. An internal BMS also protects the battery from overcharge, over-discharge, over-current and short circuit. Almost every LiFePO4 battery has a BMS, but most cheaper ones do not cut off charging in the cold, so check the listing for that specifically.
+The box uses the same temperature disconnect as Holobiont Lab's design, but if the battery's [BMS](https://en.wikipedia.org/wiki/Battery_management_system) (battery management system) has a low-temperature charge cutoff, the temperature disconnect will not be needed. An internal BMS also protects the battery from overcharge, over-discharge, over-current and short circuit. Almost every LiFePO4 battery has a BMS, but most cheaper ones do not cut off charging in the cold, so check the listing for that specifically.
 
 Some batteries that may work:
 
 * ~$73 12V 20Ah 6.7"x7.2"x3" Screw Terminal BMS [ECO-WORTHY](https://www.amazon.com/dp/B09NB97XGL)
 * ~$40 12V 10Ah 5.9"x2.6"x3.7" F2 Terminal BMS [NERMAK](https://www.amazon.com/dp/B097BRKCQP)
-
-!!! todo "For Amaris"
-
-    Does either battery's BMS have a low-temperature charge cutoff? The listings don't say clearly. If the ECO-WORTHY does, it could replace the XH-W1209.
 
 ### Battery safety
 
@@ -146,32 +126,30 @@ To keep the system off for troubleshooting or otherwise, disconnect the power wi
 
 ### Solar panel
 
-According to [this article](https://www.portable-sun.com/blogs/news/peak-sunlight-hours), PA receives an average of 4 hours of peak sunlight per day ("peak sun hours" means the day's sunlight expressed as hours of full-strength sun). The minimum panel wattage can thus be calculated: 21.6 / 4 = 5.4W. Accounting for, let's say, 20% losses (wiring, charge controller, heat, dirt), the panel should be at least 5.4 / 0.8 = 6.75W.
+Pennsylvania [averages about 4 peak sun hours a day](https://www.portable-sun.com/blogs/news/peak-sunlight-hours) over the year ("peak sun hours" means the day's sunlight expressed as hours of full-strength sun). Size the panel for December, though, not the average. [Voltaic Systems](https://blog.voltaicsystems.com/power-purple-air-quality-monitor-from-solar/), who tested solar setups for PurpleAir monitors, use about 2.2 sun hours a day for a south-facing panel in New York in December, a close match for Philadelphia. At the [whole-box load](#load) of ~36-45Wh a day and about 20% losses (wiring, charge controller, heat, dirt), that works out to 36 / 2.2 / 0.8 = ~20W up to ~26W. Voltaic recommends a 20W panel for one monitor, and Holobiont's rule of thumb is to add 40% or more to a panel's rated wattage, since panels always produce less than rated.
+
+The 10W panel on the first box makes only about 18Wh on a December day, less than the monitor alone uses, and about 32Wh on a clear September day, still short of the whole box.
 
 Moreover, the voltage of the panel should be greater than the voltage of the battery for current to flow into the battery. A panel sold as "12V" actually puts out around 18V at its peak, which is what lets it charge a 12.8V battery.
 
-This means that the [~$18 11.8"x6.8" 5V 5W USB C solar panel](https://www.amazon.com/dp/B0CR3X8PF7) previously suggested is not good enough for the air monitor, though it has the ideal dimensions. Solar panels that may work:
+This means that the [~$18 11.8"x6.8" 5V 5W USB C solar panel](https://www.amazon.com/dp/B0CR3X8PF7) previously suggested is not good enough for the air monitor, though it has the ideal dimensions. The 12V 10W panels we compared are below; the same makers sell 20W and larger versions, which are the better choice for a box that runs through winter.
 
 * ~$22 14.9"x7.8" 12V 10W [Futuresolar](https://www.amazon.com/dp/B0F8Q4TJPR)
 * ~$26 17.3"x8.5" 12V 10W [Newpowa](https://www.amazon.com/dp/B00W80N8TA)
 * ~$29 13.3"x8.1" 12V 10W [ECO-WORTHY](https://www.amazon.com/dp/B00OZC3X1C) (the one we use)
 
-!!! question "Review note: size for December"
-
-    Four peak sun hours is a yearly average. [Voltaic Systems](https://blog.voltaicsystems.com/power-purple-air-quality-monitor-from-solar/), who tested solar setups for PurpleAir monitors, size for December, when a south-facing panel in New York (a close match for Philadelphia) gets the equivalent of about 2.2 hours of sun a day, and recommend a 20W panel for one monitor. By that measure a 10W panel makes about 10 x 2.2 x 0.8 = ~18Wh on a December day, short of even the monitor's own ~24.5Wh, before the rest of the box. Philadelphia's own figures can be checked in [NREL's PVWatts calculator](https://pvwatts.nrel.gov/). Holobiont's rule of thumb is to add 40% or more to a panel's rated wattage, since panels always produce less than rated.
-
 ### Assembly
 
-!!! todo "For Amaris"
+Build and test the box on a workbench before taking it out. Holobiont Lab's [meshbox documentation](https://holobiontlab.org/docs/meshBoxDocumentation.pdf) walks through the same parts one at a time.
 
-    Step-by-step build instructions, in the order you'd do them on a workbench. Holobiont Lab's [meshbox documentation](https://holobiontlab.org/docs/meshBoxDocumentation.pdf) walks through their parts one at a time and is a good model; their workshop with PCW followed the same order. Some things to cover:
-
-    * Tuning the buck converter to 5V before it goes in the box (already written above; link back to it)
-    * Crimping the F2 terminals and fitting the fuse holder ([6 steps to crimp ring terminals](https://wesbellwireandcable.com/blog/6-steps-to-crimp-ring-terminals-like-a-pro-copper-hook-up-wire-or-lead-wire/) is a good reference)
-    * Wiring the charge controller, temperature disconnect, and buck converter through the Wagos, following the diagram above
-    * Attaching heatsinks ([thermal tape](https://www.amazon.com/s?k=thermal+tape+for+heat+sink))
-    * Mounting the box, panel and monitor on site. Panels do best facing south, unshaded, tilted at about the site's latitude (roughly 40° in Philadelphia). The EPA's [guide to siting air sensors](https://www.epa.gov/air-sensor-toolbox/guide-siting-and-installing-air-sensors) covers where the monitor itself should go.
-    * The order to connect things. The usual rule for charge controllers is battery first, then panel, then load, and the reverse when disconnecting, because the battery powers the controller. Check that this holds for the BQ24650 board.
+1. Tune the buck converter to 5V before it goes in the box; see [Buck converter](#buck-converter).
+2. Program the XH-W1209 low-temperature disconnect. Hold SET for 5 seconds to enter programming mode, use + and - to move through the settings, and SET to change one. Holobiont's settings are P0 (mode) C, P1 (hysteresis) 2, P2 (upper limit) 55°C, P3 (lower limit) 2°C, P4 (calibration) 0, P5 (start delay) 0 and P6 (high-temperature alarm) off. Boxes from Holobiont come already programmed. See the [manual](../../../assets/files/solar/xh-w1209-thermostat-manual.pdf) for more.
+3. Crimp F2 spade terminals onto the battery leads (for an F2-terminal battery like the NERMAK), and fit the in-line fuse holder on the positive lead, close to the battery. [6 steps to crimp ring terminals](https://wesbellwireandcable.com/blog/6-steps-to-crimp-ring-terminals-like-a-pro-copper-hook-up-wire-or-lead-wire/) covers the technique.
+4. Mount the charge controller, temperature disconnect and buck converter on a backing plate inside the enclosure (Holobiont uses a fiberglass sheet), and attach any heatsinks with [thermal tape](https://www.amazon.com/s?k=thermal+tape+for+heat+sink).
+5. Wire everything through the Wago lever nuts, following the [wiring diagram](#from-mesh-node-to-air-monitor). The XH-W1209's first two terminals (its relay) go between the panel's positive wire and the charge controller's solar input; its other two take 12V power from the battery side. Tape its temperature probe to the side of the battery. The buck converter's output goes to the USB breakout's screw terminals.
+6. Connect the battery first, then the panel, then the monitor, and disconnect in the reverse order. This is the usual rule for solar charge controllers, since the battery powers the controller.
+7. Before closing the box, press the buck converter's button to check both sides: the input should read the battery voltage (about 13V when charged) and the output 5V. Then plug in the monitor and check that it powers on.
+8. On site, face the panel south, unshaded, tilted at about the site's latitude (roughly 40° in Philadelphia). Bring cables into the enclosure through cable glands to keep water out. The EPA's [guide to siting air sensors](https://www.epa.gov/air-sensor-toolbox/guide-siting-and-installing-air-sensors) covers where the monitor itself should go.
 
 ### Deployment
 
@@ -187,25 +165,9 @@ This means that the [~$18 11.8"x6.8" 5V 5W USB C solar panel](https://www.amazon
          style="width: 32%;">
 </div>
 
-!!! todo "For Amaris"
-
-    Where and when was this deployed?
-
 #### First deployment (September 2026)
 
-After three days of deployment, the PurpleAir monitor went offline, and the voltage of the battery (as captured by the display on the buck converter) was very low, around 10-11V. The battery then went to sleep completely. The battery was recharged to 12.7V and the box left running without the PurpleAir monitor connected. Possible causes:
-
-* Something was broken in the MPPT board and/or temperature disconnect, so while there is charge across the solar panel output, the battery won't be charged
-* There were miscalculations for power usage, and the PurpleAir monitor and buck converter were using more power than expected
-* Weather was unusual during the three days of deployment (least likely)
-
-!!! question "Review note"
-
-    A full 10Ah battery holds about 128Wh. At the planned ~25Wh a day, three days with no charging at all would still leave it around 40%, which on the curve above is still about 13V. Reaching 10-11V in three days means the box was drawing much more than planned, the battery wasn't charging, or it didn't start full. The [whole-box load](#load) points at the second cause: at ~36-45Wh a day, a 10W panel in early September (near the ~4-hour average, so ~32Wh after losses) falls short even on a clear day, and any shade or cloud puts the battery in steady decline.
-
-!!! todo "For Amaris"
-
-    What did the September 12 session find, and what changed in the design as a result? Once the fix is confirmed, move the relevant checks into the troubleshooting list below.
+The first box ran for three days before the monitor went offline. The battery had dropped to 10-11V (read on the buck converter's display), and its BMS then put it to sleep. A full 10Ah battery holds about 128Wh, enough for about five days of the monitor alone, so the box was drawing much more than planned. The [whole-box load](#load) of ~36-45Wh a day is more than a 10W panel makes even on a clear September day (about 32Wh after losses), so any shade or cloud puts the battery into steady decline. The battery was recharged and the box left running without the monitor to rule out a charging fault. The next version should use a larger panel and battery (see [Solar panel](#solar-panel) and [Design alternatives](#design-alternatives)).
 
 ### Troubleshooting
 
@@ -221,20 +183,14 @@ These checks are adapted from the troubleshooting section of Holobiont Lab's [me
 
 ### Design alternatives
 
-!!! todo "For Amaris"
+Options worth considering for the next version, especially if PCW builds more of these:
 
-    Holobiont Lab suggested several alternatives in August, especially if PCW builds more of these. Decide which are worth documenting here (or trying), and delete the rest:
-
-    * [18650](https://en.wikipedia.org/wiki/18650_battery) cells salvaged from e-bike batteries (Holobiont has spares), or cold-weather 18650s. LiFePO4 remains the safer choice.
-    * If staying with 12V batteries, a 12V USB charger made for cars or boats could replace the buck converter and breakout board, and would be easier for non-technical volunteers to swap out
-    * [Battery Hookup](https://batteryhookup.com), a surplus battery supplier in Bensalem
-    * Powering the monitor from an existing solar mesh node instead of its own box. Holobiont thought the mesh node's battery and panel could probably handle both.
-
-    Other options that came up in PCW's own notes:
-
-    * A PWM solar charge controller with built-in 5V USB outputs (about $17), which would replace the MPPT board, buck converter and USB breakout in one part. An earlier PCW setup guide paired one with the same NERMAK 10Ah battery in a 7.9 x 7.9 x 3.7 inch junction box.
-    * A battery with a built-in low-temperature charge cutoff, to drop the XH-W1209 and its constant draw (see the [load table](#load))
-    * A 20W panel instead of 10W, per the [December sizing note](#solar-panel)
+* A 20W panel instead of 10W, for more margin in winter
+* A battery with a built-in low-temperature charge cutoff, to drop the XH-W1209 and its constant draw (see the [load table](#load))
+* A PWM solar charge controller with built-in 5V USB outputs (about $17), which would replace the MPPT board, buck converter and USB breakout in one part
+* A 12V USB charger made for cars or boats in place of the buck converter and breakout board, which is easier for non-technical volunteers to swap out
+* Powering the monitor from an existing solar mesh node instead of its own box, or over PoE (see [below](#powering-iot-devices-over-poe))
+* [18650](https://en.wikipedia.org/wiki/18650_battery) cells, salvaged from e-bike batteries or cold-weather rated, though LiFePO4 remains the safer choice. [Battery Hookup](https://batteryhookup.com) in Bensalem sells surplus cells.
 
 ## Meshtastic nodes
 
@@ -246,10 +202,6 @@ Options Holobiont Lab suggested for Meshtastic specifically:
 * Projects that repurpose the internals of solar lights, such as the [Meshtastic Harbor Breeze solar node](https://www.instructables.com/Meshtastic-Harbor-Breeze-Solar-Node/)
 * ESP32 boards with a built-in solar input for charging 18650 cells
 
-!!! todo "For PCW staff"
-
-    How is the node from the September 18 Bok install powered, and could the air monitor box power a Meshtastic node too, from the same USB breakout with a USB-C cable? Add what's been tried.
-
 ## Powering IoT devices over PoE
 
 Where a site already has power and a PCW install, an air monitor can instead be powered over Ethernet: a PoE switch or injector sends power down the cable, and a PoE splitter at the far end steps it down to 5V micro USB (or USB-C for a Meshtastic node). The adapter at the monitor end needs heat-shrink tubing to keep moisture out. The same approach can run a monitor off a solar box's battery through a PoE injector, as in the sketch below ([editable source](../../../assets/files/solar/air-monitor-solar-poe.drawio), opens in [diagrams.net](https://app.diagrams.net/)).
@@ -260,11 +212,6 @@ Where a site already has power and a PCW install, an air monitor can instead be 
          style="width: 30%; height: 30%;">
     <figcaption>Powering an air monitor from a solar box over PoE (PCW sketch, 2025)</figcaption>
 </figure>
-
-!!! todo "For PCW staff"
-
-    PCW's notes mark this as tested once but not yet by Eugene. Once confirmed, document the parts here or on its own page and link it.
-
 ## Further resources
 
 * [Holobiont Lab meshbox documentation](https://holobiontlab.org/docs/meshBoxDocumentation.pdf) ([PCW's copy](../../../assets/files/solar/holobiont-meshbox-documentation.pdf), in case that link moves)

@@ -42,8 +42,6 @@ Involve each other. Even a first-time volunteer can participate in a meaningful 
 
 Debrief after installs or maintenance work to reflect on work done, areas of improvement, and any lessons learned.
 
-<!-- subheading names above are Claude placeholders for Alex/Leanne to rename -->
-
 ## Install Policy
 
 As a member of PCW’s staff or volunteer team, you represent our organization and the important work that we do: expanding internet access and adoption, and advocating for greater digital inclusion. Being respectful, proactive, and professional while interacting with community members is a positive contribution that can go a long way toward making a great lasting impact and supporting the work of PCW.
@@ -74,7 +72,6 @@ Clean up any mess made. If items were moved within the space, be sure to put the
 
 Be sure to check-out with the host. If they are not present, send them a text or email to say thank you. On most occasions, install participants should unpack as a group back at HQ, ensuring the tool bags are in good condition and restocked for the next install.
 
-
 ### Outreach
 
 Outreach items should be brought to every install. After the install work is complete:
@@ -82,4 +79,3 @@ Outreach items should be brought to every install. After the install work is com
 - Stickers should be added to deployed devices. These include our “Do Not Touch – Community Internet” stickers and 3” or 4” circular PCW stickers, depending on device size.
 - If there are people on the streets, let them know that there is free Wi-Fi there now. Give them a general PCW Information postcard if they’re interested.
 
-<!-- image held: third-party Occam's razor cartoon and "looping" cycle diagram; needs a PCW-owned or licensed replacement -->

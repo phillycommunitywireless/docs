@@ -12,7 +12,7 @@ When pulling items up to the roof via rope, keep weight below ~25lbs per bag. Pe
 
 Avoid dropping items off the roof. If mounting equipment to the side of a building, work in pairs, with one spotter holding the physical equipment while the other uses a fastening tool.
 
-Learn more about best practices for roof safety in [this article](https://www.buildings.com/industry-news/article/10187943/best-practices-for-roof-safety) and [OSHA document](https://www.osha.gov/sites/default/files/publications/OSHA3755.pdf).
+Learn more about best practices for roof safety in Buildings.com's [best practices for roof safety](https://www.buildings.com/industry-news/article/10187943/best-practices-for-roof-safety) and this [OSHA document](https://www.osha.gov/sites/default/files/publications/OSHA3755.pdf).
 
 ## Ladders
 
@@ -20,13 +20,9 @@ PCW uses ladders at most of our installs and maintenance visits. We have three k
 
 Telescoping and unfolded extension ladders should be positioned at a 4-to-1 ratio, meaning the feet of the ladder should be 25% of total ladder height from the wall.
 
-<!-- image held: third-party ladder infographic (4 to 1 rule); images to be sorted out later -->
-
 Ladder climbers should wear shoes with grip on the bottom. Only one person on a ladder at one time. A person must be off and away from the ladder, unless they are holding it in place for safety, before the next person uses it.
 
 The safest way to climb a ladder is using three points-of-contact at all times. Do not make sudden or quick movements. Movements should be made one foot or one hand at a time. The climber’s body should always face square with the ladder. Do not turn away from the ladder while on it.
-
-<!-- image held: third-party ladder infographic (three points of contact); images to be sorted out later -->
 
 Ladders should not be in front of doors that can open towards the ladder. If this is necessary at any point, the door must be propped open or guarded by a member of PCW.
 

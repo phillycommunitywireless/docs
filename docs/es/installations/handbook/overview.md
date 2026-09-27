@@ -46,8 +46,6 @@ Involúcrense unos a otros. Incluso un voluntario primerizo puede participar de 
 
 Haga una reunión de cierre después de las instalaciones o el trabajo de mantenimiento para reflexionar sobre el trabajo realizado, las áreas de mejora y las lecciones aprendidas.
 
-<!-- subheading names above are Claude placeholders for Alex/Leanne to rename -->
-
 ## Política de instalación
 
 Como miembro del personal o del equipo de voluntarios de PCW, usted representa a nuestra organización y al importante trabajo que hacemos: ampliar el acceso y la adopción de Internet, y abogar por una mayor inclusión digital. Ser respetuoso, proactivo y profesional al interactuar con los miembros de la comunidad es una contribución positiva que puede ayudar mucho a dejar una gran huella duradera y a apoyar el trabajo de PCW.
@@ -78,7 +76,6 @@ Limpie cualquier desorden que se haya hecho. Si se movieron objetos dentro del e
 
 Asegúrese de despedirse del anfitrión. Si no está presente, envíele un mensaje de texto o un correo electrónico para darle las gracias. En la mayoría de las ocasiones, los participantes de la instalación deben desempacar en grupo al volver a la sede (HQ), asegurándose de que las bolsas de herramientas estén en buen estado y reabastecidas para la próxima instalación.
 
-
 ### Difusión
 
 Los materiales de difusión deben llevarse a todas las instalaciones. Una vez terminado el trabajo de instalación:
@@ -86,4 +83,3 @@ Los materiales de difusión deben llevarse a todas las instalaciones. Una vez te
 - Se deben colocar calcomanías en los dispositivos instalados. Estas incluyen nuestras calcomanías de "Do Not Touch – Community Internet" y las calcomanías circulares de PCW de 3" o 4", según el tamaño del dispositivo.
 - Si hay personas en la calle, avíseles que ahora hay Wi-Fi gratuito allí. Entrégueles una postal informativa general de PCW si les interesa.
 
-<!-- image held: third-party Occam's razor cartoon and "looping" cycle diagram; needs a PCW-owned or licensed replacement -->

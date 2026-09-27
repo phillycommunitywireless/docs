@@ -16,7 +16,7 @@ Al subir objetos a la azotea con una cuerda, mantenga el peso por debajo de ~25 
 
 Evite dejar caer objetos desde la azotea. Si monta equipo en el lateral de un edificio, trabaje en parejas, con una persona de apoyo sosteniendo el equipo físico mientras la otra usa una herramienta de fijación.
 
-Obtenga más información sobre las mejores prácticas de seguridad en azoteas en [este artículo](https://www.buildings.com/industry-news/article/10187943/best-practices-for-roof-safety) y en este [documento de OSHA](https://www.osha.gov/sites/default/files/publications/OSHA3755.pdf).
+Obtenga más información sobre las mejores prácticas de seguridad en azoteas en las [mejores prácticas de seguridad en techos](https://www.buildings.com/industry-news/article/10187943/best-practices-for-roof-safety) de Buildings.com (en inglés) y en este [documento de OSHA](https://www.osha.gov/sites/default/files/publications/OSHA3755.pdf).
 
 ## Escaleras
 
@@ -24,13 +24,9 @@ PCW usa escaleras en la mayoría de nuestras instalaciones y visitas de mantenim
 
 Las escaleras telescópicas y las extensibles desplegadas deben colocarse con una proporción de 4 a 1, es decir, los pies de la escalera deben estar separados de la pared una distancia igual al 25 % de la altura total de la escalera.
 
-<!-- image held: third-party ladder infographic (4 to 1 rule); images to be sorted out later -->
-
 Quienes suban la escalera deben llevar zapatos con suela antideslizante. Solo una persona en la escalera a la vez. Una persona debe haber bajado y alejado de la escalera, a menos que la esté sujetando por seguridad, antes de que la siguiente persona la use.
 
 La forma más segura de subir una escalera es manteniendo tres puntos de contacto en todo momento. No haga movimientos bruscos ni rápidos. Los movimientos deben hacerse de un pie o una mano a la vez. El cuerpo de quien sube debe estar siempre de frente a la escalera. No se gire para darle la espalda a la escalera mientras esté en ella.
-
-<!-- image held: third-party ladder infographic (three points of contact); images to be sorted out later -->
 
 Las escaleras no deben colocarse delante de puertas que puedan abrirse hacia la escalera. Si esto es necesario en algún momento, la puerta debe dejarse trabada abierta o vigilada por un miembro de PCW.
 

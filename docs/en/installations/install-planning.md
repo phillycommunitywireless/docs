@@ -72,13 +72,6 @@ wireless link back to a hub, which is what the rest of this page is about.
 
 See also NYC Mesh's [typical installs](https://wiki.nycmesh.net/books/2-install-maintenance-guides/page/typical-installs) page for how a similar network describes its install types.
 
-<!-- Ideas to note, 2026-09-27, from the retired Drive doc "Installation Overview - Public Docs" (its "Extra Notes on PCW install types"). Unverified; staff to confirm or rewrite before any of it goes visible.
-1. Mesh node uses (doc's words): "Used for 1) relaying a signal to another mesh AP, and/or 2) providing a WiFi access point to a public, outdoor space. May provide a signal inside the building it is installed on, depending on placement and building construction."
-2. A third type, mesh node + indoor AP (doc's words): "Same as a Mesh node, plus an additional access point installed inside the building to provide a home with stronger and more consistent signal indoors. The indoor AP may be another bunny ears, or any other home router." "PCW mounts a single Unifi Mesh AP with LOS to another Mesh AP, and runs an Ethernet cable into the home for a home router to be connected." Check: still offered? "any other home router" right?
-3. Hubs (doc's words): "An indoor AP may also be installed if stronger and more consistent signal is required inside the house." "sometimes we use a 60ghz alternative" to the LiteBeam. Check: is 60 GHz still used?
-5. PTMP installs are not described anywhere yet (Leanne, July 2026: "i'd add the newer PTMP to this too"). Needs a sentence or two from staff.
--->
-
 ### Considerations when installing a mesh node
 
 Ubiquiti's [Considerations for Optimal Wireless Mesh Networks](https://help.ui.com/hc/en-us/articles/115002262328-Considerations-for-Optimal-Wireless-Mesh-Networks)

@@ -39,7 +39,6 @@ router through; `eth4` is the WAN port, and the one that passes PoE back out to 
     <img src="../../assets/images/device-configs/erx/wiring.jpeg"
          alt="ERX wiring - the power cable is plugged into the back, and the 'eth0' interface is plugged into the computer."
          style="width: 50%;">
-    <figcaption></figcaption>
 </figure>
 <figure style="display: flex; align-items: center; flex-direction: column;">
     <img src="../../assets/images/device-configs/erx/eth0.jpeg"
@@ -66,13 +65,12 @@ Follow the instructions here: [Setting a static IP for your computer](configure-
         <img src="../../assets/images/device-configs/erx/wizard.jpeg"
              alt="ERX configuration prompt"
              style="width: 50%;">
-        <figcaption></figcaption>
     </figure>
 
 4. Change the `Port` from `eth0` to `eth4.` This configures the port to serve as the WAN for the Litebeam antenna. 
 5. Under `User Setup` create a new user and set the PCW username and password.
 6. Press `Apply` and follow the instructions to reboot the device.
-7. Return to the portal and log in with the PCW username and password (contact project maintainers for this info).
+7. Return to the portal and log in with the PCW username and password (PCW staff will give you these).
 8. At the `Dashboard,` click on `Actions` for `eth4` to turn on PoE.
 9. Finally, Click on the `System` tab at the bottom left of the console.
 10. Input the host name for the device.
@@ -125,7 +123,6 @@ This method allows the ERX to connect to the Internet through your home router.
         <img src="../../assets/images/device-configs/erx/wizard.jpeg"
              alt="ERX configuration prompt"
              style="width: 50%;">
-        <figcaption></figcaption>
     </figure>
 
 4. Change the `Port` from `eth0` to `eth4.` 
@@ -136,7 +133,7 @@ This method allows the ERX to connect to the Internet through your home router.
 
 7. Reboot your router and reboot the ERX. 
 
-8. Return to the portal and log in with the PCW username and password (contact project maintainers for this info).
+8. Return to the portal and log in with the PCW username and password (PCW staff will give you these).
 
 9. Finally, Click on the `System` tab at the bottom left of the console.
 
