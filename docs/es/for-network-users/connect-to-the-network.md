@@ -1,8 +1,12 @@
-# Connecting to the Network
+<!-- TODO: machine-drafted Spanish translation — needs review by a fluent speaker. -->
+!!! note "Traducción preliminar"
+    Esta página es una traducción preliminar y está pendiente de revisión. Si encuentra un error, la [versión en inglés](../../../for-network-users/connect-to-the-network/) es la referencia.
 
-You can connect to PCW’s free Wi-Fi the same as any other Wi-Fi network.
+# Conectarse a la red
 
-* Go to your device’s Wi-Fi settings
-* Browse the list of available Wi-Fi networks for “PhillyCommunityWireless”
-    * If you have a private connection, you can also look for “PCWPrivate”
-* Select “PhillyCommunityWireless”/”PCWPrivate” and click “connect”.
+Puede conectarse al wifi gratuito de PCW igual que a cualquier otra red wifi.
+
+* Abra la configuración de wifi de su dispositivo.
+* Busque “PhillyCommunityWireless” en la lista de redes wifi disponibles.
+    * Si tiene una conexión privada, también puede buscar “PCWPrivate”.
+* Seleccione “PhillyCommunityWireless” o “PCWPrivate” y haga clic en “Conectar”.
