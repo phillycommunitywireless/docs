@@ -11,6 +11,7 @@ Here are the install protocols for all participants of an install:
 - Arrive at HQ at the designated time (usually 1 hour prior to the scheduled on-site start time). If you are running late, you must communicate your new estimated arrival time with PCW staff via Slack. Volunteers who are more than 15 minutes late may not be able to participate.
 - At HQ, before packing the car(s), review the install plan and have a safety check-in. Review any potential risks associated with the day’s work. Establishing an understanding of everyone’s comfort level with ladders, heights, drills, and other elements of on-site work.
 - All install participants must help pack and load equipment.
+- Please don't bring your own tools to an install. If we're missing a tool, feel free to let us know.
 
 ## During Install or Maintenance Visit
 
@@ -21,6 +22,7 @@ Our installation or maintenance work is done in community spaces. All install pa
 - Do not touch anything in the host’s space, big or small, without asking. It is usually evident if a host prefers to be asked every time, or gives a general blanket instruction (e.g. “I would prefer if you don’t touch anything” or “No need to ask again!”).
 - Maintain a tidy workspace; clean up garbage as you go.
 - Prioritize “Work Mode” over everything else. All participants should be responsive to direction and feedback. Avoid personal phone use where possible. Staff can and will ask volunteers to put away their phones if necessary.
+- PCW's policies and workflows may differ from your past experiences. We welcome feedback, but please understand any changes to our install protocols will require further discussion.
 
 ## Install or Maintenance Wrap-Up
 

@@ -128,6 +128,11 @@ mounted at the site.
 - [airMAX NanoBeam M5](https://store.ui.com/us/en/products/nbe-m5-16)
 - [airMAX NanoStation M5 loco](https://store.ui.com/us/en/category/wireless-airmax-5ghz/products/locom5)
 
+<!-- Ideas to note, 2026-09-27, from the retired Drive doc "Installation Overview - Public Docs". Unverified; staff to confirm before use.
+4. Equipment per install type, as that doc listed it: hub = 1 EdgeRouter X, 1 UAP-AC-Mesh, 1 J-arm and mounting hardware (it also listed a clamshell for an outdoor ER-X, dropped: the ERX stays indoors); mesh node = 1 UAP-AC-Mesh, 1 J-arm and mounting hardware; mesh node + indoor AP = "Same as Mesh node, plus:" (the list was never finished). Check: which APs now (U6 Mesh, U6 LR, U7 Outdoor, AC-M-Pro are listed above); add an outdoor switch when a hub has more than one AP? The hub list is missing the LiteBeam, the PoE injector and the cable.
+6. Cable: that doc said the LiteBeam "is powered via passive PoE through a single Cat 5 cable". Check what is run now (Cat 5e / Cat 6, outdoor-rated).
+-->
+
 ### Mounts
 
 - [Universal J-Arm Mount](https://store.ui.com/collections/operator-airmax-and-ltu-accessories/products/universal-antenna-mount)
