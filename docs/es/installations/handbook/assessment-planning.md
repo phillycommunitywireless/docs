@@ -1,1 +1,0 @@
-# Evaluación y planificación

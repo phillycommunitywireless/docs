@@ -25,14 +25,14 @@ Philly Community Wireless apoya activamente espacios verdes sostenibles enfocado
 En 2021, PCW instaló un nodo solar de malla en Colobo Gardens, de Norris Square Neighborhood Projects. Por lo general, las baterías duran por lo menos un par de años antes de necesitar reemplazo. El punto de acceso está en la parte superior de un mástil de bambú, a una altura suficiente para sobrepasar las estructuras del huerto, con el panel solar y la caja montados debajo.
 
 <figure style="display: flex; align-items: center; flex-direction: column;">
-    <img src="/assets/images/installations/solar/full_solar_node.jpg"
+    <img src="../../../assets/images/installations/solar/full_solar_node.jpg"
          alt="El nodo solar de malla completo en Colobo Gardens: el punto de acceso en lo alto del mástil de bambú, con el panel solar montado en el techo debajo"
          style="width: 50%; height: 50%;">
     <figcaption>El nodo solar de malla completo en Colobo Gardens: el punto de acceso en lo alto del mástil de bambú, con el panel solar montado en el techo debajo</figcaption>
 </figure>
 
 <figure style="display: flex; align-items: center; flex-direction: column;">
-    <img src="/assets/images/installations/solar/solar_panel_mount.jpg"
+    <img src="../../../assets/images/installations/solar/solar_panel_mount.jpg"
          alt="El panel solar en su soporte inclinado en el borde del techo, con el cableado que baja hasta la caja"
          style="width: 50%; height: 50%;">
     <figcaption>El panel solar en su soporte inclinado en el borde del techo, con el cableado que baja hasta la caja</figcaption>
@@ -43,7 +43,7 @@ En 2021, PCW instaló un nodo solar de malla en Colobo Gardens, de Norris Square
 La caja resistente a la intemperie contiene todo lo que no es el panel ni el punto de acceso: la batería, el controlador de carga y el inyector PoE (alimentación a través de Ethernet), que lleva la alimentación hasta el AP a través de un solo cable Ethernet.
 
 <figure style="display: flex; align-items: center; flex-direction: column;">
-    <img src="/assets/images/installations/solar/solar_with_info.jpg"
+    <img src="../../../assets/images/installations/solar/solar_with_info.jpg"
          alt="La caja abierta, con la batería, el controlador de carga y el inyector PoE rotulados"
          style="width: 50%; height: 50%;">
     <figcaption>El interior de la caja en Colobo Gardens</figcaption>

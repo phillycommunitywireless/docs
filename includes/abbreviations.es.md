@@ -2,7 +2,7 @@
 *[NPRM]: Soporte de techo no penetrante — un soporte con lastre que nos permite instalar sin perforar el techo.
 *[Non-Pen]: Soporte de techo no penetrante — un soporte con lastre que nos permite instalar sin perforar el techo.
 *[PoE]: Alimentación a través de Ethernet — enviar energía eléctrica junto con los datos por un cable Ethernet, para que un dispositivo exterior no necesite su propio tomacorriente.
-*[ERX]: EdgeRouter X — el router de Ubiquiti que PCW usa como switch, para mover datos entre dispositivos.
+*[ERX]: EdgeRouter X — el router de Ubiquiti que PCW usa.
 *[PtP]: Punto a punto — un enlace entre exactamente dos nodos que se comunican directamente.
 *[PtMP]: Punto a multipunto — un punto de acceso central que da servicio a varias estaciones remotas.
 *[AP]: Punto de acceso — un dispositivo inalámbrico que sirve de portal para que otros dispositivos se unan a la red.

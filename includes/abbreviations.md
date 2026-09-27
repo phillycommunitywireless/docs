@@ -2,7 +2,7 @@
 *[NPRM]: Non-penetrating roof mount — a ballasted mount that lets us install without drilling into a roof.
 *[Non-Pen]: Non-penetrating roof mount — a ballasted mount that lets us install without drilling into a roof.
 *[PoE]: Power over Ethernet — passing electric power along with data on an Ethernet cable, so an outdoor device needs no outlet of its own.
-*[ERX]: EdgeRouter X — the Ubiquiti router PCW uses as a switch, moving data between devices.
+*[ERX]: EdgeRouter X — the Ubiquiti router PCW uses.
 *[PtP]: Point-to-point — a link between exactly two nodes communicating directly with each other.
 *[PtMP]: Point-to-multi-point — one central access point serving multiple remote stations.
 *[AP]: Access point — a wireless device that acts as a portal for other devices to join the network.

@@ -8,6 +8,18 @@ title: Solución de problemas de dispositivos Unifi
 
 No todos los dispositivos funcionarán perfectamente. Además, los dispositivos instalados al aire libre estarán expuestos a los elementos, principalmente al calor y la humedad, y se desgastarán naturalmente con el tiempo. Dicho esto, los puntos de acceso para exteriores a menudo han durado 5 años o más. En Filadelfia, rara vez tenemos un clima tan severo que dañe nuestros radios.  
 
+## Mantenimiento y solución de problemas
+
+Estas son algunas consideraciones para el trabajo de mantenimiento y solución de problemas:
+
+* Empiece por identificar el problema. ¿Qué evidencia podemos usar para entender por qué el equipo podría no estar funcionando correctamente?
+    * Revise la fuente de alimentación.
+    * Asegúrese de que todo el equipo esté bien conectado.
+    * Busque daños por agua.
+    * Revise la configuración en el Controlador.
+* Pruebe siempre primero la solución más sencilla.
+* No dude en programar una visita de seguimiento si un problema no se puede resolver el mismo día.
+
 ## Indicadores LED de estado de los AP Unifi
 Cada AP Unifi tiene un LED que indica su estado actual. 
 
@@ -55,7 +67,7 @@ Consulte [esta página](https://help.ui.com/hc/en-us/articles/204910134-Understa
 **Observaciones**: No hay luces; el dispositivo está fuera de línea o no aparece en UISP.
 
 **Posibles causas y soluciones**:
-* **Conexión de alimentación o cable Ethernet defectuoso (si usa PoE)** - Pruebe el ERX con otra fuente de alimentación de 9 V y compruebe si el ERX se conecta. Pruebe cambiar a una fuente de alimentación de 9 V diferente. Si usa PoE, asegúrese de que el voltaje sea el correcto.
+* **Conexión de alimentación o cable Ethernet defectuoso (si usa PoE)** - Pruebe el ERX con otra fuente de alimentación de 12 V y compruebe si el ERX se conecta. Pruebe cambiar a una fuente de alimentación de 12 V diferente. Si usa PoE, asegúrese de que el voltaje sea el correcto.
 
 ## Comandos de terminal útiles para redes 
 * `ipconfig` (Windows)/`ifconfig` (Unix) - muestra las interfaces de red e información relacionada: dirección IP, máscara de subred y puerta de enlace predeterminada. 

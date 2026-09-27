@@ -1,1 +1,0 @@
-# Etiquette On Site
