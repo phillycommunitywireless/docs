@@ -45,7 +45,7 @@ draft_docs: |
   /*/software-infrastructure/overview.md
   /*/wireless/fixed-wireless.md
   /*/wireless/wifi.md
-  /*/installations/green-tech/solar-air-monitor.md
+  /*/installations/green-tech/solar-iot-devices.md
 
 plugins:
   - search
@@ -84,7 +84,7 @@ plugins:
             Hardware: Hardware
             Green Tech: Tecnología verde
             Solar Mesh Nodes: Nodos solares de malla
-            Solar Air Monitors: Monitores de aire solares
+            Solar IoT Devices: Dispositivos IoT solares
             Green Technology Resources: Recursos de tecnología verde
             Networking and Device Configuration: Redes y configuración de dispositivos
             Set a Static IP Address: Configurar una IP estática

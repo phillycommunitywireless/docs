@@ -15,3 +15,7 @@
 *[GFCIs]: Ground-fault circuit interrupters — outlets that cut power when they detect a fault, required for outdoor power.
 *[GFCI]: Ground-fault circuit interrupter — an outlet that cuts power when it detects a fault, required for outdoor power.
 *[SSID]: Service set identifier — the name a WiFi network broadcasts.
+*[MPPT]: Maximum power point tracking — a solar charge controller that adjusts its load to pull the most power out of the panel.
+*[BMS]: Battery management system — the circuit inside a lithium battery that protects it from over-charging, over-discharging and cell imbalance.
+*[LiFePO4]: Lithium iron phosphate — a lithium battery chemistry that is safer and longer-lived than other lithium types, but must not be charged below freezing.
+*[AWG]: American wire gauge — the standard for wire thickness; a smaller number is a thicker wire.

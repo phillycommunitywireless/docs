@@ -15,3 +15,7 @@
 *[GFCIs]: Tomacorrientes GFCI (interruptor de circuito por falla a tierra) — cortan la corriente cuando detectan una falla; son obligatorios para la energía en exteriores.
 *[GFCI]: Tomacorriente GFCI (interruptor de circuito por falla a tierra) — corta la corriente cuando detecta una falla; es obligatorio para la energía en exteriores.
 *[SSID]: Identificador de red — el nombre que transmite una red wifi.
+*[MPPT]: Seguimiento del punto de máxima potencia — un controlador de carga solar que ajusta su carga para sacar la mayor potencia posible del panel.
+*[BMS]: Sistema de gestión de baterías — el circuito dentro de una batería de litio que la protege de la sobrecarga, la descarga excesiva y el desequilibrio entre celdas.
+*[LiFePO4]: Litio ferrofosfato — una química de batería de litio más segura y duradera que otros tipos de litio, pero que no debe cargarse bajo cero.
+*[AWG]: Calibre de alambre estadounidense (American wire gauge) — el estándar para el grosor del cable; un número menor indica un cable más grueso.
