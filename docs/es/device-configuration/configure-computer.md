@@ -22,12 +22,12 @@ Elija el sistema operativo de su computadora:
 1. Abra `System Preferences` (Preferencias del Sistema) > `Network` (Red).
 2. Seleccione la conexión Ethernet que tiene con el dispositivo que desea configurar.
    ![Configuración de red en Mac 1](../../assets/images/device-configs/static-ip/mac1.png)
-3. Cambie el valor de `Configure IPv4` a `Manually`.
+3. Cambie el valor de `Configure IPv4` (configurar IPv4) a `Manually` (manualmente).
    ![Configuración de red en Mac 2](../../assets/images/device-configs/static-ip/mac2.png)
 4. Establezca la dirección IP (IP Address) en `192.168.1.2`.
 5. Establezca la máscara de subred (Subnet Mask) en `255.255.255.0`
    ![Configuración de red en Mac 3](../../assets/images/device-configs/static-ip/mac3.png)
-6. Haga clic en `Apply`
+6. Haga clic en `Apply` (aplicar)
 
 ## Ubuntu
 
@@ -39,9 +39,9 @@ _Estas instrucciones solo se han probado en Ubuntu 20.04._
 3. En la pestaña **IPv4**, elija "Manual".
 4. Establezca el campo Address (dirección) en `192.168.1.2` <br>
 5. Establezca la Netmask (máscara de red) en: `255.255.255.0` <br>
-   (Deje Gateway vacío, y DNS/Routes en Automatic)
+   (Deje Gateway (puerta de enlace) vacío, y DNS/Routes (rutas) en Automatic (automático))
    ![ Configuración de red en Ubuntu 2](../../assets/images/device-configs/static-ip/ubuntu2.png)
-6. Haga clic en "add"; debería ver el perfil aparecer en su configuración. Selecciónelo cuando esté conectado para activar la configuración de IP estática.
+6. Haga clic en "add" (agregar); debería ver aparecer el perfil en su configuración. Selecciónelo cuando esté conectado para activar la configuración de IP estática.
 
 ## Windows 
 
@@ -73,7 +73,7 @@ Elija el sistema operativo de su computadora:
 
 2.  En la sección `Wired` (cableada), haga clic en el signo de más para crear un nuevo perfil de configuración. Nombre el perfil "Shared" o como usted prefiera.
 
-3.  En la pestaña **IPv4**, elija "Shared to other computers" (compartida con otras computadoras). Haga clic en Apply. Su computadora ahora debería estar conectada en red con el AP. 10.42.0.0/24 es la subred predeterminada que usa Ubuntu para esta configuración, pero no hay garantía de que su computadora use esa subred. Si el siguiente paso no devuelve resultados, ejecute `ip address` o `ifconfig` y busque allí la IP de su interfaz Ethernet (normalmente `eth0`).
+3.  En la pestaña **IPv4**, elija "Shared to other computers" (compartida con otras computadoras). Haga clic en Apply (aplicar). Su computadora ahora debería estar conectada en red con el AP. 10.42.0.0/24 es la subred predeterminada que usa Ubuntu para esta configuración, pero no hay garantía de que su computadora use esa subred. Si el siguiente paso no devuelve resultados, ejecute `ip address` o `ifconfig` y busque allí la IP de su interfaz Ethernet (normalmente `eth0`).
 
 4.  Abra una terminal. Escriba lo siguiente para escanear los dispositivos en ese rango de IP:
 
@@ -86,13 +86,13 @@ Si el comando nmap se queda colgado, también puede probar las instrucciones de 
 ## MacOS
 _Comience estos pasos con el AP desconectado de su computadora (sin conectarlo a un puerto o adaptador Ethernet)._
 
-1.  Abra `Sharing` (Compartir) desde el menú `System Preferences` -> seleccione `Internet Sharing` (Compartir Internet) en la lista de la izquierda -> seleccione las interfaces para las que desea activar el uso compartido -> marque la casilla junto a `Internet Sharing` para activarlo -> aparecerá un cuadro de advertencia; haga clic en `Start`.
+1.  Abra `Sharing` (Compartir) desde el menú `System Preferences` -> seleccione `Internet Sharing` (Compartir Internet) en la lista de la izquierda -> seleccione las interfaces para las que desea activar el uso compartido -> marque la casilla junto a `Internet Sharing` para activarlo -> aparecerá un cuadro de advertencia; haga clic en `Start` (iniciar).
 
 2.  Ejecute `arp -a | grep -v incomplete` para mostrar la correspondencia entre direcciones IP y direcciones MAC de los dispositivos de su red.
 
 3.  Conecte el AP a su computadora o adaptador y ejecute `arp -a | grep -v incomplete` de nuevo. La diferencia entre este resultado y el del grep anterior debería ser el AP. Anote la dirección IP y la dirección MAC.
 
-4.  Para confirmar que el AP tiene una ruta hacia Internet, puede ejecutar los mismos comandos indicados en el paso 5 de las instrucciones de Ubuntu anteriores (ssh, ping, etc.).
+4.  Para confirmar que el AP tiene una ruta hacia Internet, conéctese a él por SSH usando la dirección IP que anotó (consulte [Conéctese al AP por SSH](configure-ap-mesh.md#3-conectese-al-ap-por-ssh)) y, desde allí, haga `ping` a una dirección externa.
 
 Nota: Estas instrucciones se elaboraron en una MacBook con Catalina, versión 10.15.7.
 
@@ -107,7 +107,7 @@ Nota: Estas instrucciones se elaboraron en una MacBook con Catalina, versión 10
 
 4. En la segunda ventana emergente, haga clic en la pestaña 'Sharing' (Uso compartido).
 
-5. En 'Internet Connection Sharing' (Conexión compartida a Internet), seleccione 'Allow other network users to connect through this computer's Internet connection' (Permitir que los usuarios de otras redes se conecten a través de la conexión a Internet de este equipo). 
+5. En 'Internet Connection Sharing' (Conexión compartida a Internet), seleccione 'Allow other network users to connect through this computer's Internet connection' (Permitir que los usuarios de otras redes se conecten a través de la conexión a Internet de esta computadora). 
 
 6. En el menú desplegable, seleccione la interfaz a la que está conectado el AP/inyector PoE. 
 
