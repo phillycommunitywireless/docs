@@ -4,9 +4,9 @@ PCW’s goal is to perform successful, good work in the safest and most efficien
 
 ## Keep it simple
 
-Occam’s razor: keep things simple. Don’t do anything unsafe that isn’t necessary. Try to do the easiest version of each task. Reduce variables that introduce new or challenging factors where possible. Each install already involves a wide range of variables: the physical space, the people involved, the equipment and tools being used, the environment, and more. In consideration of how much needs to be managed during an install, do not introduce multiple new or experimental things at once. Make changes iteratively.
+**Occam’s razor**: keep things simple. Don’t do anything unsafe that isn’t necessary. Try to do the easiest version of each task. Reduce variables that introduce new or challenging factors where possible. Each install already involves a wide range of variables: the physical space, the people involved, the equipment and tools being used, the environment, and more. In consideration of how much needs to be managed during an install, do not introduce multiple new or experimental things at once. Make changes iteratively.
 
-Each install should have a minimum viable product (MVP), identified during the prep phase. Sometimes this means just getting a PhillyWisper LiteBeam online. Sometimes this means installing just one access point (AP).
+Each install should have a **minimum viable product (MVP)**, identified during the prep phase. Sometimes this means just getting a PhillyWisper LiteBeam online. Sometimes this means installing just one access point (AP).
 
 Pause to think. At any decision point, stop and ask (yourself and/or your fellow installers), “What is the purpose of doing this? Is there a better way to do this that I’m not immediately seeing?”
 
