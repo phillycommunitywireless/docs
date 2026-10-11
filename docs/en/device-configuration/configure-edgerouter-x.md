@@ -50,7 +50,7 @@ router through; `eth4` is the WAN port, and the one that passes PoE back out to 
 ### 2) Configure your network settings
 Follow the instructions here: [Setting a static IP for your computer](configure-computer.md#setting-a-static-ip-address)
 
-### 3a) Configure ER-X using Wizard
+### 3) Configure ER-X using Wizard
 1. Navigate to the portal at [https://192.168.1.1](https://192.168.1.1) in your browser
 2. Log into the portal with username `ubnt`, password `ubnt`.
     <figure style="display: flex; align-items: center; flex-direction: column;">
@@ -78,24 +78,6 @@ Follow the instructions here: [Setting a static IP for your computer](configure-
 
 To double check if a device is properly configured, check the settings under the `Dashboard` and `System` tabs. To verify WAN is set to `eth4,` visit the `Firewall/Nat` section. Under the NAT tab, see if `Masquerade` is set to `eth4` for the WAN masquerade.
 
-### 3b) Configure ER-X using Config File
-1. Download the [ERX config file](../../assets/configs/erx-config.tar.gz)
-2. Navigate to the portal at [https://192.168.1.1](https://192.168.1.1) in your browser
-3. Log into the portal with username `ubnt`, password `ubnt` as above.
-4. On the `Use wizard?` prompt, press 'no'.
-5. Press the `System` tab on the bottom of the page.
-6. Under the `Restore Config` section, press `Upload a file` and select the ERX config file you downloaded.
-<figure style="display: flex; align-items: center; flex-direction: column;">
-    <img src="../../assets/images/device-configs/erx/system.jpeg"
-         alt="ERX configuration prompt"
-         style="">
-    <figcaption>Under 'Restore Config', click 'Upload a file' and upload the previously downloaded ERX config.</figcaption>
-</figure>
-
-7. The ERX will reboot using the new configuration.
-8. To do more configuration, you can log back into the portal using the PCW username and password.
-9. Make sure to follow instructions (steps 10 and 11) to update the host name and DNS address in the `System` tab.
-
 ## Downstream Setup
 This method allows the ERX to connect to the Internet through your home router. 
 
@@ -109,7 +91,7 @@ This method allows the ERX to connect to the Internet through your home router.
       This ensures that during the next step, you make a request to the ERX and not your home router. 
 
 ### 3) Configure ERX 
-1. Follow steps 1 to 3 of [Configure ER-X using Wizard](#3a-configure-er-x-using-wizard): open the portal at [https://192.168.1.1](https://192.168.1.1), log in with username `ubnt`, password `ubnt`, and press 'yes' on the `Use wizard?` prompt.
+1. Follow steps 1 to 3 of [Configure ER-X using Wizard](#3-configure-er-x-using-wizard): open the portal at [https://192.168.1.1](https://192.168.1.1), log in with username `ubnt`, password `ubnt`, and press 'yes' on the `Use wizard?` prompt.
 
 2. Change the `Port` from `eth0` to `eth4.` 
 
