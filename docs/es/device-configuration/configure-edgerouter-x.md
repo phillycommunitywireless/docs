@@ -54,7 +54,7 @@ configura el router; `eth4` es el puerto WAN y el que envía PoE hacia una LiteB
 ### 2) Configure los ajustes de red
 Siga estas instrucciones: [Configurar una IP estática en su computadora](configure-computer.md#configurar-una-direccion-ip-estatica)
 
-### 3a) Configure el ER-X con el asistente
+### 3) Configure el ER-X con el asistente
 1. En su navegador, vaya al portal en [https://192.168.1.1](https://192.168.1.1).
 2. Inicie sesión en el portal con el nombre de usuario `ubnt` y la contraseña `ubnt`.
     <figure style="display: flex; align-items: center; flex-direction: column;">
@@ -82,24 +82,6 @@ Siga estas instrucciones: [Configurar una IP estática en su computadora](config
 
 Para comprobar que un dispositivo está bien configurado, revise los ajustes de las pestañas `Dashboard` y `System`. Para verificar que la WAN está asignada a `eth4`, vaya a la sección `Firewall/Nat`. En la pestaña NAT, compruebe que `Masquerade` esté asignado a `eth4` para el enmascaramiento (*masquerade*) de la WAN.
 
-### 3b) Configure el ER-X con un archivo de configuración
-1. Descargue el [archivo de configuración del ERX](../../assets/configs/erx-config.tar.gz)
-2. En su navegador, vaya al portal en [https://192.168.1.1](https://192.168.1.1).
-3. Inicie sesión en el portal con el nombre de usuario `ubnt` y la contraseña `ubnt`, como se indicó arriba.
-4. Cuando aparezca el mensaje `Use wizard?`, presione 'no'.
-5. Presione la pestaña `System` en la parte inferior de la página.
-6. En la sección `Restore Config` (restaurar configuración), presione `Upload a file` (subir un archivo) y seleccione el archivo de configuración del ERX que descargó.
-<figure style="display: flex; align-items: center; flex-direction: column;">
-    <img src="../../../assets/images/device-configs/erx/system.jpeg"
-         alt="Pantalla de configuración del ERX"
-         style="">
-    <figcaption>En 'Restore Config', haga clic en 'Upload a file' y suba la configuración del ERX que descargó antes.</figcaption>
-</figure>
-
-7. El ERX se reiniciará con la nueva configuración.
-8. Para hacer más ajustes, puede volver a iniciar sesión en el portal con el nombre de usuario y la contraseña de PCW.
-9. Asegúrese de seguir las instrucciones (pasos 10 y 11 de la sección anterior) para actualizar el nombre de host y la dirección DNS en la pestaña `System`.
-
 ## Configuración en cascada (downstream)
 Este método permite que el ERX se conecte a Internet a través del router de su casa. 
 
@@ -113,47 +95,33 @@ Este método permite que el ERX se conecte a Internet a través del router de su
       Así se asegura de que, en el siguiente paso, su solicitud llegue al ERX y no al router de su casa. 
 
 ### 3) Configure el ERX 
-1. En su navegador, vaya al portal en [https://192.168.1.1](https://192.168.1.1).
-2. Inicie sesión en el portal con el nombre de usuario `ubnt` y la contraseña `ubnt`.
-    <figure style="display: flex; align-items: center; flex-direction: column;">
-        <img src="../../../assets/images/device-configs/erx/login.jpeg"
-             alt="Pantalla de inicio de sesión del ERX"
-             style="width: 50%;">
-        <figcaption>Pantalla de inicio de sesión del ERX</figcaption>
-    </figure>
+1. Siga los pasos 1 a 3 de [Configure el ER-X con el asistente](#3-configure-el-er-x-con-el-asistente): vaya al portal en [https://192.168.1.1](https://192.168.1.1), inicie sesión con el nombre de usuario `ubnt` y la contraseña `ubnt`, y presione 'yes' (sí) cuando aparezca el mensaje `Use wizard?`.
 
-3. Cuando aparezca el mensaje `Use wizard?` (¿Usar el asistente?), presione 'yes' (sí).
-    <figure style="display: flex; align-items: center; flex-direction: column;">
-        <img src="../../../assets/images/device-configs/erx/wizard.jpeg"
-             alt="Pantalla de configuración del ERX"
-             style="width: 50%;">
-    </figure>
+2. Cambie el `Port` (puerto) de `eth0` a `eth4`. 
 
-4. Cambie el `Port` (puerto) de `eth0` a `eth4`. 
+3. Haga clic en 'LAN Ports' (puertos LAN) y asígnele al ERX una dirección IP **diferente** a la del router de su casa (que no sea `192.168.1.1`), en una subred diferente. Por ejemplo, configure el ERX en `192.168.5.1`.
 
-5. Haga clic en 'LAN Ports' (puertos LAN) y asígnele al ERX una dirección IP **diferente** a la del router de su casa (que no sea `192.168.1.1`), en una subred diferente. Por ejemplo, configure el ERX en `192.168.5.1`.
+4. En `User Setup` (configuración de usuario), cree un usuario nuevo y establezca el nombre de usuario y la contraseña de PCW.
 
-6. En `User Setup` (configuración de usuario), cree un usuario nuevo y establezca el nombre de usuario y la contraseña de PCW.
+5. Reinicie su router y reinicie el ERX. 
 
-7. Reinicie su router y reinicie el ERX. 
+6. Vuelva al portal e inicie sesión con el nombre de usuario y la contraseña de PCW (el personal de PCW se los proporcionará).
 
-8. Vuelva al portal e inicie sesión con el nombre de usuario y la contraseña de PCW (el personal de PCW se los proporcionará).
+7. Por último, haga clic en la pestaña `System` (sistema), en la parte inferior izquierda de la consola.
 
-9. Por último, haga clic en la pestaña `System` (sistema), en la parte inferior izquierda de la consola.
+8. Escriba el nombre de host (*host name*) del dispositivo.
 
-10. Escriba el nombre de host (*host name*) del dispositivo.
+9. Configure la dirección DNS como 1.1.1.1.
 
-11. Configure la dirección DNS como 1.1.1.1.
+10. Restablezca la configuración de red de su computadora: elimine la IP estática que estableció en el [paso 2](#2-configure-los-ajustes-de-red_1) y vuelva a poner la conexión en modo dinámico (Dynamic). 
 
-12. Restablezca la configuración de red de su computadora: elimine la IP estática que estableció en el [paso 2](#2-configure-los-ajustes-de-red_1) y vuelva a poner la conexión en modo dinámico (Dynamic). 
+11. Vuelva a conectarse al ERX e inicie sesión con el nombre de usuario y la contraseña de PCW. 
 
-13. Vuelva a conectarse al ERX e inicie sesión con el nombre de usuario y la contraseña de PCW. 
+12. Conecte el puerto `eth4` del ERX a un puerto LAN de su router. Ahora debería poder acceder a Internet a través del ERX. 
 
-14. Conecte el puerto `eth4` del ERX a un puerto LAN de su router. Ahora debería poder acceder a Internet a través del ERX. 
+13. Adopte el ERX copiando la clave de UISP (*UISP key*). 
 
-15. Adopte el ERX copiando la clave de UISP (*UISP key*). 
-
-16. Si es necesario, actualice el firmware del ERX. 
+14. Si es necesario, actualice el firmware del ERX. 
 
 ## Notas de instalación
 Cuando instale el ER-X en una casa con una LiteBeam en la azotea y un AP de malla, recuerde que la configuración típica es:
