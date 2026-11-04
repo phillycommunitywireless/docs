@@ -1,6 +1,6 @@
 FROM caddy:2-alpine AS caddy
 
-FROM python:3.10
+FROM python:3.12
 
 WORKDIR /srv
 COPY --from=caddy /usr/bin/caddy /usr/bin/caddy
