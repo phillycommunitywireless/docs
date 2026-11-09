@@ -26,7 +26,7 @@ pase el cursor sobre cualquier término subrayado con puntos para ver su definic
 :   Una instalación de malla que no requiere radio ni router; funciona como una zona de retransmisión que extiende la conectividad wifi desde un hub.
 
 **Line-of-sight (LoS) — línea de visión**
-:   Nuestro wifi depende de que haya "línea de visión" entre las antenas sectoriales de PhillyWisper ubicadas en puntos altos y una azotea (u otro lugar) donde podamos instalar un radio para "captar" la conectividad inalámbrica. [Más información sobre la propagación con línea de visión](https://www.techtarget.com/whatis/definition/line-of-sight-LOS) (en inglés)
+:   Nuestro wifi depende de que haya "línea de visión" entre las antenas sectoriales de PhillyWisper ubicadas en puntos altos y una azotea (u otro lugar) donde podamos instalar un radio para "captar" la conectividad inalámbrica. [Más información sobre la propagación con línea de visión](https://web.archive.org/web/20261001072335/https://www.techtarget.com/whatis/definition/line-of-sight-LOS) (en inglés)
 
 **Point-to-point (PtP) — punto a punto**
 :   Una red formada por solo dos nodos que se comunican directamente entre sí.

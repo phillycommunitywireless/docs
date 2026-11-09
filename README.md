@@ -6,7 +6,7 @@ Access the docs here - https://docs.phillycommunitywireless.org
 Built with [`mkdocs`](https://www.mkdocs.org) (via [Material Theme](https://squidfunk.github.io/mkdocs-material/))
 and deployed to [Read the Docs](https://readthedocs.org/projects/pcwdocs/).
 
-[![Documentation Status](https://readthedocs.org/projects/pcwdocs/badge/?version=latest)](https://docs.phillycommunitywireless.org/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/pcwdocs/badge/?version=latest)](https://docs.phillycommunitywireless.org/)
 
 Deploy previews via [Render](https://github.com/phillycommunitywireless/phillycommunitywireless/wiki/Deploy-Previews) — every pull request gets a live preview URL.
 
