@@ -143,7 +143,7 @@ Identify what voltage and wattage of Power-over-Ethernet (PoE) will be needed fo
 - Outdoor-rated extension cord(s)    
 - Outdoor-rated power splitter(s)
 - [Extension cords](https://www.newegg.com/black-monoprice-6-00-ft-others/p/0N6-01B8-002D6)
-- [PoE Injector/Splitter](https://www.newegg.com/p/2WG-00DK-00004)
+- PoE Injector/Splitter
 - [Ethernet to Ethernet adapter/coupler](https://www.newegg.com/p/0Y3-02J6-00001)
 - Pass-through Ethernet (RJ45) heads
 - [USB Type C to Ethernet adapter](https://www.ebay.com/itm/132225990432)

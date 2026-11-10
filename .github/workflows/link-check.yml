@@ -34,7 +34,9 @@ jobs:
           # lets lychee read root-relative image paths (/assets/...) as local
           # files, which --scheme then skips.
           # Excluded: the UniFi controller's device-adoption address (not a
-          # web page) and ProQuest (needs a library login).
+          # web page) and ProQuest (needs a library login). The rest refuse
+          # link checkers (403/500/503) but open in a browser; checked by
+          # hand 2026-11-09.
           args: >-
             --no-progress
             --scheme https --scheme http
@@ -44,6 +46,14 @@ jobs:
             --accept 100..=103,200..=299,429
             --exclude '^https?://unifi\.phillycommunitywireless\.org'
             --exclude '^https?://search\.proquest\.com'
+            --exclude '^https?://help\.ui\.com/'
+            --exclude '^https?://support\.huawei\.com/'
+            --exclude '^https?://(www\.)?heat\.gov/'
+            --exclude '^https?://(www\.)?(digikey|onsemi)\.com/'
+            --exclude '^https?://(www\.)?(americanladderinstitute\.org|osha\.gov)/'
+            --exclude '^https?://roofs\.wiki/'
+            --exclude '^https?://(www\.)?(amazon|ebay|homedepot|lowes|newegg)\.com/'
+            --exclude '^https?://doi\.org/10\.2139/'
             'docs/**/*.md' README.md
           output: lychee/out.md
           fail: false

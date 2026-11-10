@@ -22,7 +22,7 @@ hover any dotted-underlined term on a page to see its definition without leaving
 :   A mesh install that does not require a radio/router; it acts as a relay zone that expands WiFi connectivity from a hub.
 
 **Line-of-sight (LoS)**
-:   Our WiFi relies on "line of sight" between PhillyWisper sector antennas on high points and a rooftop (or otherwise) where we can install a radio to "draw in" wireless connectivity. [More on line-of-sight propagation](https://www.techtarget.com/whatis/definition/line-of-sight-LOS)
+:   Our WiFi relies on "line of sight" between PhillyWisper sector antennas on high points and a rooftop (or otherwise) where we can install a radio to "draw in" wireless connectivity. [More on line-of-sight propagation](https://web.archive.org/web/20261001072335/https://www.techtarget.com/whatis/definition/line-of-sight-LOS)
 
 **Point-to-point (PtP)**
 :   A network consisting of only two nodes directly communicating with each other.

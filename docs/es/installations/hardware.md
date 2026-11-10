@@ -147,7 +147,7 @@ Identifique qué voltaje y potencia de PoE (alimentación a través de Ethernet)
 - Extensión(es) eléctrica(s) apta(s) para exteriores
 - Divisor(es) de corriente apto(s) para exteriores
 - [Extensiones eléctricas](https://www.newegg.com/black-monoprice-6-00-ft-others/p/0N6-01B8-002D6)
-- [Inyector/divisor PoE](https://www.newegg.com/p/2WG-00DK-00004)
+- Inyector/divisor PoE
 - [Adaptador/acoplador de Ethernet a Ethernet](https://www.newegg.com/p/0Y3-02J6-00001)
 - Conectores Ethernet (RJ45) de paso (*pass-through*)
 - [Adaptador de USB tipo C a Ethernet](https://www.ebay.com/itm/132225990432)
